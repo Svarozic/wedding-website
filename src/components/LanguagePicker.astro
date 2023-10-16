@@ -1,0 +1,18 @@
+---
+import {ALL_LANGUAGES, LANGUAGE_LABEL} from '../i18n/uiTranslations';
+import {getLangFromUrl, useTranslations} from '../i18n/uiTranslations';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<div>{t('LanguagePicker.title')}</div>
+<ul>
+  {
+    ALL_LANGUAGES.map((langCode) => (
+      <li>
+        <a href={`/${langCode}/`}>{LANGUAGE_LABEL[langCode]}</a>
+      </li>
+    ))
+  }
+</ul>
