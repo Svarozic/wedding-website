@@ -1,11 +1,22 @@
 ---
-import '../global.css';
+import '@src/global.css';
+
 import Navigation from '@src/components/Navigation.astro';
+import Countdown, {CountdownProps} from '@src/components/Countdown';
 import {getLangFromUrl} from '@src/i18n/uiTranslations';
+import {useTranslations} from '@src/i18n/uiTranslations';
 
 const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 
 const {title} = Astro.props.frontmatter || Astro.props;
+
+const countdownProps: CountdownProps = {
+  daysLabel: t('Countdown.days'),
+  hoursLabel: t('Countdown.hours'),
+  minutesLabel: t('Countdown.minutes'),
+  secondsLabel: t('Countdown.seconds'),
+};
 ---
 
 <html lang={lang} data-theme="cupcake">
@@ -21,6 +32,8 @@ const {title} = Astro.props.frontmatter || Astro.props;
 
   <body>
     <Navigation />
+
+    <Countdown {...countdownProps} client:visible />
 
     <main>
       <slot />

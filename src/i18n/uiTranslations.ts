@@ -14,16 +14,28 @@ export const LANGUAGE_LABEL: {readonly [key in Lang]: string} = {
   en: 'English',
 };
 
-export const DEFAULT_LANGUAGE: Lang = 'sk';
+export const DEFAULT_LANGUAGE = 'sk';
 
 export const TRANSLATIONS = {
   sk: {
+    'Countdown.days': 'dní',
+    'Countdown.hours': 'hodín',
+    'Countdown.minutes': 'minút',
+    'Countdown.seconds': 'sekúnd',
     'LanguagePicker.title': 'Vyberte jazyk',
   },
   sr: {
+    'Countdown.days': 'dana',
+    'Countdown.hours': 'sata',
+    'Countdown.minutes': 'minuta',
+    'Countdown.seconds': 'sekonde',
     'LanguagePicker.title': 'Izaberite jezik',
   },
   en: {
+    'Countdown.days': 'days',
+    'Countdown.hours': 'hours',
+    'Countdown.minutes': 'minutes',
+    'Countdown.seconds': 'seconds',
     'LanguagePicker.title': 'Pick the language',
   },
 } as const;
@@ -33,8 +45,9 @@ export function getLangFromUrl(url: URL) {
   return isLang(lang) ? lang : DEFAULT_LANGUAGE;
 }
 
-export function useTranslations(lang: Lang) {
+export function useTranslations(lang: keyof typeof TRANSLATIONS) {
   return function t(key: keyof (typeof TRANSLATIONS)[typeof DEFAULT_LANGUAGE]) {
+    // @ts-ignore
     return TRANSLATIONS[lang][key] || TRANSLATIONS[DEFAULT_LANGUAGE][key];
   };
 }
