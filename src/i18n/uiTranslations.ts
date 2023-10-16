@@ -4,7 +4,7 @@ export const LANGUAGE = {
   en: 'en',
 } as const;
 
-export const ALL_LANGUAGES = [LANGUAGE.en, LANGUAGE.sk, LANGUAGE.sr] as const;
+export const ALL_LANGUAGES = [LANGUAGE.sk, LANGUAGE.sr, LANGUAGE.en] as const;
 export type Lang = (typeof ALL_LANGUAGES)[number];
 export const isLang = (value: string | undefined): value is Lang => ALL_LANGUAGES.includes(value as Lang);
 

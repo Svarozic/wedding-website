@@ -2,6 +2,27 @@
 import BaseLayout from '@src/layouts/BaseLayout.astro';
 ---
 
-<BaseLayout>
-  <button class="btn">Hello daisyUI</button>
+<BaseLayout title="example-daisy">
+  <article class="prose lg:prose-xl">
+    <h3>Button</h3>
+
+    <h4>Buttons with brand colors</h4>
+    <p>
+      <button class="btn">Button</button>
+      <button class="btn btn-neutral">Neutral</button>
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-secondary">Secondary</button>
+      <button class="btn btn-accent">Accent</button>
+      <button class="btn btn-ghost">Ghost</button>
+      <button class="btn btn-link">Link</button>
+    </p>
+
+    <h4>Outline buttons</h4>
+    <p>
+      <button class="btn btn-outline">Default</button>
+      <button class="btn btn-outline btn-primary">Primary</button>
+      <button class="btn btn-outline btn-secondary">Secondary</button>
+      <button class="btn btn-outline btn-accent">Accent</button>
+    </p>
+  </article>
 </BaseLayout>
