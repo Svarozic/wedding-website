@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
+    "format": "prettier . --write",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -16,5 +17,9 @@
     "astro": "^3.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "prettier-plugin-astro": "^0.12.0"
   }
 }
