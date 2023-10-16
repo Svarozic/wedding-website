@@ -1,4 +1,5 @@
 ---
+import '../global.css';
 import LanguagePicker from '@src/components/LanguagePicker.astro';
 import {getLangFromUrl} from '@src/i18n/uiTranslations';
 
@@ -7,7 +8,7 @@ const lang = getLangFromUrl(Astro.url);
 const {title} = Astro.props.frontmatter || Astro.props;
 ---
 
-<html lang={lang}>
+<html lang={lang} data-theme="cupcake">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
