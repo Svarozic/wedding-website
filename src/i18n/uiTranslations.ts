@@ -1,7 +1,7 @@
 export const LANGUAGE = {
-  en: 'en',
   sk: 'sk',
   sr: 'sr',
+  en: 'en',
 } as const;
 
 export const ALL_LANGUAGES = [LANGUAGE.en, LANGUAGE.sk, LANGUAGE.sr] as const;
@@ -9,22 +9,22 @@ export type Lang = (typeof ALL_LANGUAGES)[number];
 export const isLang = (value: string | undefined): value is Lang => ALL_LANGUAGES.includes(value as Lang);
 
 export const LANGUAGE_LABEL: {readonly [key in Lang]: string} = {
-  en: 'English',
   sk: 'Slovensky',
   sr: 'Srpski',
+  en: 'English',
 };
 
-export const DEFAULT_LANGUAGE: Lang = 'en';
+export const DEFAULT_LANGUAGE: Lang = 'sk';
 
 export const TRANSLATIONS = {
-  en: {
-    'LanguagePicker.title': 'Pick the language',
-  },
   sk: {
     'LanguagePicker.title': 'Vyberte jazyk',
   },
   sr: {
     'LanguagePicker.title': 'Izaberite jezik',
+  },
+  en: {
+    'LanguagePicker.title': 'Pick the language',
   },
 } as const;
 
