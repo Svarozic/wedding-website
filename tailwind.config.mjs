@@ -10,8 +10,7 @@ export default {
       {
         cupcake: {
           ...require('daisyui/src/theming/themes')['[data-theme=cupcake]'],
-          primary: 'blue',
-          'primary-focus': 'mediumblue',
+          "primary": "#a4dcd0",
           'base-100': '#fffaf0',
           'base-200': '#faf7f5', // original base-100
           'base-300': '#efeae6', // original base-200
