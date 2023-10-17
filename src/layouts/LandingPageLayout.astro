@@ -1,0 +1,21 @@
+---
+import Countdown, {CountdownProps} from '@src/components/Countdown';
+import {useTranslations, getLangFromUrl} from '@src/i18n/uiTranslations';
+import BaseLayout from '@src/layouts/BaseLayout.astro';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+
+const countdownProps: CountdownProps = {
+  daysLabel: t('Countdown.days'),
+  hoursLabel: t('Countdown.hours'),
+  minutesLabel: t('Countdown.minutes'),
+  secondsLabel: t('Countdown.seconds'),
+};
+
+const {title} = Astro.props.frontmatter || Astro.props;
+---
+
+<BaseLayout title={title}>
+  <Countdown {...countdownProps} client:visible />
+</BaseLayout>
