@@ -17,15 +17,15 @@ const LANGUAGE_ICON: {readonly [key in Lang]: string} = {
 };
 ---
 
-<div class="dropdown dropdown-end">
+<div class="dropdown-end dropdown">
   <label
     tabindex="0"
-    class="btn btn-ghost btn-circle avatar tooltip tooltip-left tooltip-primary"
+    class="avatar btn btn-circle btn-ghost tooltip tooltip-left tooltip-primary"
     data-tip={t('LanguagePicker.title')}>
     <Image class="w-10 p-1" src={LANGUAGE_ICON[lang]} alt={LANGUAGE_LABEL[lang]} />
   </label>
 
-  <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+  <ul tabindex="0" class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-base-200 p-2 shadow">
     {
       ALL_LANGUAGES.map((langCode) => (
         <li>
