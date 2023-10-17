@@ -18,17 +18,17 @@ export const DEFAULT_LANGUAGE = 'sk';
 
 export const TRANSLATIONS = {
   sk: {
-    'Countdown.days': 'dní',
-    'Countdown.hours': 'hodín',
-    'Countdown.minutes': 'minút',
-    'Countdown.seconds': 'sekúnd',
+    'Countdown.days': 'dni',
+    'Countdown.hours': 'hodiny',
+    'Countdown.minutes': 'minúty',
+    'Countdown.seconds': 'sekundy',
     'LanguagePicker.title': 'Vyberte jazyk',
   },
   sr: {
-    'Countdown.days': 'dana',
-    'Countdown.hours': 'sata',
-    'Countdown.minutes': 'minuta',
-    'Countdown.seconds': 'sekonde',
+    'Countdown.days': 'dani',
+    'Countdown.hours': 'sati',
+    'Countdown.minutes': 'minute',
+    'Countdown.seconds': 'sekunde',
     'LanguagePicker.title': 'Izaberite jezik',
   },
   en: {
