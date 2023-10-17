@@ -25,7 +25,7 @@ const LANGUAGE_ICON: {readonly [key in Lang]: string} = {
     <Image class="w-10 p-1" src={LANGUAGE_ICON[lang]} alt={LANGUAGE_LABEL[lang]} />
   </label>
 
-  <ul tabindex="0" class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-base-200 p-2 shadow">
+  <ul tabindex="0" class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-white p-2 shadow">
     {
       ALL_LANGUAGES.map((langCode) => (
         <li>

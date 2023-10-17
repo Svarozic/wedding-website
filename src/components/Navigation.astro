@@ -4,14 +4,15 @@ import LanguagePicker from './language-picker/LanguagePicker.astro';
 
 <div class="navbar">
   <div class="navbar-start">
-    <div class="dropdown">
-      <label tabindex="0" class="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-          ><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path></svg
-        >
+    <!--Mobile Dropdown-->
+    <div class="dropdown lg:hidden">
+      <label tabindex="0" class="btn btn-ghost">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"></path>
+        </svg>
       </label>
 
-      <ul tabindex="0" class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-base-200 p-2 shadow">
+      <ul tabindex="0" class="menu dropdown-content rounded-box z-[1] mt-3 w-52 bg-white p-2 shadow">
         <li><a>Item 1</a></li>
         <li>
           <a>Parent</a>
@@ -27,36 +28,18 @@ import LanguagePicker from './language-picker/LanguagePicker.astro';
   </div>
 
   <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal z-[1] px-1">
-      <li><a>Item 1</a></li>
-      <li tabindex="0">
-        <details>
-          <summary>Parent</summary>
-          <ul class="w-60 bg-base-200 p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 1 asd asd asd a</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
-      <li><a>Item 3</a></li>
-    </ul>
+    <a class="btn btn-ghost btn-sm">Button</a>
+
+    <div class="dropdown dropdown-bottom">
+      <label tabindex="0" class="btn btn-ghost btn-sm">Dropdown</label>
+      <ul tabindex="0" class="menu dropdown-content rounded-box z-[1] w-52 bg-white p-2 shadow">
+        <li><a>Item 1</a></li>
+        <li><a>Item 2</a></li>
+      </ul>
+    </div>
   </div>
 
   <div class="navbar-end">
     <LanguagePicker />
   </div>
-</div>
-
-<!--// SVARGA: remove-->
-<div tabindex="0" class="collapse bg-base-100">
-  <div class="collapse-title text-xl font-medium">bg-base-100</div>
-</div>
-
-<div tabindex="0" class="collapse bg-base-200">
-  <div class="collapse-title text-xl font-medium">bg-base-200</div>
-</div>
-
-<div tabindex="0" class="collapse bg-base-300">
-  <div class="collapse-title text-xl font-medium">bg-base-300</div>
 </div>
