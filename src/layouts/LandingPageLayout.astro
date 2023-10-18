@@ -1,5 +1,6 @@
 ---
 import Countdown, {CountdownProps} from '@src/components/Countdown';
+import Hero from '@src/components/Hero.astro';
 import {useTranslations, getLangFromUrl} from '@src/i18n/uiTranslations';
 import BaseLayout from '@src/layouts/BaseLayout.astro';
 
@@ -17,21 +18,7 @@ const {title} = Astro.props.frontmatter || Astro.props;
 ---
 
 <BaseLayout title={title}>
-  <div
-    class="hero min-h-screen"
-    style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
-    <div class="hero-overlay bg-opacity-70"></div>
-    <div class="hero-content text-center text-neutral-content">
-      <div class="max-w-md">
-        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-        <p class="mb-5">
-          Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti
-          eaque aut repudiandae et a id nisi.
-        </p>
-        <button class="btn btn-primary">Get Started</button>
-      </div>
-    </div>
-  </div>
+  <Hero />
 
   <div class="container mx-auto">
     <div class="grid h-48 place-content-center">

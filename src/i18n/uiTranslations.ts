@@ -22,6 +22,7 @@ export const TRANSLATIONS = {
     'Countdown.hours': 'hodiny',
     'Countdown.minutes': 'minúty',
     'Countdown.seconds': 'sekundy',
+    'Hero.subheader': 'Budeme sa brať!',
     'LanguagePicker.title': 'Vyberte jazyk',
   },
   sr: {
@@ -29,6 +30,7 @@ export const TRANSLATIONS = {
     'Countdown.hours': 'sati',
     'Countdown.minutes': 'minute',
     'Countdown.seconds': 'sekunde',
+    'Hero.subheader': 'Venčaćemo se!',
     'LanguagePicker.title': 'Izaberite jezik',
   },
   en: {
@@ -36,6 +38,7 @@ export const TRANSLATIONS = {
     'Countdown.hours': 'hours',
     'Countdown.minutes': 'minutes',
     'Countdown.seconds': 'seconds',
+    'Hero.subheader': 'We will get married!',
     'LanguagePicker.title': 'Pick the language',
   },
 } as const;
