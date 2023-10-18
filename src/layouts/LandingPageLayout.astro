@@ -20,8 +20,10 @@ const {title} = Astro.props.frontmatter || Astro.props;
 <BaseLayout title={title}>
   <Hero />
 
-  <div class="container mx-auto">
-    <div class="grid h-48 place-content-center">
+  <div class="container mx-auto mt-10">
+    <div class="grid place-content-center text-center">
+      <h3 class="my-10 text-2xl text-primary">21. September 2024</h3>
+      <h2 class="mb-10 text-4xl capitalize">{t('Countdown.title')}</h2>
       <Countdown {...countdownProps} client:visible />
     </div>
   </div>

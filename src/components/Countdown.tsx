@@ -37,13 +37,13 @@ export default function Countdown(props: CountdownProps) {
 
   function renderCountdown(label: string, value: number | undefined) {
     return (
-      <div className="flex flex-col">
+      <div className="flex flex-col ">
         {value == null ? (
-          <span className="font-mono text-5xl">
+          <span className="text-5xl text-primary">
             <span className="loading loading-infinity loading-lg"></span>
           </span>
         ) : (
-          <span className="countdown font-mono text-5xl">
+          <span className="countdown text-5xl text-primary">
             <span style={styleWithValue(value)}></span>
           </span>
         )}
@@ -58,7 +58,7 @@ export default function Countdown(props: CountdownProps) {
     if (daysCount == null) {
       return (
         <div className="flex flex-col">
-          <span className="countdown font-mono text-5xl">
+          <span className="countdown text-5xl text-primary">
             <span className="loading loading-infinity loading-lg"></span>
           </span>
           {props.daysLabel}
@@ -70,7 +70,7 @@ export default function Countdown(props: CountdownProps) {
       // daisy countdown can show only 0..100
       return (
         <div className="flex flex-col">
-          <span className="font-mono text-5xl">
+          <span className="text-5xl text-primary">
             <span>{daysCount}</span>
           </span>
           {props.daysLabel}
@@ -80,10 +80,8 @@ export default function Countdown(props: CountdownProps) {
 
     return (
       <div className="flex flex-col">
-        <span className="font-mono text-5xl">
-          <span className="countdown font-mono text-5xl">
-            <span style={styleWithValue(daysCount)}></span>
-          </span>
+        <span className="countdown text-5xl text-primary">
+          <span style={styleWithValue(daysCount)}></span>
         </span>
         {props.daysLabel}
       </div>
@@ -91,7 +89,7 @@ export default function Countdown(props: CountdownProps) {
   }
 
   return (
-    <div className="grid auto-cols-max grid-flow-col gap-5 text-center">
+    <div className="grid auto-cols-max grid-flow-col place-content-center gap-5">
       {renderDaysCountdown()}
 
       {renderCountdown(
