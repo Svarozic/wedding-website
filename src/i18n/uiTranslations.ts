@@ -18,12 +18,14 @@ export const DEFAULT_LANGUAGE = 'sk';
 
 export const TRANSLATIONS = {
   sk: {
+    'BaseLayout.title': 'Ivana & Peter',
     'Countdown.days': 'dni',
     'Countdown.hours': 'hodiny',
     'Countdown.minutes': 'minúty',
     'Countdown.seconds': 'sekundy',
     'Hero.subheader': 'Budeme sa brať!',
     'LanguagePicker.title': 'Vyberte jazyk',
+    'Navigation.place': 'Miesto',
   },
   sr: {
     'Countdown.days': 'dani',
@@ -32,6 +34,7 @@ export const TRANSLATIONS = {
     'Countdown.seconds': 'sekunde',
     'Hero.subheader': 'Venčaćemo se!',
     'LanguagePicker.title': 'Izaberite jezik',
+    'Navigation.place': 'Mesto',
   },
   en: {
     'Countdown.days': 'days',
@@ -40,6 +43,7 @@ export const TRANSLATIONS = {
     'Countdown.seconds': 'seconds',
     'Hero.subheader': 'We will get married!',
     'LanguagePicker.title': 'Pick the language',
+    'Navigation.place': 'Place',
   },
 } as const;
 
