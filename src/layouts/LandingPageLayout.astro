@@ -1,6 +1,8 @@
 ---
+import {Image} from 'astro:assets';
 import Countdown, {CountdownProps} from '@src/components/Countdown';
 import Hero from '@src/components/Hero.astro';
+import png from '@src/../public/assets/20200713_223451.jpg';
 import {useTranslations, getLangFromUrl} from '@src/i18n/uiTranslations';
 import BaseLayout from '@src/layouts/BaseLayout.astro';
 
@@ -20,11 +22,13 @@ const {title} = Astro.props.frontmatter || Astro.props;
 <BaseLayout title={title}>
   <Hero />
 
-  <div class="container mx-auto mt-10">
+  <div class="container mx-auto my-10">
     <div class="grid place-content-center text-center">
-      <h3 class="my-10 text-2xl text-primary">21. September 2024</h3>
-      <h2 class="mb-10 text-4xl capitalize">{t('Countdown.title')}</h2>
+      <h3 class="text-2xl text-primary">21. September 2024</h3>
+      <h2 class="my-6 text-4xl capitalize">{t('Countdown.title')}</h2>
       <Countdown {...countdownProps} client:visible />
     </div>
   </div>
+
+  <Image src={png} alt="us" class="w-full" />
 </BaseLayout>
