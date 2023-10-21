@@ -1,11 +1,11 @@
 ---
-import {Image} from 'astro:assets';
-import {ALL_LANGUAGES, LANGUAGE_LABEL, Lang} from '@src/i18n/uiTranslations';
-import {getLangFromUrl, useTranslations} from '@src/i18n/uiTranslations';
+import {Image} from "astro:assets";
+import {ALL_LANGUAGES, LANGUAGE_LABEL, Lang} from "@src/i18n/uiTranslations";
+import {getLangFromUrl, useTranslations} from "@src/i18n/uiTranslations";
 
-import pngSlovakia from './slovakia.png';
-import pngSerbia from './serbia.png';
-import pngUnitedKingdom from './united-kingdom.png';
+import pngSlovakia from "./slovakia.png";
+import pngSerbia from "./serbia.png";
+import pngUnitedKingdom from "./united-kingdom.png";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -17,11 +17,11 @@ const LANGUAGE_ICON: {readonly [key in Lang]: string} = {
 };
 ---
 
-<div class="dropdown dropdown-end">
+<div class="dropdown-end dropdown">
   <label
     tabindex="0"
     class="avatar btn btn-circle btn-ghost tooltip tooltip-left tooltip-primary"
-    data-tip={t('LanguagePicker.title')}>
+    data-tip={t("LanguagePicker.title")}>
     <Image class="p-0.5" src={LANGUAGE_ICON[lang]} alt={LANGUAGE_LABEL[lang]} />
   </label>
 

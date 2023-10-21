@@ -1,15 +1,15 @@
 ---
-import '@src/global.css';
+import "@src/global.css";
 
-import Navigation from '@src/components/Navigation.astro';
-import {useTranslations, getLangFromUrl} from '@src/i18n/uiTranslations';
+import Navigation from "@src/components/Navigation.astro";
+import {useTranslations, getLangFromUrl} from "@src/i18n/uiTranslations";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 const {title} = Astro.props.frontmatter || Astro.props;
 
-const htmlTitle = title ?? t('BaseLayout.title');
+const htmlTitle = title ?? t("BaseLayout.title");
 ---
 
 <html lang={lang}>
