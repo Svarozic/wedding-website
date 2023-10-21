@@ -1,4 +1,4 @@
-import {type CSSProperties, useEffect, useState} from 'react';
+import {type CSSProperties, useEffect, useState} from "react";
 
 /** Saturday, 21 September 2024 14:00:00 GMT+02:00 */
 const WEDDING_TIMESTAMP_MS = 1726920000000;
@@ -8,7 +8,7 @@ const MINUTE_IN_MS = 60 * SECOND_IN_MS;
 const HOUR_IN_MS = 60 * MINUTE_IN_MS;
 const DAY_IN_MS = 24 * HOUR_IN_MS;
 
-const styleWithValue = (v: number) => ({'--value': v}) as CSSProperties;
+const styleWithValue = (v: number) => ({"--value": v}) as CSSProperties;
 
 export type CountdownProps = {
   daysLabel: string;

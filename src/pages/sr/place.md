@@ -1,3 +1,3 @@
 ---
-layout: '@src/layouts/BaseLayout.astro'
+layout: "@src/layouts/BaseLayout.astro"
 ---
