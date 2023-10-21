@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "format": "prettier . --write",
+    "format": "prettier . --write && prettier --write **/*.astro",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
