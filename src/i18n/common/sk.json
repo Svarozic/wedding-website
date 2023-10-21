@@ -10,12 +10,11 @@
     "title": "Svadobné odpočitávanie"
   },
   "nav": {
-    "place": "Miesto"
+    "participation": "Účasť",
+    "place": "Miesto",
+    "more": "Viac"
   },
   "hero": {
     "subheader": "Budeme sa brať!"
-  },
-  "place": {
-    "title": "Miesto"
   }
 }

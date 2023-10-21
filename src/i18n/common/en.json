@@ -10,12 +10,11 @@
     "title": "The Wedding Countdown"
   },
   "nav": {
-    "place": "Place"
+    "participation": "Participation",
+    "place": "Place",
+    "more": "More"
   },
   "hero": {
     "subheader": "We will get married!"
-  },
-  "place": {
-    "title": "Place"
   }
 }

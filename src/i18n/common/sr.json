@@ -10,12 +10,11 @@
     "title": "Venčanje odbrojavanje"
   },
   "nav": {
-    "place": "Mesto"
+    "participation": "Učešće",
+    "place": "Mesto",
+    "more": "Više"
   },
   "hero": {
     "subheader": "Venčaćemo se!"
-  },
-  "place": {
-    "title": "Mesto"
   }
 }
