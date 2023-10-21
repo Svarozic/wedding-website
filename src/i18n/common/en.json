@@ -1,0 +1,21 @@
+{
+  "localeLabel": "English",
+  "localePickerTitle": "Pick the language",
+  "title": "Ivana & Peter",
+  "countdown": {
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds",
+    "title": "The Wedding Countdown"
+  },
+  "nav": {
+    "place": "Place"
+  },
+  "hero": {
+    "subheader": "We will get married!"
+  },
+  "place": {
+    "title": "Place"
+  }
+}

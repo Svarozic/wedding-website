@@ -1,0 +1,21 @@
+{
+  "localeLabel": "Srpski",
+  "localePickerTitle": "Izaberite jezik",
+  "title": "Ivana & Peter",
+  "countdown": {
+    "days": "dani",
+    "hours": "sati",
+    "minutes": "minute",
+    "seconds": "sekunde",
+    "title": "Venčanje odbrojavanje"
+  },
+  "nav": {
+    "place": "Mesto"
+  },
+  "hero": {
+    "subheader": "Venčaćemo se!"
+  },
+  "place": {
+    "title": "Mesto"
+  }
+}

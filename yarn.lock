@@ -804,6 +804,11 @@ array-iterate@^2.0.0:
   resolved "https://registry.yarnpkg.com/array-iterate/-/array-iterate-2.0.1.tgz#6efd43f8295b3fee06251d3d62ead4bd9805dd24"
   integrity sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==
 
+astro-i18n@^2.1.15:
+  version "2.1.15"
+  resolved "https://registry.yarnpkg.com/astro-i18n/-/astro-i18n-2.1.15.tgz#9bbdd0698be1e4f6ddb2fb03aeacbd7500fcc931"
+  integrity sha512-qVoXEXfnB1T2ChPlETbiz44I9SC9enCJk+uv1ycxVZXdWJZ+OAK263FeQ3fZPI6gKgxKHza8CU7aSDGJnGAl+w==
+
 astro@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/astro/-/astro-3.3.0.tgz#67894c699e991114a9c9fcc6077638bacabc964a"

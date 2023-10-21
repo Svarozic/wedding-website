@@ -1,18 +1,16 @@
 ---
-import "@src/global.css";
+import {t, astroI18n} from "astro-i18n";
 
 import Navigation from "@src/components/Navigation.astro";
-import {useTranslations, getLangFromUrl} from "@src/i18n/uiTranslations";
 
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
+import "@src/global.css";
 
 const {title} = Astro.props.frontmatter || Astro.props;
 
-const htmlTitle = title ?? t("BaseLayout.title");
+const htmlTitle = title ?? t("title");
 ---
 
-<html lang={lang}>
+<html lang={astroI18n.locale}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />

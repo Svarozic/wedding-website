@@ -8,7 +8,11 @@
     "format": "prettier . --write && prettier --write **/*.astro",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "i18n:extract": "astro-i18n extract",
+    "i18n:generate:pages": "astro-i18n generate:pages --purge",
+    "i18n:generate:types": "astro-i18n generate:types",
+    "i18n:sync": "yarn run i18n:generate:pages && yarn run i18n:generate:types"
   },
   "dependencies": {
     "@astrojs/react": "^3.0.3",
@@ -17,6 +21,7 @@
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "astro": "^3.3.0",
+    "astro-i18n": "^2.1.15",
     "daisyui": "^3.9.2",
     "prettier": "^3.0.3",
     "prettier-plugin-astro": "^0.12.0",

@@ -1,8 +1,5 @@
 ---
-import {getLangFromUrl, useTranslations} from "@src/i18n/uiTranslations";
-
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
+import {t} from "astro-i18n";
 ---
 
 <div class="hero min-h-screen" style="background-image: url(/assets/received_1343715702486032.jpeg);">
@@ -10,7 +7,7 @@ const t = useTranslations(lang);
   <div class="hero-content text-center text-neutral-100">
     <div class="max-w-5xl">
       <h1 class="mb-5 text-8xl drop-shadow-lg">Ivana & Peter</h1>
-      <p class="mb-5 text-4xl drop-shadow-lg">{t("Hero.subheader")}</p>
+      <p class="mb-5 text-4xl drop-shadow-lg">{t("hero.subheader")}</p>
     </div>
   </div>
 </div>

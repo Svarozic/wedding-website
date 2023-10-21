@@ -1,0 +1,31 @@
+---
+import {Image} from "astro:assets";
+import {t} from "astro-i18n";
+
+import {CountdownProps} from "@src/components/Countdown";
+import BaseLayout from "@src/layouts/BaseLayout.astro";
+import Hero from "@src/components/Hero.astro";
+import Countdown from "@src/components/Countdown";
+import png from "@src/../public/assets/20200713_223451.jpg";
+
+const countdownProps: CountdownProps = {
+  daysLabel: t("countdown.days"),
+  hoursLabel: t("countdown.hours"),
+  minutesLabel: t("countdown.minutes"),
+  secondsLabel: t("countdown.seconds"),
+};
+---
+
+<BaseLayout>
+  <Hero />
+
+  <div class="container mx-auto my-10">
+    <div class="grid place-content-center text-center">
+      <h3 class="text-2xl text-primary">21. September 2024</h3>
+      <h2 class="my-6 text-4xl capitalize">{t("countdown.title")}</h2>
+      <Countdown {...countdownProps} client:visible />
+    </div>
+  </div>
+
+  <Image src={png} alt="us" class="w-full" />
+</BaseLayout>

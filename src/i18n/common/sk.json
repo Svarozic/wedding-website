@@ -1,0 +1,21 @@
+{
+  "localeLabel": "Slovensky",
+  "localePickerTitle": "Vyberte jazyk",
+  "title": "Ivana & Peter",
+  "countdown": {
+    "days": "dni",
+    "hours": "hodiny",
+    "minutes": "minúty",
+    "seconds": "sekundy",
+    "title": "Svadobné odpočitávanie"
+  },
+  "nav": {
+    "place": "Miesto"
+  },
+  "hero": {
+    "subheader": "Vyberte jazyk"
+  },
+  "place": {
+    "title": "Miesto"
+  }
+}

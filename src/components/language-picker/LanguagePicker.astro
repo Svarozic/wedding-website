@@ -1,39 +1,46 @@
 ---
 import {Image} from "astro:assets";
-import {ALL_LANGUAGES, LANGUAGE_LABEL, Lang} from "@src/i18n/uiTranslations";
-import {getLangFromUrl, useTranslations} from "@src/i18n/uiTranslations";
+import {t, astroI18n} from "astro-i18n";
 
 import pngSlovakia from "./slovakia.png";
 import pngSerbia from "./serbia.png";
 import pngUnitedKingdom from "./united-kingdom.png";
 
-const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
+const LANGUAGES = {
+  sk: {
+    pngSrc: pngSlovakia,
+    label: t("localeLabel", undefined, {locale: "sk"}),
+  },
+  sr: {
+    pngSrc: pngSerbia,
+    label: t("localeLabel", undefined, {locale: "sr"}),
+  },
+  en: {
+    pngSrc: pngUnitedKingdom,
+    label: t("localeLabel", undefined, {locale: "en"}),
+  },
+} as const;
 
-const LANGUAGE_ICON: {readonly [key in Lang]: string} = {
-  sk: pngSlovakia,
-  sr: pngSerbia,
-  en: pngUnitedKingdom,
-};
+// SVARGA: improve link to not go to home page
 ---
 
 <div class="dropdown dropdown-end">
   <label
     tabindex="0"
     class="avatar btn btn-circle btn-ghost tooltip tooltip-left tooltip-primary"
-    data-tip={t("LanguagePicker.title")}>
-    <Image class="p-0.5" src={LANGUAGE_ICON[lang]} alt={LANGUAGE_LABEL[lang]} />
+    data-tip={t("localePickerTitle")}>
+    <Image class="p-0.5" src={LANGUAGES[astroI18n.locale].pngSrc} alt={LANGUAGES[astroI18n.locale].label} />
   </label>
 
   <ul tabindex="0" class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-white p-2 shadow">
     {
-      ALL_LANGUAGES.map((langCode) => (
+      Object.keys(LANGUAGES).map((langCode) => (
         <li>
           <a href={`/${langCode}/`}>
             <div class="w-10">
-              <Image src={LANGUAGE_ICON[langCode]} alt={LANGUAGE_LABEL[langCode]} />
+              <Image src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
             </div>
-            {LANGUAGE_LABEL[langCode]}
+            {LANGUAGES[langCode].label}
           </a>
         </li>
       ))
