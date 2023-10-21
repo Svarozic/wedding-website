@@ -30,18 +30,20 @@ const LANGUAGES = {
     <Image class="p-0.5" src={LANGUAGES[astroI18n.locale].pngSrc} alt={LANGUAGES[astroI18n.locale].label} />
   </label>
 
-  <ul tabindex="0" class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 w-52 bg-white p-2 shadow">
+  <ul tabindex="0" class="menu dropdown-content rounded-box menu-sm z-[1] mt-3 bg-white p-2 shadow">
     {
-      Object.keys(LANGUAGES).map((langCode) => (
-        <li>
-          <a href={`/${langCode}/${astroI18n.route}`}>
-            <div class="w-10">
-              <Image src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
-            </div>
-            {LANGUAGES[langCode].label}
-          </a>
-        </li>
-      ))
+      Object.keys(LANGUAGES)
+        .filter((langCode) => langCode !== astroI18n.locale)
+        .map((langCode) => (
+          <li>
+            <a href={`/${langCode}${astroI18n.route}`}>
+              <div class="w-8">
+                <Image src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
+              </div>
+              {LANGUAGES[langCode].label}
+            </a>
+          </li>
+        ))
     }
   </ul>
 </div>
