@@ -15,3 +15,4 @@ Write your React components as `.jsx` or `.tsx` files in your project.
 ---
 
 - [ICONS](https://www.tailwindtoolbox.com/icons)
+- [I18N](https://github.com/alexandre-fernandez/astro-i18n)

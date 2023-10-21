@@ -20,8 +20,6 @@ const LANGUAGES = {
     label: t("localeLabel", undefined, {locale: "en"}),
   },
 } as const;
-
-// SVARGA: improve link to not go to home page
 ---
 
 <div class="dropdown dropdown-end">
@@ -36,7 +34,7 @@ const LANGUAGES = {
     {
       Object.keys(LANGUAGES).map((langCode) => (
         <li>
-          <a href={`/${langCode}/`}>
+          <a href={`/${langCode}/${astroI18n.route}`}>
             <div class="w-10">
               <Image src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
             </div>
