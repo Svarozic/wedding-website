@@ -1,4 +1,5 @@
 import {type CSSProperties, useEffect, useState} from "react";
+import {t} from "astro-i18n";
 
 /** Saturday, 21 September 2024 14:00:00 GMT+02:00 */
 const WEDDING_TIMESTAMP_MS = 1726920000000;
@@ -10,14 +11,7 @@ const DAY_IN_MS = 24 * HOUR_IN_MS;
 
 const styleWithValue = (v: number) => ({"--value": v}) as CSSProperties;
 
-export type CountdownProps = {
-  daysLabel: string;
-  hoursLabel: string;
-  minutesLabel: string;
-  secondsLabel: string;
-};
-
-export default function Countdown(props: CountdownProps) {
+export default function Countdown() {
   const [timestampLeft, setTimestampLeft] = useState<undefined | number>(undefined);
 
   useEffect(() => {
@@ -54,6 +48,7 @@ export default function Countdown(props: CountdownProps) {
 
   function renderDaysCountdown() {
     const daysCount = timestampLeft == null ? undefined : Math.floor(timestampLeft / DAY_IN_MS);
+    const daysLabel = t("countdown.days");
 
     if (daysCount == null) {
       return (
@@ -61,7 +56,7 @@ export default function Countdown(props: CountdownProps) {
           <span className="countdown text-5xl text-primary">
             <span className="loading loading-infinity loading-lg"></span>
           </span>
-          {props.daysLabel}
+          {daysLabel}
         </div>
       );
     }
@@ -73,7 +68,7 @@ export default function Countdown(props: CountdownProps) {
           <span className="text-5xl text-primary">
             <span>{daysCount}</span>
           </span>
-          {props.daysLabel}
+          {daysLabel}
         </div>
       );
     }
@@ -83,7 +78,7 @@ export default function Countdown(props: CountdownProps) {
         <span className="countdown text-5xl text-primary">
           <span style={styleWithValue(daysCount)}></span>
         </span>
-        {props.daysLabel}
+        {daysLabel}
       </div>
     );
   }
@@ -93,15 +88,15 @@ export default function Countdown(props: CountdownProps) {
       {renderDaysCountdown()}
 
       {renderCountdown(
-        props.hoursLabel,
+        t("countdown.hours"),
         timestampLeft == null ? undefined : Math.floor((timestampLeft % DAY_IN_MS) / HOUR_IN_MS)
       )}
       {renderCountdown(
-        props.minutesLabel,
+        t("countdown.minutes"),
         timestampLeft == null ? undefined : Math.floor(((timestampLeft % DAY_IN_MS) % HOUR_IN_MS) / MINUTE_IN_MS)
       )}
       {renderCountdown(
-        props.secondsLabel,
+        t("countdown.seconds"),
         timestampLeft == null
           ? undefined
           : Math.floor((((timestampLeft % DAY_IN_MS) % HOUR_IN_MS) % MINUTE_IN_MS) / SECOND_IN_MS)
