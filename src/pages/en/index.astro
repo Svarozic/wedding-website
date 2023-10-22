@@ -1,24 +1,43 @@
 ---
 import {Image} from "astro:assets";
-import {t} from "astro-i18n";
+import {l, t} from "astro-i18n";
 
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Hero from "@src/components/Hero.astro";
 import Headline from "@src/components/Headline.astro";
 import Countdown from "@src/components/Countdown";
 import png from "@src/../public/assets/20200713_223451.jpg";
+import hoteleurobusPngSrc from "@src/components/hoteleurobus.jpg";
 ---
 
 <BaseLayout>
   <Hero />
 
-  <div class="container mx-auto my-10">
-    <div class="grid place-content-center text-center">
+  <section class="container mx-auto my-10">
+    <div class="flex flex-col items-center text-center">
       <Headline top="21. September 2024">{t("countdown.title")}</Headline>
 
       <Countdown client:visible />
     </div>
-  </div>
+  </section>
 
   <Image src={png} alt="us" class="w-full" />
+
+  <section class="container mx-auto my-10">
+    <div class="flex flex-col items-center text-center">
+      <Headline top={t("place.headline.top")}>{t("place.headline.main")}</Headline>
+
+      <a class="btn btn-ghost" href={l("/place")}>{t("place.moreInfo")}</a>
+    </div>
+  </section>
+
+  <Image src={hoteleurobusPngSrc} alt={t("place.headline.main")} class="w-full" />
+
+  <section class="container mx-auto my-10">
+    <div class="flex flex-col items-center text-center">
+      <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
+
+      <a class="btn btn-primary" href={l("/participation")}>{t("participation.confirm")}</a>
+    </div>
+  </section>
 </BaseLayout>

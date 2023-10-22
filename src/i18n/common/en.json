@@ -25,7 +25,9 @@
   "hero": {
     "subheader": "We will get married!"
   },
+
   "participation": {
+    "confirm": "Confirm participation",
     "headline": {
       "top": "Will you come?",
       "main": "Let us know"
@@ -43,5 +45,13 @@
       "wish": "Any other wishes ?",
       "wishPlaceholder": "Tell us something else you want ..."
     }
+  },
+
+  "place": {
+    "headline": {
+      "top": "Where?",
+      "main": "Zemplínska šírava, Slovakia"
+    },
+    "moreInfo": "More info"
   }
 }

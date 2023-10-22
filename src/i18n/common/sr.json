@@ -25,7 +25,9 @@
   "hero": {
     "subheader": "Venčaćemo se!"
   },
+
   "participation": {
+    "confirm": "Potvrdite učešće",
     "headline": {
       "top": "Dolazite?",
       "main": "Obavestite nas"
@@ -43,5 +45,13 @@
       "wish": "Imate li drugih želja?",
       "wishPlaceholder": "Recite nam još nešto što želite..."
     }
+  },
+
+  "place": {
+    "headline": {
+      "top": "Gde?",
+      "main": "Zemplínska šírava, Slovačka"
+    },
+    "moreInfo": "Više informacija"
   }
 }

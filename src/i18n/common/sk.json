@@ -38,6 +38,7 @@
     "subheader": "Budeme sa brať!"
   },
   "participation": {
+    "confirm": "Potvrďte účasť",
     "headline": {
       "top": "Prídete?",
       "main": "Dajte nám vedieť"
@@ -55,5 +56,13 @@
       "wish": "Nejaké iné želania?",
       "wishPlaceholder": "Povedzte nám ešte niečo, čo chcete..."
     }
+  },
+
+  "place": {
+    "headline": {
+      "top": "Kde?",
+      "main": "Zemplínska šírava, Slovensko"
+    },
+    "moreInfo": "Viac informácií"
   }
 }
