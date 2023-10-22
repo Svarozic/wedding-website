@@ -1,5 +1,5 @@
 ---
-import {t, astroI18n} from "astro-i18n";
+import {t, astroI18n, l} from "astro-i18n";
 
 import Navigation from "@src/components/Navigation.astro";
 
@@ -24,8 +24,25 @@ const htmlTitle = title ?? t("title");
   <body>
     <Navigation />
 
-    <main class="px-2 pb-2 pt-2 lg:px-12 lg:pb-12">
+    <main class="p-2 lg:p-12">
       <slot />
     </main>
+
+    <section class="container mx-auto">
+      <footer class="footer px-6 py-6">
+        <aside class="lg:justify-self-center">
+          <header class="footer-title">{t("title")}</header>
+
+          <a class="link" href={l("/place")}>{t("nav.place")}</a>
+          <a class="link" href={l("/participation")}>{t("nav.participation")}</a>
+        </aside>
+
+        <nav class="lg:justify-self-center">
+          <header class="footer-title">{t("nav.more")}</header>
+          <a class="link">About us</a>
+          <a class="link">Contact</a>
+        </nav>
+      </footer>
+    </section>
   </body>
 </html>
