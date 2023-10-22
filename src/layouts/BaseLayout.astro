@@ -29,15 +29,19 @@ const htmlTitle = title ?? t("title");
     </main>
 
     <section class="container mx-auto">
-      <footer class="footer px-6 py-6">
-        <aside class="lg:justify-self-center">
+      <footer class="footer justify-center gap-4 px-6 py-6 md:gap-24">
+        <aside>
           <header class="footer-title">{t("title")}</header>
-
-          <a class="link" href={l("/place")}>{t("nav.place")}</a>
-          <a class="link" href={l("/participation")}>{t("nav.participation")}</a>
+          <p>Copyright ©2023 All rights reserved</p>
         </aside>
 
-        <nav class="lg:justify-self-center">
+        <nav>
+          <header class="footer-title">&nbsp;</header>
+          <a class="link" href={l("/place")}>{t("nav.place")}</a>
+          <a class="link" href={l("/participation")}>{t("nav.participation")}</a>
+        </nav>
+
+        <nav>
           <header class="footer-title">{t("nav.more")}</header>
           <a class="link">About us</a>
           <a class="link">Contact</a>
