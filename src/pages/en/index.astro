@@ -11,10 +11,9 @@ import Countdown from "@src/components/Countdown";
 <BaseLayout>
   <Hero />
 
-  <section class="container mx-auto my-10">
+  <section class="container mx-auto my-16">
     <div class="flex flex-col items-center text-center">
-      <Headline top={t("place.dateHeadline.top")}>21. September 2024</Headline>
-
+      <Headline top={t("place.dateHeadline.top")}>{t("place.dateHeadline.main")}</Headline>
       <a class="btn btn-ghost" href={l("/place")}>{t("place.moreInfo")}</a>
     </div>
   </section>
@@ -22,15 +21,16 @@ import Countdown from "@src/components/Countdown";
   <style>
     .parallax-hallstatt {
       background: url(/assets/20200713_223451.jpg) no-repeat fixed center center;
+      background-size: cover;
     }
   </style>
-  <div class="parallax-hallstatt flex h-240 w-full items-center justify-center">
+  <div class="parallax-hallstatt h-240 flex w-full items-center justify-center">
     <div class="mx-4 bg-white/50 p-8 text-center backdrop-blur-xl">
       <Countdown client:idle />
     </div>
   </div>
 
-  <section class="container mx-auto my-10">
+  <section class="container mx-auto my-16">
     <div class="flex flex-col items-center text-center">
       <Headline top={t("place.locationHeadline.top")}>{t("place.locationHeadline.main")}</Headline>
 
@@ -41,16 +41,17 @@ import Countdown from "@src/components/Countdown";
   <style>
     .parallax-hotel-eurobus {
       background: url(/assets/hotel-eurobus/hoteleurobus.jpg) no-repeat fixed center center;
+      background-size: cover;
     }
   </style>
 
-  <div class="parallax-hotel-eurobus flex h-160 w-full items-center justify-center">
+  <div class="parallax-hotel-eurobus h-160 flex w-full flex-col items-center justify-center">
     <div class="mx-4 bg-white/50 p-8 text-center backdrop-blur-xl">
       <p class="text-3xl">{t("place.celebrate")}</p>
     </div>
   </div>
 
-  <section class="container mx-auto my-10">
+  <section class="container mx-auto my-16">
     <div class="flex flex-col items-center text-center">
       <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
 
