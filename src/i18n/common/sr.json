@@ -2,6 +2,7 @@
   "localeLabel": "Srpski",
   "localePickerTitle": "Izaberite jezik",
   "title": "Ivana & Peter",
+
   "countdown": {
     "day{{v: 0}}": "dana",
     "day{{v: 1}}": "dan",
@@ -14,14 +15,15 @@
     "minute{{v: 2}}": "minuta",
     "second{{v: 0}}": "sekundi",
     "second{{v: 1}}": "sekundu",
-    "second{{v: 2}}": "sekunde",
-    "title": "Venčanje odbrojavanje"
+    "second{{v: 2}}": "sekunde"
   },
+
   "nav": {
     "participation": "Učešće",
     "place": "Mesto",
     "more": "Više"
   },
+
   "hero": {
     "subheader": "Venčaćemo se!"
   },
@@ -48,10 +50,15 @@
   },
 
   "place": {
-    "headline": {
+    "dateHeadline": {
+      "top": "Kada?",
+      "main": "21. Septembar 2024"
+    },
+    "locationHeadline": {
       "top": "Gde?",
       "main": "Zemplínska šírava, Slovačka"
     },
-    "moreInfo": "Više informacija"
+    "moreInfo": "Više informacija",
+    "celebrate": "Dođite da proslavite naš najvažniji dan sa nama"
   }
 }

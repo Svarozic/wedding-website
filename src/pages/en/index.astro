@@ -6,8 +6,6 @@ import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Hero from "@src/components/Hero.astro";
 import Headline from "@src/components/Headline.astro";
 import Countdown from "@src/components/Countdown";
-import png from "@src/../public/assets/20200713_223451.jpg";
-import hoteleurobusPngSrc from "@src/components/hoteleurobus.jpg";
 ---
 
 <BaseLayout>
@@ -15,23 +13,42 @@ import hoteleurobusPngSrc from "@src/components/hoteleurobus.jpg";
 
   <section class="container mx-auto my-10">
     <div class="flex flex-col items-center text-center">
-      <Headline top="21. September 2024">{t("countdown.title")}</Headline>
-
-      <Countdown client:visible />
-    </div>
-  </section>
-
-  <Image src={png} alt="us" class="w-full" />
-
-  <section class="container mx-auto my-10">
-    <div class="flex flex-col items-center text-center">
-      <Headline top={t("place.headline.top")}>{t("place.headline.main")}</Headline>
+      <Headline top={t("place.dateHeadline.top")}>21. September 2024</Headline>
 
       <a class="btn btn-ghost" href={l("/place")}>{t("place.moreInfo")}</a>
     </div>
   </section>
 
-  <Image src={hoteleurobusPngSrc} alt={t("place.headline.main")} class="w-full" />
+  <style>
+    .parallax-hallstatt {
+      background: url(/assets/20200713_223451.jpg) no-repeat fixed center center;
+    }
+  </style>
+  <div class="parallax-hallstatt flex h-240 w-full items-center justify-center">
+    <div class="mx-4 bg-white/50 p-8 text-center backdrop-blur-xl">
+      <Countdown client:idle />
+    </div>
+  </div>
+
+  <section class="container mx-auto my-10">
+    <div class="flex flex-col items-center text-center">
+      <Headline top={t("place.locationHeadline.top")}>{t("place.locationHeadline.main")}</Headline>
+
+      <a class="btn btn-ghost" href={l("/place")}>{t("place.moreInfo")}</a>
+    </div>
+  </section>
+
+  <style>
+    .parallax-hotel-eurobus {
+      background: url(/assets/hotel-eurobus/hoteleurobus.jpg) no-repeat fixed center center;
+    }
+  </style>
+
+  <div class="parallax-hotel-eurobus flex h-160 w-full items-center justify-center">
+    <div class="mx-4 bg-white/50 p-8 text-center backdrop-blur-xl">
+      <p class="text-3xl">{t("place.celebrate")}</p>
+    </div>
+  </div>
 
   <section class="container mx-auto my-10">
     <div class="flex flex-col items-center text-center">

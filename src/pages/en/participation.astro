@@ -11,7 +11,7 @@ import BaseLayout from "@src/layouts/BaseLayout.astro";
     <div class="card-body items-center text-center">
       <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
 
-      <ParticipationForm client:visible />
+      <ParticipationForm client:load />
     </div>
   </div>
 </BaseLayout>

@@ -2,6 +2,7 @@
   "localeLabel": "English",
   "localePickerTitle": "Pick the language",
   "title": "Ivana & Peter",
+
   "countdown": {
     "day{{v: 0}}": "days",
     "day{{v: 1}}": "day",
@@ -14,14 +15,15 @@
     "minute{{v: 2}}": "minutes",
     "second{{v: 0}}": "seconds",
     "second{{v: 1}}": "second",
-    "second{{v: 2}}": "seconds",
-    "title": "The Wedding Countdown"
+    "second{{v: 2}}": "seconds"
   },
+
   "nav": {
     "participation": "Participation",
     "place": "Place",
     "more": "More"
   },
+
   "hero": {
     "subheader": "We will get married!"
   },
@@ -48,10 +50,15 @@
   },
 
   "place": {
-    "headline": {
+    "dateHeadline": {
+      "top": "When?",
+      "main": "21. September 2024"
+    },
+    "locationHeadline": {
       "top": "Where?",
       "main": "Zemplínska šírava, Slovakia"
     },
-    "moreInfo": "More info"
+    "moreInfo": "More info",
+    "celebrate": "Come celebrate our most important day with us"
   }
 }

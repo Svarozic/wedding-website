@@ -2,6 +2,7 @@
   "localeLabel": "Slovensky",
   "localePickerTitle": "Vyberte jazyk",
   "title": "Ivana & Peter",
+
   "countdown": {
     "day{{v: 0}}": "dni",
     "day{{v: 1}}": "deň",
@@ -26,17 +27,19 @@
     "second{{v: 2}}": "sekundy",
     "second{{v: 3}}": "sekundy",
     "second{{v: 4}}": "sekundy",
-    "second{{v: 5}}": "sekúnd",
-    "title": "Svadobné odpočitávanie"
+    "second{{v: 5}}": "sekúnd"
   },
+
   "nav": {
     "participation": "Účasť",
     "place": "Miesto",
     "more": "Viac"
   },
+
   "hero": {
     "subheader": "Budeme sa brať!"
   },
+
   "participation": {
     "confirm": "Potvrďte účasť",
     "headline": {
@@ -59,10 +62,15 @@
   },
 
   "place": {
-    "headline": {
+    "dateHeadline": {
+      "top": "Kedy?",
+      "main": "21. September 2024"
+    },
+    "locationHeadline": {
       "top": "Kde?",
       "main": "Zemplínska šírava, Slovensko"
     },
-    "moreInfo": "Viac informácií"
+    "moreInfo": "Viac informácií",
+    "celebrate": "Poďte s nami osláviť náš najdôležitejší deň"
   }
 }
