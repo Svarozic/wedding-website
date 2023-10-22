@@ -3,10 +3,18 @@
   "localePickerTitle": "Pick the language",
   "title": "Ivana & Peter",
   "countdown": {
-    "days": "days",
-    "hours": "hours",
-    "minutes": "minutes",
-    "seconds": "seconds",
+    "day{{v: 0}}": "days",
+    "day{{v: 1}}": "day",
+    "day{{v: 2}}": "days",
+    "hour{{v: 0}}": "hours",
+    "hour{{v: 1}}": "hour",
+    "hour{{v: 2}}": "hours",
+    "minute{{v: 0}}": "minutes",
+    "minute{{v: 1}}": "minute",
+    "minute{{v: 2}}": "minutes",
+    "second{{v: 0}}": "seconds",
+    "second{{v: 1}}": "second",
+    "second{{v: 2}}": "seconds",
     "title": "The Wedding Countdown"
   },
   "nav": {

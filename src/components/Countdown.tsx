@@ -29,6 +29,15 @@ export default function Countdown() {
     return () => clearInterval(interval);
   }, []);
 
+  const daysCount = timestampLeft == null ? undefined : Math.floor(timestampLeft / DAY_IN_MS);
+  const hoursCount = timestampLeft == null ? undefined : Math.floor((timestampLeft % DAY_IN_MS) / HOUR_IN_MS);
+  const minutesCount =
+    timestampLeft == null ? undefined : Math.floor(((timestampLeft % DAY_IN_MS) % HOUR_IN_MS) / MINUTE_IN_MS);
+  const secondsCount =
+    timestampLeft == null
+      ? undefined
+      : Math.floor((((timestampLeft % DAY_IN_MS) % HOUR_IN_MS) % MINUTE_IN_MS) / SECOND_IN_MS);
+
   function renderCountdown(label: string, value: number | undefined) {
     return (
       <div className="flex flex-col ">
@@ -47,8 +56,7 @@ export default function Countdown() {
   }
 
   function renderDaysCountdown() {
-    const daysCount = timestampLeft == null ? undefined : Math.floor(timestampLeft / DAY_IN_MS);
-    const daysLabel = t("countdown.days");
+    const daysLabel = t("countdown.day", {v: daysCount});
 
     if (daysCount == null) {
       return (
@@ -87,20 +95,9 @@ export default function Countdown() {
     <div className="grid auto-cols-max grid-flow-col place-content-center gap-5">
       {renderDaysCountdown()}
 
-      {renderCountdown(
-        t("countdown.hours"),
-        timestampLeft == null ? undefined : Math.floor((timestampLeft % DAY_IN_MS) / HOUR_IN_MS)
-      )}
-      {renderCountdown(
-        t("countdown.minutes"),
-        timestampLeft == null ? undefined : Math.floor(((timestampLeft % DAY_IN_MS) % HOUR_IN_MS) / MINUTE_IN_MS)
-      )}
-      {renderCountdown(
-        t("countdown.seconds"),
-        timestampLeft == null
-          ? undefined
-          : Math.floor((((timestampLeft % DAY_IN_MS) % HOUR_IN_MS) % MINUTE_IN_MS) / SECOND_IN_MS)
-      )}
+      {renderCountdown(t("countdown.hour", {v: hoursCount}), hoursCount)}
+      {renderCountdown(t("countdown.minute", {v: minutesCount}), minutesCount)}
+      {renderCountdown(t("countdown.second", {v: secondsCount}), secondsCount)}
     </div>
   );
 }

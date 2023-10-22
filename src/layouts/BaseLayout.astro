@@ -13,7 +13,7 @@ const htmlTitle = title ?? t("title");
 <html lang={astroI18n.locale}>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -24,7 +24,7 @@ const htmlTitle = title ?? t("title");
   <body>
     <Navigation />
 
-    <main class="mb-20 px-4 md:px-12">
+    <main class="px-4 py-8 md:px-12">
       <slot />
     </main>
   </body>

@@ -3,10 +3,18 @@
   "localePickerTitle": "Izaberite jezik",
   "title": "Ivana & Peter",
   "countdown": {
-    "days": "dani",
-    "hours": "sati",
-    "minutes": "minute",
-    "seconds": "sekunde",
+    "day{{v: 0}}": "dana",
+    "day{{v: 1}}": "dan",
+    "day{{v: 2}}": "dana",
+    "hour{{v: 0}}": "sat1",
+    "hour{{v: 1}}": "sat",
+    "hour{{v: 2}}": "sata",
+    "minute{{v: 0}}": "minuta",
+    "minute{{v: 1}}": "minut",
+    "minute{{v: 2}}": "minuta",
+    "second{{v: 0}}": "sekundi",
+    "second{{v: 1}}": "sekundu",
+    "second{{v: 2}}": "sekunde",
     "title": "Venčanje odbrojavanje"
   },
   "nav": {
