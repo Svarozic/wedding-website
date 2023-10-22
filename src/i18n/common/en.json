@@ -16,5 +16,24 @@
   },
   "hero": {
     "subheader": "We will get married!"
+  },
+  "participation": {
+    "headline": {
+      "top": "Will you come?",
+      "main": "Let us know"
+    },
+    "form": {
+      "optional": "Optional",
+      "send": "Send",
+      "name": "What is your name?",
+      "namePlaceholder": "Your Name",
+      "email": "What is your e-mail?",
+      "emailPlaceholder": "your@email.address",
+      "meal": "Meal",
+      "mealWish": "Another wish for the meal?",
+      "mealWishPlaceholder": "Tell us about your allergies or special diet...",
+      "wish": "Any other wishes ?",
+      "wishPlaceholder": "Tell us something else you want ..."
+    }
   }
 }

@@ -1,8 +1,17 @@
 ---
-import BaseLayout from "@src/layouts/BaseLayout.astro";
 import {t} from "astro-i18n";
+
+import Headline from "@src/components/Headline.astro";
+import ParticipationForm from "@src/components/ParticipationForm";
+import BaseLayout from "@src/layouts/BaseLayout.astro";
 ---
 
 <BaseLayout>
-  <h1>{t("nav.participation")}</h1>
+  <div class="card mx-auto my-10 max-w-5xl shadow-xl">
+    <div class="card-body items-center text-center">
+      <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
+
+      <ParticipationForm client:visible />
+    </div>
+  </div>
 </BaseLayout>
