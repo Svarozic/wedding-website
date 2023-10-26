@@ -1,6 +1,5 @@
 ---
 import {t, astroI18n, l} from "astro-i18n";
-import {ViewTransitions} from "astro:transitions";
 
 import Navigation from "@src/components/Navigation.astro";
 
@@ -20,7 +19,6 @@ const htmlTitle = title ?? t("title");
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <title>{htmlTitle}</title>
-    <ViewTransitions />
   </head>
 
   <body>
