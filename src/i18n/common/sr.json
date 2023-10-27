@@ -35,15 +35,17 @@
       "main": "Obavestite nas"
     },
     "form": {
-      "optional": "Neobavezano",
-      "send": "Pošalji",
-      "name": "Kako se zovete?",
-      "namePlaceholder": "Vaše ime",
       "email": "Koji je vaš e-mail?",
+      "emailInvalidFormat": "Izgleda da ova e-mail adresa ima nevažeći format",
       "emailPlaceholder": "vasa@email.adresa",
       "meal": "Jelo",
       "mealWish": "Još koja želja za jelo?",
       "mealWishPlaceholder": "Recite nam o svojim alergijama ili posebnoj ishrani...",
+      "name": "Kako se zovete?",
+      "namePlaceholder": "Janko Grašak",
+      "optional": "Neobavezano",
+      "required": "Potreban podatak",
+      "send": "Pošalji",
       "wish": "Imate li drugih želja?",
       "wishPlaceholder": "Recite nam još nešto što želite..."
     }

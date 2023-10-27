@@ -1,43 +1,75 @@
-import {useState} from "react";
 import {t} from "astro-i18n";
+import {useForm, type SubmitHandler} from "react-hook-form";
+import {clsx} from "clsx";
+
+interface IFormInput {
+  name: string;
+  email: string;
+  menu: string;
+  mealWish: string;
+  wish: string;
+}
 
 export default function ParticipationForm() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [menu, setMenu] = useState("menu-1");
-  const [mealWish, setMealWish] = useState("");
-  const [wish, setWish] = useState("");
+  const {
+    register,
+    formState: {errors},
+    handleSubmit,
+  } = useForm<IFormInput>();
+  const onSubmit: SubmitHandler<IFormInput> = (data) => {
+    console.log(`SVARGA: onSubmit`, data); // SVARGA: remove console.log
+  };
 
   return (
-    <div className="w-full">
+    <form onSubmit={handleSubmit(onSubmit)} className="w-full">
       <div className="mb-2 flex flex-col gap-2 lg:mb-4 lg:flex-row lg:gap-4">
         <div className="basis-1/2">
           <div className="form-control">
             <label className="label">
-              <span className="label-text">{t("participation.form.name")}</span>
+              <span className="label-text">
+                {t("participation.form.name")}
+                <span className={clsx(errors.name ? "text-error" : "text-primary")}>&nbsp;&#42;</span>
+              </span>
             </label>
             <input
-              value={name}
-              onChange={(event) => setName(event.target.value)}
+              {...register("name", {required: t("participation.form.required")})}
               type="text"
               placeholder={t("participation.form.namePlaceholder")}
-              className="input input-bordered w-full"
+              className={`input input-bordered w-full ${clsx(errors.name && "input-error")}`}
             />
+            {errors.name && (
+              <label className="label">
+                <span className="label-text-alt text-error">{errors.name.message}</span>
+              </label>
+            )}
           </div>
         </div>
 
         <div className="basis-1/2">
           <div className="form-control">
             <label className="label">
-              <span className="label-text">{t("participation.form.email")}</span>
+              <span className="label-text">
+                {t("participation.form.email")}
+                <span className={clsx(errors.email ? "text-error" : "text-primary")}>&nbsp;&#42;</span>
+              </span>
             </label>
             <input
-              value={email}
-              onChange={(event) => setEmail(event.target.value)}
+              {...register("email", {
+                required: t("participation.form.required"),
+                pattern: {
+                  value: new RegExp(/^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/, "gm"),
+                  message: t("participation.form.emailInvalidFormat"),
+                },
+              })}
               type="text"
               placeholder={t("participation.form.emailPlaceholder")}
-              className="input input-bordered w-full"
+              className={`input input-bordered w-full ${clsx(errors.email && "input-error")}`}
             />
+            {errors.email && (
+              <label className="label">
+                <span className="label-text-alt text-error">{errors.email.message}</span>
+              </label>
+            )}
           </div>
         </div>
       </div>
@@ -46,16 +78,18 @@ export default function ParticipationForm() {
         <div className="basis-1/2">
           <div className="form-control">
             <label className="label">
-              <span className="label-text">{t("participation.form.meal")}</span>
+              <span className="label-text">
+                {t("participation.form.meal")}
+                <span className={clsx(errors.menu ? "text-error" : "text-primary")}>&nbsp;&#42;</span>
+              </span>
             </label>
 
             <label className="label cursor-pointer justify-start gap-4">
               <input
+                {...register("menu", {required: t("participation.form.required")})}
                 value="menu-1"
-                checked={menu === "menu-1"}
-                onChange={(event) => setMenu(event.target.value)}
                 type="radio"
-                className="radio checked:bg-primary"
+                className={`radio checked:bg-primary ${clsx(errors.menu && "input-error")}`}
               />
               <span className="label-text">Menu 1</span>
             </label>
@@ -63,10 +97,9 @@ export default function ParticipationForm() {
             <label className="label cursor-pointer justify-start gap-4">
               <input
                 value="menu-2"
-                checked={menu === "menu-2"}
-                onChange={(event) => setMenu(event.target.value)}
+                {...register("menu", {required: t("participation.form.required")})}
                 type="radio"
-                className="radio checked:bg-primary"
+                className={`radio checked:bg-primary ${clsx(errors.menu && "input-error")}`}
               />
               <span className="label-text">Menu 2</span>
             </label>
@@ -74,13 +107,18 @@ export default function ParticipationForm() {
             <label className="label cursor-pointer justify-start gap-4">
               <input
                 value="menu-3"
-                checked={menu === "menu-3"}
-                onChange={(event) => setMenu(event.target.value)}
+                {...register("menu", {required: t("participation.form.required")})}
                 type="radio"
-                className="radio checked:bg-primary"
+                className={`radio checked:bg-primary ${clsx(errors.menu && "input-error")}`}
               />
               <span className="label-text">Menu 3</span>
             </label>
+
+            {errors.menu && (
+              <label className="label">
+                <span className="label-text-alt text-error">{errors.menu.message}</span>
+              </label>
+            )}
           </div>
         </div>
 
@@ -91,8 +129,7 @@ export default function ParticipationForm() {
               <span className="label-text-alt">({t("participation.form.optional")})</span>
             </label>
             <textarea
-              value={mealWish}
-              onChange={(event) => setMealWish(event.target.value)}
+              {...register("mealWish")}
               className="textarea textarea-bordered"
               placeholder={t("participation.form.mealWishPlaceholder")}
             />
@@ -106,13 +143,14 @@ export default function ParticipationForm() {
           <span className="label-text-alt">({t("participation.form.optional")})</span>
         </label>
         <textarea
-          value={wish}
-          onChange={(event) => setWish(event.target.value)}
+          {...register("wish")}
           className="textarea textarea-bordered"
           placeholder={t("participation.form.wishPlaceholder")}></textarea>
       </div>
 
-      <button className="btn btn-primary">{t("participation.form.send")}</button>
-    </div>
+      <button type="submit" className="btn btn-primary">
+        {t("participation.form.send")}
+      </button>
+    </form>
   );
 }
