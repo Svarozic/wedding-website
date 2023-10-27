@@ -36,7 +36,7 @@ const LANGUAGES = {
         .filter((langCode) => langCode !== astroI18n.locale)
         .map((langCode) => (
           <li>
-            <a href={`/${langCode}${astroI18n.route}`}>
+            <a href={`/${langCode}${astroI18n.route}`} data-astro-reload>
               <div class="w-8">
                 <Image src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
               </div>
