@@ -154,7 +154,7 @@ export default function ParticipationForm() {
 
       <div className="label-text mx-auto mt-8 text-center text-xs text-neutral-content">
         {t("participation.form.problem")}&nbsp;
-        <a href="mailto:abc@example.com" className="link hover:link-primary">
+        <a href="mailto:ivanapeter2024@gmail.com" className="link hover:link-primary">
           ivanapeter2024@gmail.com
         </a>
       </div>
