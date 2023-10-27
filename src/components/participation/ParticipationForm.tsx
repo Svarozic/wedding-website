@@ -148,13 +148,13 @@ export default function ParticipationForm() {
           placeholder={t("participation.form.wishPlaceholder")}></textarea>
       </div>
 
-      <button type="submit" className="btn btn-primary">
+      <button type="submit" className="btn btn-primary mt-4">
         {t("participation.form.send")}
       </button>
 
-      <div className="label-text mx-auto my-16 text-center text-xs text-neutral-content">
+      <div className="label-text mx-auto mt-8 text-center text-xs text-neutral-content">
         {t("participation.form.problem")}&nbsp;
-        <a href="mailto:abc@example.com" className="link-hover link-primary link">
+        <a href="mailto:abc@example.com" className="link hover:link-primary">
           ivanapeter2024@gmail.com
         </a>
       </div>
