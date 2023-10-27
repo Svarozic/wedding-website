@@ -126,7 +126,7 @@ export default function ParticipationForm() {
           <div className="form-control">
             <label className="label">
               <span className="label-text">{t("participation.form.mealWish")}</span>
-              <span className="label-text-alt">({t("participation.form.optional")})</span>
+              <span className="label-text-alt text-neutral-content">({t("participation.form.optional")})</span>
             </label>
             <textarea
               {...register("mealWish")}
@@ -140,7 +140,7 @@ export default function ParticipationForm() {
       <div className="form-control mb-2 lg:mb-4">
         <label className="label">
           <span className="label-text">{t("participation.form.wish")}</span>
-          <span className="label-text-alt">({t("participation.form.optional")})</span>
+          <span className="label-text-alt text-neutral-content">({t("participation.form.optional")})</span>
         </label>
         <textarea
           {...register("wish")}
@@ -151,6 +151,13 @@ export default function ParticipationForm() {
       <button type="submit" className="btn btn-primary">
         {t("participation.form.send")}
       </button>
+
+      <div className="label-text mx-auto my-16 text-center text-xs text-neutral-content">
+        {t("participation.form.problem")}&nbsp;
+        <a href="mailto:abc@example.com" className="link-hover link-primary link">
+          ivanapeter2024@gmail.com
+        </a>
+      </div>
     </form>
   );
 }
