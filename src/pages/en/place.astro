@@ -1,8 +1,41 @@
 ---
+import {l, t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
-import {t} from "astro-i18n";
+import Headline from "@src/components/Headline.astro";
 ---
 
 <BaseLayout>
-  <h1>{t("nav.place")}</h1>
+  <style>
+    .parallax-hotel-eurobus2 {
+      background: url(/assets/hotel-eurobus/hoteleurobus2.jpg) no-repeat fixed center center;
+      background-size: cover;
+    }
+  </style>
+
+  <div class="parallax-hotel-eurobus2 flex h-160 w-full flex-col items-center justify-center">
+    <div class="mx-4 bg-white/50 p-8 text-center backdrop-blur-xl">
+      <p class="text-3xl">{t("place.celebrate")}</p>
+    </div>
+  </div>
+
+  <p>
+    Hotel Eurobus sa nachádza 12 km od mesta Michalovce, v centre rekreačnej oblasti Zemplínska šírava, stredisko
+    Medvedia hora, v prekrásnej scenérii Východoslovenskej nížiny pod svahmi Vihorlatu. Vodná nádrž s nádychom
+    prímorskej romantiky, poskytuje dokonalé zázemie pre návštevníkov.
+  </p>
+
+  <p>
+    Pre svoje dobré klimatické podmienky a najväčší počet slnečných dní je vyhľadávanou oblasťou cestovného ruchu s
+    možnosťami kúpania, surfovania, jachtingu, vodných športov, ako aj vychádzkami v okolí. Hotel je situovaný v
+    nádhernej prírode v tesnej blízkosti vody priamo na špici polostrova, kde je z každej strany výhľad na vodnú
+    hladinu. Hotel ponúka kvalitné služby v oblasti ubytovania, stravovania, wellnessu, oddychu a športu.
+  </p>
+
+  <section class="container mx-auto my-16">
+    <div class="flex flex-col items-center text-center">
+      <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
+
+      <a class="btn btn-primary" href={l("/participation")}>{t("participation.confirm")}</a>
+    </div>
+  </section>
 </BaseLayout>
