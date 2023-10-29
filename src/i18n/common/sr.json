@@ -35,13 +35,13 @@
       "main": "Obavestite nas"
     },
     "form": {
-      "email": "Koji je vaš e-mail?",
+      "email": "E-mail",
       "emailInvalidFormat": "Izgleda da ova e-mail adresa ima nevažeći format",
       "emailPlaceholder": "vasa@email.adresa",
       "meal": "Jelo",
       "mealWish": "Još koja želja za jelo?",
       "mealWishPlaceholder": "Recite nam o svojim alergijama ili posebnoj ishrani...",
-      "name": "Kako se zovete?",
+      "name": "Ime",
       "namePlaceholder": "Janko Grašak",
       "optional": "Neobavezano",
       "problem": "Imate li problema ? Pišite nam",

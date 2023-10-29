@@ -47,13 +47,13 @@
       "main": "Dajte nám vedieť"
     },
     "form": {
-      "email": "Aký je Váš e-mail?",
+      "email": "E-mail",
       "emailInvalidFormat": "Zdá sa, že táto e-mailová adresa má neplatný formát",
       "emailPlaceholder": "vasa@email.adresa",
       "meal": "Jedlo",
       "mealWish": "Ďalšie želanie k jedlu?",
       "mealWishPlaceholder": "Povedzte nám o svojich alergiách alebo špeciálnej strave...",
-      "name": "Ako sa voláte?",
+      "name": "Meno",
       "namePlaceholder": "Janko Hraško",
       "optional": "Nepovinné",
       "problem": "Máš nejaký problém ? Napíšte nám",
