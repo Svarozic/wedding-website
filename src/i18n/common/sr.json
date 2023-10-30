@@ -35,9 +35,11 @@
       "main": "Obavestite nas"
     },
     "form": {
+      "confirmationSent": "Dobili smo vašu poruku i poslali vam e-mail za potvrdu na ",
       "email": "E-mail",
       "emailInvalidFormat": "Izgleda da ova e-mail adresa ima nevažeći format",
       "emailPlaceholder": "vasa@email.adresa",
+      "lookingForward": "Radujemo se što ćemo vas videti!",
       "meal": "Jelo",
       "mealWish": "Još koja želja za jelo?",
       "mealWishPlaceholder": "Recite nam o svojim alergijama ili posebnoj ishrani...",
@@ -46,7 +48,9 @@
       "optional": "Neobavezano",
       "problem": "Imate li problema ? Pišite nam",
       "required": "Potreban podatak",
+      "responseError": "Nešto nije u redu. Pokušajte ponovo kasnije.",
       "send": "Pošalji",
+      "thankYou": "Hvala vam!",
       "wish": "Imate li drugih želja?",
       "wishPlaceholder": "Recite nam još nešto što želite..."
     }
