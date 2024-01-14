@@ -47,11 +47,9 @@
       "main": "Dajte nám vedieť"
     },
     "form": {
-      "confirmationSent": "Dostali sme vašu správu a poslali sme vám potvrdzujúci e-mail na adresu ",
       "email": "E-mail",
       "emailInvalidFormat": "Zdá sa, že táto e-mailová adresa má neplatný formát",
       "emailPlaceholder": "vasa@email.adresa",
-      "lookingForward": "Tešíme sa na Vás!",
       "meal": "Jedlo",
       "mealWish": "Ďalšie želanie k jedlu?",
       "mealWishPlaceholder": "Povedzte nám o svojich alergiách alebo špeciálnej strave...",
@@ -60,9 +58,7 @@
       "optional": "Nepovinné",
       "problem": "Máš nejaký problém ? Napíšte nám",
       "required": "Povinný údaj",
-      "responseError": "Niečo sa pokazilo. Skúste neskôr prosím.",
       "send": "Poslať",
-      "thankYou": "Ďakujeme!",
       "wish": "Nejaké iné želania?",
       "wishPlaceholder": "Povedzte nám ešte niečo, čo chcete..."
     }
