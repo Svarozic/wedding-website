@@ -1652,13 +1652,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colord@npm:^2.9":
-  version: 2.9.3
-  resolution: "colord@npm:2.9.3"
-  checksum: 9699e956894d8996b28c686afe8988720785f476f59335c80ce852ded76ab3ebe252703aec53d9bef54f6219aea6b960fb3d9a8300058a1d0c0d4026460cd110
-  languageName: node
-  linkType: hard
-
 "comma-separated-tokens@npm:^2.0.0":
   version: 2.0.3
   resolution: "comma-separated-tokens@npm:2.0.3"
@@ -1738,16 +1731,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:^3.9.2":
-  version: 3.9.2
-  resolution: "daisyui@npm:3.9.2"
+"culori@npm:^3":
+  version: 3.3.0
+  resolution: "culori@npm:3.3.0"
+  checksum: acd330a8f940dc22f36650ba722c9302a4745fee3c8fb40a27ac27228767e2cba4221c2dc414fce652b82cb264d28f65d8b76d505df402ecf94dbb9e440319e1
+  languageName: node
+  linkType: hard
+
+"daisyui@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "daisyui@npm:4.6.0"
   dependencies:
-    colord: "npm:^2.9"
     css-selector-tokenizer: "npm:^0.8"
-    postcss: "npm:^8"
+    culori: "npm:^3"
+    picocolors: "npm:^1"
     postcss-js: "npm:^4"
-    tailwindcss: "npm:^3.1"
-  checksum: 6b6526374c3bcf5eb740d0993e1c0bb9d24f0df073e0a4566b15778dd193f6736c2801b7428ecd52716133fab2bcd0de29baa23b49043272655baa9adeae8a09
+  checksum: 8067773259cdac8a6bd84538656e3d2cc338f57b8be08cd95a9a274c9c2c0fd9a4c270b6c39bc1025c0229ff0bfacbdaaab7403470fec7a191533acc678900fc
   languageName: node
   linkType: hard
 
@@ -4133,7 +4132,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picocolors@npm:^1.0.0":
+"picocolors@npm:^1, picocolors@npm:^1.0.0":
   version: 1.0.0
   resolution: "picocolors@npm:1.0.0"
   checksum: 20a5b249e331c14479d94ec6817a182fd7a5680debae82705747b2db7ec50009a5f6648d0621c561b0572703f84dbef0858abcbd5856d3c5511426afcb1961f7
@@ -4275,7 +4274,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8, postcss@npm:^8.4.23, postcss@npm:^8.4.28":
+"postcss@npm:^8.4.23, postcss@npm:^8.4.28":
   version: 8.4.31
   resolution: "postcss@npm:8.4.31"
   dependencies:
@@ -5237,7 +5236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.0.24, tailwindcss@npm:^3.1":
+"tailwindcss@npm:^3.0.24":
   version: 3.3.3
   resolution: "tailwindcss@npm:3.3.3"
   dependencies:
@@ -5729,7 +5728,7 @@ __metadata:
     astro: "npm:4.1.2"
     astro-i18n: "npm:^2.1.15"
     clsx: "npm:^2.0.0"
-    daisyui: "npm:^3.9.2"
+    daisyui: "npm:^4.6.0"
     prettier: "npm:^3.0.3"
     prettier-plugin-astro: "npm:^0.12.0"
     prettier-plugin-tailwindcss: "npm:^0.5.6"
