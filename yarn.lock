@@ -1151,14 +1151,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro-i18n@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "astro-i18n@npm:2.2.1"
+"astro-i18n@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "astro-i18n@npm:2.2.2"
   peerDependencies:
     esbuild: 0.x
   bin:
     astro-i18n: dist/src/bin.cjs
-  checksum: 46e6c61f6215430954d79ee2753506994a5ee227e06132393d3918d1259bdbbb3ccc8848842a4d50f62aa344edfe559e0c68c185dc331dab07a84ee30debc5d7
+  checksum: db95740a43234a988776d1e878747a81764ebc252e2c876d89c2c1af8053a7f43cb75466308f7a4f6da4f62d95e3f11ca729ceee5b5e214201e18d082d42b3cf
   languageName: node
   linkType: hard
 
@@ -5734,7 +5734,7 @@ __metadata:
     "@types/react": "npm:^18.2.21"
     "@types/react-dom": "npm:^18.2.7"
     astro: "npm:4.2.1"
-    astro-i18n: "npm:^2.2.1"
+    astro-i18n: "npm:^2.2.2"
     clsx: "npm:^2.1.0"
     daisyui: "npm:^4.6.0"
     prettier: "npm:^3.2.2"
