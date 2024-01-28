@@ -1,9 +1,9 @@
 ---
 import {t, astroI18n} from "astro-i18n";
 
-import pngSlovakia from "./slovakia.png";
-import pngSerbia from "./serbia.png";
-import pngUnitedKingdom from "./united-kingdom.png";
+import pngSlovakia from "./slovakia.png?url";
+import pngSerbia from "./serbia.png?url";
+import pngUnitedKingdom from "./united-kingdom.png?url";
 
 const LANGUAGES = {
   sk: {
@@ -26,7 +26,7 @@ const LANGUAGES = {
     tabindex="0"
     class="avatar btn btn-circle btn-ghost tooltip tooltip-left tooltip-primary"
     data-tip={t("localePickerTitle")}>
-    <img class="p-0.5" src={LANGUAGES[astroI18n.locale].pngSrc.src} alt={LANGUAGES[astroI18n.locale].label} />
+    <img class="p-0.5" src={LANGUAGES[astroI18n.locale].pngSrc} alt={LANGUAGES[astroI18n.locale].label} />
   </label>
 
   <ul tabindex="0" class="menu dropdown-content menu-sm z-[1] mt-3 rounded-box bg-white p-2 shadow">
@@ -37,7 +37,7 @@ const LANGUAGES = {
           <li>
             <a href={`/${langCode}${astroI18n.route}`} data-astro-reload>
               <div class="w-8">
-                <img src={LANGUAGES[langCode].pngSrc.src} alt={LANGUAGES[langCode].label} />
+                <img src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
               </div>
               {LANGUAGES[langCode].label}
             </a>
