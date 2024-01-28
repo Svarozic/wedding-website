@@ -1,13 +1,21 @@
 ---
 import {t} from "astro-i18n";
+import pngDrawingHugging from "@src/assets/drawing-hugging.png?url";
+
+import Container from "./Container.astro";
 ---
 
-<div class="hero min-h-screen" style="background-image: url(/assets/received_1343715702486032.jpeg);">
-  <div class="h-full w-full bg-white bg-opacity-25"></div>
-  <div class="hero-content text-center text-neutral-100">
-    <div class="max-w-5xl">
-      <h1 class="mb-5 text-8xl drop-shadow-lg">Ivana & Peter</h1>
-      <p class="mb-5 text-4xl drop-shadow-lg">{t("hero.subheader")}</p>
+<Container>
+  <main class="grid place-items-center lg:grid-cols-2">
+    <div class="sm:order-1 md:block">
+      <img class="h-auto max-h-screen w-auto" src={pngDrawingHugging} alt="Astronaut in the air" />
     </div>
-  </div>
-</div>
+    <div>
+      <h1 class="text-5xl font-bold lg:text-6xl lg:tracking-tight xl:text-7xl">Ivana a Peter</h1>
+      <p class="mt-4 max-w-xl text-lg text-slate-600">
+        Big news – we're getting married! Discover all the details about our unique love story and the upcoming
+        celebration. Stay tuned for the magic!
+      </p>
+    </div>
+  </main>
+</Container>
