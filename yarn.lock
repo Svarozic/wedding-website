@@ -29,10 +29,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/compiler@npm:^2.3.4":
-  version: 2.4.1
-  resolution: "@astrojs/compiler@npm:2.4.1"
-  checksum: 082c4c8e24412c7867276f26d3d925dc619c1ed283ac301357fc9912f4c1397960c93262308ca98651331f2c9e7355ea667311287e5b47ebf0f85be883944f0c
+"@astrojs/compiler@npm:^2.5.0":
+  version: 2.5.1
+  resolution: "@astrojs/compiler@npm:2.5.1"
+  checksum: 8b5fe287538896a248dfcbea328a7922facc56be8466d30bedd6235e98092f6941ed63ea5d7a3a06f1ee11896a57feb75cd339d2b35d2d153f55a50bb0349b8f
   languageName: node
   linkType: hard
 
@@ -43,9 +43,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@astrojs/markdown-remark@npm:4.1.0"
+"@astrojs/markdown-remark@npm:4.2.0":
+  version: 4.2.0
+  resolution: "@astrojs/markdown-remark@npm:4.2.0"
   dependencies:
     "@astrojs/prism": "npm:^3.0.0"
     github-slugger: "npm:^2.0.0"
@@ -61,7 +61,7 @@ __metadata:
     unified: "npm:^11.0.4"
     unist-util-visit: "npm:^5.0.0"
     vfile: "npm:^6.0.1"
-  checksum: 9f3bc5468b605150a24eae38b9be21dbce418df348f557c43f80f7944a20b1e5d94f7d2d3ee9895e58f2b29b2b0b588a68eaf744818f089b3c05509925ec2d70
+  checksum: 16f6874332f7c38ddc0acc58c31c953d6f028d40e568217f4eff3cdb7860ab7eee4dcf708c9f079c582e35bb1a20b205cbdf9ef5b7b5d2e1e242351ea3761c29
   languageName: node
   linkType: hard
 
@@ -1162,13 +1162,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:4.2.1":
-  version: 4.2.1
-  resolution: "astro@npm:4.2.1"
+"astro@npm:4.2.6":
+  version: 4.2.6
+  resolution: "astro@npm:4.2.6"
   dependencies:
-    "@astrojs/compiler": "npm:^2.3.4"
+    "@astrojs/compiler": "npm:^2.5.0"
     "@astrojs/internal-helpers": "npm:0.2.1"
-    "@astrojs/markdown-remark": "npm:4.1.0"
+    "@astrojs/markdown-remark": "npm:4.2.0"
     "@astrojs/telemetry": "npm:3.0.4"
     "@babel/core": "npm:^7.23.3"
     "@babel/generator": "npm:^7.23.3"
@@ -1186,6 +1186,7 @@ __metadata:
     clsx: "npm:^2.0.0"
     common-ancestor-path: "npm:^1.0.1"
     cookie: "npm:^0.6.0"
+    cssesc: "npm:^3.0.0"
     debug: "npm:^4.3.4"
     deterministic-object-hash: "npm:^2.0.1"
     devalue: "npm:^4.3.2"
@@ -1225,7 +1226,7 @@ __metadata:
     tsconfck: "npm:^3.0.0"
     unist-util-visit: "npm:^5.0.0"
     vfile: "npm:^6.0.1"
-    vite: "npm:^5.0.10"
+    vite: "npm:^5.0.12"
     vitefu: "npm:^0.2.5"
     which-pm: "npm:^2.1.1"
     yargs-parser: "npm:^21.1.1"
@@ -1235,7 +1236,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 27dd1d04c5a6e9595a15caa0824baa1904b6905bac258188702693efd626a2fe1515735753eaf6d3086cc603061971081321f3d247913ae95c593c2b8ab15b5e
+  checksum: d9fa39ca9b283271ae2005b47a8bdbf2faf111e19795223bc0f34e3eeae523d8c4652d088cdbf88a78bc2fd6bdf0e13eb4d3cec45d700e75663984561c062328
   languageName: node
   linkType: hard
 
@@ -5665,9 +5666,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.0.10":
-  version: 5.0.11
-  resolution: "vite@npm:5.0.11"
+"vite@npm:^5.0.12":
+  version: 5.0.12
+  resolution: "vite@npm:5.0.12"
   dependencies:
     esbuild: "npm:^0.19.3"
     fsevents: "npm:~2.3.3"
@@ -5701,7 +5702,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 74a3ddc6d43cf19cb6f827a53d77c481a07517a72b7d82a178df082012ad81ab5231a287a6dcc5471c0b2a5c8dd7e6ea8e1d62d268803057d0315729f09c5e33
+  checksum: c51b8e458851943c903fddde6973e720099ef8a5f364fb107cddade59c9e90f6d9ad98b61a7419cdfa0c6374236e10bff965d0c2d9e7b1790c68b874e5e7950c
   languageName: node
   linkType: hard
 
@@ -5733,7 +5734,7 @@ __metadata:
     "@tailwindcss/typography": "npm:^0.5.10"
     "@types/react": "npm:^18.2.21"
     "@types/react-dom": "npm:^18.2.7"
-    astro: "npm:4.2.1"
+    astro: "npm:4.2.6"
     astro-i18n: "npm:^2.2.2"
     clsx: "npm:^2.1.0"
     daisyui: "npm:^4.6.0"
