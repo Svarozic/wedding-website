@@ -23,7 +23,7 @@ const htmlTitle = title ?? t("title");
     <ViewTransitions />
   </head>
 
-  <body>
+  <body class="my-watercolor-paper-texture">
     <Navigation />
 
     <main class="px-2 lg:px-12">
@@ -52,5 +52,11 @@ const htmlTitle = title ?? t("title");
         </nav>
       </footer>
     </section>
+    <style>
+      .my-watercolor-paper-texture {
+        background-image: url("/assets/watercolor-paper-texture.jpg");
+        background-repeat: repeat;
+      }
+    </style>
   </body>
 </html>
