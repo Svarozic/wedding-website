@@ -5,17 +5,18 @@ import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Hero from "@src/components/Hero.astro";
 import Headline from "@src/components/Headline.astro";
 import Countdown from "@src/components/Countdown";
+import Container from "../../components/Container.astro";
 ---
 
 <BaseLayout>
   <Hero />
 
-  <section class="container mx-auto my-16">
+  <Container>
     <div class="flex flex-col items-center text-center">
       <Headline top={t("place.dateHeadline.top")}>{t("place.dateHeadline.main")}</Headline>
-      <a class="btn btn-ghost" href={l("/place")}>{t("place.moreInfo")}</a>
+      <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
     </div>
-  </section>
+  </Container>
 
   <style>
     .parallax-hallstatt {
@@ -29,13 +30,13 @@ import Countdown from "@src/components/Countdown";
     </div>
   </div>
 
-  <section class="container mx-auto my-16">
+  <Container>
     <div class="flex flex-col items-center text-center">
       <Headline top={t("place.locationHeadline.top")}>{t("place.locationHeadline.main")}</Headline>
 
       <a class="btn btn-ghost" href={l("/place")}>{t("place.moreInfo")}</a>
     </div>
-  </section>
+  </Container>
 
   <style>
     .parallax-hotel-eurobus {
@@ -50,11 +51,10 @@ import Countdown from "@src/components/Countdown";
     </div>
   </div>
 
-  <section class="container mx-auto my-16">
+  <Container>
     <div class="flex flex-col items-center text-center">
       <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
-
       <a class="btn btn-primary" href={l("/participation")}>{t("participation.confirm")}</a>
     </div>
-  </section>
+  </Container>
 </BaseLayout>

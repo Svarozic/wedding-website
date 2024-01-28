@@ -6,5 +6,11 @@ interface Props {
 const {top} = Astro.props;
 ---
 
-{top != null && <h2 class="text-xl uppercase">{top}</h2>}
-<h1 class="mb-6 mt-4 text-4xl uppercase text-primary"><slot /></h1>
+{
+  top != null && (
+    <h3 class="text-center text-xl font-bold lg:text-start lg:text-2xl lg:tracking-tight xl:text-3xl">{top}</h3>
+  )
+}
+<h2 class="pb-8 text-center text-4xl font-bold lg:pb-16 lg:text-start lg:text-5xl lg:tracking-tight xl:text-6xl">
+  <slot />
+</h2>
