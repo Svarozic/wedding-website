@@ -22,11 +22,21 @@ const LANGUAGES = {
 ---
 
 <div class="dropdown dropdown-end">
-  <label
-    tabindex="0"
-    class="avatar btn btn-circle btn-ghost tooltip tooltip-left tooltip-primary"
-    data-tip={t("localePickerTitle")}>
-    <img class="p-0.5" src={LANGUAGES[astroI18n.locale].pngSrc} alt={LANGUAGES[astroI18n.locale].label} />
+  <label tabindex="0" class="tooltip tooltip-left" data-tip={t("localePickerTitle")}>
+    <div class="flex items-center -space-x-4 hover:-space-x-0">
+      {
+        Object.keys(LANGUAGES)
+          .filter((langCode) => langCode !== astroI18n.locale)
+          .map((langCode) => (
+            <img class="h-8 w-8 grayscale" src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
+          ))
+      }
+      <div class="avatar">
+        <div class="h-14 w-14">
+          <img src={LANGUAGES[astroI18n.locale].pngSrc} alt={LANGUAGES[astroI18n.locale].label} />
+        </div>
+      </div>
+    </div>
   </label>
 
   <ul tabindex="0" class="menu dropdown-content menu-sm z-[1] mt-3 rounded-box bg-white p-2 shadow">
