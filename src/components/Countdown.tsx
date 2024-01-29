@@ -92,7 +92,7 @@ export default function Countdown() {
   }
 
   return (
-    <div className="grid auto-cols-max grid-flow-col place-content-center gap-5">
+    <div className="grid auto-cols-max grid-flow-col place-content-center gap-5 text-center">
       {renderDaysCountdown()}
 
       {renderCountdown(t("countdown.hour", {v: hoursCount}), hoursCount)}
