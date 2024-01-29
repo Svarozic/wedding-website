@@ -5,7 +5,9 @@ import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Hero from "@src/components/Hero.astro";
 import Headline from "@src/components/Headline.astro";
 import Countdown from "@src/components/Countdown";
-import Container from "../../components/Container.astro";
+import Container from "@src/components/Container.astro";
+
+import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
 ---
 
 <BaseLayout>
@@ -36,6 +38,7 @@ import Container from "../../components/Container.astro";
 
       <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
     </div>
+    <img src={pngHotelEurobus} alt="hotel eurobus" />
   </Container>
 
   <style>
