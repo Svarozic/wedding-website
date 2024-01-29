@@ -23,7 +23,7 @@ const LANGUAGES = {
 
 <div class="dropdown dropdown-end">
   <label tabindex="0" class="tooltip tooltip-left" data-tip={t("localePickerTitle")}>
-    <div class="flex items-center -space-x-4 hover:-space-x-0">
+    <div class="flex items-center -space-x-4">
       {
         Object.keys(LANGUAGES)
           .filter((langCode) => langCode !== astroI18n.locale)
