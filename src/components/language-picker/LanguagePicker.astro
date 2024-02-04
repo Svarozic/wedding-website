@@ -23,20 +23,20 @@ const LANGUAGES = {
 
 <div class="dropdown dropdown-end">
   <label tabindex="0" class="tooltip tooltip-left" data-tip={t("localePickerTitle")}>
-    <div class="flex items-center -space-x-4">
+    <span class="flex items-center -space-x-3">
       {
         Object.keys(LANGUAGES)
           .filter((langCode) => langCode !== astroI18n.locale)
           .map((langCode) => (
-            <img class="h-8 w-8 grayscale" src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
+            <img class="h-6 w-6 grayscale" src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
           ))
       }
-      <div class="avatar">
+      <span class="avatar">
         <div class="h-14 w-14">
           <img src={LANGUAGES[astroI18n.locale].pngSrc} alt={LANGUAGES[astroI18n.locale].label} />
         </div>
-      </div>
-    </div>
+      </span>
+    </span>
   </label>
 
   <ul tabindex="0" class="menu dropdown-content menu-sm z-[1] mt-3 rounded-box bg-white p-2 shadow">
@@ -46,7 +46,7 @@ const LANGUAGES = {
         .map((langCode) => (
           <li>
             <a href={`/${langCode}${astroI18n.route}`} data-astro-reload>
-              <div class="w-8">
+              <div class="w-10">
                 <img src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
               </div>
               {LANGUAGES[langCode].label}
