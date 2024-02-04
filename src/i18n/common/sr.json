@@ -17,6 +17,7 @@
     "second{{v: 1}}": "sekundu",
     "second{{v: 2}}": "sekunde"
   },
+  "countdownLabel": "SVARGA",
 
   "nav": {
     "participation": "Učešće",

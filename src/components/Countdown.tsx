@@ -38,15 +38,17 @@ export default function Countdown() {
       ? undefined
       : Math.floor((((timestampLeft % DAY_IN_MS) % HOUR_IN_MS) % MINUTE_IN_MS) / SECOND_IN_MS);
 
+  const textClasses = "text-4xl font-bold lg:text-5xl lg:tracking-tight xl:text-6xl text-primary";
+
   function renderCountdown(label: string, value: number | undefined) {
     return (
       <div className="flex flex-col ">
         {value == null ? (
-          <span className="text-5xl text-primary">
+          <span className={textClasses}>
             <span className="loading loading-infinity loading-lg"></span>
           </span>
         ) : (
-          <span className="countdown text-5xl text-primary">
+          <span className={textClasses + " countdown"}>
             <span style={styleWithValue(value)}></span>
           </span>
         )}
@@ -61,7 +63,7 @@ export default function Countdown() {
     if (daysCount == null) {
       return (
         <div className="flex flex-col">
-          <span className="countdown text-5xl text-primary">
+          <span className={textClasses + " countdown"}>
             <span className="loading loading-infinity loading-lg"></span>
           </span>
           {daysLabel}
@@ -73,7 +75,7 @@ export default function Countdown() {
       // daisy countdown can show only 0..100
       return (
         <div className="flex flex-col">
-          <span className="text-5xl text-primary">
+          <span className={textClasses}>
             <span>{daysCount}</span>
           </span>
           {daysLabel}
@@ -83,7 +85,7 @@ export default function Countdown() {
 
     return (
       <div className="flex flex-col">
-        <span className="countdown text-5xl text-primary">
+        <span className={textClasses + " countdown"}>
           <span style={styleWithValue(daysCount)}></span>
         </span>
         {daysLabel}

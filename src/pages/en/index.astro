@@ -29,8 +29,11 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
     }
   </style>
   <div class="parallax-hallstatt flex h-160 w-full items-center justify-center">
-    <div class="mx-4 bg-white/50 p-8 backdrop-blur-sm">
+    <div class="mx-4 bg-white/80 p-8 backdrop-blur-sm">
       <Countdown client:idle />
+      <h3 class="pt-2 text-center text-xl font-bold lg:pt-4 lg:text-2xl lg:tracking-tight xl:text-3xl">
+        {t("countdownLabel")}
+      </h3>
     </div>
   </div>
 

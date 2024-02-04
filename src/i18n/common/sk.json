@@ -29,6 +29,7 @@
     "second{{v: 4}}": "sekundy",
     "second{{v: 5}}": "sekúnd"
   },
+  "countdownLabel": "kým nepovieme ÁNO",
 
   "nav": {
     "participation": "Účasť",

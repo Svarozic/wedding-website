@@ -17,6 +17,7 @@
     "second{{v: 1}}": "second",
     "second{{v: 2}}": "seconds"
   },
+  "countdownLabel": "until we say YES",
 
   "nav": {
     "participation": "Participation",
