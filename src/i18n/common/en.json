@@ -20,7 +20,9 @@
   "countdownLabel": "until we say YES",
 
   "nav": {
-    "participation": "Participation",
+    "home": "Home",
+    "participation": "RSVP",
+    "participation_short": "RSVP",
     "place": "Place",
     "more": "More"
   },

@@ -20,7 +20,9 @@
   "countdownLabel": "SVARGA",
 
   "nav": {
-    "participation": "Učešće",
+    "home": "Početna",
+    "participation": "Potvrdite učešće",
+    "participation_short": "Učešće",
     "place": "Mesto",
     "more": "Više"
   },

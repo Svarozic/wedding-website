@@ -32,7 +32,9 @@
   "countdownLabel": "kým nepovieme ÁNO",
 
   "nav": {
-    "participation": "Účasť",
+    "home": "Domov",
+    "participation": "Potvrďte účasť",
+    "participation_short": "Účasť",
     "place": "Miesto",
     "more": "Viac"
   },
