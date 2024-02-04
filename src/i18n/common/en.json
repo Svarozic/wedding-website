@@ -4,6 +4,7 @@
   "title": "Ivana & Peter",
 
   "comingSoon": "Coming soon...",
+  "comingSoonStatement": "We're currently in the process of developing the page, and it will be available shortly.",
 
   "countdown": {
     "day{{v: 0}}": "days",
@@ -31,6 +32,7 @@
     "participation": "RSVP",
     "participation_short": "RSVP",
     "place": "Place",
+    "program": "Program",
     "more": "More"
   },
 
@@ -61,5 +63,9 @@
     "celebrate": "Come celebrate our most important day with us",
     "description": "Zemplínska šírava, often referred to as the \"Slovak Sea,\" is a breathtaking lake in eastern Slovakia. Surrounded by rolling hills, lush greenery, and sandy beaches, it offers a serene escape for visitors. The crystal-clear waters are perfect for swimming, boating, and fishing, while hiking and cycling trails provide stunning views of the lake. As the sun sets, the colors reflect on the calm waters, creating a mesmerizing atmosphere. The region also features charming villages and towns, allowing visitors to experience the rich culture and history of Slovakia. Zemplínska šírava is a beautiful destination for both relaxation and outdoor activities.",
     "description_short": "Zemplínska šírava, often referred to as the \"Slovak Sea,\" is a breathtaking lake in eastern Slovakia. Surrounded by rolling hills, lush greenery, and sandy beaches, it offers a serene escape for visitors."
+  },
+
+  "program": {
+    "headline": "Naš poseban dan"
   }
 }

@@ -28,9 +28,9 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
             </svg></a
           >
         </li>
-        <li><a href={l("/faq")}>{t("nav.faq")}</a></li>
         <li><a href={l("/place")}>{t("nav.place")}</a></li>
-        <li><a href={l("/participation")}>{t("nav.participation")}</a></li>
+        <li><a href={l("/program")}>{t("nav.program")}</a></li>
+        <li><a href={l("/faq")}>{t("nav.faq")}</a></li>
 
         <li>
           <a>{t("nav.more")}</a>
@@ -57,6 +57,7 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
 
   <div class="navbar-center hidden lg:flex">
     <a class="btn btn-ghost" href={l("/place")}>{t("nav.place")}</a>
+    <a class="btn btn-ghost" href={l("/program")}>{t("nav.program")}</a>
     <a class="btn btn-ghost" href={l("/faq")}>{t("nav.faq")}</a>
 
     <div class="dropdown dropdown-bottom">
