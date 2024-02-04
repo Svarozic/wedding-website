@@ -19,7 +19,7 @@
     "second{{v: 1}}": "sekundu",
     "second{{v: 2}}": "sekunde"
   },
-  "countdownLabel": "SVARGA",
+  "countdownLabel": "dok ne kažemo DA",
 
   "faq": {
     "headline": "Često postavljana pitanja"
@@ -35,7 +35,7 @@
   },
 
   "hero": {
-    "subheader": "SVARGA"
+    "subheader": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
   },
 
   "participation": {
@@ -45,9 +45,9 @@
       "main": "Obavestite nas"
     },
     "problem": {
-      "headline": "SVARGA",
-      "text": "SVARGA",
-      "open": "SVARGA"
+      "headline": "Lorem ipsum dolor sit amet",
+      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
+      "open": "Lorem ipsum dolor"
     }
   },
 
