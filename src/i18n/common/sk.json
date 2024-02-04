@@ -3,6 +3,8 @@
   "localePickerTitle": "Vyberte jazyk",
   "title": "Ivana & Peter",
 
+  "comingSoon": "Už čoskoro...",
+
   "countdown": {
     "day{{v: 0}}": "dni",
     "day{{v: 1}}": "deň",
@@ -31,7 +33,12 @@
   },
   "countdownLabel": "kým nepovieme ÁNO",
 
+  "faq": {
+    "headline": "Často kladené otázky"
+  },
+
   "nav": {
+    "faq": "FAQ",
     "home": "Domov",
     "participation": "Potvrďte účasť",
     "participation_short": "Účasť",

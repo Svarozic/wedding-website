@@ -3,6 +3,8 @@
   "localePickerTitle": "Izaberite jezik",
   "title": "Ivana & Peter",
 
+  "comingSoon": "Dolazi uskoro...",
+
   "countdown": {
     "day{{v: 0}}": "dana",
     "day{{v: 1}}": "dan",
@@ -19,7 +21,12 @@
   },
   "countdownLabel": "SVARGA",
 
+  "faq": {
+    "headline": "Često postavljana pitanja"
+  },
+
   "nav": {
+    "faq": "FAQ",
     "home": "Početna",
     "participation": "Potvrdite učešće",
     "participation_short": "Učešće",

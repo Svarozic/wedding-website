@@ -3,6 +3,8 @@
   "localePickerTitle": "Pick the language",
   "title": "Ivana & Peter",
 
+  "comingSoon": "Coming soon...",
+
   "countdown": {
     "day{{v: 0}}": "days",
     "day{{v: 1}}": "day",
@@ -19,7 +21,12 @@
   },
   "countdownLabel": "until we say YES",
 
+  "faq": {
+    "headline": "Frequently Asked Questions"
+  },
+
   "nav": {
+    "faq": "FAQ",
     "home": "Home",
     "participation": "RSVP",
     "participation_short": "RSVP",
