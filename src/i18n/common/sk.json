@@ -37,7 +37,7 @@
   },
 
   "hero": {
-    "subheader": ""
+    "subheader": "SVARGA"
   },
 
   "participation": {
@@ -46,21 +46,10 @@
       "top": "Prídete?",
       "main": "Dajte nám vedieť"
     },
-    "form": {
-      "email": "E-mail",
-      "emailInvalidFormat": "Zdá sa, že táto e-mailová adresa má neplatný formát",
-      "emailPlaceholder": "vasa@email.adresa",
-      "meal": "Jedlo",
-      "mealWish": "Ďalšie želanie k jedlu?",
-      "mealWishPlaceholder": "Povedzte nám o svojich alergiách alebo špeciálnej strave...",
-      "name": "Meno",
-      "namePlaceholder": "Janko Hraško",
-      "optional": "Nepovinné",
-      "problem": "Máš nejaký problém ? Napíšte nám",
-      "required": "Povinný údaj",
-      "send": "Poslať",
-      "wish": "Nejaké iné želania?",
-      "wishPlaceholder": "Povedzte nám ešte niečo, čo chcete..."
+    "problem": {
+      "headline": "Nevidíte žiaden Google Formulár?",
+      "text": "Je nám ľúto, niečo sa pokazilo. Skúste prosím otvoriť tento odkaz",
+      "open": "Otvoriť Google Formulár"
     }
   },
 

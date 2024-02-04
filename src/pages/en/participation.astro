@@ -1,17 +1,46 @@
 ---
-import {t} from "astro-i18n";
+import {astroI18n, t} from "astro-i18n";
 
 import Headline from "@src/components/Headline.astro";
-import ParticipationForm from "@src/components/participation/ParticipationForm";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
+import Container from "@src/components/Container.astro";
+
+const locale = astroI18n.locale ?? "en";
+
+// SVARGA: create each form in each language
+const GOOGLE_FORM_URL =
+  "https://docs.google.com/forms/d/e/1FAIpQLSfkSdx9BCGXOSuWZNma7RC-WegITGV_hFZE47-EQNSdR-WPrA/viewform";
+const GOOGLE_FORM_IFRAME_LINK = `${GOOGLE_FORM_URL}?embedded=true&hl=${locale}`;
+const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
 ---
 
 <BaseLayout>
-  <div class="card mx-auto max-w-5xl lg:shadow-xl">
-    <div class="card-body items-center text-center">
+  <Container>
+    <div class="flex flex-col items-center text-center">
       <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
-
-      <ParticipationForm client:load />
     </div>
-  </div>
+
+    <iframe src={GOOGLE_FORM_IFRAME_LINK} width="100%" height="3706" frameborder="0" marginheight="0" marginwidth="0"
+    ></iframe>
+  </Container>
+
+  <Container>
+    <div role="alert" class="alert bg-white">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="h-6 w-6 shrink-0 stroke-primary"
+        ><path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg
+      >
+      <div>
+        <h3>{t("participation.problem.headline")}</h3>
+        <div class="text-xs">{t("participation.problem.text")}</div>
+        <a class="link link-primary text-xs" href={GOOGLE_FORM_LINK} target="_blank">{GOOGLE_FORM_LINK}</a>
+      </div>
+      <div>
+        <a class="btn btn-primary btn-sm" href={GOOGLE_FORM_LINK} target="_blank">{t("participation.problem.open")}</a>
+      </div>
+    </div>
+  </Container>
 </BaseLayout>

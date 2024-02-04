@@ -34,21 +34,10 @@
       "top": "Will you come?",
       "main": "Let us know"
     },
-    "form": {
-      "email": "E-mail",
-      "emailInvalidFormat": "This email address seems to have invalid format",
-      "emailPlaceholder": "your@email.address",
-      "meal": "Meal",
-      "mealWish": "Another wish for the meal?",
-      "mealWishPlaceholder": "Tell us about your allergies or special diet...",
-      "name": "Name",
-      "namePlaceholder": "John Doe",
-      "optional": "Optional",
-      "problem": "Do you have any problem ? Write us",
-      "required": "Required",
-      "send": "Send",
-      "wish": "Any other wishes ?",
-      "wishPlaceholder": "Tell us something else you want ..."
+    "problem": {
+      "headline": "You don't see Google Form?",
+      "text": "We're sorry, something went wrong. Please try open this link",
+      "open": "Open Google Form"
     }
   },
 

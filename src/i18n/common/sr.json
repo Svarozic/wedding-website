@@ -25,7 +25,7 @@
   },
 
   "hero": {
-    "subheader": ""
+    "subheader": "SVARGA"
   },
 
   "participation": {
@@ -34,21 +34,10 @@
       "top": "Dolazite?",
       "main": "Obavestite nas"
     },
-    "form": {
-      "email": "E-mail",
-      "emailInvalidFormat": "Izgleda da ova e-mail adresa ima nevažeći format",
-      "emailPlaceholder": "vasa@email.adresa",
-      "meal": "Jelo",
-      "mealWish": "Još koja želja za jelo?",
-      "mealWishPlaceholder": "Recite nam o svojim alergijama ili posebnoj ishrani...",
-      "name": "Ime",
-      "namePlaceholder": "Janko Grašak",
-      "optional": "Neobavezano",
-      "problem": "Imate li problema ? Pišite nam",
-      "required": "Potreban podatak",
-      "send": "Pošalji",
-      "wish": "Imate li drugih želja?",
-      "wishPlaceholder": "Recite nam još nešto što želite..."
+    "problem": {
+      "headline": "SVARGA",
+      "text": "SVARGA",
+      "open": "SVARGA"
     }
   },
 
