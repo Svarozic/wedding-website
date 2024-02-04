@@ -1601,13 +1601,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "clsx@npm:2.1.0"
-  checksum: c09c00ad14f638366ca814097e6cab533dfa1972a358da5b557be487168acbb25b4c1395e89ffa842a8a61ba87a462d2b4885bc9d4f8410b598f3cb339599cdb
-  languageName: node
-  linkType: hard
-
 "color-convert@npm:^1.9.0":
   version: 1.9.3
   resolution: "color-convert@npm:1.9.3"
@@ -5736,7 +5729,6 @@ __metadata:
     "@types/react-dom": "npm:^18.2.7"
     astro: "npm:4.2.6"
     astro-i18n: "npm:^2.2.2"
-    clsx: "npm:^2.1.0"
     daisyui: "npm:^4.6.0"
     prettier: "npm:^3.2.2"
     prettier-plugin-astro: "npm:^0.12.3"

@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
+    "start": "astro dev --host",
     "format": "prettier . --write && prettier --write **/*.astro",
     "build": "astro build",
     "preview": "astro preview",
@@ -22,7 +22,6 @@
     "@types/react-dom": "^18.2.7",
     "astro": "4.2.6",
     "astro-i18n": "^2.2.2",
-    "clsx": "^2.1.0",
     "daisyui": "^4.6.0",
     "prettier": "^3.2.2",
     "prettier-plugin-astro": "^0.12.3",
