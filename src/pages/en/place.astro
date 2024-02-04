@@ -2,6 +2,9 @@
 import {l, t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Headline from "@src/components/Headline.astro";
+import Container from "@src/components/Container.astro";
+
+import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
 ---
 
 <BaseLayout>
@@ -11,12 +14,25 @@ import Headline from "@src/components/Headline.astro";
       background-size: cover;
     }
   </style>
-
   <div class="parallax-hotel-eurobus2 flex h-160 w-full flex-col items-center justify-center">
     <div class="mx-4 bg-white/50 p-8 text-center backdrop-blur-xl">
       <p class="text-3xl">{t("place.celebrate")}</p>
     </div>
   </div>
+
+  <Container>
+    <div class="flex flex-col items-center text-center">
+      <Headline top={t("place.slovakia")}>{t("place.region")}</Headline>
+
+      <img class="w-screen max-w-240" src={pngHotelEurobus} alt="hotel eurobus" />
+
+      <p class="py-8 text-center text-lg lg:py-16 lg:text-justify">
+        {t("place.description")}
+      </p>
+
+      <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
+    </div>
+  </Container>
 
   <p>
     Hotel Eurobus sa nachádza 12 km od mesta Michalovce, v centre rekreačnej oblasti Zemplínska šírava, stredisko

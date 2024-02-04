@@ -1,23 +1,19 @@
 ---
-import {astroI18n, t} from "astro-i18n";
+import {t} from "astro-i18n";
 
 import pngDrawingHugging from "@src/assets/drawing-hugging.png?url";
-
-import Container from "./Container.astro";
 ---
 
-<Container>
-  <main class="grid place-items-center lg:grid-cols-2">
-    <div>
-      <h1 class="pb-6 text-center text-5xl font-bold lg:pb-12 lg:text-start lg:text-6xl lg:tracking-tight xl:text-7xl">
-        Ivana & Peter
-      </h1>
-      <p class="max-w-xl text-center text-lg lg:text-start">
-        {t("hero.subheader")}
-      </p>
-    </div>
-    <div>
-      <img class="h-auto max-h-screen w-auto py-4" src={pngDrawingHugging} alt="drawing hugging" />
-    </div>
-  </main>
-</Container>
+<main class="grid place-items-center lg:grid-cols-2">
+  <div>
+    <h1 class="pb-6 text-center text-5xl font-bold lg:pb-12 lg:text-start lg:text-6xl lg:tracking-tight xl:text-7xl">
+      Ivana & Peter
+    </h1>
+    <p class="max-w-xl text-center text-lg lg:text-start">
+      {t("hero.subheader")}
+    </p>
+  </div>
+  <div>
+    <img class="h-auto max-h-screen w-auto py-4" src={pngDrawingHugging} alt="drawing hugging" />
+  </div>
+</main>

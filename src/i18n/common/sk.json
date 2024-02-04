@@ -37,7 +37,7 @@
   },
 
   "hero": {
-    "subheader": "SVARGA"
+    "subheader": "Veľká novinka - budeme sa brať! Objavte všetky podrobnosti o našom jedinečnom príbehu lásky a nadchádzajúcej oslave. Zostaňte naladení na to kúzlo!"
   },
 
   "participation": {
@@ -54,15 +54,14 @@
   },
 
   "place": {
-    "dateHeadline": {
-      "top": "Kedy?",
-      "main": "21. September 2024"
-    },
-    "locationHeadline": {
-      "top": "Kde?",
-      "main": "Zemplínska šírava, Slovensko"
-    },
+    "when": "Kedy",
+    "date": "21. September 2024",
+    "where": "Kde",
+    "slovakia": "Slovensko",
+    "region": "Zemplínska šírava",
     "moreInfo": "Viac informácií",
-    "celebrate": "Poďte s nami osláviť náš najdôležitejší deň"
+    "celebrate": "Poďte s nami osláviť náš najdôležitejší deň",
+    "description": "Zemplínska šírava, často nazývaná \"slovenské more\", je úchvatné jazero na východnom Slovensku. Obklopené kopcami, sviežou zeleňou a piesočnatými plážami ponúka návštevníkom pokojné útočisko. Krištáľovo čistá voda je ideálna na kúpanie, člnkovanie a rybolov, zatiaľ čo turistické a cyklistické trasy poskytujú nádherný výhľad na jazero. Pri západe slnka sa farby odrážajú na pokojnej hladine a vytvárajú fascinujúcu atmosféru. V regióne sa nachádzajú aj pôvabné dedinky a mestečká, ktoré návštevníkom umožňujú spoznať bohatú kultúru a históriu Slovenska. Zemplínska šírava je krásnou destináciou na oddych aj outdoorové aktivity.",
+    "description_short": "Zemplínska šírava, často nazývaná \"slovenské more\", je úchvatné jazero na východnom Slovensku. Obklopené kopcami, sviežou zeleňou a piesočnatými plážami ponúka návštevníkom pokojné útočisko."
   }
 }

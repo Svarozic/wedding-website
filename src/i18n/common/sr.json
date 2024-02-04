@@ -42,14 +42,11 @@
   },
 
   "place": {
-    "dateHeadline": {
-      "top": "Kada?",
-      "main": "21. Septembar 2024"
-    },
-    "locationHeadline": {
-      "top": "Gde?",
-      "main": "Zemplínska šírava, Slovačka"
-    },
+    "when": "Kada",
+    "date": "21. Septembar 2024",
+    "where": "Gde",
+    "slovakia": "Slovačka",
+    "region": "Zemplínska šírava",
     "moreInfo": "Više informacija",
     "celebrate": "Dođite da proslavite naš najvažniji dan sa nama"
   }

@@ -11,48 +11,60 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
 ---
 
 <BaseLayout>
-  <Hero />
+  <Container>
+    <Hero />
+  </Container>
 
   <Container>
     <div class="flex flex-col items-center text-center">
-      <Headline top={t("place.dateHeadline.top")}>{t("place.dateHeadline.main")}</Headline>
+      <Headline top={t("place.when") + "?"}>{t("place.date")}</Headline>
       <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
     </div>
   </Container>
 
   <style>
     .parallax-hallstatt {
-      background: url(/assets/20200713_223451.jpg) no-repeat fixed center center;
+      background: url(/assets/20200901_171948_photoshoped_cropped.jpg) no-repeat fixed center center;
       background-size: cover;
     }
   </style>
-  <div class="parallax-hallstatt flex h-240 w-full items-center justify-center">
-    <div class="mx-4 bg-white/50 p-8 backdrop-blur-xl">
+  <div class="parallax-hallstatt flex h-160 w-full items-center justify-center">
+    <div class="mx-4 bg-white/50 p-8 backdrop-blur-sm">
       <Countdown client:idle />
     </div>
   </div>
 
   <Container>
     <div class="flex flex-col items-center text-center">
-      <Headline top={t("place.locationHeadline.top")}>{t("place.locationHeadline.main")}</Headline>
+      <Headline top={t("place.where") + "?"}>
+        {t("place.region")}
+        <br />
+        <svg
+          class="inline-block h-8 w-8 text-red-600"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z"></path>
+          <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7"></path></svg
+        >
+        <br />
+        {t("place.slovakia")}
+      </Headline>
+
+      <img class="w-screen max-w-240" src={pngHotelEurobus} alt="hotel eurobus" />
+
+      <p class="w-screen max-w-240 py-8 text-center text-lg lg:py-16 lg:text-justify">
+        {t("place.description_short")}
+      </p>
 
       <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
     </div>
-    <img src={pngHotelEurobus} alt="hotel eurobus" />
   </Container>
-
-  <style>
-    .parallax-hotel-eurobus {
-      background: url(/assets/hotel-eurobus/hoteleurobus1.jpg) no-repeat fixed center center;
-      background-size: cover;
-    }
-  </style>
-
-  <div class="parallax-hotel-eurobus flex h-160 w-full flex-col items-center justify-center">
-    <div class="mx-4 bg-white/50 p-8 text-center backdrop-blur-xl">
-      <p class="text-3xl">{t("place.celebrate")}</p>
-    </div>
-  </div>
 
   <Container>
     <div class="flex flex-col items-center text-center">
@@ -60,4 +72,16 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
       <a class="btn btn-primary" href={l("/participation")}>{t("participation.confirm")}</a>
     </div>
   </Container>
+
+  <style>
+    .parallax-hotel-eurobus {
+      background: url(/assets/20200902_175756.jpg) no-repeat fixed center center;
+      background-size: cover;
+    }
+  </style>
+  <div class="parallax-hotel-eurobus flex h-160 w-full flex-col items-center justify-center">
+    <div class="mx-4 bg-white/50 p-8 text-center backdrop-blur-xl">
+      <p class="text-3xl">{t("place.celebrate")}</p>
+    </div>
+  </div>
 </BaseLayout>

@@ -42,15 +42,14 @@
   },
 
   "place": {
-    "dateHeadline": {
-      "top": "When?",
-      "main": "21. September 2024"
-    },
-    "locationHeadline": {
-      "top": "Where?",
-      "main": "Zemplínska šírava, Slovakia"
-    },
+    "when": "When",
+    "date": "21. September 2024",
+    "where": "Where",
+    "slovakia": "Slovakia",
+    "region": "Zemplínska šírava",
     "moreInfo": "More info",
-    "celebrate": "Come celebrate our most important day with us"
+    "celebrate": "Come celebrate our most important day with us",
+    "description": "Zemplínska šírava, often referred to as the \"Slovak Sea,\" is a breathtaking lake in eastern Slovakia. Surrounded by rolling hills, lush greenery, and sandy beaches, it offers a serene escape for visitors. The crystal-clear waters are perfect for swimming, boating, and fishing, while hiking and cycling trails provide stunning views of the lake. As the sun sets, the colors reflect on the calm waters, creating a mesmerizing atmosphere. The region also features charming villages and towns, allowing visitors to experience the rich culture and history of Slovakia. Zemplínska šírava is a beautiful destination for both relaxation and outdoor activities.",
+    "description_short": "Zemplínska šírava, often referred to as the \"Slovak Sea,\" is a breathtaking lake in eastern Slovakia. Surrounded by rolling hills, lush greenery, and sandy beaches, it offers a serene escape for visitors."
   }
 }
