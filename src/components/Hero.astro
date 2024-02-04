@@ -1,4 +1,6 @@
 ---
+import {astroI18n, t} from "astro-i18n";
+
 import pngDrawingHugging from "@src/assets/drawing-hugging.png?url";
 
 import Container from "./Container.astro";
@@ -11,8 +13,7 @@ import Container from "./Container.astro";
         Ivana & Peter
       </h1>
       <p class="max-w-xl text-center text-lg lg:text-start">
-        Big news – we're getting married! Discover all the details about our unique love story and the upcoming
-        celebration. Stay tuned for the magic!
+        {t("hero.subheader")}
       </p>
     </div>
     <div>
