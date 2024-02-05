@@ -32,6 +32,7 @@
     "more": "Više",
     "participation": "Potvrdite učešće",
     "participation_short": "Učešće",
+    "phrases": "Fraze",
     "place": "Mesto",
     "program": "Program",
     "vows": "Zaveti venčanja"
@@ -52,6 +53,14 @@
       "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
       "open": "Lorem ipsum dolor"
     }
+  },
+
+  "phrases": {
+    "serbian": "Srpski",
+    "slovak": "Slovački",
+    "english": "Engleski",
+    "chat1_1": "Zdravo, moje ime je Peter. Ja sam iz Slovačke.",
+    "chat1_2": "Zdravo, ja sam Ivana. Ja sam iz Srbije."
   },
 
   "place": {

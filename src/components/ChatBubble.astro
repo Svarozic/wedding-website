@@ -1,0 +1,70 @@
+---
+import {t, astroI18n, l} from "astro-i18n";
+
+import srcPeter from "@src/assets/20221021_134911.jpg?url";
+import srcIvana from "@src/assets/20221021_135754.jpg?url";
+import srcFlagSlovakia from "@src/assets/flag_slovakia.png?url";
+import srcFlagSerbia from "@src/assets/flag_serbia.png?url";
+import srcFlagUK from "@src/assets/flag_uk.png?url";
+
+interface Props {
+  who: "Peter" | "Ivana";
+  direction: "start" | "end";
+  chatKey: string;
+}
+
+const {who, direction, chatKey} = Astro.props;
+
+const LANGUAGES = {
+  sk: {
+    srcFlag: srcFlagSlovakia,
+    chatMsg: t(chatKey, undefined, {locale: "sk"}),
+    chatLanguage: t("phrases.slovak"),
+  },
+  sr: {
+    srcFlag: srcFlagSerbia,
+    chatMsg: t(chatKey, undefined, {locale: "sr"}),
+    chatLanguage: t("phrases.serbian"),
+  },
+  en: {
+    srcFlag: srcFlagUK,
+    chatMsg: t(chatKey, undefined, {locale: "en"}),
+    chatLanguage: t("phrases.english"),
+  },
+} as const;
+
+const chatDirection = `chat-${direction}`;
+const srcAvatar = who === "Ivana" ? srcIvana : srcPeter;
+
+const spokenLanguage = who === "Ivana" ? t("phrases.serbian") : t("phrases.slovak");
+---
+
+<div class:list={["chat", chatDirection]}>
+  <div class="avatar chat-image">
+    <div class="mask mask-squircle w-20">
+      <img alt="Tailwind CSS chat bubble component" src={srcAvatar} />
+    </div>
+  </div>
+  <div class="chat-header">
+    <time class="text-xs opacity-50">{LANGUAGES[astroI18n.locale].chatLanguage}</time>
+  </div>
+  <div class="chat-bubble">{LANGUAGES[astroI18n.locale].chatMsg}</div>
+</div>
+
+{
+  Object.keys(LANGUAGES)
+    .filter((langCode) => langCode !== astroI18n.locale)
+    .map((langCode) => (
+      <div class:list={["chat", chatDirection]}>
+        <div class="avatar chat-image">
+          <div class="w-10">
+            <img alt="Tailwind CSS chat bubble component" src={LANGUAGES[langCode].srcFlag} />
+          </div>
+        </div>
+        <div class="chat-header">
+          <time class="text-xs opacity-50">{LANGUAGES[langCode].chatLanguage}</time>
+        </div>
+        <div class="chat-bubble bg-base-200 text-primary-content">{LANGUAGES[langCode].chatMsg}</div>
+      </div>
+    ))
+}

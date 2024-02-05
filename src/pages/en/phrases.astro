@@ -1,0 +1,40 @@
+---
+import {t} from "astro-i18n";
+import BaseLayout from "@src/layouts/BaseLayout.astro";
+import Container from "@src/components/Container.astro";
+import Headline from "@src/components/Headline.astro";
+import ComingSoon from "@src/components/ComingSoon.astro";
+import ChatBubble from "@src/components/ChatBubble.astro";
+---
+
+<BaseLayout>
+  <Container>
+    <div class="flex flex-col items-center text-center">
+      <Headline top={t("nav.phrases")}>
+        <div class="flex w-screen flex-col items-center gap-1 lg:flex-row">
+          <span class="flex-1 text-end">{t("phrases.slovak")}</span>
+          <svg
+            class="inline-block h-10 w-10 text-red-600 lg:h-16 lg:w-16"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z"></path>
+            <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7"></path></svg
+          >
+          <span class="flex-1 text-start">{t("phrases.serbian")}</span>
+        </div>
+      </Headline>
+    </div>
+  </Container>
+
+  <Container>
+    <ChatBubble who="Peter" direction="start" chatKey="phrases.chat1_1" />
+
+    <ChatBubble who="Ivana" direction="end" chatKey="phrases.chat1_2" />
+  </Container>
+
+  <ComingSoon />
+</BaseLayout>

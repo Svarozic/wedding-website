@@ -44,6 +44,7 @@
     "more": "Viac",
     "participation": "Potvrďte účasť",
     "participation_short": "Účasť",
+    "phrases": "Frázy",
     "place": "Miesto",
     "program": "Program",
     "vows": "Svadobné sľuby"
@@ -76,6 +77,14 @@
     "celebrate": "Poďte s nami osláviť náš najdôležitejší deň",
     "description": "Zemplínska šírava, často nazývaná \"slovenské more\", je úchvatné jazero na východnom Slovensku. Obklopené kopcami, sviežou zeleňou a piesočnatými plážami ponúka návštevníkom pokojné útočisko. Krištáľovo čistá voda je ideálna na kúpanie, člnkovanie a rybolov, zatiaľ čo turistické a cyklistické trasy poskytujú nádherný výhľad na jazero. Pri západe slnka sa farby odrážajú na pokojnej hladine a vytvárajú fascinujúcu atmosféru. V regióne sa nachádzajú aj pôvabné dedinky a mestečká, ktoré návštevníkom umožňujú spoznať bohatú kultúru a históriu Slovenska. Zemplínska šírava je krásnou destináciou na oddych aj outdoorové aktivity.",
     "description_short": "Zemplínska šírava, často nazývaná \"slovenské more\", je úchvatné jazero na východnom Slovensku. Obklopené kopcami, sviežou zeleňou a piesočnatými plážami ponúka návštevníkom pokojné útočisko."
+  },
+
+  "phrases": {
+    "serbian": "Srbština",
+    "slovak": "Slovenčina",
+    "english": "Angličtina",
+    "chat1_1": "Ahoj, moje meno je Peter. Ja som zo Slovenska.",
+    "chat1_2": "Ahoj, ja som Ivana. Ja som zo Srbska."
   },
 
   "program": {

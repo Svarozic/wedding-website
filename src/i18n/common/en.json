@@ -32,6 +32,7 @@
     "more": "More",
     "participation": "RSVP",
     "participation_short": "RSVP",
+    "phrases": "Phrases",
     "place": "Place",
     "program": "Program",
     "vows": "Wedding vows"
@@ -52,6 +53,14 @@
       "text": "We're sorry, something went wrong. Please try open this link",
       "open": "Open Google Form"
     }
+  },
+
+  "phrases": {
+    "serbian": "Serbian",
+    "slovak": "Slovak",
+    "english": "English",
+    "chat1_1": "Hello, my name is Peter. I am from Slovakia.",
+    "chat1_2": "Hi, I'm Ivana. I am from Serbia."
   },
 
   "place": {
