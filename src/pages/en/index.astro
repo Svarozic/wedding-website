@@ -6,6 +6,7 @@ import Hero from "@src/components/Hero.astro";
 import Headline from "@src/components/Headline.astro";
 import Countdown from "@src/components/Countdown";
 import Container from "@src/components/Container.astro";
+import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 
 import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
 ---
@@ -72,10 +73,7 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   </Container>
 
   <Container>
-    <div class="flex flex-col items-center text-center">
-      <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
-      <a class="btn btn-primary" href={l("/participation")}>{t("participation.confirm")}</a>
-    </div>
+    <ParticipationHeadline />
   </Container>
 
   <style>
