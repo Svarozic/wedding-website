@@ -32,6 +32,7 @@
     "more": "Više",
     "participation": "Potvrdite učešće",
     "participation_short": "Učešće",
+    "photos": "Fotografije",
     "phrases": "Fraze",
     "place": "Mesto",
     "program": "Program",
@@ -71,6 +72,10 @@
     "region": "Zemplínska šírava",
     "moreInfo": "Više informacija",
     "celebrate": "Dođite da proslavite naš najvažniji dan sa nama"
+  },
+
+  "photos": {
+    "headline": "Naši zabeleženi posebni trenuci"
   },
 
   "program": {

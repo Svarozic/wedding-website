@@ -44,6 +44,7 @@
     "more": "Viac",
     "participation": "Potvrďte účasť",
     "participation_short": "Účasť",
+    "photos": "Fotky",
     "phrases": "Frázy",
     "place": "Miesto",
     "program": "Program",
@@ -85,6 +86,10 @@
     "english": "Angličtina",
     "chat1_1": "Ahoj, moje meno je Peter. Ja som zo Slovenska.",
     "chat1_2": "Ahoj, ja som Ivana. Ja som zo Srbska."
+  },
+
+  "photos": {
+    "headline": "Naše zaznamenané výnimočné momenty"
   },
 
   "program": {
