@@ -5,6 +5,9 @@ import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
 import ComingSoon from "@src/components/ComingSoon.astro";
 import ChatBubble from "@src/components/ChatBubble.astro";
+
+import srcPeter from "@src/assets/20221021_134911.jpg?url";
+import srcIvana from "@src/assets/20221021_135754.jpg?url";
 ---
 
 <BaseLayout>
@@ -28,12 +31,41 @@ import ChatBubble from "@src/components/ChatBubble.astro";
         </div>
       </Headline>
     </div>
-  </Container>
 
-  <Container>
-    <ChatBubble who="Peter" direction="start" chatKey="phrases.chat1_1" />
+    <div class="mx-auto w-full max-w-96">
+      <div class="chat chat-start">
+        <div class="avatar chat-image">
+          <div class="mask mask-squircle w-20">
+            <img alt="Peter" src={srcPeter} />
+          </div>
+        </div>
+        <div class="chat-header">
+          <time class="text-xs opacity-50">{t("phrases.slovak")}</time>
+        </div>
+        <div class="chat-bubble bg-blue-500 text-white">Zdravím</div>
+      </div>
 
-    <ChatBubble who="Ivana" direction="end" chatKey="phrases.chat1_2" />
+      <div class="chat chat-end">
+        <div class="avatar chat-image">
+          <div class="mask mask-squircle w-20">
+            <img alt="Ivana" src={srcIvana} />
+          </div>
+        </div>
+        <div class="chat-header">
+          <time class="text-xs opacity-50">{t("phrases.serbian")}</time>
+        </div>
+        <div class="chat-bubble bg-red-500 text-white">Zdravo</div>
+      </div>
+    </div>
+
+    <Container />
+    <div class="divider py-4"></div>
+
+    <div class="mx-auto w-full max-w-240">
+      <ChatBubble who="Peter" direction="start" chatKey="phrases.chat1_1" />
+
+      <ChatBubble who="Ivana" direction="end" chatKey="phrases.chat1_2" />
+    </div>
   </Container>
 
   <ComingSoon />

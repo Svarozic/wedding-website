@@ -35,18 +35,19 @@ const LANGUAGES = {
 
 const chatDirection = `chat-${direction}`;
 const srcAvatar = who === "Ivana" ? srcIvana : srcPeter;
+const chatBgColor = who === "Ivana" ? "bg-red-500" : "bg-blue-500";
 ---
 
 <div class:list={["chat", chatDirection]}>
   <div class="avatar chat-image">
     <div class="mask mask-squircle w-20">
-      <img alt="Tailwind CSS chat bubble component" src={srcAvatar} />
+      <img alt={who} src={srcAvatar} />
     </div>
   </div>
   <div class="chat-header">
     <time class="text-xs opacity-50">{LANGUAGES[astroI18n.locale].chatLanguage}</time>
   </div>
-  <div class="chat-bubble">{LANGUAGES[astroI18n.locale].chatMsg}</div>
+  <div class:list={["chat-bubble", chatBgColor, "text-white"]}>{LANGUAGES[astroI18n.locale].chatMsg}</div>
 </div>
 
 {
@@ -56,7 +57,7 @@ const srcAvatar = who === "Ivana" ? srcIvana : srcPeter;
       <div class:list={["chat", chatDirection]}>
         <div class="avatar chat-image">
           <div class="w-10">
-            <img alt="Tailwind CSS chat bubble component" src={LANGUAGES[langCode].srcFlag} />
+            <img alt={who} src={LANGUAGES[langCode].srcFlag} />
           </div>
         </div>
         <div class="chat-header">
