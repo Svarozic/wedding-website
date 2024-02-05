@@ -32,7 +32,7 @@
     "second{{v: 4}}": "sekundy",
     "second{{v: 5}}": "sekúnd"
   },
-  "countdownLabel": "kým nepovieme ÁNO",
+  "countdownLabel": "kým si povieme ÁNO",
 
   "faq": {
     "headline": "Často kladené otázky"

@@ -20,7 +20,7 @@
     "second{{v: 1}}": "sekundu",
     "second{{v: 2}}": "sekunde"
   },
-  "countdownLabel": "dok ne kažemo DA",
+  "countdownLabel": "dok kažemo DA",
 
   "faq": {
     "headline": "Često postavljana pitanja"
