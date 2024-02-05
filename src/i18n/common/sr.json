@@ -29,11 +29,12 @@
   "nav": {
     "faq": "FAQ",
     "home": "Početna",
+    "more": "Više",
     "participation": "Potvrdite učešće",
     "participation_short": "Učešće",
     "place": "Mesto",
     "program": "Program",
-    "more": "Više"
+    "vows": "Zaveti venčanja"
   },
 
   "hero": {
@@ -64,6 +65,10 @@
   },
 
   "program": {
-    "headline": "Our most important day"
+    "headline": "Naš poseban dan"
+  },
+
+  "vows": {
+    "our": "Naši zaveti"
   }
 }

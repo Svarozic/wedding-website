@@ -29,11 +29,12 @@
   "nav": {
     "faq": "FAQ",
     "home": "Home",
+    "more": "More",
     "participation": "RSVP",
     "participation_short": "RSVP",
     "place": "Place",
     "program": "Program",
-    "more": "More"
+    "vows": "Wedding vows"
   },
 
   "hero": {
@@ -66,6 +67,10 @@
   },
 
   "program": {
-    "headline": "Naš poseban dan"
+    "headline": "Our special day"
+  },
+
+  "vows": {
+    "our": "Our"
   }
 }

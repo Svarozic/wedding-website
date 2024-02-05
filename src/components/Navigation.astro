@@ -35,8 +35,7 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
         <li>
           <a>{t("nav.more")}</a>
           <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
+            <li><a href={l("/vows")}>{t("nav.vows")}</a></li>
           </ul>
         </li>
       </ul>
@@ -68,8 +67,7 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
         </svg>
       </label>
       <ul tabindex="0" class="menu dropdown-content z-[1] w-52 rounded-box bg-white p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li><a>Item 2</a></li>
+        <li><a href={l("/vows")}>{t("nav.vows")}</a></li>
       </ul>
     </div>
   </div>

@@ -41,11 +41,12 @@
   "nav": {
     "faq": "FAQ",
     "home": "Domov",
+    "more": "Viac",
     "participation": "Potvrďte účasť",
     "participation_short": "Účasť",
     "place": "Miesto",
     "program": "Program",
-    "more": "Viac"
+    "vows": "Svadobné sľuby"
   },
 
   "hero": {
@@ -79,5 +80,9 @@
 
   "program": {
     "headline": "Náš výnimočný deň"
+  },
+
+  "vows": {
+    "our": "Naše"
   }
 }
