@@ -1739,15 +1739,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"daisyui@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "daisyui@npm:4.6.0"
+"daisyui@npm:^4.6.1":
+  version: 4.6.1
+  resolution: "daisyui@npm:4.6.1"
   dependencies:
     css-selector-tokenizer: "npm:^0.8"
     culori: "npm:^3"
     picocolors: "npm:^1"
     postcss-js: "npm:^4"
-  checksum: 8067773259cdac8a6bd84538656e3d2cc338f57b8be08cd95a9a274c9c2c0fd9a4c270b6c39bc1025c0229ff0bfacbdaaab7403470fec7a191533acc678900fc
+  checksum: eb067701527baef816c67ae6c456fa3f1be845098420ee60744369e04bec2486f3a6df817464d8f8f6da0b63f5e823901e8b4d2c09caf0324ebe139b049d33d6
   languageName: node
   linkType: hard
 
@@ -5729,7 +5729,7 @@ __metadata:
     "@types/react-dom": "npm:^18.2.7"
     astro: "npm:4.2.6"
     astro-i18n: "npm:^2.2.2"
-    daisyui: "npm:^4.6.0"
+    daisyui: "npm:^4.6.1"
     prettier: "npm:^3.2.2"
     prettier-plugin-astro: "npm:^0.12.3"
     prettier-plugin-tailwindcss: "npm:^0.5.11"
