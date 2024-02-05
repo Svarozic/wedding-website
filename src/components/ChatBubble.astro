@@ -1,5 +1,5 @@
 ---
-import {t, astroI18n, l} from "astro-i18n";
+import {t, astroI18n} from "astro-i18n";
 
 import srcPeter from "@src/assets/20221021_134911.jpg?url";
 import srcIvana from "@src/assets/20221021_135754.jpg?url";
@@ -35,8 +35,6 @@ const LANGUAGES = {
 
 const chatDirection = `chat-${direction}`;
 const srcAvatar = who === "Ivana" ? srcIvana : srcPeter;
-
-const spokenLanguage = who === "Ivana" ? t("phrases.serbian") : t("phrases.slovak");
 ---
 
 <div class:list={["chat", chatDirection]}>
