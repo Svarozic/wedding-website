@@ -16,14 +16,15 @@ const htmlTitle = title ?? t("title");
 
 <html lang={astroI18n.locale} data-theme="cupcake">
   <head>
+    <OpenGraphMetadata />
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
+
     <title>{htmlTitle}</title>
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
-    <OpenGraphMetadata />
 
     <ViewTransitions />
 
