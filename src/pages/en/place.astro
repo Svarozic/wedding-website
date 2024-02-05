@@ -1,8 +1,11 @@
 ---
 import {l, t} from "astro-i18n";
+
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Headline from "@src/components/Headline.astro";
 import Container from "@src/components/Container.astro";
+import ComingSoon from "@src/components/ComingSoon.astro";
+import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 
 import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
 ---
@@ -32,26 +35,24 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
 
       <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
     </div>
+
+    <p>
+      Hotel Eurobus sa nachádza 12 km od mesta Michalovce, v centre rekreačnej oblasti Zemplínska šírava, stredisko
+      Medvedia hora, v prekrásnej scenérii Východoslovenskej nížiny pod svahmi Vihorlatu. Vodná nádrž s nádychom
+      prímorskej romantiky, poskytuje dokonalé zázemie pre návštevníkov.
+    </p>
+
+    <p>
+      Pre svoje dobré klimatické podmienky a najväčší počet slnečných dní je vyhľadávanou oblasťou cestovného ruchu s
+      možnosťami kúpania, surfovania, jachtingu, vodných športov, ako aj vychádzkami v okolí. Hotel je situovaný v
+      nádhernej prírode v tesnej blízkosti vody priamo na špici polostrova, kde je z každej strany výhľad na vodnú
+      hladinu. Hotel ponúka kvalitné služby v oblasti ubytovania, stravovania, wellnessu, oddychu a športu.
+    </p>
   </Container>
 
-  <p>
-    Hotel Eurobus sa nachádza 12 km od mesta Michalovce, v centre rekreačnej oblasti Zemplínska šírava, stredisko
-    Medvedia hora, v prekrásnej scenérii Východoslovenskej nížiny pod svahmi Vihorlatu. Vodná nádrž s nádychom
-    prímorskej romantiky, poskytuje dokonalé zázemie pre návštevníkov.
-  </p>
+  <Container>
+    <ParticipationHeadline />
+  </Container>
 
-  <p>
-    Pre svoje dobré klimatické podmienky a najväčší počet slnečných dní je vyhľadávanou oblasťou cestovného ruchu s
-    možnosťami kúpania, surfovania, jachtingu, vodných športov, ako aj vychádzkami v okolí. Hotel je situovaný v
-    nádhernej prírode v tesnej blízkosti vody priamo na špici polostrova, kde je z každej strany výhľad na vodnú
-    hladinu. Hotel ponúka kvalitné služby v oblasti ubytovania, stravovania, wellnessu, oddychu a športu.
-  </p>
-
-  <section class="container mx-auto my-16">
-    <div class="flex flex-col items-center text-center">
-      <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
-
-      <a class="btn btn-primary" href={l("/participation")}>{t("participation.confirm")}</a>
-    </div>
-  </section>
+  <ComingSoon />
 </BaseLayout>
