@@ -8,6 +8,7 @@ import ChatBubble from "@src/components/ChatBubble.astro";
 
 import srcPeter from "@src/assets/20221021_134911.jpg?url";
 import srcIvana from "@src/assets/20221021_135754.jpg?url";
+import FlowerDivider from "../../components/FlowerDivider.astro";
 ---
 
 <BaseLayout>
@@ -58,15 +59,14 @@ import srcIvana from "@src/assets/20221021_135754.jpg?url";
       </div>
     </div>
 
-    <Container />
-    <div class="divider py-4"></div>
+    <FlowerDivider type="1" class="py-20" />
 
     <div class="mx-auto w-full max-w-240">
       <ChatBubble who="Peter" direction="start" chatKey="phrases.chat1_1" />
 
       <ChatBubble who="Ivana" direction="end" chatKey="phrases.chat1_2" />
     </div>
-  </Container>
 
-  <ComingSoon />
+    <ComingSoon />
+  </Container>
 </BaseLayout>

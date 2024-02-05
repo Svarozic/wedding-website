@@ -1,0 +1,15 @@
+---
+import srcDivider1 from "@src/assets/drawing-divider-1.png?url";
+import srcDivider2 from "@src/assets/drawing-divider-2.png?url";
+
+interface Props {
+  type: "1" | "2";
+  class: string;
+}
+
+const {type, class: className} = Astro.props;
+
+const srcImg = type === "1" ? srcDivider1 : srcDivider2;
+---
+
+<img src={srcImg} alt={`divider ${type}`} class:list={["mx-auto", "p-4", className]} />
