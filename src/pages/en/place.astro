@@ -11,6 +11,30 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
 ---
 
 <BaseLayout>
+  <Container>
+    <div class="flex flex-col items-center text-center">
+      <Headline top={t("place.date")}>
+        {t("place.region")}
+        <br />
+        <svg
+          class="inline-block h-8 w-8 text-red-600"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z"></path>
+          <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7"></path></svg
+        >
+        <br />
+        {t("place.slovakia")}
+      </Headline>
+    </div>
+  </Container>
+
   <style>
     .parallax-hotel-eurobus2 {
       background: url(/assets/hotel-eurobus/hoteleurobus2.jpg) no-repeat fixed center center;
