@@ -35,7 +35,7 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
     <div class="card bg-white/75 backdrop-blur">
       <div class="card-body">
         <Countdown client:idle />
-        <h3 class="pt-2 text-center text-xl font-bold lg:pt-4 lg:text-2xl lg:tracking-tight xl:text-3xl">
+        <h3 class="pt-2 text-center text-lg lg:pt-4">
           {t("countdownLabel")}
         </h3>
       </div>
@@ -43,6 +43,9 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   </div>
 
   <Container>
+    <!--// SVARGA: this flex is stretching text to full width, I have flex only for center-->
+    <!--  Headline does not need center, maybe also others not-->
+
     <div class="flex flex-col items-center text-center">
       <Headline top={t("place.where") + "?"}>
         {t("place.region")}

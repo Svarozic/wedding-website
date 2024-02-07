@@ -38,7 +38,7 @@ export default function Countdown() {
       ? undefined
       : Math.floor((((timestampLeft % DAY_IN_MS) % HOUR_IN_MS) % MINUTE_IN_MS) / SECOND_IN_MS);
 
-  const textClasses = "text-4xl font-bold lg:text-5xl lg:tracking-tight xl:text-6xl text-primary";
+  const textClasses = "text-4xl font-bold lg:text-5xl xl:text-6xl text-primary";
 
   function renderCountdown(label: string, value: number | undefined) {
     return (

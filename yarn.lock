@@ -627,6 +627,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource-variable/raleway@npm:^5.0.17":
+  version: 5.0.17
+  resolution: "@fontsource-variable/raleway@npm:5.0.17"
+  checksum: 7351bc03c35fbf05d961a06fdd175d3d1d88b59aa0d5ef7ada972f11652a60acdcc12761252018bf5e8fd01e4302a460b9df074c1568fb9b78ca105ac0b8ab1b
+  languageName: node
+  linkType: hard
+
+"@fontsource/parisienne@npm:^5.0.8":
+  version: 5.0.8
+  resolution: "@fontsource/parisienne@npm:5.0.8"
+  checksum: c759704231b8bccb9b27b5e5e7de3a254ee2264e69234008ea81a99a8842d28afe9c85247b949c0f8a121e48cea7899ccac1823b9f30b6d5c461133bda9c36cb
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -5724,6 +5738,8 @@ __metadata:
   dependencies:
     "@astrojs/react": "npm:3.0.9"
     "@astrojs/tailwind": "npm:5.1.0"
+    "@fontsource-variable/raleway": "npm:^5.0.17"
+    "@fontsource/parisienne": "npm:^5.0.8"
     "@tailwindcss/typography": "npm:^0.5.10"
     "@types/react": "npm:^18.2.21"
     "@types/react-dom": "npm:^18.2.7"

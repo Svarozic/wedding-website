@@ -6,7 +6,7 @@ interface Props {
 const {top} = Astro.props;
 ---
 
-{top != null && <h3 class="text-center text-xl font-bold lg:text-2xl lg:tracking-tight xl:text-3xl">{top}</h3>}
-<h2 class="pb-6 pt-2 text-center text-4xl font-bold lg:pb-12 lg:pt-4 lg:text-5xl lg:tracking-tight xl:text-6xl">
+{top != null && <h3 class="text-center font-serif text-xl font-bold lg:text-2xl xl:text-3xl">{top}</h3>}
+<h2 class="pb-6 pt-2 text-center font-serif text-4xl font-bold lg:pb-12 lg:pt-4 lg:text-5xl xl:text-6xl">
   <slot />
 </h2>
