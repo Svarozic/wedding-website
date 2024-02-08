@@ -40,7 +40,7 @@
   },
 
   "hero": {
-    "subheader": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+    "subheader": "Velike vesti – venčavamo se! Otkrijte sve detalje o našoj jedinstvenoj ljubavnoj priči i nadolazećoj proslavi. Ostanite u toku za čaroliju!"
   },
 
   "participation": {
@@ -50,9 +50,9 @@
       "main": "Obavestite nas"
     },
     "problem": {
-      "headline": "Lorem ipsum dolor sit amet",
-      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
-      "open": "Lorem ipsum dolor"
+      "headline": "Ne vidite Google Formular?",
+      "text": "Žao nam je, nešto je pošlo po zlu. Molimo pokušajte otvoriti ovaj link.",
+      "open": "Otvori"
     }
   },
 
