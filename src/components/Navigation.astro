@@ -5,7 +5,7 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
 ---
 
 <div
-  id="my-navigation"
+  id="myNavigation"
   class="my-watercolor-paper-texture navbar sticky top-0 z-[1] px-2 transition-all duration-500 lg:px-10">
   <div class="navbar-start">
     <div class="dropdown lg:hidden">
@@ -139,18 +139,24 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
 </div>
 
 <script>
-  const header = document.getElementById("my-navigation");
-  const header_height = header.offsetHeight;
-  const shadowClassName = "drop-shadow";
+  // Lifecycle handles needed for astro transitions
+  // @see https://docs.astro.build/en/tutorials/add-view-transitions/#update-scripts
+  document.addEventListener("astro:page-load", () => {
+    const myNavigation = document.getElementById("myNavigation");
 
-  // let scrollpos = window.scrollY;
-  window.addEventListener("scroll", function () {
-    // scrollpos = window.scrollY;
-
-    if (window.scrollY >= header_height * 2) {
-      header.classList.add(shadowClassName);
-    } else {
-      header.classList.remove(shadowClassName);
+    function scrollHandler() {
+      if (window.scrollY >= myNavigation.offsetHeight * 2) {
+        myNavigation.classList.add("drop-shadow");
+      } else {
+        myNavigation.classList.remove("drop-shadow");
+      }
     }
+
+    window.addEventListener("scroll", scrollHandler);
+
+    // cleanup before transition
+    document.addEventListener("astro:before-preparation", () => {
+      window.removeEventListener("scroll", scrollHandler);
+    });
   });
 </script>

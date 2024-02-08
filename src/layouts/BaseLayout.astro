@@ -7,6 +7,7 @@ import Navigation from "@src/components/Navigation.astro";
 import GlobalStyles from "@src/components/GlobalStyles.astro";
 import Container from "@src/components/Container.astro";
 import Footer from "@src/components/Footer.astro";
+import ScrollTopButton from "@src/components/ScrollTopButton.astro";
 import OpenGraphMetadata from "@src/components/OpenGraphMetadata.astro";
 
 const {title} = Astro.props.frontmatter || Astro.props;
@@ -41,5 +42,7 @@ const htmlTitle = title ?? t("title");
     <Container>
       <Footer />
     </Container>
+
+    <ScrollTopButton />
   </body>
 </html>

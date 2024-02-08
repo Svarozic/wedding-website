@@ -1,0 +1,56 @@
+---
+import Center from "@src/components/Center.astro";
+---
+
+<button
+  id="myScrollTopButton"
+  class="fixed bottom-0 right-4 translate-y-full rounded-full border-0 bg-white/20 p-2 shadow backdrop-blur transition-all duration-500">
+  <Center>
+    <svg
+      class="h-8 w-8 text-primary-content/40"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      stroke-width="2"
+      stroke="currentColor"
+      fill="none"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z"></path> <polyline points="6 15 12 9 18 15"></polyline></svg
+    >
+  </Center>
+</button>
+
+<script>
+  // Lifecycle handles needed for astro transitions
+  // @see https://docs.astro.build/en/tutorials/add-view-transitions/#update-scripts
+  document.addEventListener("astro:page-load", () => {
+    const myScrollTopButton = document.getElementById("myScrollTopButton");
+
+    function clickHandler() {
+      // this changes the scrolling behavior to "smooth"
+      window.scrollTo({top: 0, behavior: "smooth"});
+    }
+
+    function scrollHandler() {
+      if (window.scrollY >= 1000) {
+        //show
+        myScrollTopButton.classList.remove("translate-y-full");
+        myScrollTopButton.classList.add("-translate-y-full");
+      } else {
+        // hide
+        myScrollTopButton.classList.remove("-translate-y-full");
+        myScrollTopButton.classList.add("translate-y-full");
+      }
+    }
+
+    myScrollTopButton.addEventListener("click", clickHandler);
+    window.addEventListener("scroll", scrollHandler);
+
+    // cleanup before transition
+    document.addEventListener("astro:before-preparation", () => {
+      myScrollTopButton.removeEventListener("click", clickHandler);
+      window.removeEventListener("scroll", scrollHandler);
+    });
+  });
+</script>
