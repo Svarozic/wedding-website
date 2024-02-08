@@ -1,0 +1,7 @@
+---
+const {class: className} = Astro.props;
+---
+
+<p class="w-full max-w-240 pb-4 pt-2 text-center text-lg lg:pb-8 lg:pt-4" class:list={[className]}>
+  <slot />
+</p>

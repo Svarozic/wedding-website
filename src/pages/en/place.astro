@@ -4,7 +4,9 @@ import {l, t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Headline from "@src/components/Headline.astro";
 import Container from "@src/components/Container.astro";
+import Center from "@src/components/Center.astro";
 import ComingSoon from "@src/components/ComingSoon.astro";
+import Paragraph from "@src/components/Paragraph.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 
 import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
@@ -12,27 +14,29 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
 
 <BaseLayout>
   <Container>
-    <div class="flex flex-col items-center text-center">
-      <Headline top={t("place.date")}>
-        {t("place.region")}
-        <br />
-        <svg
-          class="inline-block h-8 w-8 text-red-600"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          stroke-width="2"
-          stroke="currentColor"
-          fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z"></path>
-          <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7"></path></svg
-        >
-        <br />
-        {t("place.slovakia")}
-      </Headline>
-    </div>
+    <Headline top={t("place.date")}>
+      {t("place.region")}
+      <br />
+      <svg
+        class="inline-block h-8 w-8 text-red-600"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        stroke-width="2"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z"></path>
+        <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7"></path></svg
+      >
+      <br />
+      {t("place.slovakia")}
+    </Headline>
+
+    <Center>
+      <img class="w-full max-w-240" src={pngHotelEurobus} alt="hotel eurobus" />
+    </Center>
   </Container>
 
   <style>
@@ -48,30 +52,30 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   </div>
 
   <Container>
-    <div class="flex flex-col items-center text-center">
-      <Headline top={t("place.slovakia")}>{t("place.region")}</Headline>
+    <Headline top={t("place.slovakia")}>{t("place.region")}</Headline>
 
-      <img class="w-screen max-w-240" src={pngHotelEurobus} alt="hotel eurobus" />
-
-      <p class="py-8 text-center text-lg lg:py-16 lg:text-justify">
+    <Center>
+      <Paragraph>
         {t("place.description")}
-      </p>
+      </Paragraph>
+    </Center>
 
-      <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
-    </div>
+    <Center>
+      <Paragraph>
+        Hotel Eurobus sa nachádza 12 km od mesta Michalovce, v centre rekreačnej oblasti Zemplínska šírava, stredisko
+        Medvedia hora, v prekrásnej scenérii Východoslovenskej nížiny pod svahmi Vihorlatu. Vodná nádrž s nádychom
+        prímorskej romantiky, poskytuje dokonalé zázemie pre návštevníkov.
+      </Paragraph>
+    </Center>
 
-    <p>
-      Hotel Eurobus sa nachádza 12 km od mesta Michalovce, v centre rekreačnej oblasti Zemplínska šírava, stredisko
-      Medvedia hora, v prekrásnej scenérii Východoslovenskej nížiny pod svahmi Vihorlatu. Vodná nádrž s nádychom
-      prímorskej romantiky, poskytuje dokonalé zázemie pre návštevníkov.
-    </p>
-
-    <p>
-      Pre svoje dobré klimatické podmienky a najväčší počet slnečných dní je vyhľadávanou oblasťou cestovného ruchu s
-      možnosťami kúpania, surfovania, jachtingu, vodných športov, ako aj vychádzkami v okolí. Hotel je situovaný v
-      nádhernej prírode v tesnej blízkosti vody priamo na špici polostrova, kde je z každej strany výhľad na vodnú
-      hladinu. Hotel ponúka kvalitné služby v oblasti ubytovania, stravovania, wellnessu, oddychu a športu.
-    </p>
+    <Center>
+      <Paragraph>
+        Pre svoje dobré klimatické podmienky a najväčší počet slnečných dní je vyhľadávanou oblasťou cestovného ruchu s
+        možnosťami kúpania, surfovania, jachtingu, vodných športov, ako aj vychádzkami v okolí. Hotel je situovaný v
+        nádhernej prírode v tesnej blízkosti vody priamo na špici polostrova, kde je z každej strany výhľad na vodnú
+        hladinu. Hotel ponúka kvalitné služby v oblasti ubytovania, stravovania, wellnessu, oddychu a športu.
+      </Paragraph>
+    </Center>
 
     <ComingSoon />
 

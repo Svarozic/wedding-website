@@ -42,7 +42,7 @@ export default function Countdown() {
 
   function renderCountdown(label: string, value: number | undefined) {
     return (
-      <div className="flex flex-col ">
+      <div className="flex flex-col items-center">
         {value == null ? (
           <span className={textClasses}>
             <span className="loading loading-infinity loading-lg"></span>
@@ -62,7 +62,7 @@ export default function Countdown() {
 
     if (daysCount == null) {
       return (
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
           <span className={textClasses + " countdown"}>
             <span className="loading loading-infinity loading-lg"></span>
           </span>
@@ -74,7 +74,7 @@ export default function Countdown() {
     if (0 > daysCount || daysCount > 100) {
       // daisy countdown can show only 0..100
       return (
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
           <span className={textClasses}>
             <span>{daysCount}</span>
           </span>
@@ -84,7 +84,7 @@ export default function Countdown() {
     }
 
     return (
-      <div className="flex flex-col">
+      <div className="flex flex-col items-center">
         <span className={textClasses + " countdown"}>
           <span style={styleWithValue(daysCount)}></span>
         </span>
@@ -94,7 +94,7 @@ export default function Countdown() {
   }
 
   return (
-    <div className="grid auto-cols-max grid-flow-col place-content-center gap-5 text-center">
+    <div className="grid auto-cols-max grid-flow-col place-content-center gap-5">
       {renderDaysCountdown()}
 
       {renderCountdown(t("countdown.hour", {v: hoursCount}), hoursCount)}

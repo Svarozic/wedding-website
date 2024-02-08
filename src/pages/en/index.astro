@@ -5,6 +5,8 @@ import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Hero from "@src/components/Hero.astro";
 import Headline from "@src/components/Headline.astro";
 import Countdown from "@src/components/Countdown";
+import Center from "@src/components/Center.astro";
+import Paragraph from "@src/components/Paragraph.astro";
 import Container from "@src/components/Container.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
@@ -18,10 +20,12 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   </Container>
 
   <Container>
-    <div class="flex flex-col items-center text-center">
-      <Headline top={t("place.when") + "?"}>{t("place.date")}</Headline>
+    <Headline top={t("place.when") + "?"}>{t("place.date")}</Headline>
+
+    <Center>
       <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
-    </div>
+    </Center>
+
     <FlowerDivider type="1" />
   </Container>
 
@@ -31,6 +35,7 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
       background-size: cover;
     }
   </style>
+  <!--// SVARGA: use Center?-->
   <div class="parallax-hallstatt flex h-160 w-full items-center justify-center">
     <div class="card bg-white/75 backdrop-blur">
       <div class="card-body">
@@ -43,38 +48,39 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   </div>
 
   <Container>
-    <!--// SVARGA: this flex is stretching text to full width, I have flex only for center-->
-    <!--  Headline does not need center, maybe also others not-->
+    <Headline top={t("place.where") + "?"}>
+      {t("place.region")}
+      <br />
+      <svg
+        class="inline-block h-8 w-8 text-red-600"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        stroke-width="2"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z"></path>
+        <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7"></path></svg
+      >
+      <br />
+      {t("place.slovakia")}
+    </Headline>
 
-    <div class="flex flex-col items-center text-center">
-      <Headline top={t("place.where") + "?"}>
-        {t("place.region")}
-        <br />
-        <svg
-          class="inline-block h-8 w-8 text-red-600"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          stroke-width="2"
-          stroke="currentColor"
-          fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z"></path>
-          <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7"></path></svg
-        >
-        <br />
-        {t("place.slovakia")}
-      </Headline>
+    <Center>
+      <img class="w-full max-w-240" src={pngHotelEurobus} alt="hotel eurobus" />
+    </Center>
 
-      <img class="w-screen max-w-240" src={pngHotelEurobus} alt="hotel eurobus" />
-
-      <p class="w-screen max-w-240 py-8 text-center text-lg lg:py-16">
+    <Center>
+      <Paragraph>
         {t("place.description_short")}
-      </p>
+      </Paragraph>
+    </Center>
 
+    <Center>
       <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
-    </div>
+    </Center>
   </Container>
 
   <FlowerDivider type="2" />
