@@ -7,7 +7,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Raleway Variable", ...defaultTheme.fontFamily.sans],
-        serif: ["Parisienne", ...defaultTheme.fontFamily.serif],
+        serif: ["Dancing Script Variable", ...defaultTheme.fontFamily.serif],
       },
 
       spacing: {
