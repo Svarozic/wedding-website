@@ -4,7 +4,9 @@ import {t, l} from "astro-i18n";
 import LanguagePicker from "./language-picker/LanguagePicker.astro";
 ---
 
-<div class="my-watercolor-paper-texture navbar sticky top-0 z-[1] px-2 drop-shadow lg:px-10">
+<div
+  id="my-navigation"
+  class="my-watercolor-paper-texture navbar sticky top-0 z-[1] px-2 transition-all duration-500 lg:px-10">
   <div class="navbar-start">
     <div class="dropdown lg:hidden">
       <!--Mobile Dropdown-->
@@ -135,3 +137,20 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
     <LanguagePicker />
   </div>
 </div>
+
+<script>
+  const header = document.getElementById("my-navigation");
+  const header_height = header.offsetHeight;
+  const shadowClassName = "drop-shadow";
+
+  // let scrollpos = window.scrollY;
+  window.addEventListener("scroll", function () {
+    // scrollpos = window.scrollY;
+
+    if (window.scrollY >= header_height * 2) {
+      header.classList.add(shadowClassName);
+    } else {
+      header.classList.remove(shadowClassName);
+    }
+  });
+</script>
