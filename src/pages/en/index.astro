@@ -35,15 +35,14 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
       background-size: cover;
     }
   </style>
-  <!--// SVARGA: use Center?-->
-  <div class="parallax-hallstatt flex h-160 w-full items-center justify-center">
-    <div class="card bg-white/75 backdrop-blur">
-      <div class="card-body">
+  <div class="parallax-hallstatt flex h-160 w-full flex-col items-center justify-center">
+    <div class="card mx-2 bg-white/80 p-8 backdrop-blur">
+      <Center>
         <Countdown client:idle />
-        <h3 class="pt-2 text-center text-lg lg:pt-4">
-          {t("countdownLabel")}
-        </h3>
-      </div>
+      </Center>
+      <Center>
+        <h3 class="pt-2 text-center text-lg lg:pt-4">{t("countdownLabel")}</h3>
+      </Center>
     </div>
   </div>
 
