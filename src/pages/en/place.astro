@@ -34,9 +34,19 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
       {t("place.slovakia")}
     </Headline>
 
-    <Center>
-      <img class="w-full max-w-240" src={pngHotelEurobus} alt="hotel eurobus" />
-    </Center>
+    <div class="grid grid-cols-1 place-content-center lg:grid-cols-6">
+      <div class="col-span-2 self-center">
+        <Paragraph class="lg:text-start">
+          <b>Hotel Eurobus ****</b><br />
+          Zemplínska šírava <br />
+          072 36 Kaluža<br />
+          Slovenská republika<br />
+        </Paragraph>
+      </div>
+      <div class="col-span-4">
+        <img class="h-auto max-h-svh w-auto py-4" src={pngHotelEurobus} alt="hotel eurobus" />
+      </div>
+    </div>
   </Container>
 
   <style>
