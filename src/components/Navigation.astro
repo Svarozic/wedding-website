@@ -6,7 +6,7 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
 
 <div
   id="myNavigation"
-  class="my-watercolor-paper-texture navbar sticky top-0 z-[1] px-2 transition-all duration-500 lg:px-10">
+  class="my-watercolor-paper-texture navbar sticky top-0 z-[1] mb-4 px-2 transition-all duration-200 lg:mb-8 lg:px-10">
   <div class="navbar-start">
     <div class="dropdown lg:hidden">
       <!--Mobile Dropdown-->
@@ -16,7 +16,7 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
         </svg>
       </label>
 
-      <ul tabindex="0" class="menu dropdown-content z-[1] mt-3 w-52 rounded-box bg-white p-2 shadow">
+      <ul tabindex="0" class="menu dropdown-content z-[1] mt-3 rounded-box bg-white shadow-xl">
         <li>
           <a class="flex items-center gap-1" href={l("/")}>
             <span>{t("nav.home")}</span>
@@ -92,7 +92,7 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
         </svg>
       </label>
-      <ul tabindex="0" class="menu dropdown-content z-[1] w-52 rounded-box bg-white p-2 shadow">
+      <ul tabindex="0" class="menu dropdown-content z-[1] w-52 rounded-box bg-white p-2 shadow-xl">
         <li><a href={l("/vows")}>{t("nav.vows")}</a></li>
         <li>
           <a class="flex gap-1" href={l("/phrases")}
@@ -145,10 +145,18 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
     const myNavigation = document.getElementById("myNavigation");
 
     function scrollHandler() {
-      if (window.scrollY >= myNavigation.offsetHeight * 2) {
-        myNavigation.classList.add("drop-shadow");
+      if (window.scrollY >= myNavigation.offsetHeight / 2) {
+        // show
+        myNavigation.classList.add("bg-white/80");
+        myNavigation.classList.add("drop-shadow-xl");
+        myNavigation.classList.remove("my-watercolor-paper-texture");
+        myNavigation.classList.add("backdrop-blur");
       } else {
-        myNavigation.classList.remove("drop-shadow");
+        // hide
+        myNavigation.classList.remove("drop-shadow-xl");
+        myNavigation.classList.remove("bg-white/80");
+        myNavigation.classList.remove("backdrop-blur");
+        myNavigation.classList.add("my-watercolor-paper-texture");
       }
     }
 

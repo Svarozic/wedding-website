@@ -4,7 +4,7 @@ import Center from "@src/components/Center.astro";
 
 <button
   id="myScrollTopButton"
-  class="fixed bottom-0 right-4 translate-y-full rounded-full border-0 bg-white/20 p-2 shadow backdrop-blur transition-all duration-500">
+  class="fixed bottom-0 right-4 translate-y-full rounded-full border-0 bg-white/20 p-2 shadow-xl backdrop-blur transition-all duration-500">
   <Center>
     <svg
       class="h-8 w-8 text-primary-content/40"
@@ -34,7 +34,7 @@ import Center from "@src/components/Center.astro";
 
     function scrollHandler() {
       if (window.scrollY >= 1000) {
-        //show
+        // show
         myScrollTopButton.classList.remove("translate-y-full");
         myScrollTopButton.classList.add("-translate-y-full");
       } else {
