@@ -4,19 +4,16 @@ import {l, t} from "astro-i18n";
 import asset_20230629_140249_cut from "@src/assets/20230629_140249_cut.png?url";
 
 interface Props {
-  page: Array<"faq" | "vows" | "phrases">;
+  pages: Array<"faq" | "vows" | "phrases">;
 }
 
-const {pages = []} = Astro.props;
+const {pages = [] as Props["pages"]} = Astro.props;
 ---
 
 <div class="card card-side mx-auto max-w-160 bg-white shadow-xl">
   <div class="card-body">
     <div class="chat chat-end">
-      <div class="chat-bubble bg-base-200 text-primary-content">
-        Are we just chilling here? Explored any other pages, I'm starting to think this website is a one-page wonder.
-        Paging for some adventure, pronto!
-      </div>
+      <div class="chat-bubble bg-base-200 text-primary-content">{t("exploreMessage")}</div>
     </div>
 
     {

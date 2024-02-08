@@ -6,6 +6,8 @@
   "comingSoon": "Viac už čoskoro...",
   "comingSoonStatement": "Stránka je v súčasnosti vo vývoji a čoskoro bude k dispozícii.",
 
+  "exploreMessage": "Lenošíme tu? Preskúmajte aj ostatné pod-stránky, začíname si myslieť, že táto stránka je jednostránkový zázrak. Skúste aj ďalšie zaujímavé pod-stránky, pome!",
+
   "countdown": {
     "day{{v: 0}}": "dni",
     "day{{v: 1}}": "deň",
