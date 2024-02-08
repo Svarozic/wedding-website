@@ -25,7 +25,10 @@
   "countdownLabel": "dok kažemo DA",
 
   "faq": {
-    "headline": "Često postavljana pitanja"
+    "headline": "Često postavljana pitanja",
+
+    "qPlusOne": "Da li biste ljubazno mogli da potvrdite da li imamo mogućnost da na svadbu povedemo dodatnu osobu?",
+    "aPlusOne": "Spoljni partneri će zaista biti navedeni na vašem pozivu"
   },
 
   "nav": {

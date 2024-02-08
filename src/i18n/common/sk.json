@@ -37,7 +37,10 @@
   "countdownLabel": "kým si povieme ÁNO",
 
   "faq": {
-    "headline": "Často kladené otázky"
+    "headline": "Často kladené otázky",
+
+    "qPlusOne": "Mohli by ste, prosím, potvrdiť, či máme možnosť priniesť si na svadbu partnera / partnerku?",
+    "aPlusOne": "Partner / partnerka budú uvedení ako +1 na vašej pozvánke."
   },
 
   "nav": {

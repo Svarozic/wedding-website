@@ -25,7 +25,10 @@
   "countdownLabel": "until we say YES",
 
   "faq": {
-    "headline": "Frequently Asked Questions"
+    "headline": "Frequently Asked Questions",
+
+    "qPlusOne": "Could you kindly confirm whether we have the option to bring a plus one to the wedding?",
+    "aPlusOne": "Plus ones will indeed be specified on your invitation"
   },
 
   "nav": {
