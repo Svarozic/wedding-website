@@ -12,7 +12,7 @@
     "day{{v: 0}}": "dana",
     "day{{v: 1}}": "dan",
     "day{{v: 2}}": "dana",
-    "hour{{v: 0}}": "sat1",
+    "hour{{v: 0}}": "sati",
     "hour{{v: 1}}": "sat",
     "hour{{v: 2}}": "sata",
     "minute{{v: 0}}": "minuta",
