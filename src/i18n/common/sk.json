@@ -9,32 +9,14 @@
   "exploreMessage": "Lenošíme tu? Preskúmajte aj ostatné pod-stránky, začíname si myslieť, že táto stránka je jednostránkový zázrak. Skúste aj ďalšie zaujímavé pod-stránky, pome!",
 
   "countdown": {
-    "day{{v: 0}}": "dni",
-    "day{{v: 1}}": "deň",
-    "day{{v: 2}}": "dni",
-    "day{{v: 3}}": "dni",
-    "day{{v: 4}}": "dni",
-    "day{{v: 5}}": "dní",
-    "hour{{v: 0}}": "hodín",
-    "hour{{v: 1}}": "hodina",
-    "hour{{v: 2}}": "hodiny",
-    "hour{{v: 3}}": "hodiny",
-    "hour{{v: 4}}": "hodiny",
-    "hour{{v: 5}}": "hodín",
-    "minute{{v: 0}}": "minút",
-    "minute{{v: 1}}": "minúta",
-    "minute{{v: 2}}": "minúty",
-    "minute{{v: 3}}": "minúty",
-    "minute{{v: 4}}": "minúty",
-    "minute{{v: 5}}": "minút",
-    "second{{v: 0}}": "sekúnd",
-    "second{{v: 1}}": "sekunda",
-    "second{{v: 2}}": "sekundy",
-    "second{{v: 3}}": "sekundy",
-    "second{{v: 4}}": "sekundy",
-    "second{{v: 5}}": "sekúnd"
+    "days": "dni",
+    "hours": "hodiny",
+    "minutes": "minúty",
+    "seconds": "sekundy",
+
+    "until": "kým si povieme Áno",
+    "after": "čo sme si povedali Áno"
   },
-  "countdownLabel": "kým si povieme ÁNO",
 
   "faq": {
     "headline": "Často kladené otázky",

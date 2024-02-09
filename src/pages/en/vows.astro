@@ -3,7 +3,7 @@ import {t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
-import Countdown from "@src/components/Countdown";
+import CountdownHeadline from "@src/components/CountdownHeadline.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
 
 import assetPeter from "@src/assets/20200829_115859.jpg?url";
@@ -28,7 +28,7 @@ import assetIvana from "@src/assets/20210202_215046.jpg?url";
             </h2>
 
             <div class="mb-2 justify-center lg:mb-4">
-              <Countdown client:idle />
+              <CountdownHeadline />
             </div>
 
             <p class="text-center text-2xl leading-loose blur">
@@ -63,7 +63,7 @@ import assetIvana from "@src/assets/20210202_215046.jpg?url";
             </h2>
 
             <div class="mb-2 justify-center lg:mb-4">
-              <Countdown client:idle />
+              <CountdownHeadline />
             </div>
 
             <p class="text-center text-2xl leading-loose blur">

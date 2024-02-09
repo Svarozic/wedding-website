@@ -4,7 +4,7 @@ import {l, t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Hero from "@src/components/Hero.astro";
 import Headline from "@src/components/Headline.astro";
-import Countdown from "@src/components/Countdown";
+import CountdownHeadline from "@src/components/CountdownHeadline.astro";
 import Center from "@src/components/Center.astro";
 import Paragraph from "@src/components/Paragraph.astro";
 import Container from "@src/components/Container.astro";
@@ -37,12 +37,7 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   </style>
   <div class="parallax-hallstatt flex h-160 w-full flex-col items-center justify-center">
     <div class="card mx-2 bg-white/80 p-8 backdrop-blur">
-      <Center>
-        <Countdown client:idle />
-      </Center>
-      <Center>
-        <h3 class="pt-2 text-center text-lg lg:pt-4">{t("countdownLabel")}</h3>
-      </Center>
+      <CountdownHeadline withHeadline />
     </div>
   </div>
 

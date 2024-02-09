@@ -9,20 +9,14 @@
   "exploreMessage": "Are we just chilling here? Explored any other pages, we are starting to think this website is a one-page wonder. Paging for some adventure, pronto!",
 
   "countdown": {
-    "day{{v: 0}}": "days",
-    "day{{v: 1}}": "day",
-    "day{{v: 2}}": "days",
-    "hour{{v: 0}}": "hours",
-    "hour{{v: 1}}": "hour",
-    "hour{{v: 2}}": "hours",
-    "minute{{v: 0}}": "minutes",
-    "minute{{v: 1}}": "minute",
-    "minute{{v: 2}}": "minutes",
-    "second{{v: 0}}": "seconds",
-    "second{{v: 1}}": "second",
-    "second{{v: 2}}": "seconds"
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "seconds": "seconds",
+
+    "until": "until we say Yes",
+    "after": "what we've told ourselves Yes"
   },
-  "countdownLabel": "until we say YES",
 
   "faq": {
     "headline": "Frequently Asked Questions",

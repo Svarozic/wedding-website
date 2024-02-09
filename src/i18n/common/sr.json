@@ -9,20 +9,14 @@
   "exploreMessage": "Da li samo odmaramo ovde? Istražili smo li još neke stranice, počinjemo da mislimo da je ovaj sajt jednostrano čudo. Molimo za malo avanture, odmah!",
 
   "countdown": {
-    "day{{v: 0}}": "dana",
-    "day{{v: 1}}": "dan",
-    "day{{v: 2}}": "dana",
-    "hour{{v: 0}}": "sati",
-    "hour{{v: 1}}": "sat",
-    "hour{{v: 2}}": "sata",
-    "minute{{v: 0}}": "minuta",
-    "minute{{v: 1}}": "minut",
-    "minute{{v: 2}}": "minuta",
-    "second{{v: 0}}": "sekundi",
-    "second{{v: 1}}": "sekundu",
-    "second{{v: 2}}": "sekunde"
+    "days": "dani",
+    "hours": "sati",
+    "minutes": "minuti",
+    "seconds": "sekunde",
+
+    "until": "dok kažemo Da",
+    "after": "ono što smo sebi rekli Da"
   },
-  "countdownLabel": "dok kažemo DA",
 
   "faq": {
     "headline": "Često postavljana pitanja",

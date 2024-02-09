@@ -1,0 +1,128 @@
+---
+import {t} from "astro-i18n";
+
+import Center from "@src/components/Center.astro";
+
+interface Props {
+  withHeadline: boolean;
+}
+
+const {withHeadline = false} = Astro.props;
+---
+
+<my-countdown-headline>
+  <Center>
+    <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+      <div class="flex flex-col">
+        <span class="font-serif text-4xl font-bold lg:text-5xl xl:text-6xl">
+          <span data-id="myCountdownDayValue">00</span>
+        </span>
+        {t("countdown.days")}
+      </div>
+      <div class="flex flex-col">
+        <span class="countdown font-serif text-4xl font-bold lg:text-5xl xl:text-6xl">
+          <span data-id="myCountdownHourValue" style="--value:0;"></span>
+        </span>
+        {t("countdown.hours")}
+      </div>
+      <div class="flex flex-col">
+        <span class="countdown font-serif text-4xl font-bold lg:text-5xl xl:text-6xl">
+          <span data-id="myCountdownMinuteValue" style="--value:0;"></span>
+        </span>
+        {t("countdown.minutes")}
+      </div>
+      <div class="flex flex-col">
+        <span class="countdown font-serif text-4xl font-bold lg:text-5xl xl:text-6xl">
+          <span data-id="myCountdownSecondValue" style="--value:0;"></span>
+        </span>
+        {t("countdown.seconds")}
+      </div>
+    </div>
+  </Center>
+
+  {
+    withHeadline && (
+      <Center class="pt-2 lg:pt-4">
+        <h3 data-id="myCountdownHeadline" class="text-center font-serif text-xl font-bold lg:text-2xl xl:text-3xl" />
+      </Center>
+    )
+  }
+</my-countdown-headline>
+
+<script>
+  import {t} from "astro-i18n";
+
+  const msgUntil = "... " + t("countdown.until");
+  const msgAfter = "... " + t("countdown.after");
+
+  const COUNT_DOWN_DATE = new Date("Sep 21, 2024 14:00:00").getTime();
+  // const COUNT_DOWN_DATE = new Date("Feb 9, 2024 21:26:00").getTime(); // for testing purposes
+
+  class MyCountdownHeadline extends HTMLElement {
+    private intervalId = null;
+
+    constructor() {
+      super();
+
+      this.setTimeValues();
+
+      this.intervalId = setInterval(this.setTimeValues, 1000);
+    }
+
+    /**
+     * @override
+
+     * Called each time the element is removed from the document.
+     *
+     * @see https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements#custom_element_lifecycle_callbacks
+     */
+    disconnectedCallback() {
+      clearInterval(this.intervalId);
+    }
+
+    private setTimeValues = () => {
+      // Find the distance between now and the countdown date
+      const distance = COUNT_DOWN_DATE - new Date().getTime();
+
+      const daysDiff = distance / (1000 * 60 * 60 * 24);
+      const hoursDiff = (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60);
+      const minutesDiff = (distance % (1000 * 60 * 60)) / (1000 * 60);
+      const secondsDiff = (distance % (1000 * 60)) / 1000;
+
+      // Time calculations for days, hours, minutes and seconds
+      // floor down if positive (time to wedding), ceil up if negative (time from wedding)
+      const days = Math.abs(daysDiff >= 0 ? Math.floor(daysDiff) : Math.ceil(daysDiff));
+      const hours = Math.abs(hoursDiff >= 0 ? Math.floor(hoursDiff) : Math.ceil(hoursDiff));
+      const minutes = Math.abs(minutesDiff >= 0 ? Math.floor(minutesDiff) : Math.ceil(minutesDiff));
+      const seconds = Math.abs(secondsDiff >= 0 ? Math.floor(secondsDiff) : Math.ceil(secondsDiff));
+
+      // Display the result in the elements
+      this.querySelector<HTMLSpanElement>('[data-id="myCountdownHourValue"]').style.setProperty(
+        "--value",
+        hours.toString()
+      );
+      this.querySelector<HTMLSpanElement>('[data-id="myCountdownMinuteValue"]').style.setProperty(
+        "--value",
+        minutes.toString()
+      );
+      this.querySelector<HTMLSpanElement>('[data-id="myCountdownSecondValue"]').style.setProperty(
+        "--value",
+        seconds.toString()
+      );
+
+      // BUT days, daisy countdown can handle only 0..99,
+      // - so we simply render it as text
+      // - and if 0 then '00' to look nice like countdown from daisy
+      this.querySelector<HTMLSpanElement>('[data-id="myCountdownDayValue"]').innerHTML =
+        days != 0 ? days.toString() : "00";
+
+      const myCountdownHeadline = this.querySelector<HTMLHeadingElement>('[data-id="myCountdownHeadline"]');
+      if (myCountdownHeadline != null) {
+        myCountdownHeadline.innerText = distance > 0 ? msgUntil : msgAfter;
+      }
+    };
+  }
+
+  // Tell the browser to use our AstroHeart class for <astro-heart> elements.
+  customElements.define("my-countdown-headline", MyCountdownHeadline);
+</script>
