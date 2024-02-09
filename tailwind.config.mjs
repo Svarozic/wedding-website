@@ -7,7 +7,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Raleway Variable", ...defaultTheme.fontFamily.sans],
-        serif: ["Dancing Script Variable", ...defaultTheme.fontFamily.serif],
+        serif: ["Clicker Script", ...defaultTheme.fontFamily.serif],
       },
 
       spacing: {

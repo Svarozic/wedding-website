@@ -19,6 +19,7 @@
     "@astrojs/tailwind": "5.1.0",
     "@fontsource-variable/dancing-script": "^5.0.16",
     "@fontsource-variable/raleway": "^5.0.17",
+    "@fontsource/clicker-script": "^5.0.8",
     "@tailwindcss/typography": "^0.5.10",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
