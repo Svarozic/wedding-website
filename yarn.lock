@@ -648,6 +648,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/great-vibes@npm:^5.0.18":
+  version: 5.0.18
+  resolution: "@fontsource/great-vibes@npm:5.0.18"
+  checksum: da4d3582f6048d5b03c14cf24e0d1a39f8a2163f66d2704d013b46ebd5268d342492bbab885284549602a43d274ee6747b38c2302997cb0256439e0abea81279
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -5748,6 +5755,7 @@ __metadata:
     "@fontsource-variable/dancing-script": "npm:^5.0.16"
     "@fontsource-variable/raleway": "npm:^5.0.17"
     "@fontsource/clicker-script": "npm:^5.0.8"
+    "@fontsource/great-vibes": "npm:^5.0.18"
     "@tailwindcss/typography": "npm:^0.5.10"
     "@types/react": "npm:^18.2.21"
     "@types/react-dom": "npm:^18.2.7"
