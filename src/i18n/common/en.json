@@ -86,5 +86,10 @@
 
   "vows": {
     "our": "Our"
+  },
+
+  "404": {
+    "headline": "Whoops-a-daisy!",
+    "statement": "Well, well, well... it appears you've succeeded in surprising us and misplacing a page in the process! How about enjoying a relaxed walk back to our lovely home page?"
   }
 }

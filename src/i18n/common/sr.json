@@ -84,5 +84,10 @@
 
   "vows": {
     "our": "Naši zaveti"
+  },
+
+  "404": {
+    "headline": "Ups-a-dups!",
+    "statement": "E pa, e pa, e pa... čini se da ste uspeli da nas iznenadite i izgubite stranicu u procesu! Zašto ne biste napravili opuštenu šetnju nazad do naše prelepe početne stranice?"
   }
 }

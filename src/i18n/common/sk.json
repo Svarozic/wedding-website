@@ -86,5 +86,10 @@
 
   "vows": {
     "our": "Naše"
+  },
+
+  "404": {
+    "headline": "Hopla-hopla!",
+    "statement": "Ale no toto... zdá sa, že sa vám podarilo prekvapiť nás a stratiť stránku v procese! Prečo by ste si neurobili pokojnú prechádzku späť na našu krásnu domovskú stránku?"
   }
 }
