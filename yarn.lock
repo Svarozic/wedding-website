@@ -641,6 +641,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/allura@npm:^5.0.18":
+  version: 5.0.18
+  resolution: "@fontsource/allura@npm:5.0.18"
+  checksum: d5f88b5f0dc8188d6af35c828ea916a5de338148cf597851787224092dc40462cd1c7a68f66639a51781269724fb4d00733a7864fe918ba716bcea965e3d4cff
+  languageName: node
+  linkType: hard
+
 "@fontsource/clicker-script@npm:^5.0.8":
   version: 5.0.8
   resolution: "@fontsource/clicker-script@npm:5.0.8"
@@ -5754,6 +5761,7 @@ __metadata:
     "@astrojs/tailwind": "npm:5.1.0"
     "@fontsource-variable/dancing-script": "npm:^5.0.16"
     "@fontsource-variable/raleway": "npm:^5.0.17"
+    "@fontsource/allura": "npm:^5.0.18"
     "@fontsource/clicker-script": "npm:^5.0.8"
     "@fontsource/great-vibes": "npm:^5.0.18"
     "@tailwindcss/typography": "npm:^0.5.10"
