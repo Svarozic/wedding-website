@@ -28,11 +28,15 @@ const LANGUAGES = {
         Object.keys(LANGUAGES)
           .filter((langCode) => langCode !== astroI18n.locale)
           .map((langCode) => (
-            <img class="h-6 w-6 grayscale" src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
+            <img
+              class="h-5 w-5 grayscale md:h-7 md:w-7"
+              src={LANGUAGES[langCode].pngSrc}
+              alt={LANGUAGES[langCode].label}
+            />
           ))
       }
       <span class="avatar">
-        <span class="h-10 w-10 md:h-14 md:w-14">
+        <span class="h-8 w-8 md:h-12 md:w-12">
           <img src={LANGUAGES[astroI18n.locale].pngSrc} alt={LANGUAGES[astroI18n.locale].label} />
         </span>
       </span>
@@ -46,8 +50,8 @@ const LANGUAGES = {
         .map((langCode) => (
           <li>
             <a href={`/${langCode}${astroI18n.route}`} data-astro-reload>
-              <div class="w-10">
-                <img src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
+              <div class="w-7">
+                <img class="h-5 w-5 md:h-7 md:w-7" src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
               </div>
               {LANGUAGES[langCode].label}
             </a>
