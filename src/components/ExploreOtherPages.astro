@@ -10,64 +10,65 @@ interface Props {
 const {pages = [] as Props["pages"]} = Astro.props;
 ---
 
-<div class="card card-side mx-auto max-w-160 bg-white shadow-xl">
-  <div class="card-body">
-    <div class="chat chat-end">
-      <div class="chat-bubble bg-base-200 text-primary-content">{t("exploreMessage")}</div>
+<div class="card card-compact mx-auto max-w-160 overflow-hidden bg-white shadow-xl">
+  <div class="grid items-end gap-4 md:grid-cols-3">
+    <div class="py-4 md:col-span-2">
+      <div class="chat chat-end">
+        <div class="chat-bubble bg-base-200 text-primary-content">{t("exploreMessage")}</div>
+      </div>
+      {
+        pages.map((p) => {
+          switch (p) {
+            case "faq":
+              return (
+                <div class="chat chat-end">
+                  <div class="chat-bubble bg-base-100 text-primary-content">
+                    <a class="link" href={l("/faq")}>
+                      {t("nav.faq") + " / " + t("faq.headline")}
+                    </a>
+                  </div>
+                </div>
+              );
+
+            case "vows":
+              return (
+                <div class="chat chat-end">
+                  <div class="chat-bubble bg-base-100 text-primary-content">
+                    <a class="link" href={l("/vows")}>
+                      {t("nav.vows")}
+                    </a>
+                  </div>
+                </div>
+              );
+
+            case "phrases":
+              return (
+                <div class="chat chat-end">
+                  <div class="chat-bubble bg-base-100 text-primary-content">
+                    <a class="link flex items-center gap-1" href={l("/phrases")}>
+                      {t("phrases.slovak")}
+                      <svg
+                        class="inline-block h-4 w-4 text-red-600"
+                        viewBox="0 0 24 24"
+                        stroke-width="2"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" />
+                        <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7" />
+                      </svg>
+                      {t("phrases.serbian")}
+                    </a>
+                  </div>
+                </div>
+              );
+          }
+        })
+      }
     </div>
-
-    {
-      pages.map((p) => {
-        switch (p) {
-          case "faq":
-            return (
-              <div class="chat chat-end">
-                <div class="chat-bubble bg-base-100 text-primary-content">
-                  <a class="link" href={l("/faq")}>
-                    {t("nav.faq") + " / " + t("faq.headline")}
-                  </a>
-                </div>
-              </div>
-            );
-
-          case "vows":
-            return (
-              <div class="chat chat-end">
-                <div class="chat-bubble bg-base-100 text-primary-content">
-                  <a class="link" href={l("/vows")}>
-                    {t("nav.vows")}
-                  </a>
-                </div>
-              </div>
-            );
-
-          case "phrases":
-            return (
-              <div class="chat chat-end">
-                <div class="chat-bubble bg-base-100 text-primary-content">
-                  <a class="link flex items-center gap-1" href={l("/phrases")}>
-                    {t("phrases.slovak")}
-                    <svg
-                      class="inline-block h-4 w-4 text-red-600"
-                      viewBox="0 0 24 24"
-                      stroke-width="2"
-                      stroke="currentColor"
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round">
-                      <path stroke="none" d="M0 0h24v24H0z" />
-                      <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7" />
-                    </svg>
-                    {t("phrases.serbian")}
-                  </a>
-                </div>
-              </div>
-            );
-        }
-      })
-    }
+    <div>
+      <img class="max-w-70 w-full bg-center" src={asset_20230629_140249_cut} alt="asset_20230629_140249_cut" />
+    </div>
   </div>
-  <figure class="!items-end">
-    <img class="max-w-70 w-full bg-center" src={asset_20230629_140249_cut} alt="asset_20230629_140249_cut" />
-  </figure>
 </div>
