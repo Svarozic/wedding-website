@@ -38,26 +38,30 @@ const srcAvatar = who === "Ivana" ? srcIvana : srcPeter;
 const chatBgColor = who === "Ivana" ? "bg-red-500" : "bg-blue-500";
 ---
 
-<div class:list={["chat", chatDirection]}>
+<div class="chat" class:list={[chatDirection]} title={LANGUAGES[astroI18n.locale].chatLanguage}>
   <div class="avatar chat-image">
     <div class="mask mask-squircle w-12 lg:w-20">
       <img alt={who} src={srcAvatar} />
     </div>
   </div>
-  <div class:list={["chat-bubble", chatBgColor, "text-white"]}>{LANGUAGES[astroI18n.locale].chatMsg}</div>
+  <div class="chat-bubble text-sm text-white md:text-base" class:list={[chatBgColor]}>
+    {LANGUAGES[astroI18n.locale].chatMsg}
+  </div>
 </div>
 
 {
   Object.keys(LANGUAGES)
     .filter((langCode) => langCode !== astroI18n.locale)
     .map((langCode) => (
-      <div class:list={["chat", chatDirection]}>
+      <div class:list={["chat", chatDirection]} title={LANGUAGES[langCode].chatLanguage}>
         <div class="avatar chat-image">
           <div class="w-8 lg:w-10">
             <img alt={who} src={LANGUAGES[langCode].srcFlag} />
           </div>
         </div>
-        <div class="chat-bubble bg-base-200 text-sm text-primary-content">{LANGUAGES[langCode].chatMsg}</div>
+        <div class="chat-bubble bg-base-200 text-sm text-primary-content md:text-base">
+          {LANGUAGES[langCode].chatMsg}
+        </div>
       </div>
     ))
 }

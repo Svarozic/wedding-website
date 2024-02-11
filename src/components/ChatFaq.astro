@@ -2,7 +2,6 @@
 import {t} from "astro-i18n";
 
 import assetOurAnswerAvatar from "@src/assets/20230630_202043_cut_100_100.jpg?url";
-import assetQuestionAvatar from "@src/assets/drawing_question-mark.jpg?url";
 
 interface Props {
   qaToken: string;
@@ -11,24 +10,21 @@ interface Props {
 const {qaToken} = Astro.props;
 ---
 
-<div class="chat chat-start">
-  <div class="avatar chat-image">
-    <div class="mask mask-squircle w-12 lg:w-20">
-      <img alt="question avatar" src={assetQuestionAvatar} />
+<div tabindex="0" class="collapse collapse-arrow transition-all hover:bg-white focus:bg-white focus:shadow-xl">
+  <h4 class="collapse-title font-bold">{t(`faq.q${qaToken}`)}</h4>
+
+  <div class="collapse-content">
+    <div class="chat chat-end">
+      <div class="avatar chat-image">
+        <div class="mask mask-squircle w-8 lg:w-10">
+          <img alt="our answer avatar" src={assetOurAnswerAvatar} />
+        </div>
+      </div>
+      <div class="chat-bubble bg-base-200 text-sm text-primary-content md:text-base">
+        {t(`faq.a${qaToken}`)}
+      </div>
     </div>
-  </div>
-  <div class="chat-bubble text-xl">
-    {t(`faq.q${qaToken}`)}
   </div>
 </div>
 
-<div class="chat chat-end">
-  <div class="avatar chat-image">
-    <div class="mask mask-squircle w-12 lg:w-20">
-      <img alt="our answer avatar" src={assetOurAnswerAvatar} />
-    </div>
-  </div>
-  <div class="chat-bubble bg-base-200 text-primary-content">
-    {t(`faq.a${qaToken}`)}
-  </div>
-</div>
+<div class="divider"></div>

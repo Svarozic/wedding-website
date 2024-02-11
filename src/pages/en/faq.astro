@@ -1,11 +1,11 @@
 ---
 import {t} from "astro-i18n";
+
 import BaseLayout from "@src/layouts/BaseLayout.astro";
-import Container from "@src/components/Container.astro";
-import ContainerSmall from "@src/components/ContainerSmall.astro";
 import ChatFaq from "@src/components/ChatFaq.astro";
-import Headline from "@src/components/Headline.astro";
+import Container from "@src/components/Container.astro";
 import ComingSoon from "@src/components/ComingSoon.astro";
+import Headline from "@src/components/Headline.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 ---
 
@@ -13,9 +13,7 @@ import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
   <Container>
     <Headline top={t("nav.faq")}>{t("faq.headline")}</Headline>
 
-    <ContainerSmall>
-      <ChatFaq qaToken="PlusOne" />
-    </ContainerSmall>
+    <ChatFaq qaToken="PlusOne" />
 
     <ComingSoon />
 
