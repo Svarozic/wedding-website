@@ -13,18 +13,18 @@ const {qaToken} = Astro.props;
 
 <div class="chat chat-start">
   <div class="avatar chat-image">
-    <div class="mask mask-squircle w-20">
+    <div class="mask mask-squircle w-12 lg:w-20">
       <img alt="question avatar" src={assetQuestionAvatar} />
     </div>
   </div>
-  <div class="chat-bubble">
+  <div class="chat-bubble text-xl">
     {t(`faq.q${qaToken}`)}
   </div>
 </div>
 
 <div class="chat chat-end">
   <div class="avatar chat-image">
-    <div class="mask mask-squircle w-20">
+    <div class="mask mask-squircle w-12 lg:w-20">
       <img alt="our answer avatar" src={assetOurAnswerAvatar} />
     </div>
   </div>
