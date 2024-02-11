@@ -22,7 +22,7 @@ const {pages = [] as Props["pages"]} = Astro.props;
             case "faq":
               return (
                 <div class="chat chat-end">
-                  <div class="chat-bubble bg-base-100 text-primary-content">
+                  <div class="chat-bubble bg-base-200 text-primary-content">
                     <a class="link" href={l("/faq")}>
                       {t("nav.faq") + " / " + t("faq.headline")}
                     </a>
@@ -33,7 +33,7 @@ const {pages = [] as Props["pages"]} = Astro.props;
             case "vows":
               return (
                 <div class="chat chat-end">
-                  <div class="chat-bubble bg-base-100 text-primary-content">
+                  <div class="chat-bubble bg-base-200 text-primary-content">
                     <a class="link" href={l("/vows")}>
                       {t("nav.vows")}
                     </a>
@@ -44,7 +44,7 @@ const {pages = [] as Props["pages"]} = Astro.props;
             case "phrases":
               return (
                 <div class="chat chat-end">
-                  <div class="chat-bubble bg-base-100 text-primary-content">
+                  <div class="chat-bubble bg-base-200 text-primary-content">
                     <a class="link flex items-center gap-1" href={l("/phrases")}>
                       {t("phrases.slovak")}
                       <svg
@@ -63,6 +63,9 @@ const {pages = [] as Props["pages"]} = Astro.props;
                   </div>
                 </div>
               );
+
+            default:
+              return null;
           }
         })
       }
