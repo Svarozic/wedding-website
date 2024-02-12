@@ -14,25 +14,25 @@ const {withHeadline = false} = Astro.props;
   <Center>
     <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
       <div class="flex flex-col">
-        <span class="font-serif text-4xl font-bold lg:text-5xl xl:text-6xl">
+        <span class="font-serif text-4xl lg:text-5xl xl:text-6xl">
           <span data-id="myCountdownDayValue">00</span>
         </span>
         {t("countdown.days")}
       </div>
       <div class="flex flex-col">
-        <span class="countdown font-serif text-4xl font-bold lg:text-5xl xl:text-6xl">
+        <span class="countdown font-serif text-4xl lg:text-5xl xl:text-6xl">
           <span data-id="myCountdownHourValue" style="--value:0;"></span>
         </span>
         {t("countdown.hours")}
       </div>
       <div class="flex flex-col">
-        <span class="countdown font-serif text-4xl font-bold lg:text-5xl xl:text-6xl">
+        <span class="countdown font-serif text-4xl lg:text-5xl xl:text-6xl">
           <span data-id="myCountdownMinuteValue" style="--value:0;"></span>
         </span>
         {t("countdown.minutes")}
       </div>
       <div class="flex flex-col">
-        <span class="countdown font-serif text-4xl font-bold lg:text-5xl xl:text-6xl">
+        <span class="countdown font-serif text-4xl lg:text-5xl xl:text-6xl">
           <span data-id="myCountdownSecondValue" style="--value:0;"></span>
         </span>
         {t("countdown.seconds")}
@@ -43,7 +43,7 @@ const {withHeadline = false} = Astro.props;
   {
     withHeadline && (
       <Center class="pt-2 lg:pt-4">
-        <h3 data-id="myCountdownHeadline" class="text-center font-serif text-xl font-bold lg:text-2xl xl:text-3xl" />
+        <h3 data-id="myCountdownHeadline" class="text-center font-serif text-xl lg:text-2xl xl:text-3xl" />
       </Center>
     )
   }
