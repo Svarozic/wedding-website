@@ -4,18 +4,42 @@ import {t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import ChatFaq from "@src/components/ChatFaq.astro";
 import Container from "@src/components/Container.astro";
-import ComingSoon from "@src/components/ComingSoon.astro";
 import Headline from "@src/components/Headline.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
+import Paragraph from "@src/components/Paragraph.astro";
+import Center from "../../components/Center.astro";
+
+// SVARGA: qDressCode link to https://www.hoteleurobus.sk/galeria
+// SVARGA: furtherInfo link to contact page
 ---
 
 <BaseLayout>
   <Container>
     <Headline top={t("nav.faq")}>{t("faq.headline")}</Headline>
 
+    <ChatFaq qaToken="Rsvp" />
+    <ChatFaq qaToken="Address" />
+    <ChatFaq qaToken="Transport" />
+    <ChatFaq qaToken="Parking" />
+    <ChatFaq qaToken="Accommodation" />
+    <ChatFaq qaToken="Outdoors" />
+    <ChatFaq qaToken="Program" />
     <ChatFaq qaToken="PlusOne" />
+    <ChatFaq qaToken="Kids" />
+    <ChatFaq qaToken="DressCode" />
+    <ChatFaq qaToken="Temperature" />
+    <ChatFaq qaToken="Gift" />
+    <ChatFaq qaToken="OpenBar" />
+    <ChatFaq qaToken="Food" />
+    <ChatFaq qaToken="Languages" />
+    <ChatFaq qaToken="Speech" />
+    <ChatFaq qaToken="Updates" />
 
-    <ComingSoon />
+    <Center>
+      <Paragraph>
+        {t("faq.furtherInfo")}
+      </Paragraph>
+    </Center>
 
     <ParticipationHeadline />
   </Container>
