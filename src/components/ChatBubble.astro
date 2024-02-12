@@ -35,7 +35,8 @@ const LANGUAGES = {
 
 const chatDirection = `chat-${direction}`;
 const srcAvatar = who === "Ivana" ? srcIvana : srcPeter;
-const chatBgColor = who === "Ivana" ? "bg-red-500" : "bg-blue-500";
+const chatBgColor = who === "Ivana" ? "bg-secondary" : "bg-accent";
+const chatTextColor = who === "Ivana" ? "text-secondary-content" : "text-white";
 ---
 
 <div class="chat" class:list={[chatDirection]} title={LANGUAGES[astroI18n.locale].chatLanguage}>
@@ -44,7 +45,7 @@ const chatBgColor = who === "Ivana" ? "bg-red-500" : "bg-blue-500";
       <img alt={who} src={srcAvatar} />
     </div>
   </div>
-  <div class="chat-bubble text-sm text-white md:text-base" class:list={[chatBgColor]}>
+  <div class="chat-bubble text-sm md:text-base" class:list={[chatBgColor, chatTextColor]}>
     {LANGUAGES[astroI18n.locale].chatMsg}
   </div>
 </div>
