@@ -14,7 +14,7 @@
     "minutes": "minuti",
     "seconds": "sekunde",
 
-    "until": "dok kažemo Da",
+    "until": "dok ne kažemo Da",
     "after": "ono što smo sebi rekli Da"
   },
 
@@ -27,11 +27,11 @@
     "qAddress": "Koja je adresa mesta venčanja?",
     "aAddress": "Hotel Eurobus, Zemplínska šírava, 072 36 Kaluža, Slovakia",
     "qTransport": "Kako da stignem tamo?",
-    "aTransport": "Najbliže aerodrom je Aerodrom Košice. Nalazi se oko 80 km od mesta venčanja i vožnja traje oko jedan sat. Alternativno, do Košice se može lako stići vozom iz Bratislave, Beča i aerodroma Budimpešta. Iz Košice polaze vozovi za grad Michalovce, koji je udaljen 12 km ili oko 15 minuta vožnje od našeg mesta venčanja. Trenutno radimo na mogućnosti organizovanja shuttle busa od grada Košica i Michalovca do naše lokacije. Takođe, pokušavamo organizovati način da povežemo ljude za moguću organizaciju zajedničkog prevoza. Više informacija o tome biće dostupno kasnije.",
+    "aTransport": "Najbliži aerodrom je Aerodrom Košice. Nalazi se od prilike 80 km od mesta venčanja i vožnja traje od prilike sat vremena. Alternativno, do Košice se može lako stići vozom sa obliznih aerodroma Bratislave, Beča i Budimpešte. Iz Košice polaze vozovi za grad Michalovce, koji je udaljen 12 km ili od prilike 15 minuta vožnje od naše lokacie. Trenutno radimo na mogućnosti organizovanog shuttle busa od grada Košica i Michalovca do naše lokacije. Takođe, pokušavamo organizovati način da povežemo ljude za moguću organizaciju zajedničkog prevoza. Više informacija o tome biće dostupno kasnije.",
     "qParking": "Da li postoji parking u blizini mesta venčanja?",
     "aParking": "Da, mesto našeg venčanja ima dovoljno slobodnih parking mesta.",
     "qAccommodation": "Da li ima smeštaja u blizini?",
-    "aAccommodation": "Da, mesto venčanja je hotel gde su sobe blokirane za naše goste i mogu se rezervisati preko nas. Međutim, sobe su ograničene. Kada saznamo ko će prisustvovati venčanju, dodelićemo sobe. Ali ne brinite, ovo je veoma popularna destinacija za odmor sa mnogo hotela u blizini. ;) Više informacija možete pronaći na našem sajtu.",
+    "aAccommodation": "Da, mesto venčanja je hotel gde su sobe blokirane za naše goste i mogu se rezervisati preko nas. Međutim, sobe su ograničene. Ali ne brinite, ovo je veoma popularna destinacija za odmor sa mnogo hotela u blizini. ;) Više informacija možete pronaći na našem sajtu.",
     "qOutdoors": "Da li će venčanje biti unutra ili napolju?",
     "aOutdoors": "Planiramo i nadamo se ceremoniji na otvorenom. Večera i zabava će se održati unutra.",
     "qProgram": "Koji je program dana?",
@@ -41,18 +41,16 @@
     "qKids": "Da li su deca pozvana na svadbu?",
     "aKids": "Naravno! Volimo kada se mališani pridruže proslavi. Ako imate specifične zahteve u vezi sa boravkom vaše dece, slobodno nas kontaktirajte direktno.",
     "qDressCode": "Da li postoji određeni dres-kod?",
-    "aDressCode": "Iako nemamo posebni dres-kod, ohrabrujemo naše goste da se obuku u skladu sa svečanom atmosferom. Predlaže se elegantna ili polu-formalna odeća, izbegavajući neformalnu odeću poput pantalona sa džepovima i majica. Pošto će deo venčanja biti održan napolju, ne preporučuju se štikle. Ako želite da vidite spoljašnji deo hotela, slobodno to učinite na ovom linku.",
+    "aDressCode": "Iako nemamo posebni dres-kod, ohrabrujemo naše goste da se obuku u skladu sa svečanom atmosferom. Predlaže se elegantna ili polu-formalna odeća, izbegavajući neformalnu odeću poput cargo-pantalona i majica. Pošto će deo venčanja biti održan napolju, ne preporučuju se štikle. Ako želite da vidite spoljašnji deo hotela, slobodno to učinite na ovom linku.",
     "qTemperature": "Koju temperaturu mogu očekivati?",
-    "aTemperature": "Obično u ovo doba godine još uvek je toplo letnje vreme.",
+    "aTemperature": "U ovo doba godine obično je toplo ljetno vrijeme.",
     "qGift": "Razmišljam da donesem svadbeni poklon. Da li imate neke preferencije ili sugestije o tome šta bi bilo najviše cenjeno?",
-    "aGift": "Vaša prisutnost je najbolji poklon koji nam možete dati! Imamo sve što nam je potrebno, ali bismo cenili svaki doprinos za naš medeni mesec. Ako osetite želju da poklonite nešto lično, i to bi nas izuzetno usrećilo. Vaša ljubav i podrška znače nam sve!",
-    "qOpenBar": "Da li će biti otvoren bar?",
-    "aOpenBar": "Imamo različite opcije pića dostupne tokom celog dana i besplatne. To uključuje pivo, razna vina, različite vrste žestokih pića, kao i mnogo nealkoholnih opcija. Ako želite određeno piće koje nemamo na raspolaganju, možete ga kupiti u hotelskom baru.",
+    "aGift": "Najbolji poklon koji nam možete dati jeste vaše prisustvo! Imamo sve što nam je potrebno, ali bismo cenili svaki doprinos za naš medeni mesec. Ako osetite želju da poklonite nešto lično, i to bi nas izuzetno usrećilo. Vaša ljubav i podrška znače nam sve!",
     "qFood": "Koja vrsta hrane će biti poslužena na vašem venčanju?",
-    "aFood": "Imaćemo švedski sto sa sitnim zalogajima kako pre tako i posle ceremonije. Za večeru će biti trodelni meni, sa veganskim opcijama i, naravno, opcijama za goste sa specifičnim alergijama na hranu. U ponoć će ponovo biti otvoren švedski sto kako bismo ostali budni tokom cele noći. ;) Detalji o hrani biće ažurirani kako se budemo približavali.",
+    "aFood": "Imaćemo švedski sto sa sitnim zalogajima kako pre tako i posle ceremonije. Za večeru će biti trodelni meni, sa veganskim opcijama i, naravno, opcijama za goste sa specifičnim alergijama na hranu. Više detalja o hrani sljedi poslje.",
     "qLanguages": "Na kojim jezicima će se govoriti tokom ceremonije i venčanja? Da li ću biti u mogućnosti da razumem nešto?",
-    "aLanguages": "Ceremonija i venčanje će se uglavnom odvijati na slovačkom i srpskom jeziku, odražavajući naše poreklo. Međutim, svesni smo velike jezičke raznolikosti na našem venčanju, pa radimo na tome da što više tog dana bude dostupno i na engleskom jeziku. I, naravno, osoblje na mestu venčanja takođe govori engleski.",
-    "qSpeech": "Da li planirate da održite govor ili dodate nešto u program?",
+    "aLanguages": "Ceremonija i venčanje će se uglavnom odvijati na slovačkom i srpskom jeziku, što odražava naše poreklo. Svesni smo velike jezičke raznolikosti na našem venčanju, pa čemo se potruditi da dosta toga bude dostupno i na engleskom jeziku. I, naravno, osoblje na mestu venčanja takođe govori engleski.",
+    "qSpeech": "Da li mogu održati govor ili dodati nešto u program?",
     "aSpeech": "Ako planirate da održite govor ili doprinesete na neki drugi način, molimo vas da nas kontaktirate kako bismo mogli da organizujemo večernji program. :)",
     "qUpdates": "Kako ćete komunicirati bilo kakve ažurirane informacije i/ili promene pre venčanja?",
     "aUpdates": "Ovaj veb sajt će redovno biti ažuriran sa svim promenama i uvek će sadržati informacije koje su aktuelne."
@@ -72,7 +70,7 @@
   },
 
   "hero": {
-    "headline1": "Velike vesti – venčavamo se!",
+    "headline1": "Čujte i počujte – venčavamo se!",
     "headline2": "Otkrijte sve detalje o našoj jedinstvenoj ljubavnoj priči i nadolazećoj proslavi. Ostanite u toku za čaroliju!"
   },
 
