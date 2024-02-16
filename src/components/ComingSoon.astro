@@ -1,6 +1,8 @@
 ---
 import {l, t} from "astro-i18n";
 
+import Container from "./Container.astro";
+
 interface Props {
   headline: string;
   statement: string;
@@ -11,10 +13,10 @@ const {headline = t("comingSoon"), statement = t("comingSoonStatement")} = Astro
 
 <div class="flex flex-col items-center">
   <div
-    class="hero h-160 max-h-160 bg-no-repeat lg:h-240 lg:max-h-240 lg:bg-contain"
-    style="background-image: url(/assets/drawing-coming-soon.png);">
+    class="hero h-160 max-h-160 bg-contain bg-no-repeat lg:h-240 lg:max-h-240"
+    style="background-image: url(/assets/drawing_splatter.png);">
     <div class="hero-content text-center">
-      <div class="max-w-lg">
+      <Container>
         <h1 class="pb-6 text-center font-serif text-4xl lg:pb-12 lg:pt-4 lg:text-5xl xl:text-6xl">
           {headline}
         </h1>
@@ -33,7 +35,7 @@ const {headline = t("comingSoon"), statement = t("comingSoonStatement")} = Astro
           </svg>
           {t("nav.home")}</a
         >
-      </div>
+      </Container>
     </div>
   </div>
 </div>
