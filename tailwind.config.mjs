@@ -23,11 +23,12 @@ export default {
         // https://daisyui.com/theme-generator/
         cupcake: {
           ...require("daisyui/src/theming/themes")["cupcake"],
-          // primary: "#8C2F57",
-          // secondary: "#FAD253",
-          // accent: "#6484C0",
-          primary: "#7DB54B",
-          secondary: "#8C2F57",
+          // purple: "#8C2F57",
+          // yellow: "#FAD253",
+          // blue: "#6484C0",
+          // green: "#7DB54B",
+          primary: "#8C2F57",
+          secondary: "#FAD253",
           accent: "#6484C0",
         },
       },
