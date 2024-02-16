@@ -3,6 +3,7 @@ import {t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
+import Paragraph from "@src/components/Paragraph.astro";
 import ComingSoon from "@src/components/ComingSoon.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 ---
@@ -10,9 +11,13 @@ import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 <BaseLayout>
   <Container>
     <Headline top={t("nav.photos")}>{t("photos.headline")}</Headline>
+
+    <Paragraph>
+      {t("photos.statement")}
+    </Paragraph>
   </Container>
 
-  <ComingSoon />
+  <ComingSoon statement="" />
 
   <Container>
     <ParticipationHeadline />
