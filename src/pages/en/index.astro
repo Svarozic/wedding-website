@@ -17,16 +17,6 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
 <BaseLayout>
   <Hero />
 
-  <Container>
-    <Headline top={t("place.when") + "?"}>{t("place.date")}</Headline>
-
-    <Center>
-      <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
-    </Center>
-
-    <FlowerDivider type="1" />
-  </Container>
-
   <style>
     .parallax-hallstatt {
       background: url(/assets/20200901_171948_photoshoped_cropped.jpg) no-repeat fixed center center;
@@ -38,6 +28,16 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
       <CountdownHeadline withHeadline />
     </div>
   </div>
+
+  <Container>
+    <Headline top={t("place.when") + "?"}>{t("place.date")}</Headline>
+
+    <Center>
+      <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
+    </Center>
+
+    <FlowerDivider type="1" />
+  </Container>
 
   <Container>
     <Headline top={t("place.where") + "?"}>
