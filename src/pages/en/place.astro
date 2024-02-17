@@ -21,6 +21,10 @@ import assetDsc3996 from "@src/assets/hotel-eurobus/gallery/dsc-3996.jpg?url";
 import assetDsc4048 from "@src/assets/hotel-eurobus/gallery/dsc-4048.jpg?url";
 import assetDsc4052 from "@src/assets/hotel-eurobus/gallery/dsc-4052.jpg?url";
 import assetHotelEurobus0820170201600 from "@src/assets/hotel-eurobus/gallery/hotel-eurobus-08-2017-020-1600.jpg?url";
+import assetImg14541 from "@src/assets/hotel-eurobus/gallery/img-1454-1-logo.jpg?url";
+import assetImg14661 from "@src/assets/hotel-eurobus/gallery/img-1466-1-logo-copy.jpg?url";
+import assetImg14771 from "@src/assets/hotel-eurobus/gallery/img-1477-1-logo.jpg?url";
+import assetImg4158 from "@src/assets/hotel-eurobus/gallery/img-4158.jpg?url";
 import assetImg41671 from "@src/assets/hotel-eurobus/gallery/img-4167-1.jpg?url";
 import assetImg41951 from "@src/assets/hotel-eurobus/gallery/img-4195_1.jpg?url";
 import assetImg41991 from "@src/assets/hotel-eurobus/gallery/img-4199_1.jpg?url";
@@ -29,6 +33,8 @@ import assetImg4226 from "@src/assets/hotel-eurobus/gallery/img-4226.jpg?url";
 import assetImg8510 from "@src/assets/hotel-eurobus/gallery/img-8510.jpg?url";
 import assetImg9217 from "@src/assets/hotel-eurobus/gallery/img-9217.jpg?url";
 import assetImg9240 from "@src/assets/hotel-eurobus/gallery/img-9240.jpg?url";
+import assetIzba1 from "@src/assets/hotel-eurobus/gallery/izba-1-logo.jpg?url";
+import assetIzbaVyhlad from "@src/assets/hotel-eurobus/gallery/izba-vyhlad-logo.jpg?url";
 ---
 
 <BaseLayout>
@@ -70,6 +76,10 @@ import assetImg9240 from "@src/assets/hotel-eurobus/gallery/img-9240.jpg?url";
       {t("place.hotelParagraph1")}
     </Paragraph>
 
+    <Paragraph>
+      {t("place.hotelParagraph2")}
+    </Paragraph>
+
     <section class="grid grid-cols-2 justify-items-center gap-4 md:grid-cols-3 lg:grid-cols-6">
       <!--hotel-->
       <img class="rounded-lg shadow-xl" src={assetDji01941600} alt="assetDji01941600" />
@@ -92,14 +102,36 @@ import assetImg9240 from "@src/assets/hotel-eurobus/gallery/img-9240.jpg?url";
       <img class="rounded-lg shadow-xl" src={assetImg41991} alt="assetImg41991" />
       <img class="rounded-lg shadow-xl" src={assetImg42141} alt="assetImg42141" />
       <img class="rounded-lg shadow-xl" src={assetImg4226} alt="assetImg4226" />
+      <!--izby-->
+      <img class="rounded-lg shadow-xl" src={assetImg14541} alt="assetImg14541" />
+      <img class="rounded-lg shadow-xl" src={assetImg14661} alt="assetImg14661" />
+      <img class="rounded-lg shadow-xl" src={assetImg14771} alt="assetImg14771" />
+      <img class="rounded-lg shadow-xl" src={assetImg4158} alt="assetImg4158" />
+      <img class="rounded-lg shadow-xl" src={assetIzba1} alt="assetIzba1" />
+      <img class="rounded-lg shadow-xl" src={assetIzbaVyhlad} alt="assetIzbaVyhlad" />
     </section>
 
-    <Paragraph>
-      {t("place.hotelParagraph2")}
-    </Paragraph>
+    <Paragraph class="my-4 lg:my-8">{t("place.hotelMorePhotos")}</Paragraph>
 
     <Center>
-      <a class="btn btn-outline btn-primary" href="https://www.hoteleurobus.sk/" target="_blank">hoteleurobus.sk</a>
+      <a class="btn btn-outline btn-primary" href="https://www.hoteleurobus.sk/galeria" target="_blank">
+        <svg
+          class="h-6 w-6"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z"></path>
+          <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+          <line x1="10" y1="14" x2="20" y2="4"></line>
+          <polyline points="15 4 20 4 20 9"></polyline></svg
+        >
+        hoteleurobus.sk</a
+      >
     </Center>
   </Container>
 
