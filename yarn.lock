@@ -4360,14 +4360,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-astro@npm:^0.12.3":
-  version: 0.12.3
-  resolution: "prettier-plugin-astro@npm:0.12.3"
+"prettier-plugin-astro@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "prettier-plugin-astro@npm:0.13.0"
   dependencies:
     "@astrojs/compiler": "npm:^1.5.5"
     prettier: "npm:^3.0.0"
     sass-formatter: "npm:^0.7.6"
-  checksum: 6b07f86855fe742aa3ba32f87d4bd49365f182ee8d28e94e0f1cbc524c7fa49cef48545d5cbaccd3502cd872f1e085b03b2bd3371b9ad98e5329624d330950ad
+  checksum: 45936be6f5fdc293941291595b44c7ffe4d199ad2a4284f8fa793d638771622d36df12e216e2ba9ab955a3a1342620e77c9e57f135da7dea5ccd8286d8e66cec
   languageName: node
   linkType: hard
 
@@ -4431,12 +4431,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.2.2":
-  version: 3.2.2
-  resolution: "prettier@npm:3.2.2"
+"prettier@npm:^3.2.5":
+  version: 3.2.5
+  resolution: "prettier@npm:3.2.5"
   bin:
     prettier: bin/prettier.cjs
-  checksum: e84d0d2a4ce2b88ee1636904effbdf68b59da63d9f887128f2ed5382206454185432e7c0a9578bc4308bc25d099cfef47fd0b9c211066777854e23e65e34044d
+  checksum: ea327f37a7d46f2324a34ad35292af2ad4c4c3c3355da07313339d7e554320f66f65f91e856add8530157a733c6c4a897dc41b577056be5c24c40f739f5ee8c6
   languageName: node
   linkType: hard
 
@@ -5778,8 +5778,8 @@ __metadata:
     astro: "npm:4.2.6"
     astro-i18n: "npm:^2.2.2"
     daisyui: "npm:^4.6.1"
-    prettier: "npm:^3.2.2"
-    prettier-plugin-astro: "npm:^0.12.3"
+    prettier: "npm:^3.2.5"
+    prettier-plugin-astro: "npm:^0.13.0"
     prettier-plugin-tailwindcss: "npm:^0.5.11"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
