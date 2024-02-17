@@ -6,7 +6,7 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
 
 <div
   id="myNavigation"
-  class="my-watercolor-paper-texture navbar sticky top-0 z-[1] mb-4 px-2 transition-all duration-200 lg:mb-8 lg:px-10">
+  class="my-watercolor-paper-texture navbar sticky top-0 z-[2] mb-4 px-2 transition-all duration-200 lg:mb-8 lg:px-10">
   <div class="navbar-start">
     <!--Mobile Dropdown-->
     <div class="dropdown lg:hidden">
@@ -16,7 +16,7 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
         </svg>
       </label>
 
-      <ul tabindex="0" class="menu dropdown-content menu-sm z-[1] mt-3 rounded-box bg-white shadow-xl md:menu-md">
+      <ul tabindex="0" class="menu dropdown-content menu-sm z-[2] mt-3 rounded-box bg-white shadow-xl md:menu-md">
         <li>
           <a class="whitespace-nowrap" href={l("/")}>
             <div class="flex items-center gap-1">
@@ -78,7 +78,7 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
         </svg>
       </label>
-      <ul tabindex="0" class="menu dropdown-content z-[1] w-52 rounded-box bg-white p-2 shadow-xl">
+      <ul tabindex="0" class="menu dropdown-content z-[2] w-52 rounded-box bg-white p-2 shadow-xl">
         <li><a href={l("/vows")}>{t("nav.vows")}</a></li>
         <li><a href={l("/phrases")}>{t("nav.phrases")}</a></li>
         <li><a href={l("/photos")}>{t("nav.photos")}</a></li>
