@@ -5,12 +5,15 @@ import assetOurAnswerAvatar from "@src/assets/20230630_202043_cut_100_100.jpg?ur
 
 interface Props {
   qaToken: string;
+  href?: string;
 }
 
-const {qaToken} = Astro.props;
+const {qaToken, href} = Astro.props;
 ---
 
-<div tabindex="0" class="collapse collapse-arrow transition-all hover:bg-white focus:bg-white focus:shadow-xl">
+<div class="collapse collapse-arrow transition-all hover:bg-white focus:bg-white focus:shadow-xl">
+  <input type="checkbox" />
+
   <h4 class="collapse-title">{t(`faq.q${qaToken}`)}</h4>
 
   <div class="collapse-content">
@@ -24,6 +27,23 @@ const {qaToken} = Astro.props;
         {t(`faq.a${qaToken}`)}
       </div>
     </div>
+
+    {
+      href != null && (
+        <div class="chat chat-end">
+          <div class="avatar chat-image">
+            <div class="mask mask-squircle w-8 lg:w-10">
+              <img alt="our answer avatar" src={assetOurAnswerAvatar} />
+            </div>
+          </div>
+          <div class="chat-bubble chat-bubble-primary text-sm md:text-base">
+            <a class="link break-words" href={href} target="_blank">
+              {href}
+            </a>
+          </div>
+        </div>
+      )
+    }
   </div>
 </div>
 
