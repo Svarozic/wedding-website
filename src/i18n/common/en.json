@@ -64,7 +64,7 @@
     "participation_short": "RSVP",
     "photos": "Photos",
     "phrases": "Phrases",
-    "place": "Place",
+    "place": "Venue",
     "program": "Program",
     "vows": "Wedding vows"
   },
@@ -97,6 +97,7 @@
   },
 
   "place": {
+    "venue": "Wedding venue",
     "when": "When",
     "date": "21. September 2024",
     "where": "Where",
