@@ -4,12 +4,31 @@ import {t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Headline from "@src/components/Headline.astro";
 import Container from "@src/components/Container.astro";
+import Center from "@src/components/Center.astro";
 import ComingSoon from "@src/components/ComingSoon.astro";
 import Paragraph from "@src/components/Paragraph.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
+import FlowerDivider from "@src/components/FlowerDivider.astro";
 
-import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
-import FlowerDivider from "../../components/FlowerDivider.astro";
+import assetDrawingHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
+import assetDji01941600 from "@src/assets/hotel-eurobus/gallery/hotel/dji-0194-1600.jpg?url";
+import assetDji0213upr1 from "@src/assets/hotel-eurobus/gallery/hotel/dji-0213upr-1.jpg?ur";
+import assetDsc3271 from "@src/assets/hotel-eurobus/gallery/hotel/dsc-3271.jpg?url";
+import assetDsc3275 from "@src/assets/hotel-eurobus/gallery/hotel/dsc-3275.jpg?url";
+import assetDsc3918 from "@src/assets/hotel-eurobus/gallery/hotel/dsc-3918.jpg?url";
+import assetDsc3987 from "@src/assets/hotel-eurobus/gallery/hotel/dsc-3987.jpg?url";
+import assetDsc3996 from "@src/assets/hotel-eurobus/gallery/hotel/dsc-3996.jpg?url";
+import assetDsc4048 from "@src/assets/hotel-eurobus/gallery/hotel/dsc-4048.jpg?url";
+import assetDsc4052 from "@src/assets/hotel-eurobus/gallery/hotel/dsc-4052.jpg?url";
+import assetHotelEurobus0820170201600 from "@src/assets/hotel-eurobus/gallery/hotel/hotel-eurobus-08-2017-020-1600.jpg?url";
+import assetImg41671 from "@src/assets/hotel-eurobus/gallery/hotel/img-4167-1.jpg?url";
+import assetImg41951 from "@src/assets/hotel-eurobus/gallery/hotel/img-4195_1.jpg?url";
+import assetImg41991 from "@src/assets/hotel-eurobus/gallery/hotel/img-4199_1.jpg?url";
+import assetImg42141 from "@src/assets/hotel-eurobus/gallery/hotel/img-4214_1.jpg?url";
+import assetImg4226 from "@src/assets/hotel-eurobus/gallery/hotel/img-4226.jpg?url";
+import assetImg8510 from "@src/assets/hotel-eurobus/gallery/hotel/img-8510.jpg?url";
+import assetImg9217 from "@src/assets/hotel-eurobus/gallery/hotel/img-9217.jpg?url";
+import assetImg9240 from "@src/assets/hotel-eurobus/gallery/hotel/img-9240.jpg?url";
 ---
 
 <BaseLayout>
@@ -34,34 +53,54 @@ import FlowerDivider from "../../components/FlowerDivider.astro";
       {t("place.slovakia")}
     </Headline>
 
-    <img class="mx-auto w-full max-w-240 py-4" src={pngHotelEurobus} alt="hotel eurobus" />
+    <img class="mx-auto w-full max-w-240 py-4" src={assetDrawingHotelEurobus} alt="hotel eurobus" />
 
     <Paragraph>
-      {t("faq.aAddress")}
+      <a class="link-hover link-primary" href="https://maps.app.goo.gl/aaikTAviGAciibZe6" target="_blank"
+        >{t("faq.aAddress")}</a
+      >
     </Paragraph>
   </Container>
 
   <FlowerDivider type="1" />
 
   <Container>
-    <Headline top={t("place.slovakia")}>{t("place.region")}</Headline>
-
+    <Headline>{t("place.hotelName")}</Headline>
     <Paragraph>
-      {t("place.description")}
+      {t("place.hotelParagraph1")}
     </Paragraph>
 
-    <Paragraph>
-      Hotel Eurobus sa nachádza 12 km od mesta Michalovce, v centre rekreačnej oblasti Zemplínska šírava, stredisko
-      Medvedia hora, v prekrásnej scenérii Východoslovenskej nížiny pod svahmi Vihorlatu. Vodná nádrž s nádychom
-      prímorskej romantiky, poskytuje dokonalé zázemie pre návštevníkov.
-    </Paragraph>
+    <section class="grid grid-cols-2 justify-items-center gap-4 md:grid-cols-3 lg:grid-cols-6">
+      <!--hotel-->
+      <img class="rounded-lg shadow-xl" src={assetDji01941600} alt="assetDji01941600" />
+      <img class="rounded-lg shadow-xl" src={assetDsc3918} alt="assetDsc3918" />
+      <img class="rounded-lg shadow-xl" src={assetDsc3996} alt="assetDsc3996" />
+      <img class="rounded-lg shadow-xl" src={assetDsc4052} alt="assetDsc4052" />
+      <img class="rounded-lg shadow-xl" src={assetDsc3271} alt="assetDsc3271" />
+      <img class="rounded-lg shadow-xl" src={assetImg9217} alt="assetDsc9217" />
+      <!--outsite-->
+      <img class="rounded-lg shadow-xl" src={assetImg8510} alt="assetDsc8510" />
+      <img class="rounded-lg shadow-xl" src={assetDsc3275} alt="assetDsc3275" />
+      <img class="rounded-lg shadow-xl" src={assetImg9240} alt="assetDsc9240" />
+      <img class="rounded-lg shadow-xl" src={assetDsc4048} alt="assetDsc4048" />
+      <img class="rounded-lg shadow-xl" src={assetDsc3987} alt="assetDsc3987" />
+      <img class="rounded-lg shadow-xl" src={assetHotelEurobus0820170201600} alt="assetHotelEurobus0820170201600" />
+      <!--night-->
+      <img class="rounded-lg shadow-xl" src={assetDji0213upr1} alt="assetDji0213upr1" />
+      <img class="rounded-lg shadow-xl" src={assetImg41671} alt="assetImg41671" />
+      <img class="rounded-lg shadow-xl" src={assetImg41951} alt="assetImg41951" />
+      <img class="rounded-lg shadow-xl" src={assetImg41991} alt="assetImg41991" />
+      <img class="rounded-lg shadow-xl" src={assetImg42141} alt="assetImg42141" />
+      <img class="rounded-lg shadow-xl" src={assetImg4226} alt="assetImg4226" />
+    </section>
 
     <Paragraph>
-      Pre svoje dobré klimatické podmienky a najväčší počet slnečných dní je vyhľadávanou oblasťou cestovného ruchu s
-      možnosťami kúpania, surfovania, jachtingu, vodných športov, ako aj vychádzkami v okolí. Hotel je situovaný v
-      nádhernej prírode v tesnej blízkosti vody priamo na špici polostrova, kde je z každej strany výhľad na vodnú
-      hladinu. Hotel ponúka kvalitné služby v oblasti ubytovania, stravovania, wellnessu, oddychu a športu.
+      {t("place.hotelParagraph2")}
     </Paragraph>
+
+    <Center>
+      <a class="btn btn-outline btn-primary" href="https://www.hoteleurobus.sk/" target="_blank">hoteleurobus.sk</a>
+    </Center>
   </Container>
 
   <style>
@@ -75,6 +114,22 @@ import FlowerDivider from "../../components/FlowerDivider.astro";
       <h3 class="text-center font-serif text-2xl lg:text-3xl">{t("place.celebrate")}</h3>
     </div>
   </div>
+
+  <Container>
+    <Headline top={t("place.slovakia")}>{t("place.region")}</Headline>
+
+    <Paragraph>
+      {t("place.description")}
+    </Paragraph>
+  </Container>
+
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5256.564866601775!2d22.006098!3d48.795588!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473936a513d3df15%3A0xaf499dd857016e9e!2sHotel%20Eurobus!5e0!3m2!1ssk!2sus!4v1708199446875!5m2!1ssk!2sus"
+    class="lg:h-100 h-80 w-full"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
   <Container>
     <ParticipationHeadline />
