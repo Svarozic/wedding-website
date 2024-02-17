@@ -7,6 +7,7 @@ import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 import Paragraph from "@src/components/Paragraph.astro";
+import FlowerDivider from "../../components/FlowerDivider.astro";
 
 // SVARGA: furtherInfo link to contact page
 ---
@@ -31,9 +32,8 @@ import Paragraph from "@src/components/Paragraph.astro";
     <ChatFaq qaToken="Languages" />
     <ChatFaq qaToken="Speech" />
     <ChatFaq qaToken="Updates" />
-  </Container>
 
-  <Container>
+    <FlowerDivider type="1" class="py-10 lg:py-20" />
     <Paragraph>
       {t("faq.furtherInfo")}
     </Paragraph>
