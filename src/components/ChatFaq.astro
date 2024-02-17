@@ -11,6 +11,11 @@ interface Props {
 const {qaToken, href} = Astro.props;
 ---
 
+<a class="block" id={qaToken} href={`#${qaToken}`}></a>
+
+<!-- divider to push qa down from link, so URL with #tag can scroll exactly to it and not be covered by <Navigation> -->
+<div class="divider my-6"></div>
+
 <div class="collapse collapse-arrow transition-all hover:bg-white focus:bg-white focus:shadow-xl">
   <input type="checkbox" />
 
@@ -46,5 +51,3 @@ const {qaToken, href} = Astro.props;
     }
   </div>
 </div>
-
-<div class="divider my-0"></div>
