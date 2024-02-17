@@ -7,7 +7,6 @@ import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 import Paragraph from "@src/components/Paragraph.astro";
-import Center from "../../components/Center.astro";
 
 // SVARGA: qDressCode link to https://www.hoteleurobus.sk/galeria
 // SVARGA: furtherInfo link to contact page
@@ -34,11 +33,9 @@ import Center from "../../components/Center.astro";
     <ChatFaq qaToken="Speech" />
     <ChatFaq qaToken="Updates" />
 
-    <Center>
-      <Paragraph>
-        {t("faq.furtherInfo")}
-      </Paragraph>
-    </Center>
+    <Paragraph>
+      {t("faq.furtherInfo")}
+    </Paragraph>
 
     <ParticipationHeadline />
   </Container>

@@ -4,6 +4,7 @@ import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
 import CountdownHeadline from "@src/components/CountdownHeadline.astro";
+import Paragraph from "@src/components/Paragraph.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
 
 import assetPeter from "@src/assets/20200829_115859.jpg?url";
@@ -23,13 +24,13 @@ import assetIvana from "@src/assets/20210202_215046.jpg?url";
         <div class="card card-compact bg-white shadow-xl">
           <figure><img class="saturate-50" src={assetIvana} alt="Ivana" /></figure>
           <div class="card-body">
-            <h2 class="pb-6 pt-2 text-center font-serif text-4xl lg:pb-12 lg:pt-4 lg:text-5xl xl:text-6xl">Ivana</h2>
+            <Headline>Ivana</Headline>
 
             <div class="mb-2 justify-center lg:mb-4">
               <CountdownHeadline />
             </div>
 
-            <p class="text-center text-2xl leading-loose blur">
+            <Paragraph>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
               et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
@@ -47,7 +48,7 @@ import assetIvana from "@src/assets/20210202_215046.jpg?url";
               dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
               at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
               dolore te feugait nulla facilisi.
-            </p>
+            </Paragraph>
           </div>
         </div>
       </div>
@@ -56,13 +57,13 @@ import assetIvana from "@src/assets/20210202_215046.jpg?url";
         <div class="card card-compact bg-white shadow-xl">
           <figure><img class="saturate-50" src={assetPeter} alt="Peter" /></figure>
           <div class="card-body">
-            <h2 class="pb-6 pt-2 text-center font-serif text-4xl lg:pb-12 lg:pt-4 lg:text-5xl xl:text-6xl">Peter</h2>
+            <Headline>Peter</Headline>
 
             <div class="mb-2 justify-center lg:mb-4">
               <CountdownHeadline />
             </div>
 
-            <p class="text-center text-2xl leading-loose blur">
+            <Paragraph>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
               et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
@@ -80,7 +81,7 @@ import assetIvana from "@src/assets/20210202_215046.jpg?url";
               dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
               at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
               dolore te feugait nulla facilisi.
-            </p>
+            </Paragraph>
           </div>
         </div>
       </div>
