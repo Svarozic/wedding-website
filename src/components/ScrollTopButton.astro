@@ -4,7 +4,7 @@ import Center from "@src/components/Center.astro";
 
 <button
   id="myScrollTopButton"
-  class="fixed bottom-0 right-4 translate-y-full rounded-full border-0 bg-white/20 p-2 shadow-xl backdrop-blur transition-all duration-500">
+  class="fixed bottom-0 right-4 z-[2] translate-y-full rounded-full border-0 bg-white/20 p-2 shadow-xl backdrop-blur transition-all duration-500">
   <Center>
     <svg
       class="h-8 w-8 text-base-content/50"
@@ -31,6 +31,7 @@ import Center from "@src/components/Center.astro";
       // this changes the scrolling behavior to "smooth"
       window.scrollTo({top: 0, behavior: "smooth"});
     }
+    myScrollTopButton.addEventListener("click", clickHandler);
 
     function scrollHandler() {
       if (window.scrollY >= 1000) {
@@ -44,7 +45,7 @@ import Center from "@src/components/Center.astro";
       }
     }
 
-    myScrollTopButton.addEventListener("click", clickHandler);
+    scrollHandler();
     window.addEventListener("scroll", scrollHandler);
 
     // cleanup before transition

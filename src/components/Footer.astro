@@ -1,38 +1,50 @@
 ---
 import {l, t} from "astro-i18n";
+
+import asset_20230629_140249_cut from "@src/assets/20230629_140249_cut.png?url";
 ---
 
-<footer class="footer gap-4 text-xs">
-  <aside>
-    <a class="link-hover link footer-title" href={l("/")}><h6>{t("title")}</h6></a>
-    <a href="mailto:ivanapeter2024@gmail.com" class="link-hover link">ivanapeter2024@gmail.com</a>
-    <p class="text-base-content/50">Copyright © 2024</p>
-    <p class="text-base-content/50">All rights reserved</p>
-  </aside>
+<div class="card card-compact relative bg-white">
+  <div class="card-body">
+    <footer class="footer gap-4 text-xs">
+      <aside>
+        <a class="link-hover link footer-title" href={l("/")}><h6>{t("title")}</h6></a>
+        <a href="mailto:ivanapeter2024@gmail.com" class="link-hover link">ivanapeter2024@gmail.com</a>
+        <p class="text-base-content/50">Copyright © 2024</p>
+        <p class="text-base-content/50">All rights reserved</p>
+      </aside>
 
-  <nav>
-    <a class="link flex items-center gap-1" href={l("/")}
-      >{t("nav.home")}
-      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-        ></path>
-      </svg></a
-    >
-    <a class="link" href={l("/participation")}>{t("nav.participation")}</a>
-    <a class="link" href={l("/place")}>{t("nav.place")}</a>
-    <a class="link" href={l("/program")}>{t("nav.program")}</a>
-    <a class="link" href={l("/faq")}>{t("nav.faq")}</a>
-  </nav>
+      <nav>
+        <a class="link flex items-center gap-1" href={l("/")}
+          >{t("nav.home")}
+          <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+            ></path>
+          </svg></a
+        >
+        <a class="link" href={l("/participation")}>{t("nav.participation")}</a>
+        <a class="link" href={l("/place")}>{t("nav.place")}</a>
+        <a class="link" href={l("/program")}>{t("nav.program")}</a>
+        <a class="link" href={l("/faq")}>{t("nav.faq")}</a>
+      </nav>
 
-  <nav>
-    <h6 class="footer-title">{t("nav.more")}</h6>
-    <a class="link" href={l("/vows")}>{t("nav.vows")}</a>
-    <a class="link" href={l("/phrases")}>{t("nav.phrases")}</a>
-    <a class="link" href={l("/photos")}>{t("nav.photos")}</a>
-    <a class="link" href={l("/slovakia")}>{t("nav.slovakia")}</a>
-  </nav>
-</footer>
+      <nav>
+        <h6 class="footer-title">{t("nav.more")}</h6>
+        <a class="link" href={l("/vows")}>{t("nav.vows")}</a>
+        <a class="link" href={l("/phrases")}>{t("nav.phrases")}</a>
+        <a class="link" href={l("/photos")}>{t("nav.photos")}</a>
+        <a class="link" href={l("/slovakia")}>{t("nav.slovakia")}</a>
+      </nav>
+
+      <nav></nav>
+    </footer>
+
+    <div class="absolute bottom-0 right-0">
+      <img class="max-w-32 rounded-xl brightness-110" src={asset_20230629_140249_cut} alt="asset_20230629_140249_cut" />
+    </div>
+  </div>
+</div>

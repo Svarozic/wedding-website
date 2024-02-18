@@ -5,7 +5,6 @@ import Headline from "@src/components/Headline.astro";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
-import ExploreOtherPages from "@src/components/ExploreOtherPages.astro";
 
 const locale = astroI18n.locale ?? "en";
 
@@ -51,7 +50,5 @@ const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
     </div>
 
     <FlowerDivider type="2" class="py-10 lg:py-20" />
-
-    <ExploreOtherPages pages={["faq", "vows", "phrases"]} />
   </Container>
 </BaseLayout>

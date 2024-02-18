@@ -36,6 +36,8 @@ const htmlTitle = title ?? t("title");
   <body class="my-watercolor-paper-texture">
     <Navigation />
 
+    <ScrollTopButton />
+
     <main>
       <slot />
     </main>
@@ -43,7 +45,5 @@ const htmlTitle = title ?? t("title");
     <Container>
       <Footer />
     </Container>
-
-    <ScrollTopButton />
   </body>
 </html>
