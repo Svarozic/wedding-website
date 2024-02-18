@@ -66,6 +66,7 @@
     "phrases": "Frázy",
     "place": "Miesto",
     "program": "Program",
+    "slovakia": "Objavte Slovensko",
     "vows": "Svadobné sľuby"
   },
 
@@ -121,6 +122,11 @@
 
   "program": {
     "headline": "Náš výnimočný deň"
+  },
+
+  "slovakia": {
+    "headlineTop": "Prekrásna krajina",
+    "headline": "Slovensko"
   },
 
   "vows": {

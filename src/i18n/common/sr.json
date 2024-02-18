@@ -66,6 +66,7 @@
     "phrases": "Fraze",
     "place": "Mjesto",
     "program": "Program",
+    "slovakia": "Otkrijte Slovačku",
     "vows": "Zaveti venčanja"
   },
 
@@ -119,6 +120,11 @@
 
   "program": {
     "headline": "Naš poseban dan"
+  },
+
+  "slovakia": {
+    "headlineTop": "Prelepa zemlja",
+    "headline": "Slovačka"
   },
 
   "vows": {

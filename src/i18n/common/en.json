@@ -66,6 +66,7 @@
     "phrases": "Phrases",
     "place": "Venue",
     "program": "Program",
+    "slovakia": "Discover Slovakia",
     "vows": "Wedding vows"
   },
 
@@ -121,6 +122,11 @@
 
   "program": {
     "headline": "Our special day"
+  },
+
+  "slovakia": {
+    "headlineTop": "Beautiful country",
+    "headline": "Slovakia"
   },
 
   "vows": {
