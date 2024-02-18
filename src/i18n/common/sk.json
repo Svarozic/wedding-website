@@ -25,7 +25,7 @@
     "qAddress": "Aká je adresa miesta svadby?",
     "aAddress": "Hotel Eurobus, Zemplínska šírava, 072 36 Kaluža, Slovakia",
     "qTransport": "Ako sa tam dostanem?",
-    "aTransport": "Najbližšie letisko je Letisko Košice. Nachádza sa približne 80 km od miesta svadby a následne jazda autom trvá ešte asi jednu hodinu. Alternatívne je možné dostať sa do Košíc ľahko vlakom z Bratislavy, Viedne a Letiska Budapešť. Taktiež z Košíc odchádzajú vlaky do mesta Michalovce, ktoré je vzdialené 12 km alebo asi 15 minút jazdy od nášho miesta svadby. V súčasnosti pracujeme na možnosti zabezpečenia shuttle busu z Košíc cez Michaloviec na naše miesto. Ďalej sa snažíme organizovať spôsob, ako spojiť ľudí s možnosťou spolujazdy. Viac informácií o tom sa objaví neskôr.",
+    "aTransport": "Najbližšie letisko je Letisko Košice. Nachádza sa približne 80 km od miesta svadby a následne jazda autom trvá ešte asi jednu hodinu. Alternatívne je možné dostať sa do Košíc ľahko vlakom z Bratislavy, Viedne a Letiska Budapešť. Taktiež z Košíc odchádzajú vlaky do mesta Michalovce, ktoré je vzdialené 12 km alebo asi 15 minút jazdy od nášho miesta svadby. V súčasnosti pracujeme na možnosti zabezpečenia shuttle busu z Košíc cez Michalovce na naše miesto. Ďalej sa snažíme organizovať spôsob, ako spojiť ľudí s možnosťou spolujazdy. Viac informácií o tom sa objaví neskôr.",
     "qParking": "Je k dispozícii parkovanie blízko miesta svadby?",
     "aParking": "Áno, miesto našej svadby má dostatok voľných parkovacích miest.",
     "qAccommodation": "Je k dispozícii v blízkosti nejaké ubytovanie?",
@@ -34,19 +34,19 @@
     "aOutdoors": "Plánujeme a dúfame v obrad vonku. Večera a oslava sa uskutočnia vnútri.",
     "qProgram": "Aký je program dňa?",
     "aProgram": "Na našej webovej stránke môžete nájsť hrubý náčrt programu dňa.",
-    "qPlusOne": "Môžem na svadbu priniesť sprievod?",
-    "aPlusOne": "Ceníme si Vašu radosť z možnosti zdieľať s nami náš špeciálny deň! Pozvánky budú špecifikovať, či je zahrnutý sprievod. Ak máte ďalšie otázky alebo špeciálne okolnosti, neváhajte nás priamo kontaktovať.",
+    "qPlusOne": "Môžem na svadbu prísť spolu s partnerom/partnerkou?",
+    "aPlusOne": "Ceníme si Vašu radosť z možnosti zdieľať s nami Náš Deň! Pozvánky budú špecifikovať, či je zahrnutý sprievod. Ak máte ďalšie otázky, alebo špeciálne okolnosti, neváhajte nás priamo kontaktovať.",
     "qKids": "Sú deti pozvané na svadbu?",
-    "aKids": "Samozrejme! Radi máme malých členov našej oslavy. Ak máte špecifické požiadavky týkajúce sa Vášho pobytu s deťmi, neváhajte nás kontaktovať priamo.",
+    "aKids": "Samozrejme! Deti sú u nás vítané. Ak máte špecifické požiadavky týkajúce sa Vášho pobytu s deťmi, neváhajte nás kontaktovať priamo.",
     "qDressCode": "Aký je dress code / špecifický štýl oblečenia?",
-    "aDressCode": "Hoci neexistuje prísny dress code, povzbudzujeme našich hostí, aby sa pripravili na slávnostnú atmosféru a obliekli sa na túto príležitosť. Odporúčame elegantné alebo poloficiálne oblečenie, vyhýbajúc sa neformálnym oblečeniam ako sú napríklad nákladné nohavice a tričká. Keďže časť svadby sa bude konať vonku, nie je odporúčané obutie na opätkoch. Ak by ste chceli vidieť vonkajšiu časť hotela, môžete si ju pozrieť na tomto odkaze.",
+    "aDressCode": "Hoci neexistuje prísny dress code, doporučujeme naším hosťom, aby sa pripravili na slávnostnú atmosféru a obliekli sa na túto príležitosť. Odporúčame elegantné alebo poloficiálne oblečenie, vyhýbajúc sa neformálnym oblečeniam ako sú napríklad nákladné (cargo) nohavice a tričká. Keďže časť svadby sa bude konať vonku, nie sú odporúčané ihličkové opätky. Ak by ste chceli vidieť vonkajšiu časť hotela, môžete si ju pozrieť na tomto odkaze.",
     "qTemperature": "Akú teplotu môžem očakávať?",
     "aTemperature": "Obvykle v tomto období je teplé letné počasie.",
     "qGift": "Zvažujem, že prinesiem svadobný dar. Máte nejaké preferencie alebo návrhy na to, čo by bolo najviac ocenené?",
-    "aGift": "Vaša prítomnosť je ten najlepší dar, ktorý nám môžete dať! Máme všetko, čo potrebujeme, ale budeme vďační za akékoľvek príspevky na našu svadobnú cestu. Ak sa cítite naklonení dať niečo osobné, aj to by nás nesmierne potešilo. Vaša láska a podpora pre nás znamenajú celý svet!",
+    "aGift": "Vaša prítomnosť je ten najlepší dar, ktorý nám môžete dať! Máme všetko, čo potrebujeme, ale budeme vďační za akékoľvek príspevky na našu svadobnú cestu. Ak cítite potrebu dať nám niečo osobné, taktiež nás to poteší. Vaša láska a podpora pre nás znamenajú celý svet!",
     "qFood": "Aký typ jedla sa podáva na vašej svadbe?",
     "aFood": "Budeme mať bufet s malými jedlami a zákuskami pred aj po obrade. Na večeru bude trojchodové menu, s vegánskymi možnosťami a samozrejme možnosťami pre hostí s konkrétnymi alergiami na potraviny. Viac podrobnosti o jedle budú aktualizované neskôr.",
-    "qLanguages": "V akých jazykoch sa bude hovoriť počas obradu a svadby? Budem schopný/á niečo pochopiť?",
+    "qLanguages": "V akých jazykoch sa bude hovoriť počas obradu a svadby? Budem schopný/á niečo rozumieť?",
     "aLanguages": "Obrad a svadba budú hlavne v slovenčine a srbčine, odzrkadľujúc naše korene. Avšak, uvedomujeme si veľkú jazykovú diverzitu na našej svadbe, preto sa pokusíme, aby bolo toho čo najviac dostupné aj v anglickom jazyku. A samozrejme, personál na mieste tiež hovorí anglicky.",
     "qSpeech": "Môžem mať príhovor alebo pridať niečo do programu?",
     "aSpeech": "Ak plánujete mať príhovor alebo pridať nejaké ďalšie prvky do programu, prosím, kontaktujte nás, aby sme mohli zorganizovať večerný program. :)",
@@ -69,8 +69,8 @@
   },
 
   "hero": {
-    "headline1": "Veľká novinka - budeme sa brať!",
-    "headline2": "Objavte všetky podrobnosti o našom jedinečnom príbehu lásky a nadchádzajúcej oslave. Zostaňte naladení na to kúzlo."
+    "headline1": "Veľká Novina - budeme sa brať!",
+    "headline2": "Objavte všetky podrobnosti o našom jedinečnom príbehu lásky a očakávanom spoločnom veľkom dni. Nalaďte sa na toto kúzlo."
   },
 
   "participation": {
@@ -119,7 +119,7 @@
   },
 
   "program": {
-    "headline": "Náš výnimočný deň"
+    "headline": "Náš jedinečný deň"
   },
 
   "slovakia": {
