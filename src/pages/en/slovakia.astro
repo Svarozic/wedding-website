@@ -1,16 +1,78 @@
 ---
 import {t} from "astro-i18n";
+
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
 import Paragraph from "@src/components/Paragraph.astro";
 import ComingSoon from "@src/components/ComingSoon.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
+import Center from "@src/components/Center.astro";
+
+import assetDrawingMap from "@src/assets/drawing_map.png?url";
 ---
 
 <BaseLayout>
   <Container>
     <Headline top={t("slovakia.headlineTop")}>{t("slovakia.headline")}</Headline>
+
+    <img class="mx-auto w-full max-w-240" src={assetDrawingMap} alt="assetDrawingMap" />
+
+    <Paragraph
+      >The country in the heart of Europe will surprise you with varied and unique experiences, rich history,
+      undiscovered places, authentic culture and dynamic nowadays. SLOVAKIA TRAVEL is a national tourism promotion
+      agency that presents Slovakia at home and abroad as a surprisingly wonderful and attractive country worth
+      exploring. Slovakia – what a surprise! Come to experience it yourself.</Paragraph
+    >
+
+    <section class="grid grid-cols-1 justify-items-center gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <iframe
+        class="min-h-40 w-full"
+        src="https://www.youtube.com/embed/ktY1hFs1gqY?si=6dd8pMXS7pacT_Fg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+      <iframe
+        class="min-h-40 w-full"
+        src="https://www.youtube.com/embed/ij0CrGak2v0?si=uA4rMkJ4QDK3bqRz"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+      <iframe
+        class="min-h-40 w-full"
+        src="https://www.youtube.com/embed/acUMPeJd1yY?si=bvi55_s9pZxiUiUr"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+      <iframe
+        class="min-h-40 w-full"
+        src="https://www.youtube.com/embed/7asz-MvWckU?si=wVlLfnAc9VK1x58x"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
+  </Container>
+
+  <Container>
+    <Headline top="East Slovakia">In our region</Headline>
+    <Paragraph>Presov</Paragraph>
+    <Center>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ul3K5PQONYA?si=v4kTaEiofhPmOfjp"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </Center>
   </Container>
 
   <ComingSoon />
