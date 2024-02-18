@@ -9,9 +9,12 @@ import ExploreOtherPages from "@src/components/ExploreOtherPages.astro";
 
 const locale = astroI18n.locale ?? "en";
 
-// SVARGA: create each form in each language
 const GOOGLE_FORM_URL =
-  "https://docs.google.com/forms/d/e/1FAIpQLSfkSdx9BCGXOSuWZNma7RC-WegITGV_hFZE47-EQNSdR-WPrA/viewform";
+  locale === "sk"
+    ? "https://docs.google.com/forms/d/e/1FAIpQLSeUdOmhEac-dxoKBEsVe22s4ZgMW-UftJ0_YGyCGGPKshmLUQ/viewform"
+    : locale === "sr"
+      ? "https://docs.google.com/forms/d/e/1FAIpQLSe-8rIUQyWenwayjZ1zN8vJ8lQsUyLzyq3I2U3B8kxFueErlw/viewform"
+      : "https://docs.google.com/forms/d/e/1FAIpQLSfkSdx9BCGXOSuWZNma7RC-WegITGV_hFZE47-EQNSdR-WPrA/viewform";
 const GOOGLE_FORM_IFRAME_LINK = `${GOOGLE_FORM_URL}?embedded=true&hl=${locale}`;
 const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
 ---
@@ -20,8 +23,14 @@ const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
   <Container>
     <Headline top={t("participation.headline.top")}>{t("participation.headline.main")}</Headline>
 
-    <iframe src={GOOGLE_FORM_IFRAME_LINK} width="100%" height="3800" frameborder="0" marginheight="0" marginwidth="0"
-    ></iframe>
+    <iframe
+      src={GOOGLE_FORM_IFRAME_LINK}
+      width="100%"
+      height="3800"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      loading="lazy"></iframe>
 
     <div role="alert" class="alert bg-white">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="h-6 w-6 shrink-0 stroke-primary"
