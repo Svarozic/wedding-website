@@ -90,9 +90,14 @@
     "serbian": "Serbian",
     "slovak": "Slovak",
     "english": "English",
-    "statement": "Welcome to our international guest conversation starter page! As we come from different countries, we want to make sure everyone feels included and comfortable. Here, you'll find a collection of phrases carefully selected to bridge cultural gaps and spark engaging dialogues among our diverse attendees.",
+    "statement": "This page offer some basic phrases to ease communication.",
     "chat1_1": "Hello, my name is Peter. I am from Slovakia.",
-    "chat1_2": "Hi, I'm Ivana. I am from Serbia."
+    "chat1_2": "Hi, I'm Ivana. I am from Denmark."
+  },
+
+  "photos": {
+    "headline": "Our captured special moments",
+    "statement": "After the joyous celebration of our wedding, we eagerly anticipate the arrival of the captured moments in the form of cherished photographs. Following the event, we look forward to sharing these precious memories with our loved ones. Stay tuned for the magic."
   },
 
   "place": {
@@ -104,18 +109,12 @@
     "region": "Zemplínska šírava",
     "moreInfo": "More info",
     "celebrate": "Come celebrate our most important day with us",
-    "description": "Zemplínska šírava, often referred to as the \"Slovak Sea,\" is a breathtaking lake in eastern Slovakia. Surrounded by rolling hills, lush greenery, and sandy beaches, it offers a serene escape for visitors. The crystal-clear waters are perfect for swimming, boating, and fishing, while hiking and cycling trails provide stunning views of the lake. As the sun sets, the colors reflect on the calm waters, creating a mesmerizing atmosphere. The region also features charming villages and towns, allowing visitors to experience the rich culture and history of Slovakia. Zemplínska šírava is a beautiful destination for both relaxation and outdoor activities.",
+    "description": "Zemplínska šírava, often referred to as the \"Slovak Sea,\" is a breathtaking lake in eastern Slovakia. Surrounded by rolling hills, lush greenery, and sandy beaches, it offers a serene escape for visitors. The crystal-clear waters are perfect for swimming, boating, and fishing, while hiking and cycling trails provide stunning views of the lake. The region also features charming villages and towns, allowing visitors to experience the rich culture and history of Slovakia. Zemplínska šírava is a beautiful destination for both relaxation and outdoor activities.",
     "description_short": "Zemplínska šírava, often referred to as the \"Slovak Sea,\" is a breathtaking lake in eastern Slovakia. Surrounded by rolling hills, lush greenery, and sandy beaches, it offers a serene escape for visitors.",
 
     "hotelName": "Hotel Eurobus",
-    "hotelParagraph1": "Hotel Eurobus is located 12 km from the town of Michalovce, in the center of the recreational area Zemplínska šírava, the resort Medvedia hora, in the beautiful scenery of the Eastern Slovak Lowland under the slopes of Vihorlat. The reservoir, with a touch of seaside romance, provides perfect facilities for visitors.",
-    "hotelParagraph2": "Due to its favorable climate conditions and the highest number of sunny days, the area is a sought-after destination for tourism with opportunities for swimming, surfing, yachting, water sports, as well as hiking in the surroundings. The hotel is situated in beautiful nature, close to the water, right at the tip of the peninsula, where there is a view of the water from every side. The hotel offers quality services in accommodation, dining, wellness, relaxation, and sports.",
-    "hotelMorePhotos": "Be sure to check the official hotel gallery for more stunning photos."
-  },
-
-  "photos": {
-    "headline": "Our captured special moments",
-    "statement": "After the joyous celebration of our wedding, we eagerly anticipate the arrival of the captured moments in the form of cherished photographs. Following the event, we look forward to sharing these precious memories with our loved ones. Stay tuned for the magic."
+    "hotelParagraph1": "Hotel Eurobus is located 12 km from the town of Michalovce, in the center of the recreational area Zemplínska šírava, the resort Medvedia hora. The hotel is situated in beautiful nature, close to the water, right at the tip of the peninsula, where there is a view of the water from every side. The hotel offers quality services in accommodation, dining and wellness.",
+    "roomsParagraph1": "The hotel has 34 rooms available and we have blocked them all out for 2 nights, along with extended check-in and check-out. This means the rooms will be available to our guests from 10 am Friday and until 8pm on Sunday. The package includes breakfast and use of the wonderful wellness facilities.  Thanks to the generosity of the hotel, our guests can enjoy a discount, bringing the cost of a room to 240€ for the entire two-night stay.  If you're interested in booking a room, simply do this through your RSVP."
   },
 
   "program": {

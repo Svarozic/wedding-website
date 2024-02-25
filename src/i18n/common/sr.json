@@ -65,19 +65,19 @@
     "place": "Mjesto",
     "program": "Program",
     "slovakia": "Otkrijte Slovačku",
-    "vows": "Zaveti venčanja"
+    "vows": "Svadbena obečanja"
   },
 
   "hero": {
-    "headline1": "Čujte i počujte – venčavamo se!",
-    "headline2": "Otkrijte sve detalje o našoj jedinstvenoj ljubavnoj priči i nadolazećoj proslavi. Ostanite u toku za čaroliju!"
+    "headline1": "Čujte i počujte – vjenčavamo se!",
+    "headline2": "Otkrijte sve detalje o našoj jedinstvenoj ljubavnoj priči i nadolazećoj proslavi. Budite dio naše čarolije!"
   },
 
   "participation": {
     "confirm": "Potvrdite učešće",
     "headline": {
       "top": "Dolazite?",
-      "main": "Obavestite nas"
+      "main": "Obavjestite nas"
     },
     "problem": {
       "headline": "Ne vidite Google Formular?",
@@ -90,25 +90,9 @@
     "serbian": "Srpski",
     "slovak": "Slovački",
     "english": "Engleski",
-    "statement": "Dobrodošli na našu stranicu sa početnim rečenicama za razgovor međunarodnih gostiju! Kako dolazimo iz različitih zemalja, želimo da se uverimo da se svako oseća uključen i udobno. Ovde ćete pronaći kolekciju fraza pažljivo odabranih kako bi se premostile kulturne razlike i započeli zanimljivi dijalozi među našim raznolikim prisutnima.",
+    "statement": "U produžetku vam prezentiramo nekoliko fraza za lakšu komunikaciju.",
     "chat1_1": "Zdravo, moje ime je Peter. Ja sam iz Slovačke.",
-    "chat1_2": "Zdravo, ja sam Ivana. Ja sam iz Srbije."
-  },
-
-  "place": {
-    "venue": "Mjesto održavanja svadbe",
-    "when": "Kada",
-    "date": "21. Septembar 2024",
-    "where": "Gde",
-    "slovakia": "Slovačka",
-    "region": "Zemplínska šírava",
-    "moreInfo": "Više informacija",
-    "celebrate": "Dođite da proslavite naš najvažniji dan sa nama",
-
-    "hotelName": "Hotel Eurobus",
-    "hotelParagraph1": "Hotel Eurobus se nalazi 12 km od grada Michalovce, u centru rekreativne zone Zemplínska šírava, u letovalištu Medvedia hora, u prelepom pejzažu Istočne slovačke nizije pod padinama Vihorlatu. Akumulaciono jezero, sa primesama primorskog romantizma, pruža savršene uslove za posetioce.",
-    "hotelParagraph2": "Zahvaljujući svojim povoljnim klimatskim uslovima i najvećem broju sunčanih dana, ova oblast je tražena destinacija za turizam sa mogućnostima za kupanje, surfovanje, jahting, vodene sportove, kao i šetnje u okolini. Hotel se nalazi u prelepom prirodnom okruženju, blizu vode, direktno na vrhu poluostrva, gde se pruža pogled na vodu sa svih strana. Hotel nudi kvalitetne usluge u smeštaju, ishrani, wellnessu, opuštanju i sportu.",
-    "hotelMorePhotos": "Budite sigurni da proverite zvaničnu galeriju hotela za još prelepe fotografije."
+    "chat1_2": "Zdravo, ja sam Ivana. Ja sam iz Danske."
   },
 
   "photos": {
@@ -116,8 +100,25 @@
     "statement": "Nakon radostne proslave našeg venčanja, s nestrpljenjem očekujemo dolazak uhvaćenih trenutaka u obliku dragocenih fotografija. Nakon događaja, radujemo se deljenju ovih dragocenih sećanja sa našim voljenima. Ostanite u toku za čaroliju."
   },
 
+  "place": {
+    "venue": "Mjesto održavanja svadbe",
+    "when": "Kada",
+    "date": "21. Septembar 2024",
+    "where": "Gdje",
+    "slovakia": "Slovačka",
+    "region": "Zemplínska šírava",
+    "moreInfo": "Više informacija",
+    "celebrate": "Budite dio naše proslave",
+    "description": "Zemplínska šírava, se često naziva \"slovačko more\", je zadivljujuće jezero na istoku Slovačke. Okruženo valovitim brdima, bujnom zelenilom i pješčanim plažama, pruža miran bjeg posjetiocima. Kristalno čiste vode su savršene za plivanje, vožnju čamcima i ribolov, dok planinarske i biciklističke staze pružaju poglede na jezero. Ova regija takođe ima šarmantna sela i gradove, što posetiocima omogućava da dožive bogatu kulturu i istoriju Slovačke. Zemplínska šírava je ljepa destinacija kako za opuštanje tako i za aktivnosti na otvorenom.",
+    "description_short": "Zemplínska šírava, se često naziva \"slovačko more\", je zadivljujuće jezero na istoku Slovačke. Okruženo valovitim brdima, bujnom zelenilom i pješčanim plažama, pruža miran bjeg posjetiocima.",
+
+    "hotelName": "Hotel Eurobus",
+    "hotelParagraph1": "Hotel Eurobus se nalazi 12 km od grada Michalovce, u centru rekreativne zone Zemplínska šírava, u ljetovalištu Medvedia hora. Hotel se nalazi u preljepom prirodnom okruženju, blizu vode, direktno na vrhu poluostrva, gdje se pruža pogled na vodu sa svih strana. Hotel nudi kvalitetne usluge smještaja, ishrane i wellnessa.",
+    "roomsParagraph1": "Hotel ima 34 sobe na raspolaganju i blokirali smo sve sobe za 2 noći, uz mogučnost rani check-in i kasni check-out. To znači da će sobe biti dostupne našim gostima od 10 sati u petak do 20 sati u nedelju. Paket uključuje doručak i korišćenje spa sadržaja. Zahvaljujući velikodušnosti hotela, naši gosti mogu uživati u popustu, što cenu sobe za celokupan dvodnevni boravak spušta na 240€. Ako ste zainteresovani za rezervaciju sobe, rezervacija ide preko nas."
+  },
+
   "program": {
-    "headline": "Naš poseban dan"
+    "headline": "Naš posebni dan"
   },
 
   "slovakia": {
@@ -126,7 +127,7 @@
   },
 
   "vows": {
-    "our": "Naši zaveti"
+    "our": "Naša"
   },
 
   "404": {

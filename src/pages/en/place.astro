@@ -74,9 +74,6 @@ import assetIzbaVyhlad from "@src/assets/hotel-eurobus/gallery/izba-vyhlad-logo.
     <Headline>{t("place.hotelName")}</Headline>
     <Paragraph>
       {t("place.hotelParagraph1")}
-    </Paragraph>
-
-    <Paragraph>
       {t("place.hotelParagraph2")}
     </Paragraph>
 
@@ -102,18 +99,9 @@ import assetIzbaVyhlad from "@src/assets/hotel-eurobus/gallery/izba-vyhlad-logo.
       <img class="rounded-lg shadow-xl" src={assetImg41991} alt="assetImg41991" />
       <img class="rounded-lg shadow-xl" src={assetImg42141} alt="assetImg42141" />
       <img class="rounded-lg shadow-xl" src={assetImg4226} alt="assetImg4226" />
-      <!--izby-->
-      <img class="rounded-lg shadow-xl" src={assetImg14541} alt="assetImg14541" />
-      <img class="rounded-lg shadow-xl" src={assetImg14661} alt="assetImg14661" />
-      <img class="rounded-lg shadow-xl" src={assetImg14771} alt="assetImg14771" />
-      <img class="rounded-lg shadow-xl" src={assetImg4158} alt="assetImg4158" />
-      <img class="rounded-lg shadow-xl" src={assetIzba1} alt="assetIzba1" />
-      <img class="rounded-lg shadow-xl" src={assetIzbaVyhlad} alt="assetIzbaVyhlad" />
     </section>
 
-    <Paragraph class="my-4 lg:my-8">{t("place.hotelMorePhotos")}</Paragraph>
-
-    <Center>
+    <Center class="my-4 lg:my-8">
       <a class="btn btn-outline btn-primary" href="https://www.hoteleurobus.sk/galeria" target="_blank">
         <svg
           class="h-6 w-6"
@@ -133,6 +121,20 @@ import assetIzbaVyhlad from "@src/assets/hotel-eurobus/gallery/izba-vyhlad-logo.
         hoteleurobus.sk</a
       >
     </Center>
+
+    <Paragraph>
+      {t("place.roomsParagraph1")}
+    </Paragraph>
+
+    <section class="grid grid-cols-2 justify-items-center gap-4 md:grid-cols-3 lg:grid-cols-6">
+      <!--izby-->
+      <img class="rounded-lg shadow-xl" src={assetImg14541} alt="assetImg14541" />
+      <img class="rounded-lg shadow-xl" src={assetImg14661} alt="assetImg14661" />
+      <img class="rounded-lg shadow-xl" src={assetImg14771} alt="assetImg14771" />
+      <img class="rounded-lg shadow-xl" src={assetImg4158} alt="assetImg4158" />
+      <img class="rounded-lg shadow-xl" src={assetIzba1} alt="assetIzba1" />
+      <img class="rounded-lg shadow-xl" src={assetIzbaVyhlad} alt="assetIzbaVyhlad" />
+    </section>
   </Container>
 
   <style>

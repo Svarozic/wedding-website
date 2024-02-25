@@ -70,7 +70,7 @@
 
   "hero": {
     "headline1": "Veľká Novina - budeme sa brať!",
-    "headline2": "Objavte všetky podrobnosti o našom jedinečnom príbehu lásky a očakávanom spoločnom veľkom dni. Nalaďte sa na toto kúzlo."
+    "headline2": "Objavte všetky podrobnosti o našom jedinečnom príbehu lásky a očakávanom spoločnom veľkom dni. Staňte sa súčasťou tohto kúzla!"
   },
 
   "participation": {
@@ -86,6 +86,20 @@
     }
   },
 
+  "phrases": {
+    "serbian": "Srbština",
+    "slovak": "Slovenčina",
+    "english": "Angličtina",
+    "statement": "Na tejto stránke vam ponúkame niekoľko fráz, ktoré vám môžu pomôcť pri komunikácii s našimi hosťami.",
+    "chat1_1": "Ahoj, moje meno je Peter. Ja som zo Slovenska.",
+    "chat1_2": "Ahoj, ja som Ivana. Ja som zo Dánska."
+  },
+
+  "photos": {
+    "headline": "Naše zaznamenané výnimočné momenty",
+    "statement": "Po radostnej oslave našej svadby s nádejou očakávame príchod zachytených okamihov vo forme drahocenných fotografií. Po udalosti sa tešíme na zdieľanie týchto vzácnych spomienok s našimi blízkymi. Buďte naladení na túto kúzelnú chvíľu."
+  },
+
   "place": {
     "venue": "Miesto konania svadby",
     "when": "Kedy",
@@ -95,27 +109,12 @@
     "region": "Zemplínska šírava",
     "moreInfo": "Viac informácií",
     "celebrate": "Poďte s nami osláviť náš najdôležitejší deň",
-    "description": "Zemplínska šírava, často nazývaná \"slovenské more\", je úchvatné jazero na východnom Slovensku. Obklopené kopcami, sviežou zeleňou a piesočnatými plážami ponúka návštevníkom pokojné útočisko. Krištáľovo čistá voda je ideálna na kúpanie, člnkovanie a rybolov, zatiaľ čo turistické a cyklistické trasy poskytujú nádherný výhľad na jazero. Pri západe slnka sa farby odrážajú na pokojnej hladine a vytvárajú fascinujúcu atmosféru. V regióne sa nachádzajú aj pôvabné dedinky a mestečká, ktoré návštevníkom umožňujú spoznať bohatú kultúru a históriu Slovenska. Zemplínska šírava je krásnou destináciou na oddych aj outdoorové aktivity.",
+    "description": "Zemplínska šírava, často nazývaná \"slovenské more\", je úchvatné jazero na východnom Slovensku. Obklopené kopcami, sviežou zeleňou a piesočnatými plážami ponúka návštevníkom pokojné útočisko. Krištáľovo čistá voda je ideálna na kúpanie, člnkovanie a rybolov, zatiaľ čo turistické a cyklistické trasy poskytujú nádherný výhľad na jazero. V regióne sa nachádzajú aj pôvabné dedinky a mestečká, ktoré návštevníkom umožňujú spoznať bohatú kultúru a históriu Slovenska. Zemplínska šírava je krásnou destináciou na oddych aj outdoorové aktivity.",
     "description_short": "Zemplínska šírava, často nazývaná \"slovenské more\", je úchvatné jazero na východnom Slovensku. Obklopené kopcami, sviežou zeleňou a piesočnatými plážami ponúka návštevníkom pokojné útočisko.",
 
     "hotelName": "Hotel Eurobus",
-    "hotelParagraph1": "Hotel Eurobus sa nachádza 12 km od mesta Michalovce, v centre rekreačnej oblasti Zemplínska šírava, stredisko Medvedia hora, v prekrásnej scenérii Východoslovenskej nížiny pod svahmi Vihorlatu. Vodná nádrž s nádychom prímorskej romantiky, poskytuje dokonalé zázemie pre návštevníkov.",
-    "hotelParagraph2": "Pre svoje dobré klimatické podmienky a najväčší počet slnečných dní je vyhľadávanou oblasťou cestovného ruchu s možnosťami kúpania, surfovania, jachtingu, vodných športov, ako aj vychádzkami v okolí. Hotel je situovaný v nádhernej prírode v tesnej blízkosti vody priamo na špici polostrova, kde je z každej strany výhľad na vodnú hladinu. Hotel ponúka kvalitné služby v oblasti ubytovania, stravovania, wellnessu, oddychu a športu.",
-    "hotelMorePhotos": "Nezabudnite si pozrieť oficiálnu galériu hotela pre ďalšie úchvatné fotografie."
-  },
-
-  "phrases": {
-    "serbian": "Srbština",
-    "slovak": "Slovenčina",
-    "english": "Angličtina",
-    "statement": "Vitajte na našej stránke s konverzačnými štartérmi pre medzinárodných hostí! Keďže pochádzame z rôznych krajín, chceme sa uistiť, že sa každý cíti zahrnutý a pohodlne. Tu nájdete zbierku fráz starostlivo vybraných na prekonanie kultúrnych rozdielov a na rozpútanie zaujímavých dialógov medzi našimi rôznorodými účastníkmi.",
-    "chat1_1": "Ahoj, moje meno je Peter. Ja som zo Slovenska.",
-    "chat1_2": "Ahoj, ja som Ivana. Ja som zo Srbska."
-  },
-
-  "photos": {
-    "headline": "Naše zaznamenané výnimočné momenty",
-    "statement": "Po radostnej oslave našej svadby s nádejou očakávame príchod zachytených okamihov vo forme drahocenných fotografií. Po udalosti sa tešíme na zdieľanie týchto vzácnych spomienok s našimi blízkymi. Buďte naladení na túto kúzelnú chvíľu."
+    "hotelParagraph1": "Hotel Eurobus sa nachádza 12 km od mesta Michalovce, v centre rekreačnej oblasti Zemplínska šírava, stredisko Medvedia hora. Hotel je situovaný v nádhernej prírode v tesnej blízkosti vody priamo na špici polostrova, kde je z každej strany výhľad na vodnú hladinu. Hotel ponúka kvalitné služby v oblasti ubytovania, stravovania i wellnessu.",
+    "roomsParagraph1": "Hotel má k dispozícii 34 izieb a všetky sme zablokovali na 2 noci, spolu s predĺženým časom pre ubytovanie (check-in) a odchod (check-out). To znamená, že izby budú k dispozícii našim hosťom od 10:00 v piatok až do 20:00 v nedeľu. Balíček zahŕňa raňajky a využitie wellness priestorov. Vďaka veľkorysosti hotela si môžu naši hostia vychutnať zľavu, ktorá zníži cenu izby na 240€ za celý dvojdňový pobyt. Ak máte záujem o rezerváciu izby, urobte prostredníctvom nás a dajte nám vedieť."
   },
 
   "program": {
