@@ -40,15 +40,12 @@ const GOOGLE_FORM_LINK = `${GOOGLE_FORM_URL}?usp=sf_link&hl=${locale}`;
           d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg
       >
       <div class="w-full min-w-0">
-        <h3>{t("participation.problem.headline")}</h3>
+        <h4 class="text-sm">{t("participation.problem.headline")}</h4>
         <div class="break-normal text-xs">{t("participation.problem.text")}</div>
         <a class="link link-primary break-words text-xs" href={GOOGLE_FORM_LINK} target="_blank">{GOOGLE_FORM_LINK}</a>
       </div>
-      <div>
-        <a class="btn btn-primary btn-sm" href={GOOGLE_FORM_LINK} target="_blank">{t("participation.problem.open")}</a>
-      </div>
     </div>
-
-    <FlowerDivider type="2" class="py-10 lg:py-20" />
   </Container>
+
+  <FlowerDivider type="2" class="py-10 lg:py-20" />
 </BaseLayout>
