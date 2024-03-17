@@ -1,0 +1,25 @@
+---
+import {t} from "astro-i18n";
+import BaseLayout from "@src/layouts/BaseLayout.astro";
+import Container from "@src/components/Container.astro";
+import Headline from "@src/components/Headline.astro";
+import Paragraph from "@src/components/Paragraph.astro";
+import ComingSoon from "@src/components/ComingSoon.astro";
+import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
+---
+
+<BaseLayout>
+  <Container>
+    <Headline top={t("traditions.headlineTop")}>{t("nav.traditions")}</Headline>
+
+    <Paragraph>
+      {t("traditions.statement")}
+    </Paragraph>
+  </Container>
+
+  <ComingSoon />
+
+  <Container>
+    <ParticipationHeadline />
+  </Container>
+</BaseLayout>

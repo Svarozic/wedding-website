@@ -65,6 +65,7 @@
     "place": "Venue",
     "program": "Programme",
     "slovakia": "Discover Slovakia",
+    "traditions": "Wedding traditions",
     "vows": "Wedding vows"
   },
 
@@ -125,6 +126,11 @@
     "headlineTop": "Discover",
     "headline": "Slovakia",
     "east": "East"
+  },
+
+  "traditions": {
+    "headlineTop": "Our",
+    "statement": "We love fun traditions and want to invite everyone to participate in them! Here you can read about them."
   },
 
   "vows": {

@@ -65,6 +65,7 @@
     "place": "Miesto",
     "program": "Program",
     "slovakia": "Objavte Slovensko",
+    "traditions": "Svadobné tradície",
     "vows": "Svadobné sľuby"
   },
 
@@ -125,6 +126,11 @@
     "headlineTop": "Objavte",
     "headline": "Slovensko",
     "east": "Východné"
+  },
+
+  "traditions": {
+    "headlineTop": "Naše",
+    "statement": "Máme radi zábavné tradície a chceme pozvať všetkých, aby sa na nich zúčastnili! Tu si o nich môžete prečítať."
   },
 
   "vows": {

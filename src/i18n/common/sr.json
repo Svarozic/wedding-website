@@ -65,6 +65,7 @@
     "place": "Mjesto",
     "program": "Program",
     "slovakia": "Otkrijte Slovačku",
+    "traditions": "Svadbene tradicije",
     "vows": "Svadbena obečanja"
   },
 
@@ -125,6 +126,11 @@
     "headlineTop": "Otkrijte",
     "headline": "Slovačka",
     "east": "Istočna"
+  },
+
+  "traditions": {
+    "headlineTop": "Naše",
+    "statement": "Volimo zabavne tradicije i želimo da pozovemo sve da učestvuju u njima! Ovdje možete pročitati o njima."
   },
 
   "vows": {
