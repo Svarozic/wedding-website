@@ -4,10 +4,8 @@ import {t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
-import Paragraph from "@src/components/Paragraph.astro";
 import ComingSoon from "@src/components/ComingSoon.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
-import Center from "@src/components/Center.astro";
 
 import assetDrawingMap from "@src/assets/drawing_map.png?url";
 ---
@@ -15,69 +13,14 @@ import assetDrawingMap from "@src/assets/drawing_map.png?url";
 <BaseLayout>
   <Container>
     <Headline top={t("slovakia.headlineTop")}>{t("slovakia.headline")}</Headline>
-
-    <img class="mx-auto w-full max-w-240" src={assetDrawingMap} alt="assetDrawingMap" />
-
-    <Paragraph
-      >Welcome to the enchanting country of Slovakia, where love is in the air, and adventure awaits! For those dear
-      friends and family traveling from abroad, we understand that your journey is more than just a celebration of our
-      love – it's an opportunity to explore the rich history, charming traditions, and breathtaking landscapes that
-      Slovakia has to offer. So, whether you're a history buff, nature enthusiast, or simply eager to immerse yourself
-      in the local culture, Slovakia has something special for anyone. Let the exploration begin, and may your time here
-      be filled with love, laughter, and unforgettable experiences!</Paragraph
-    >
-
-    <section class="grid grid-cols-1 justify-items-center gap-4 md:grid-cols-2 lg:grid-cols-4">
-      <iframe
-        class="min-h-40 w-full"
-        src="https://www.youtube.com/embed/ktY1hFs1gqY?si=6dd8pMXS7pacT_Fg"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-
-      <iframe
-        class="min-h-40 w-full"
-        src="https://www.youtube.com/embed/ij0CrGak2v0?si=uA4rMkJ4QDK3bqRz"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-
-      <iframe
-        class="min-h-40 w-full"
-        src="https://www.youtube.com/embed/acUMPeJd1yY?si=bvi55_s9pZxiUiUr"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-
-      <iframe
-        class="min-h-40 w-full"
-        src="https://www.youtube.com/embed/7asz-MvWckU?si=wVlLfnAc9VK1x58x"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-    </section>
-  </Container>
-
-  <Container>
-    <Headline top="East Slovakia">In our region</Headline>
-    <Paragraph>Presov</Paragraph>
-    <Center>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ul3K5PQONYA?si=v4kTaEiofhPmOfjp"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-    </Center>
   </Container>
 
   <ComingSoon />
+
+  <Container>
+    <Headline top={t("slovakia.east")}>{t("slovakia.headline")}</Headline>
+    <img class="mx-auto w-full max-w-240" src={assetDrawingMap} alt="assetDrawingMap" />
+  </Container>
 
   <Container>
     <ParticipationHeadline />

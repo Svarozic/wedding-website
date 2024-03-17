@@ -1,11 +1,10 @@
 ---
-import {t} from "astro-i18n";
+import {l, t} from "astro-i18n";
 
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Headline from "@src/components/Headline.astro";
 import Container from "@src/components/Container.astro";
 import Center from "@src/components/Center.astro";
-import ComingSoon from "@src/components/ComingSoon.astro";
 import Paragraph from "@src/components/Paragraph.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
@@ -62,8 +61,10 @@ import assetIzbaVyhlad from "@src/assets/hotel-eurobus/gallery/izba-vyhlad-logo.
     <img class="mx-auto w-full max-w-240 py-4" src={assetDrawingHotelEurobus} alt="hotel eurobus" />
 
     <Paragraph>
-      <a class="link-hover link-primary" href="https://maps.app.goo.gl/aaikTAviGAciibZe6" target="_blank"
-        >{t("faq.aAddress")}</a
+      <a
+        class="link-hover link-primary text-xl font-semibold"
+        href="https://maps.app.goo.gl/aaikTAviGAciibZe6"
+        target="_blank">{t("faq.aAddress")}</a
       >
     </Paragraph>
   </Container>
@@ -74,7 +75,6 @@ import assetIzbaVyhlad from "@src/assets/hotel-eurobus/gallery/izba-vyhlad-logo.
     <Headline>{t("place.hotelName")}</Headline>
     <Paragraph>
       {t("place.hotelParagraph1")}
-      {t("place.hotelParagraph2")}
     </Paragraph>
 
     <section class="grid grid-cols-2 justify-items-center gap-4 md:grid-cols-3 lg:grid-cols-6">
@@ -155,6 +155,10 @@ import assetIzbaVyhlad from "@src/assets/hotel-eurobus/gallery/izba-vyhlad-logo.
     <Paragraph>
       {t("place.description")}
     </Paragraph>
+
+    <Center>
+      <a class="btn" href={l("/slovakia")}>{t("nav.slovakia")}</a>
+    </Center>
   </Container>
 
   <Container>
