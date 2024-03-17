@@ -121,9 +121,10 @@
 
   "program": {
     "headline": "Náš jedinečný deň",
-    "breakingPlate": "Rozbíjanie taniera (tradition)",
-    "ceremony": "Ceremónia",
-    "cepcenie": "Čepčenie (tradition)",
+    "breakingPlate": "Rozbíjanie taniera (tradícia)",
+    "ceremony": "Obrad",
+    "cepcenie": "Čepčenie (tradícia)",
+    "change": "Tento program se ešte môže zmeniť",
     "lastCall": "Kapurková",
     "dinner": "Večera",
     "firstDance": "Prvý tanec",
