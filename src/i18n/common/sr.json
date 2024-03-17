@@ -120,7 +120,14 @@
   },
 
   "program": {
-    "headline": "Naš posebni dan"
+    "headline": "Naš posebni dan",
+    "breakingPlate": "Razbijanje tanjira (tradicija)",
+    "ceremony": "Ceremonija",
+    "cepcenie": "Čepčenie (tradicija)",
+    "lastCall": "Kraj",
+    "dinner": "Večera",
+    "firstDance": "Prvi ples",
+    "reception": "Prijem i torta"
   },
 
   "slovakia": {

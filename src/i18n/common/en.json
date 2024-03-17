@@ -120,7 +120,14 @@
   },
 
   "program": {
-    "headline": "Our special day"
+    "headline": "Our special day",
+    "breakingPlate": "Breaking a plate (tradition)",
+    "ceremony": "Ceremony",
+    "cepcenie": "Čepčenie (tradition)",
+    "dinner": "Dinner",
+    "firstDance": "First Dance",
+    "lastCall": "Last call",
+    "reception": "Reception & Cake"
   },
 
   "slovakia": {

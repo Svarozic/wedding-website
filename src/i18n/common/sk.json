@@ -120,7 +120,14 @@
   },
 
   "program": {
-    "headline": "Náš jedinečný deň"
+    "headline": "Náš jedinečný deň",
+    "breakingPlate": "Rozbíjanie taniera (tradition)",
+    "ceremony": "Ceremónia",
+    "cepcenie": "Čepčenie (tradition)",
+    "lastCall": "Kapurková",
+    "dinner": "Večera",
+    "firstDance": "Prvý tanec",
+    "reception": "Recepcia a torta"
   },
 
   "slovakia": {
