@@ -115,7 +115,8 @@
 
     "hotelName": "Hotel Eurobus",
     "hotelParagraph1": "Hotel Eurobus is located 12 km from the town of Michalovce, in the center of the recreational area Zemplínska šírava, the resort Medvedia hora. The hotel is situated in beautiful nature, close to the water, right at the tip of the peninsula, where there is a view of the water from every side. The hotel offers quality services in accommodation, dining and wellness.",
-    "roomsParagraph1": "The hotel has 34 rooms available and we have blocked them all out for 2 nights, along with extended check-in and check-out. This means the rooms will be available to our guests from 10 am Friday and until 8pm on Sunday. The package includes breakfast and use of the wonderful wellness facilities.  Thanks to the generosity of the hotel, our guests can enjoy a discount, bringing the cost of a room to 240€ for the entire two-night stay.  If you're interested in booking a room, simply do this through your RSVP."
+    "roomsParagraph1": "The hotel has 34 rooms available and we have blocked them all out for 2 nights, along with extended check-in and check-out. This means the rooms will be available to our guests from 10 am Friday and until 8pm on Sunday. The package includes breakfast and use of the wonderful wellness facilities.  Thanks to the generosity of the hotel, our guests can enjoy a discount, bringing the cost of a two-person room to 240€ for the two-night stay.",
+    "bookingParagraph": "If you're interested in booking a room, simply do this through your RSVP."
   },
 
   "program": {
