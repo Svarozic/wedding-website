@@ -1,5 +1,5 @@
 ---
-import {t} from "astro-i18n";
+import {t, astroI18n} from "astro-i18n";
 
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import ChatFaq from "@src/components/ChatFaq.astro";
@@ -23,7 +23,7 @@ import FlowerDivider from "../../components/FlowerDivider.astro";
     <ChatFaq qaToken="Accommodation" />
     <ChatFaq qaToken="Outdoors" />
     <ChatFaq qaToken="Program" />
-    <ChatFaq qaToken="PlusOne" />
+    {"sr" !== astroI18n.locale && <ChatFaq qaToken="PlusOne" />}
     <ChatFaq qaToken="Kids" />
     <ChatFaq qaToken="DressCode" href="https://www.hoteleurobus.sk/galeria" />
     <ChatFaq qaToken="Temperature" />
