@@ -47,7 +47,7 @@
     "qFood": "What type of food will be served at your wedding?",
     "aFood": "We will have a buffet of finger foods both before and after the ceremony. For dinner, there will be a three-course menu, with vegan options and, of course, options for guests with specific food allergies. The specifics on the food will be updated as we come a little closer.",
     "qLanguages": "What languages will be spoken during the ceremony and wedding? Will I be able to understand anything?",
-    "aLanguages": "The ceremony and wedding will mainly be in Slovak and Serbian, reflecting our backgrounds. However, we understand the significant language diversity at our wedding, so we're working toward making as much of the day accessible in English as well. And, of course, the personnel at the venue all speak English as well.",
+    "aLanguages": "The ceremony and wedding will mainly be in Slovak and Serbo-Croatian, reflecting our backgrounds. However, we understand the significant language diversity at our wedding, so we're working toward making as much of the day accessible in English as well. And, of course, the personnel at the venue all speak English as well.",
     "qSpeech": "Could I do a speech or add something to the programme?",
     "aSpeech": "If you plan on making a speech or contributing in any other way, please contact us so we can organize the evening programme. :)",
     "qUpdates": "How will you communicate any updated information and/or changes before the wedding?",
@@ -87,7 +87,7 @@
   },
 
   "phrases": {
-    "serbian": "Serbian",
+    "serbian": "Serbo-Croatian",
     "slovak": "Slovak",
     "english": "English",
     "statement": "This page offer some basic phrases to ease communication.",

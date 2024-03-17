@@ -1,5 +1,5 @@
 {
-  "localeLabel": "Srpski",
+  "localeLabel": "Srpskohrvatski",
   "localePickerTitle": "Izaberite jezik",
   "title": "Ivana & Peter",
 
@@ -47,7 +47,7 @@
     "qFood": "Koja vrsta hrane će biti poslužena na vašem venčanju?",
     "aFood": "Imaćemo švedski sto sa sitnim zalogajima kako pre tako i posle ceremonije. Za večeru će biti trodelni meni, sa veganskim opcijama i, naravno, opcijama za goste sa specifičnim alergijama na hranu. Više detalja o hrani sljedi poslje.",
     "qLanguages": "Na kojim jezicima će se govoriti tokom ceremonije i venčanja? Da li ću biti u mogućnosti da razumem nešto?",
-    "aLanguages": "Ceremonija i venčanje će se uglavnom odvijati na slovačkom i srpskom jeziku, što odražava naše poreklo. Svesni smo velike jezičke raznolikosti na našem venčanju, pa čemo se potruditi da dosta toga bude dostupno i na engleskom jeziku. I, naravno, osoblje na mjestu venčanja takođe govori engleski.",
+    "aLanguages": "Ceremonija i venčanje će se uglavnom odvijati na slovačkom i srpskohrvatskom jeziku, što odražava naše poreklo. Svesni smo velike jezičke raznolikosti na našem venčanju, pa čemo se potruditi da dosta toga bude dostupno i na engleskom jeziku. I, naravno, osoblje na mjestu venčanja takođe govori engleski.",
     "qSpeech": "Da li mogu održati govor ili dodati nešto u program?",
     "aSpeech": "Ako planirate da održite govor ili doprinesete na neki drugi način, molimo vas da nas kontaktirate kako bismo mogli da organizujemo večernji program. :)",
     "qUpdates": "Kako ćete komunicirati bilo kakve ažurirane informacije i/ili promene pre venčanja?",
@@ -87,7 +87,7 @@
   },
 
   "phrases": {
-    "serbian": "Srpski",
+    "serbian": "Srpskohrvatski",
     "slovak": "Slovački",
     "english": "Engleski",
     "statement": "U produžetku vam prezentiramo nekoliko fraza za lakšu komunikaciju.",

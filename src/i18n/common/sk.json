@@ -47,7 +47,7 @@
     "qFood": "Aký typ jedla sa podáva na vašej svadbe?",
     "aFood": "Budeme mať bufet s malými jedlami a zákuskami pred aj po obrade. Na večeru bude trojchodové menu, s vegánskymi možnosťami a samozrejme možnosťami pre hostí s konkrétnymi alergiami na potraviny. Viac podrobnosti o jedle budú aktualizované neskôr.",
     "qLanguages": "V akých jazykoch sa bude hovoriť počas obradu a svadby? Budem schopný/á niečo rozumieť?",
-    "aLanguages": "Obrad a svadba budú hlavne v slovenčine a srbčine, odzrkadľujúc naše korene. Avšak, uvedomujeme si veľkú jazykovú diverzitu na našej svadbe, preto sa pokusíme, aby bolo toho čo najviac dostupné aj v anglickom jazyku. A samozrejme, personál na mieste tiež hovorí anglicky.",
+    "aLanguages": "Obrad a svadba budú hlavne v slovenčine a srbochorvatčine, odzrkadľujúc naše korene. Avšak, uvedomujeme si veľkú jazykovú diverzitu na našej svadbe, preto sa pokusíme, aby bolo toho čo najviac dostupné aj v anglickom jazyku. A samozrejme, personál na mieste tiež hovorí anglicky.",
     "qSpeech": "Môžem mať príhovor alebo pridať niečo do programu?",
     "aSpeech": "Ak plánujete mať príhovor alebo pridať nejaké ďalšie prvky do programu, prosím, kontaktujte nás, aby sme mohli zorganizovať večerný program. :)",
     "qUpdates": "Ako budete komunikovať akékoľvek aktualizované informácie a/alebo zmeny pred svadbou?",
@@ -87,7 +87,7 @@
   },
 
   "phrases": {
-    "serbian": "Srbština",
+    "serbian": "Srbochorvátčina",
     "slovak": "Slovenčina",
     "english": "Angličtina",
     "statement": "Na tejto stránke vam ponúkame niekoľko fráz, ktoré vám môžu pomôcť pri komunikácii s našimi hosťami.",

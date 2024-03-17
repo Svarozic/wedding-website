@@ -5,10 +5,6 @@ import pngSlovakia from "@src/assets/flag_slovakia.png?url";
 import pngSerbia from "@src/assets/flag_serbia.png?url";
 import pngUnitedKingdom from "@src/assets/flag_uk.png?url";
 
-// SVARGA: icon half half serbian croatian
-// SVARGA: srpsko=hrvatski label
-// SVARGA: change headline in phrases "serbian-croatian" to "serbian-croatian (srpsko-hrvatski)"
-
 const LANGUAGES = {
   sk: {
     pngSrc: pngSlovakia,
@@ -57,7 +53,7 @@ const LANGUAGES = {
               <div class="w-7">
                 <img class="h-5 w-5 md:h-7 md:w-7" src={LANGUAGES[langCode].pngSrc} alt={LANGUAGES[langCode].label} />
               </div>
-              {LANGUAGES[langCode].label}
+              <div class="w-28">{LANGUAGES[langCode].label}</div>
             </a>
           </li>
         ))
