@@ -8,11 +8,16 @@ import ComingSoon from "@src/components/ComingSoon.astro";
 import ParticipationHeadline from "@src/components/ParticipationHeadline.astro";
 
 import assetDrawingMap from "@src/assets/drawing_map.png?url";
+import Paragraph from "../../components/Paragraph.astro";
 ---
 
 <BaseLayout>
   <Container>
     <Headline top={t("slovakia.headlineTop")}>{t("slovakia.headline")}</Headline>
+
+    <Paragraph>
+      {t("slovakia.statement")}
+    </Paragraph>
   </Container>
 
   <ComingSoon />
