@@ -627,13 +627,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource-variable/dancing-script@npm:^5.0.16":
-  version: 5.0.16
-  resolution: "@fontsource-variable/dancing-script@npm:5.0.16"
-  checksum: acb33091bf6ab7055dce16662df26556315b925c6eadc34bfc111689dd8db2ce65b1f20d8a862e3c1bc694765c4c360fcea92b6d6f2bdc7cf11725618d2b0f16
-  languageName: node
-  linkType: hard
-
 "@fontsource-variable/raleway@npm:^5.0.17":
   version: 5.0.17
   resolution: "@fontsource-variable/raleway@npm:5.0.17"
@@ -641,31 +634,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource/allura@npm:^5.0.18":
-  version: 5.0.18
-  resolution: "@fontsource/allura@npm:5.0.18"
-  checksum: d5f88b5f0dc8188d6af35c828ea916a5de338148cf597851787224092dc40462cd1c7a68f66639a51781269724fb4d00733a7864fe918ba716bcea965e3d4cff
-  languageName: node
-  linkType: hard
-
-"@fontsource/clicker-script@npm:^5.0.8":
-  version: 5.0.8
-  resolution: "@fontsource/clicker-script@npm:5.0.8"
-  checksum: 9a9fd4de8ea2fea558b97c474e9c5cd1b2680e8ab1563cfd49b1d608cece471f1561ee20c047664beff821b250779705ee6953b6fd9fb0a7a86d9d32532b96b2
-  languageName: node
-  linkType: hard
-
 "@fontsource/ephesis@npm:^5.0.18":
   version: 5.0.18
   resolution: "@fontsource/ephesis@npm:5.0.18"
   checksum: 6d74a28c5b172506b476561813df45ea2a188f791fa203be7d55abeb6014b99f31b36508e2f03d27b512c82a0813a395c854903b1ade19d7b0a5e56535d9b8bc
-  languageName: node
-  linkType: hard
-
-"@fontsource/great-vibes@npm:^5.0.18":
-  version: 5.0.18
-  resolution: "@fontsource/great-vibes@npm:5.0.18"
-  checksum: da4d3582f6048d5b03c14cf24e0d1a39f8a2163f66d2704d013b46ebd5268d342492bbab885284549602a43d274ee6747b38c2302997cb0256439e0abea81279
   languageName: node
   linkType: hard
 
@@ -5766,12 +5738,8 @@ __metadata:
   dependencies:
     "@astrojs/react": "npm:3.0.9"
     "@astrojs/tailwind": "npm:5.1.0"
-    "@fontsource-variable/dancing-script": "npm:^5.0.16"
     "@fontsource-variable/raleway": "npm:^5.0.17"
-    "@fontsource/allura": "npm:^5.0.18"
-    "@fontsource/clicker-script": "npm:^5.0.8"
     "@fontsource/ephesis": "npm:^5.0.18"
-    "@fontsource/great-vibes": "npm:^5.0.18"
     "@tailwindcss/typography": "npm:^0.5.10"
     "@types/react": "npm:^18.2.21"
     "@types/react-dom": "npm:^18.2.7"
