@@ -91,22 +91,6 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
   </div>
 
   <div class="navbar-end">
-    <a class="btn btn-outline btn-primary btn-sm md:btn-md" href={l("/participation")}>
-      <svg
-        class="h-5 w-5"
-        viewBox="0 0 24 24"
-        stroke-width="2"
-        stroke="currentColor"
-        fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z"></path>
-        <line x1="10" y1="14" x2="21" y2="3"></line>
-        <path d="M21 3L14.5 21a.55 .55 0 0 1 -1 0L10 14L3 10.5a.55 .55 0 0 1 0 -1L21 3"></path></svg
-      >
-      <span class="hidden md:block">{t("nav.participation")}</span>
-      <span class="md:hidden">{t("nav.participation_short")}</span>
-    </a>
     <span class="w-2 md:w-4"></span>
     <LanguagePicker />
   </div>
