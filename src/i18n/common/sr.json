@@ -19,6 +19,7 @@
   "faq": {
     "headline": "Često postavljana pitanja",
     "furtherInfo": "Za dodatne informacije ili pitanja, slobodno nas kontaktirajte direktno.",
+    "lookHere": "Pogledaj ovaj link: ",
 
     "qRsvp": "Do kog datuma treba da potvrdim prisustvo?",
     "aRsvp": "Molimo vas, potvrdite prisustvo do 31. maja. :)",
@@ -50,6 +51,10 @@
     "aLanguages": "Ceremonija i venčanje će se uglavnom odvijati na slovačkom i srpskohrvatskom jeziku, što odražava naše poreklo. Svesni smo velike jezičke raznolikosti na našem venčanju, pa čemo se potruditi da dosta toga bude dostupno i na engleskom jeziku. I, naravno, osoblje na mjestu venčanja takođe govori engleski.",
     "qSpeech": "Da li mogu održati govor ili dodati nešto u program?",
     "aSpeech": "Ako planirate da održite govor ili doprinesete na neki drugi način, molimo vas da nas kontaktirate kako bismo mogli da organizujemo večernji program. :)",
+    "qKosice": "Šta da vidim u Košicama, ako imam vremena da posetim taj grad?",
+    "aKosice": "Pripremili smo jednostavnu mapu sa savjetima na našoj veb stranici.",
+    "qTravelBreaks": "Gdje mogu da napravim pauzu (za hranu) dok putujem u Slovačku?",
+    "aTravelBreaks": "Preporučujemo vam da pogledate mapu preporučenih restorana na našoj veb stranici.",
     "qUpdates": "Kako ćete komunicirati bilo kakve ažurirane informacije i/ili promene pre venčanja?",
     "aUpdates": "Ovaj veb sajt će redovno biti ažuriran sa svim promenama i uvek će sadržati informacije koje su aktuelne."
   },
@@ -135,7 +140,14 @@
   "slovakia": {
     "headlineTop": "Otkrijte",
     "headline": "Slovačka",
-    "east": "Istočna",
+    "kosiceHeadlineTop": "Savjeti za lep dan",
+    "kosiceHeadline": "Košice",
+    "kosiceDesc": "Da li planirate da provedete dan ili više u Košicama? Pripremili smo za vas jednostavnu mapu, gde da idete, šta da vidite, gde da jedete ili kupujete, itd.",
+    "kosiceBtn": "Karta Košice sa savjetima za lep dan",
+    "foodHeadlineTop": "Pauza za hranu tokom putovanja u Slovačku",
+    "foodHeadline": "Preporučeni restorani",
+    "foodDesc": "Putujete kroz Slovačku i želite da se odmorite i odete na neko dobro mesto za jelo? Preporučujemo ovu listu, na kojoj ćete pronaći sve \uD83D\uDD25POBEĐENE\uD83D\uDD25 objekte koje je posetio poznati slovački food-bloger „Stryco Filip“ i on vam preporučuje da i njih probate \uD83D\uDE09",
+    "foodBtn": "\"Strýc food\" karta restorana",
     "statement": "Ovdje možete naći nekoliko savjeta o mjestima vrijednim posjete, ako planirate putovanje kroz Slovačku"
   },
 

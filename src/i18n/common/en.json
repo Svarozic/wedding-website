@@ -19,6 +19,7 @@
   "faq": {
     "headline": "Frequently Asked Questions",
     "furtherInfo": "For further information or questions, feel free to contact us directly.",
+    "lookHere": "Look here: ",
 
     "qRsvp": "By what date should I RSVP?",
     "aRsvp": "Please RSVP by May 31st. :)",
@@ -50,6 +51,10 @@
     "aLanguages": "The ceremony and wedding will mainly be in Slovak and Serbo-Croatian, reflecting our backgrounds. However, we understand the significant language diversity at our wedding, so we're working toward making as much of the day accessible in English as well. And, of course, the personnel at the venue all speak English as well.",
     "qSpeech": "Could I do a speech or add something to the programme?",
     "aSpeech": "If you plan on making a speech or contributing in any other way, please contact us so we can organize the evening programme. :)",
+    "qKosice": "What should I see in Košice, if I have some time to visit that city?",
+    "aKosice": "We have prepared a simple map with tips on our website.",
+    "qTravelBreaks": "Where could I make a (food) break while travelling in Slovakia?",
+    "aTravelBreaks": "We recommend you check out the map of recommended restaurants on our website.",
     "qUpdates": "How will you communicate any updated information and/or changes before the wedding?",
     "aUpdates": "This website will be updated regularly with any changes and will always contain up-to-date information."
   },
@@ -135,7 +140,14 @@
   "slovakia": {
     "headlineTop": "Discover",
     "headline": "Slovakia",
-    "east": "East",
+    "kosiceHeadlineTop": "Tips for a beautiful day",
+    "kosiceHeadline": "Košice",
+    "kosiceDesc": "Do you plan to spend a day or more in Košice ? We have prepared for you a simple map, where to go, what to see, where to eat or shop, etc.",
+    "kosiceBtn": "Košice map with tips for a beautiful day",
+    "foodHeadlineTop": "Food break while travelling in Slovakia",
+    "foodHeadline": "Recommended Restaurants",
+    "foodDesc": "Are you travelling through Slovakia and would you like to take a break and go somewhere good to eat? We recommend this list, where you will find all the \uD83D\uDD25WINNED\uD83D\uDD25 establishments visited by the famous Slovak food-blogger \"Strýco Filip\" and he recommends you to try them too \uD83D\uDE09",
+    "foodBtn": "\"Strýc food\" map of restaurants",
     "statement": "Here you can find a few tips on places worth visiting, if you are planning a longer stay in Slovakia."
   },
 

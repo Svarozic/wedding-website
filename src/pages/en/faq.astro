@@ -1,5 +1,5 @@
 ---
-import {t, astroI18n} from "astro-i18n";
+import {t, astroI18n, l} from "astro-i18n";
 
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import ChatFaq from "@src/components/ChatFaq.astro";
@@ -20,7 +20,7 @@ import Center from "@src/components/Center.astro";
     <ChatFaq qaToken="Parking" />
     <ChatFaq qaToken="Accommodation" />
     <ChatFaq qaToken="Outdoors" />
-    <ChatFaq qaToken="Program" />
+    <ChatFaq qaToken="Program" href={l("/program")} />
     {"sr" !== astroI18n.locale && <ChatFaq qaToken="PlusOne" />}
     <ChatFaq qaToken="Kids" />
     <ChatFaq qaToken="DressCode" href="https://www.hoteleurobus.sk/galeria" />
@@ -29,6 +29,8 @@ import Center from "@src/components/Center.astro";
     <ChatFaq qaToken="Food" />
     <ChatFaq qaToken="Languages" />
     <ChatFaq qaToken="Speech" />
+    <ChatFaq qaToken="Kosice" href={l("/slovakia")} />
+    <ChatFaq qaToken="TravelBreaks" href={l("/slovakia")} />
     <ChatFaq qaToken="Updates" />
 
     <Center class="mt-20">
