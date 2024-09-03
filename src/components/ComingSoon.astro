@@ -6,8 +6,8 @@ import Paragraph from "./Paragraph.astro";
 import Headline from "./Headline.astro";
 
 interface Props {
-  headline: string;
-  statement: string;
+  headline?: string;
+  statement?: string;
 }
 
 const {headline = t("comingSoon"), statement = t("comingSoonStatement")} = Astro.props;
