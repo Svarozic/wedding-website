@@ -1,0 +1,14 @@
+---
+interface Props {
+  top?: string;
+  bottom?: string;
+}
+
+const {top, bottom} = Astro.props;
+---
+
+{top != null && <h3 class="text-center font-serif text-xl lg:text-2xl">{top}</h3>}
+<h2 class="pb-6 pt-2 text-center font-serif text-3xl lg:pb-12 lg:pt-4 lg:text-4xl xl:text-5xl">
+  <slot />
+</h2>
+{bottom != null && <h4 class="-mt-5 text-center font-serif text-lg lg:-mt-10 lg:text-xl">{bottom}</h4>}
