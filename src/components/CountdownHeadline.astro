@@ -4,7 +4,7 @@ import {t} from "astro-i18n";
 import Center from "@src/components/Center.astro";
 
 interface Props {
-  withHeadline: boolean;
+  withHeadline?: boolean;
 }
 
 const {withHeadline = false} = Astro.props;
