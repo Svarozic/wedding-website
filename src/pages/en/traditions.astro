@@ -3,21 +3,153 @@ import {t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
+import SmallHeadline from "@src/components/SmallHeadline.astro";
 import Paragraph from "@src/components/Paragraph.astro";
-import ComingSoon from "@src/components/ComingSoon.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
+import Center from "@src/components/Center.astro";
 ---
 
 <BaseLayout>
   <Container>
     <Headline top={t("traditions.headlineTop")}>{t("nav.traditions")}</Headline>
-
     <Paragraph>
       {t("traditions.statement")}
     </Paragraph>
-  </Container>
 
-  <ComingSoon />
+    <FlowerDivider type="2" />
+
+    <SmallHeadline>Rozbíjanie taniera</SmallHeadline>
+    <Paragraph>
+      Po slávnostnom obrade uzatvorenia manželstva ženích a nevesta, ruka v ruke, vykročia na spoločnú cestu životom.
+      Prvá spoločná cesta mladomaželov vedie do sály, kde je nachystané svadobné pohostenie. Pred vchodom do sály ich
+      čaká uvítanie podľa starej slovanskej tradície pohostinnosti s chlebom a soľou na bielom tanieri . Po ochutnaní
+      pokrmu, sa rozbije tanier. Ženích dostane do rúk metlu, nevesta zmeták. Novomanželov čaká prvá spoločná práca čo
+      najrýchlejšie pozametať všetky črepiny rozbitého taniera a tým ukázať svetu svoju pripravenosť rýchlo vyriešiť
+      všetky problémy a ubrániť si Svoje Šťastie. Až po tomto akte vchádzajú ako prvý do svadobnej sály a svadobní
+      hostia (svadobčania) za nimi v sprievode príjemnej hudby.
+    </Paragraph>
+    <Center>
+      <iframe
+        class="lg:h-100 h-80 w-full max-w-140 rounded-lg shadow-xl"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/QM-hvny6NRc?si=6Kszzh6i7NwBLsPW"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </Center>
+
+    <FlowerDivider type="3" class="pt-8 lg:pt-16" />
+
+    <SmallHeadline>Mladomaželský bozk</SmallHeadline>
+    <Paragraph>
+      Po usadení mladomaželov a hostí nesleduje slávnostný príhovor a spoločný prípitok. Svadobčania dupaním nohami
+      alebo ťukaním lyžičkou o tanier, alebo pohár pred sebou si žiadajú od nich verejný prejav lásky v podobe bozku.
+      Toto môžu opakovať viackrát zvyčajne pred jedlom.
+    </Paragraph>
+
+    <FlowerDivider type="1" class="pt-8 lg:pt-16" />
+
+    <SmallHeadline>Polievka je málo slaná</SmallHeadline>
+    <Paragraph>
+      Jedným z prvých chodov je polievka a mladomanželov čaká ďalšia spoločná práca. Dostanú jeden tanier a dve lyžice.
+      Každý z nich svojou lyžicou kŕmi toho druhého. Je to skúška kŕmenia, či dokážu jeden druhého nasýtiť.
+    </Paragraph>
+    <Center>
+      <iframe
+        class="lg:h-100 h-80 w-full max-w-140 rounded-lg shadow-xl"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/uhzc3WuJBzQ?si=cMasNNQu6YxbNOnm"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </Center>
+
+    <FlowerDivider type="2" class="pt-8 lg:pt-16" />
+
+    <SmallHeadline>Kolo</SmallHeadline>
+    <Paragraph>
+      Tanec "kolo" je tradičný ľudový tanec, ktorý sa tancuje v kruhu (čo aj znamená jeho názov). Tento tanec je
+      charakteristický tým, že sa účastníci držia za ruky alebo sa chytia za ramená a spoločne vykonávajú rôzne kroky a
+      pohyby v synchronizovanom rytme. Kolo má výrazný rytmus a kroky sa často vykonávajú na mieste alebo s postupným
+      pohybom dookola. Je súčasťou mnohých slávnostných a spoločenských podujatí v Srbsku, ako sú svadby, oslavy a
+      folklórne festivaly. Tanec môže mať rôzne regionálne variácie, ale základná podstata zostáva rovnaká – spojenie
+      ľudí do kruhu, ktorí spoločne oslavujú a tancujú.
+    </Paragraph>
+    <Center>
+      <iframe
+        class="lg:h-100 h-80 w-full max-w-140 rounded-lg shadow-xl"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/R4ZHYAeFF88?si=_C4kZEUY_a3tJJoQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </Center>
+
+    <FlowerDivider type="3" class="pt-8 lg:pt-16" />
+
+    <SmallHeadline>"Čepčenie" a "Redový tanec"</SmallHeadline>
+    <Paragraph class="!pb-0">Vyvrcholením svadobnej hostiny je čepčenie.</Paragraph>
+    <Paragraph class="!pb-0">
+      Je to obrad odovzdávania venčeka so závojom a na prijatia čepca vydatej ženy. Čepiec je symbolom stavu vydatej
+      Ženy, ktorá si zvolila toho pravého Muža, s ktorým si založila vlastnú rodinu.
+    </Paragraph>
+    <Paragraph class="!pb-0">
+      Podľa slovenských zvykov polnocou končí pre nevestu stav slobodnej dievčiny a tým aj právo nosenia venčeka
+      slobodnej devy. Od polnoci má právo nosiť už len čepiec vydatej ženy=manželky, gazdinky. Nevesta je požiadaná
+      hlavným slobodnými mládencom odovzdať svoj venček, symbol slobody a voľnosti. Trikrát je vyzvaná, či dá vienok
+      sňať, alebo hlávku sťať. Ona má však právo po každom vyzvaní si niečo žiadať . Až na tretie vyzvanie zloží z hlavy
+      svoj vienok , odovzdáva ho vyzývateľovi a vydaté ženy jej symbolicky položia na hlavu čepiec vydatej ženy.
+    </Paragraph>
+    <Paragraph class="!pb-0">
+      Nevesta potom odchádza v sprievode vydatých žien sa preobliecť do nových šiat, zvyčajne je do tradičného kroja.
+      Prezlečenú nevestu privedú vydaté ženy naspäť na tanečný parket k svadobným hosťom, ktorí okolo nevesty vytvoria
+      kruh a začína sa <b>redový tanec</b>.
+    </Paragraph>
+    <Paragraph class="!pb-0">
+      Redový tanec je prvým tancom začepčenej ženy s hosťami a zároveň záverečným tancom oficiálnej časti svadby, po
+      ktorom svadobčania môžu odísť zo svadobnej hostiny.
+    </Paragraph>
+    <Paragraph>
+      Nevesta postupne v kruhu tancuje s každým svadobčanom za malý symbolický príspevok na založenie jej domácnosti.
+      Príspevok sa vkladá na tanier pod obrúsok, ktorý je v rukách starostu. Poďakovaním nevesty za tanec a príspevok je
+      malá sladkosť, ktorú v jej mene tanečníkovi odovzdá matka, alebo svokra nevesty. Posledným tanečníkom je jej
+      manžel, ktorý svoju nevestu odvedie/odnesie preč z parketu. Manželia potom spolu predstúpia pred hostí a starosta
+      neveste do zástery vysype z taniera vytancované peniaze. Nevesta sa poďakuje prítomným za dary. „Ďakujeme Vám za
+      Vaše dary, Vaše dary sú mi milé, ale vy ste mi ešte milší“
+    </Paragraph>
+    <Center>
+      <iframe
+        class="lg:h-100 h-80 w-full max-w-140 rounded-lg shadow-xl"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/5ctR3GMux9A?si=O4xSMJUpaP-wTmNr"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen></iframe>
+    </Center>
+
+    <FlowerDivider type="1" class="pt-8 lg:pt-16" />
+
+    <SmallHeadline>"Kapurková"</SmallHeadline>
+    <Paragraph>
+      Slovo "kapurková" (tiež "kapurková" alebo "kapurkový") je slovenský výraz používaný na označenie posledného drinku
+      alebo prípitku pred odchodom domov, najčastejšie po spoločenských udalostiach, akými sú večierky, stretnutia či
+      posedenia s priateľmi. Tento posledný nápoj je symbolický a často sa považuje za neformálne ukončenie večera.
+      Výraz môže byť použitý aj v prenesenom význame pre akýkoľvek akt alebo udalosť, ktorá nasleduje na záver dlhšej
+      aktivity alebo stretnutia.
+    </Paragraph>
+  </Container>
 
   <FlowerDivider type="2" />
 </BaseLayout>

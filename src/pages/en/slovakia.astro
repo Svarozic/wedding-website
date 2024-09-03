@@ -4,6 +4,7 @@ import {t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
+import SmallHeadline from "@src/components/SmallHeadline.astro";
 import Paragraph from "@src/components/Paragraph.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
 
@@ -25,9 +26,9 @@ const kosiceMapLink = "https://www.google.com/maps/d/embed?mid=1zLjC271ZaDJ286hS
 
     <FlowerDivider type="2" class="py-4 lg:py-8" />
 
-    <Headline top={t("slovakia.salasHeadlineTop")} bottom={t("slovakia.salasHeadlineBottom")}
-      >{t("slovakia.salasHeadline")}</Headline
-    >
+    <SmallHeadline top={t("slovakia.salasHeadlineTop")} bottom={t("slovakia.salasHeadlineBottom")}>
+      {t("slovakia.salasHeadline")}
+    </SmallHeadline>
     <Paragraph> {t("slovakia.salasDesc")}</Paragraph>
     <a href={salasLink} target="_blank">
       <img
@@ -59,8 +60,8 @@ const kosiceMapLink = "https://www.google.com/maps/d/embed?mid=1zLjC271ZaDJ286hS
 
     <FlowerDivider type="3" class="py-4 lg:py-8" />
 
-    <Headline top={t("slovakia.kosiceHeadlineTop")} bottom={t("slovakia.kosiceHeadlineBottom")}
-      >{t("slovakia.kosiceHeadline")}</Headline
+    <SmallHeadline top={t("slovakia.kosiceHeadlineTop")} bottom={t("slovakia.kosiceHeadlineBottom")}
+      >{t("slovakia.kosiceHeadline")}</SmallHeadline
     >
     <Paragraph> {t("slovakia.kosiceDesc")}</Paragraph>
     <Center>
@@ -98,8 +99,8 @@ const kosiceMapLink = "https://www.google.com/maps/d/embed?mid=1zLjC271ZaDJ286hS
 
     <FlowerDivider type="1" class="py-4 lg:py-8" />
 
-    <Headline top={t("slovakia.foodHeadlineTop")} bottom={t("slovakia.foodHeadlineBottom")}
-      >{t("slovakia.foodHeadline")}</Headline
+    <SmallHeadline top={t("slovakia.foodHeadlineTop")} bottom={t("slovakia.foodHeadlineBottom")}
+      >{t("slovakia.foodHeadline")}</SmallHeadline
     >
     <Paragraph> {t("slovakia.foodDesc")}</Paragraph>
     <a href={strycFoodMapLink} target="_blank">
