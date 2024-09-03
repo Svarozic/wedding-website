@@ -9,8 +9,10 @@ import FlowerDivider from "@src/components/FlowerDivider.astro";
 
 import assetDrawingMap from "@src/assets/drawing_map.png?url";
 import assetStrycFoodJpg from "@src/assets/stryc-food.jpg?url";
+import assetSalasZemplinskaSiravaPng from "@src/assets/salas-zemplinska-sirava.png?url";
 import Center from "@src/components/Center.astro";
 
+const salasLink = "https://www.salassirava.sk";
 const strycFoodMapLink = "https://maps.app.goo.gl/hTqUVHXfeWzrpy818";
 const kosiceMapLink = "https://www.google.com/maps/d/embed?mid=1zLjC271ZaDJ286hSUqtPSoKSaUv3fEY&ehbc=2E312F";
 ---
@@ -23,7 +25,43 @@ const kosiceMapLink = "https://www.google.com/maps/d/embed?mid=1zLjC271ZaDJ286hS
 
     <FlowerDivider type="2" class="py-4 lg:py-8" />
 
-    <Headline top={t("slovakia.kosiceHeadlineTop")}>{t("slovakia.kosiceHeadline")}</Headline>
+    <Headline top={t("slovakia.salasHeadlineTop")} bottom={t("slovakia.salasHeadlineBottom")}
+      >{t("slovakia.salasHeadline")}</Headline
+    >
+    <Paragraph> {t("slovakia.salasDesc")}</Paragraph>
+    <a href={salasLink} target="_blank">
+      <img
+        class="mx-auto w-full max-w-140 rounded-lg shadow-xl"
+        src={assetSalasZemplinskaSiravaPng}
+        alt="assetSalasZemplinskaSiravaPng"
+      />
+    </a>
+    <Center class="my-4 lg:my-8">
+      <a class="btn btn-outline btn-primary" href={salasLink} target="_blank">
+        <svg
+          class="h-6 w-6"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          stroke-width="2"
+          stroke="currentColor"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z"></path>
+          <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+          <line x1="10" y1="14" x2="20" y2="4"></line>
+          <polyline points="15 4 20 4 20 9"></polyline></svg
+        >
+        {t("slovakia.salasBtn")}
+      </a>
+    </Center>
+
+    <FlowerDivider type="3" class="py-4 lg:py-8" />
+
+    <Headline top={t("slovakia.kosiceHeadlineTop")} bottom={t("slovakia.kosiceHeadlineBottom")}
+      >{t("slovakia.kosiceHeadline")}</Headline
+    >
     <Paragraph> {t("slovakia.kosiceDesc")}</Paragraph>
     <Center>
       <iframe
@@ -60,7 +98,9 @@ const kosiceMapLink = "https://www.google.com/maps/d/embed?mid=1zLjC271ZaDJ286hS
 
     <FlowerDivider type="1" class="py-4 lg:py-8" />
 
-    <Headline top={t("slovakia.foodHeadlineTop")}>{t("slovakia.foodHeadline")}</Headline>
+    <Headline top={t("slovakia.foodHeadlineTop")} bottom={t("slovakia.foodHeadlineBottom")}
+      >{t("slovakia.foodHeadline")}</Headline
+    >
     <Paragraph> {t("slovakia.foodDesc")}</Paragraph>
     <a href={strycFoodMapLink} target="_blank">
       <img class="mx-auto w-full max-w-140 rounded-lg shadow-xl" src={assetStrycFoodJpg} alt="assetStrycFoodJpg" />

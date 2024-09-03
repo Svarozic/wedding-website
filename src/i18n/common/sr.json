@@ -139,15 +139,22 @@
 
   "slovakia": {
     "headlineTop": "Otkrijte",
-    "headline": "Slovačka",
+    "headline": "Slovačku",
     "kosiceHeadlineTop": "Savjeti za ljep dan",
     "kosiceHeadline": "Košice",
+    "kosiceHeadlineBottom": "udaljenost 68km",
     "kosiceDesc": "Dali planirate da provedete dan ili više u Košicama? Pripremili smo za vas jednostavnu kartu, gdje da idete, šta da vidite, gdje da jedete ili kupujete, i tako dalje....",
     "kosiceBtn": "Karta Košice sa savjetima za ljep dan",
     "foodHeadlineTop": "Pauza za hranu tokom putovanja u Slovačku",
     "foodHeadline": "Preporučeni restorani",
+    "foodHeadlineBottom": "cela Slovačka",
     "foodDesc": "Putujete kroz Slovačku i želite da se odmorite i odete na neko dobro mjesto za jelo? Preporučujemo ovu listu, na kojoj ćete pronaći sve NAJBOLJE restorane koje je posjetio poznati slovački food-bloger „Stryco Filip“ i on vam preporučuje da i ih probate",
     "foodBtn": "\"Strýc food\" karta restorana",
+    "salasHeadlineTop": "Lokalna tradicionalna hrana",
+    "salasHeadline": "Salaš Zemplínska Šírava",
+    "salasHeadlineBottom": "udaljenost 1300m",
+    "salasDesc": "Europenzión Salaš Zemplínska Šírava je pansion i tradicionalni slovački restoran koji se nalazi u blizini hotel Eurobusa. Ovaj restorant je poznat po autentičnoj slovačkoj kuhinji, koja služi regionalne specijalitete kao što su ovčiji gulaš i bryndzové halušky, privlačeći domaće i međunarodne goste.",
+    "salasBtn": "salassirava.sk",
     "statement": "Ovdje možete naći nekoliko savjeta o mjestima vrijednim posjete, ako planirate putovanje kroz Slovačku"
   },
 
