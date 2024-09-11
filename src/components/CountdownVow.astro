@@ -17,8 +17,8 @@ const {translationKey} = Astro.props;
 
 <script>
   const url = new URL(window.location.href);
-  // const COUNT_DOWN_DATE = url.searchParams.has("show") ? Date.now() : new Date("2024-09-21T12:00:00.000Z").getTime();
-  const COUNT_DOWN_DATE = new Date("2024-09-11T13:42:50.000Z").getTime();
+  const COUNT_DOWN_DATE = url.searchParams.has("show") ? Date.now() : new Date("2024-09-21T12:00:00.000Z").getTime();
+  // const COUNT_DOWN_DATE = new Date("2024-09-11T13:42:50.000Z").getTime();
 
   class MyCountdownVow extends HTMLElement {
     private intervalId = null;
