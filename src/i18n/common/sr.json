@@ -125,15 +125,20 @@
   },
 
   "program": {
-    "headline": "Naš posebni dan",
-    "breakingPlate": "Razbijanje tanjira (tradicija)",
+    "breakingPlate": "Razbijanje tanjira",
+    "buffet": "Večernji bife",
+    "cake": "Rezanje torte",
+    "cepcenie": "\"Čepčenie\"",
     "ceremony": "Ceremonija",
-    "cepcenie": "Čepčenie (tradicija)",
     "change": "Ovaj program se još može promjenunti",
-    "lastCall": "Kraj",
+    "congratulations": "Čestitanje",
     "dinner": "Večera",
     "firstDance": "Prvi ples",
-    "reception": "Prijem i torta",
+    "foto": "Fotografiranje",
+    "headline": "Naš posebni dan",
+    "kapurkova": "\"Kapurková\"",
+    "kolo": "Kolo",
+    "party": "Zabava",
     "welcome": "Doček gostiju u bašti"
   },
 

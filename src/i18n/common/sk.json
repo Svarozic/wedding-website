@@ -125,15 +125,20 @@
   },
 
   "program": {
-    "headline": "Náš jedinečný deň",
-    "breakingPlate": "Rozbíjanie taniera (tradícia)",
+    "breakingPlate": "Rozbíjanie taniera",
+    "buffet": "Večerný raut",
+    "cake": "Krájanie torty",
+    "cepcenie": "Čepčenie",
     "ceremony": "Obrad",
-    "cepcenie": "Čepčenie (tradícia)",
     "change": "Tento program se ešte môže zmeniť",
-    "lastCall": "Kapurková",
+    "congratulations": "Blahoželania",
     "dinner": "Večera",
     "firstDance": "Prvý tanec",
-    "reception": "Recepcia a torta",
+    "foto": "Fotografovanie",
+    "headline": "Náš jedinečný deň",
+    "kapurkova": "Kapurková",
+    "kolo": "\"Kolo\"",
+    "party": "Zábava",
     "welcome": "Privítanie hostí v záhrade"
   },
 

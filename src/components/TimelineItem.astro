@@ -1,0 +1,61 @@
+---
+import {l, t} from "astro-i18n";
+interface Props {
+  time: string;
+  translationKey: string;
+  side?: "left" | "right";
+  big?: boolean;
+  tradition?: boolean;
+}
+
+const {time, translationKey, side = "left", big = false, tradition = false} = Astro.props;
+---
+
+<li>
+  <hr />
+  <div class="timeline-middle">
+    <svg
+      class="h-4 w-4 text-primary"
+      class:list={[big ? "md:h-9 md:w-9" : ""]}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round">
+      <path
+        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+      ></path></svg
+    >
+  </div>
+  <div
+    class="pb-4"
+    class:list={[side === "left" ? "timeline-start" : "timeline-end", side === "left" ? "md:text-end" : ""]}>
+    <time class:list={[big ? "text-2xl" : ""]}>{time}</time>
+    <div class="mt-2 font-serif" class:list={[big ? "text-4xl lg:text-5xl" : "text-2xl lg:text-3xl"]}>
+      {t(`program.${translationKey}`)}
+    </div>
+
+    {
+      tradition && (
+        <a class="link text-xs text-base-content/50" href={l("/traditions")}>
+          {t("nav.traditions")}
+          <svg
+            class="mx-1 inline-block h-3 w-3"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" />
+            <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5" />
+            <line x1="10" y1="14" x2="20" y2="4" />
+            <polyline points="15 4 20 4 20 9" />
+          </svg>
+        </a>
+      )
+    }
+  </div>
+  <hr />
+</li>

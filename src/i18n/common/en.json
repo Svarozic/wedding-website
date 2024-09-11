@@ -125,15 +125,20 @@
   },
 
   "program": {
-    "headline": "Our special day",
-    "breakingPlate": "Breaking a plate (tradition)",
+    "breakingPlate": "Breaking a plate",
+    "buffet": "Evening buffet",
+    "cake": "Cutting the cake",
+    "cepcenie": "\"Čepčenie\"",
     "ceremony": "Ceremony",
-    "cepcenie": "Čepčenie (tradition)",
     "change": "Please note: This program is still subject to change.",
+    "congratulations": "Congratulations",
     "dinner": "Dinner",
     "firstDance": "First Dance",
-    "lastCall": "Last call",
-    "reception": "Reception & Cake",
+    "foto": "Taking pictures",
+    "headline": "Our special day",
+    "kapurkova": "\"Kapurková\"",
+    "kolo": "\"Kolo\"",
+    "party": "Party",
     "welcome": "Welcoming guests in the garden"
   },
 
