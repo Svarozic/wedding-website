@@ -55,8 +55,8 @@ const {withHeadline = false} = Astro.props;
   const msgUntil = "... " + t("countdown.until");
   const msgAfter = "... " + t("countdown.after");
 
-  const COUNT_DOWN_DATE = new Date("Sep 21, 2024 14:00:00").getTime();
-  // const COUNT_DOWN_DATE = new Date("Feb 9, 2024 21:26:00").getTime(); // for testing purposes
+  const COUNT_DOWN_DATE = new Date("2024-09-21T12:00:00.000Z").getTime();
+  // const COUNT_DOWN_DATE = new Date("2024-09-11T13:33:35.000Z").getTime();
 
   class MyCountdownHeadline extends HTMLElement {
     private intervalId = null;
@@ -83,7 +83,6 @@ const {withHeadline = false} = Astro.props;
     private setTimeValues = () => {
       // Find the distance between now and the countdown date
       const distance = COUNT_DOWN_DATE - new Date().getTime();
-
       const daysDiff = distance / (1000 * 60 * 60 * 24);
       const hoursDiff = (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60);
       const minutesDiff = (distance % (1000 * 60 * 60)) / (1000 * 60);

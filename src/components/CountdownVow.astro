@@ -1,0 +1,58 @@
+---
+import Paragraph from "./Paragraph.astro";
+import {t} from "astro-i18n";
+
+interface Props {
+  translationKey: "ivana" | "peter";
+}
+
+const {translationKey} = Astro.props;
+---
+
+<my-countdown-vow>
+  <Paragraph data-id="MyCountdownVow" class="blur">
+    {t(`vows.${translationKey}`)}
+  </Paragraph>
+</my-countdown-vow>
+
+<script>
+  const url = new URL(window.location.href);
+  // const COUNT_DOWN_DATE = url.searchParams.has("show") ? Date.now() : new Date("2024-09-21T12:00:00.000Z").getTime();
+  const COUNT_DOWN_DATE = new Date("2024-09-11T13:42:50.000Z").getTime();
+
+  class MyCountdownVow extends HTMLElement {
+    private intervalId = null;
+
+    constructor() {
+      super();
+
+      this.removeBlur();
+
+      if (Date.now() < COUNT_DOWN_DATE) {
+        this.intervalId = setInterval(this.removeBlur, 1000);
+      }
+    }
+
+    /**
+     * @override
+
+     * Called each time the element is removed from the document.
+     *
+     * @see https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_custom_elements#custom_element_lifecycle_callbacks
+     */
+    disconnectedCallback() {
+      clearInterval(this.intervalId);
+    }
+
+    private removeBlur = () => {
+      if (Date.now() >= COUNT_DOWN_DATE) {
+        const el = this.querySelector<HTMLParagraphElement>('[data-id="MyCountdownVow"]');
+        el?.classList.remove("blur");
+        clearInterval(this.intervalId);
+      }
+    };
+  }
+
+  // Tell the browser to use our AstroHeart class for <astro-heart> elements.
+  customElements.define("my-countdown-vow", MyCountdownVow);
+</script>
