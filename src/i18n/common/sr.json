@@ -59,8 +59,50 @@
     "aUpdates": "Ovaj veb sajt će redovno biti ažuriran sa svim promenama i uvek će sadržati informacije koje su aktuelne."
   },
 
+  "firstDance": {
+    "headlineTop": "Náš",
+    "statement": "Ak ťa zaujíma pesnička nášho prvého tanca, tu si vieš prečítať jej slová",
+    "songTitle": "Peter Cmorík - Spolu Zostarnuť",
+    "songTitleTranslation": "Zajedno ostariti",
+    "verse1": "Stih 1",
+    "verse2": "Stih 2",
+    "chorus": "Refren",
+    "bridge": "Most",
+
+    "songLyrics1_1": "Pravim ti čaj, ti meni stvaraš raj,",
+    "songLyrics1_2": "s tobom je život dobar.",
+    "songLyrics1_3": "Reci da me poznaješ i daj mi svoju ruku,",
+    "songLyrics1_4": "drži me čvrsto, ne oklijevaj.",
+    "songLyrics1_5": "Tvoje oči mi govore sve,",
+    "songLyrics1_6": "ne trebaju nam riječi.",
+    "songLyrics1_7": "Dvije duše za hiljadu godina,",
+    "songLyrics1_8": "stani uz mene TEBI DAJEM ŽIVOT SVOJ!",
+
+    "songLyricsChorus1": "Volio bih da s tobom ostarim,",
+    "songLyricsChorus2": "zauvijek da osjetim dodir tvojih ruku,",
+    "songLyricsChorus3": "na usnama samo ukus tvojih usta.",
+    "songLyricsChorus4": "Ko zna kakva nas avantura čeka,",
+    "songLyricsChorus5": "nadam se da nas život neće uništiti,",
+    "songLyricsChorus6": "hajmo da zajedno ostarimo.",
+
+    "songLyrics2_1": "Neka naši dani uvijek budu svijetli,",
+    "songLyrics2_2": "neka se ne ugasne poput plamena svijeće.",
+    "songLyrics2_3": "Dok god mogu, neka ti dajem snagu,",
+    "songLyrics2_4": "neka uvijek nađem način da te nasmijem.",
+    "songLyrics2_5": "I neka zvijezde svake noći sijaju,",
+    "songLyrics2_6": "više nam ne treba.",
+    "songLyrics2_7": "Kad pada kiša, ne želim puno,",
+    "songLyrics2_8": "samo želim da budemo zajedno sretni.",
+
+    "songLyricsBridge1": "Ne želim da se svaki dan pitam",
+    "songLyricsBridge2": "šta će biti s nama.",
+    "songLyricsBridge3": "Želim da život mjerimo samo po NAŠIM SNOVIMA,",
+    "songLyricsBridge4": "i da te riječi zauvijek ozbiljno shvatimo..."
+  },
+
   "nav": {
     "faq": "FAQ",
+    "firstDance": "Prvi ples",
     "home": "Početna",
     "more": "Više",
     "participation": "Potvrdite učešće",

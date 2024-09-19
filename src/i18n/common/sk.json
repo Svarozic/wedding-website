@@ -59,8 +59,50 @@
     "aUpdates": "Táto webová stránka bude pravidelne aktualizovaná s akýmikoľvek zmenami a vždy bude obsahovať aktuálne informácie."
   },
 
+  "firstDance": {
+    "headlineTop": "Náš",
+    "statement": "Ak ťa zaujíma pesnička nášho prvého tanca, tu si vieš prečítať jej slová",
+    "songTitle": "Peter Cmorík - Spolu Zostarnuť",
+    "songTitleTranslation": "  ",
+    "verse1": "Verš 1",
+    "verse2": "Verš 2",
+    "chorus": "Refrén",
+    "bridge": "Premostenie",
+
+    "songLyrics1_1": "Varím Ti čaj, Ty robíš mi raj,",
+    "songLyrics1_2": "s Tebou sa žije fajn.",
+    "songLyrics1_3": "Poznáš ma vraj, tak ruku mi daj,",
+    "songLyrics1_4": "drž ma pevne - neváhaj.",
+    "songLyrics1_5": "Očami mi povieš všetko,",
+    "songLyrics1_6": "netreba nám slov.",
+    "songLyrics1_7": "Dve duše na tisíc rokov,",
+    "songLyrics1_8": "pri mne stoj, TEBE DÁVAM ŽIVOT SVOJ!",
+
+    "songLyricsChorus1": "Chcel by som s Tebou zostarnúť,",
+    "songLyricsChorus2": "vždy cítiť dotyk Tvojich rúk,",
+    "songLyricsChorus3": "na perách chuť len Tvojich úst.",
+    "songLyricsChorus4": "Ktovie aký príbeh nás čaká,",
+    "songLyricsChorus5": "snáď nás život nezdolá,",
+    "songLyricsChorus6": "tak poďme spolu zostarnúť.",
+
+    "songLyrics2_1": "Nech naše dni sú jasné vždy,",
+    "songLyrics2_2": "nech nezhasnú jak plameň sviečky.",
+    "songLyrics2_3": "Kým vládzem a mám, nech silu Ti dám,",
+    "songLyrics2_4": "nech Ťa viem rozosmiať stále niečim.",
+    "songLyrics2_5": "A v noci nech hviezdy svietia,",
+    "songLyrics2_6": "netreba nám viac,",
+    "songLyrics2_7": "keď bude padať nechcem veľa,",
+    "songLyrics2_8": "želám si, nech sme spolu šťastní!",
+
+    "songLyricsBridge1": "Nechcem sa každý deň pýtať,",
+    "songLyricsBridge2": "že čo bude s nami,",
+    "songLyricsBridge3": "chcem vyvážiť život, len NAŠIMI SNAMI,",
+    "songLyricsBridge4": "tie slová myslieť vždy vážne..."
+  },
+
   "nav": {
     "faq": "FAQ",
+    "firstDance": "Prvý tanec",
     "home": "Domov",
     "more": "Viac",
     "participation": "Potvrďte účasť",

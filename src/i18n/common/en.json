@@ -59,8 +59,50 @@
     "aUpdates": "This website will be updated regularly with any changes and will always contain up-to-date information."
   },
 
+  "firstDance": {
+    "headlineTop": "Our",
+    "statement": "If you are interested for our first dance song, here are the lyrics",
+    "songTitle": "Peter Cmorík - Spolu Zostarnuť",
+    "songTitleTranslation": "Grow old together",
+    "verse1": "Verse 1",
+    "verse2": "Verse 2",
+    "chorus": "Chorus",
+    "bridge": "Bridge",
+
+    "songLyrics1_1": "I'm making tea for you, you're creating heaven for me,",
+    "songLyrics1_2": "with you life is good.",
+    "songLyrics1_3": "Say you know me so give me your hand,",
+    "songLyrics1_4": "hold me tightly, don't hesitate.",
+    "songLyrics1_5": "Your eyes tell me everything,",
+    "songLyrics1_6": "we don't need words.",
+    "songLyrics1_7": "Two souls for a thousand years,",
+    "songLyrics1_8": "stand by me I GIVE YOU MY LIFE.",
+
+    "songLyricsChorus1": "I would like to grow old with you,",
+    "songLyricsChorus2": "forever to feel the touch of your hands,",
+    "songLyricsChorus3": "on my lips to only the taste of your mouth.",
+    "songLyricsChorus4": "Who knows what adventure awaits us,",
+    "songLyricsChorus5": "hopefully life won't destroy us,",
+    "songLyricsChorus6": "so let's grow old together.",
+
+    "songLyrics2_1": "May our days always be bright,",
+    "songLyrics2_2": "May they not go out like a candle flame.",
+    "songLyrics2_3": "For as long as I'm able, may I give you strength,",
+    "songLyrics2_4": "May I always find a way to make you laugh.",
+    "songLyrics2_5": "And may the stars shine every night,",
+    "songLyrics2_6": "we don't need more",
+    "songLyrics2_7": "when it rains, I don't want much,",
+    "songLyrics2_8": "I wish for us to be happy together!",
+
+    "songLyricsBridge1": "I don't want to ask myself every day,",
+    "songLyricsBridge2": "what is going to happen with us,",
+    "songLyricsBridge3": "I want to measure our life only by OUR DREAMS,",
+    "songLyricsBridge4": "and forever to take those words seriously..."
+  },
+
   "nav": {
     "faq": "FAQ",
+    "firstDance": "First dance",
     "home": "Home",
     "more": "More",
     "participation": "RSVP",

@@ -1,0 +1,92 @@
+---
+import {t} from "astro-i18n";
+
+import BaseLayout from "@src/layouts/BaseLayout.astro";
+import Headline from "@src/components/Headline.astro";
+import Container from "@src/components/Container.astro";
+import Paragraph from "@src/components/Paragraph.astro";
+import FlowerDivider from "@src/components/FlowerDivider.astro";
+import SmallHeadline from "@src/components/SmallHeadline.astro";
+import Center from "@src/components/Center.astro";
+---
+
+<BaseLayout>
+  <Container>
+    <Headline top={t("firstDance.headlineTop")}>{t("nav.firstDance")}</Headline>
+    <Paragraph>
+      {t("firstDance.statement")}
+    </Paragraph>
+
+    <FlowerDivider type="3" />
+
+    <SmallHeadline bottom={t("firstDance.songTitleTranslation")}>{t("firstDance.songTitle")}</SmallHeadline>
+
+    <br />
+
+    <Center>
+      <div>
+        <small>{t("firstDance.verse1")}</small>
+        <p>{t("firstDance.songLyrics1_1")}</p>
+        <p>{t("firstDance.songLyrics1_2")}</p>
+        <p>{t("firstDance.songLyrics1_3")}</p>
+        <p>{t("firstDance.songLyrics1_4")}</p>
+        <p>{t("firstDance.songLyrics1_5")}</p>
+        <p>{t("firstDance.songLyrics1_6")}</p>
+        <p>{t("firstDance.songLyrics1_7")}</p>
+        <p>{t("firstDance.songLyrics1_8")}</p>
+
+        <br />
+
+        <small>{t("firstDance.chorus")}</small>
+        <p>{t("firstDance.songLyricsChorus1")}</p>
+        <p>{t("firstDance.songLyricsChorus2")}</p>
+        <p>{t("firstDance.songLyricsChorus3")}</p>
+        <p>{t("firstDance.songLyricsChorus4")}</p>
+        <p>{t("firstDance.songLyricsChorus5")}</p>
+        <p>{t("firstDance.songLyricsChorus6")}</p>
+
+        <br />
+
+        <small>{t("firstDance.verse2")}</small>
+        <p>{t("firstDance.songLyrics2_1")}</p>
+        <p>{t("firstDance.songLyrics2_2")}</p>
+        <p>{t("firstDance.songLyrics2_3")}</p>
+        <p>{t("firstDance.songLyrics2_4")}</p>
+        <p>{t("firstDance.songLyrics2_5")}</p>
+        <p>{t("firstDance.songLyrics2_6")}</p>
+        <p>{t("firstDance.songLyrics2_7")}</p>
+        <p>{t("firstDance.songLyrics2_8")}</p>
+
+        <br />
+
+        <small>{t("firstDance.chorus")}</small>
+        <p>{t("firstDance.songLyricsChorus1")}</p>
+        <p>{t("firstDance.songLyricsChorus2")}</p>
+        <p>{t("firstDance.songLyricsChorus3")}</p>
+        <p>{t("firstDance.songLyricsChorus4")}</p>
+        <p>{t("firstDance.songLyricsChorus5")}</p>
+        <p>{t("firstDance.songLyricsChorus6")}</p>
+
+        <br />
+
+        <small>{t("firstDance.bridge")}</small>
+        <p>{t("firstDance.songLyricsBridge1")}</p>
+        <p>{t("firstDance.songLyricsBridge2")}</p>
+        <p>{t("firstDance.songLyricsBridge3")}</p>
+        <p>{t("firstDance.songLyricsBridge4")}</p>
+
+        <br />
+
+        <small>{t("firstDance.chorus")}</small>
+        <p>{t("firstDance.songLyricsChorus1")}</p>
+        <p>{t("firstDance.songLyricsChorus2")}</p>
+        <p>{t("firstDance.songLyricsChorus3")}</p>
+        <p>{t("firstDance.songLyricsChorus4")}</p>
+        <p>{t("firstDance.songLyricsChorus5")}</p>
+        <p>{t("firstDance.songLyricsChorus6")}</p>
+      </div>
+    </Center>
+  </Container>
+
+  <FlowerDivider type="2" />
+</BaseLayout>
