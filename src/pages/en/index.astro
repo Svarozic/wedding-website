@@ -17,12 +17,17 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   <Hero />
 
   <style>
-    .parallax-hallstatt {
-      background: url(/assets/parallax_20200713_223451_20240218.jpg) no-repeat fixed center center;
+    .parallax-wedding-terrace-kiss {
+      background: url(/assets/parallax-wedding-terrace-kiss-square-800-800.jpg) no-repeat fixed center center;
       background-size: cover;
+
+      @media only screen and (min-width: 768px) {
+        background: url(/assets/parallax-wedding-terrace-kiss.jpg) no-repeat fixed center center;
+        background-size: cover;
+      }
     }
   </style>
-  <div class="parallax-hallstatt flex h-96 w-full flex-col items-center justify-center lg:h-140">
+  <div class="parallax-wedding-terrace-kiss flex h-96 w-full flex-col items-center justify-center lg:h-140">
     <div class="card mx-2 bg-white/80 p-8 shadow-xl backdrop-blur">
       <CountdownHeadline withHeadline />
       <Center>
@@ -42,12 +47,17 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   </Container>
 
   <style>
-    .parallax-dubrovnik {
-      background: url(/assets/parallax_20200901_171948_20240218.jpg) no-repeat fixed center center;
+    .parallax-wedding-ceremony-hura {
+      background: url(/assets/parallax-wedding-ceremony-hura-square-800-800.jpg) no-repeat fixed center center;
       background-size: cover;
+
+      @media only screen and (min-width: 768px) {
+        background: url(/assets/parallax-wedding-ceremony-hura.jpg) no-repeat fixed center center;
+        background-size: cover;
+      }
     }
   </style>
-  <div class="parallax-dubrovnik h-96 w-full lg:h-140"></div>
+  <div class="parallax-wedding-ceremony-hura h-96 w-full lg:h-140"></div>
 
   <Container>
     <Headline top={t("place.where") + "?"}>
@@ -86,10 +96,15 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   <FlowerDivider type="2" />
 
   <style>
-    .parallax-hotel-eurobus {
-      background: url(/assets/parallax_20200902_175756_20240218.jpg) no-repeat fixed center center;
+    .parallax-wedding-ceremony-end {
+      background: url(/assets/parallax-wedding-ceremony-end-square-800-800.jpg) no-repeat fixed center center;
       background-size: cover;
+
+      @media only screen and (min-width: 768px) {
+        background: url(/assets/parallax-wedding-ceremony-end.jpg) no-repeat fixed center center;
+        background-size: cover;
+      }
     }
   </style>
-  <div class="parallax-hotel-eurobus h-96 w-full lg:h-140"></div>
+  <div class="parallax-wedding-ceremony-end h-96 w-full lg:h-140"></div>
 </BaseLayout>
