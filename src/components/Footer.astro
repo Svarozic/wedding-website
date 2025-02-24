@@ -9,9 +9,11 @@ import asset_20230629_140249_cut from "@src/assets/20230629_140249_cut.png?url";
     <footer class="footer gap-4 text-xs">
       <aside>
         <a class="link-hover link footer-title" href={l("/")}><h6>{t("title")}</h6></a>
-        <a href="mailto:ivanapeter2024@gmail.com" class="link-hover link">ivanapeter2024@gmail.com</a>
-        <p class="text-base-content/50">Copyright © 2024</p>
-        <p class="text-base-content/50">All rights reserved</p>
+        <p class="text-base-content/50">{t("lastUpdate")} @ 24.02.2025</p>
+        <p class="text-base-content/50">Copyright © {new Date().getFullYear()} - All right reserved</p>
+        <a class="link-hover link text-base-content/50" href="mailto:ivanapeter2024@gmail.com">
+          ivanapeter2024@gmail.com
+        </a>
       </aside>
 
       <nav>
@@ -32,7 +34,6 @@ import asset_20230629_140249_cut from "@src/assets/20230629_140249_cut.png?url";
       </nav>
 
       <nav>
-        <h6 class="footer-title">{t("nav.more")}</h6>
         <a class="link" href={l("/traditions")}>{t("nav.traditions")}</a>
         <a class="link" href={l("/phrases")}>{t("nav.phrases")}</a>
         <a class="link" href={l("/place")}>{t("nav.place")}</a>
