@@ -3,8 +3,6 @@ import {t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
-import CountdownHeadline from "@src/components/CountdownHeadline.astro";
-import CountdownVow from "@src/components/CountdownVow.astro";
 import Paragraph from "@src/components/Paragraph.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
 
@@ -22,18 +20,15 @@ import assetIvana from "@src/assets/20210202_215046.jpg?url";
   </Container>
 
   <Container>
-    <div class="grid place-items-start gap-4 lg:grid-cols-2 lg:gap-20">
+    <div class="grid place-items-start gap-8 lg:grid-cols-2">
       <div>
         <div class="card card-compact bg-white shadow-xl">
           <figure><img class="saturate-50" src={assetIvana} alt="Ivana" /></figure>
           <div class="card-body">
             <Headline>Ivana</Headline>
-
-            <div class="mb-2 justify-center lg:mb-4">
-              <CountdownHeadline />
-            </div>
-
-            <CountdownVow translationKey="ivana" />
+            <Paragraph>
+              {t(`vows.ivana`)}
+            </Paragraph>
           </div>
         </div>
       </div>
@@ -43,12 +38,9 @@ import assetIvana from "@src/assets/20210202_215046.jpg?url";
           <figure><img class="saturate-50" src={assetPeter} alt="Peter" /></figure>
           <div class="card-body">
             <Headline>Peter</Headline>
-
-            <div class="mb-2 justify-center lg:mb-4">
-              <CountdownHeadline />
-            </div>
-
-            <CountdownVow translationKey="peter" />
+            <Paragraph>
+              {t(`vows.peter`)}
+            </Paragraph>
           </div>
         </div>
       </div>
