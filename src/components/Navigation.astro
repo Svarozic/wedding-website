@@ -32,19 +32,19 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
             </div>
           </a>
         </li>
-        <li><a class="whitespace-nowrap" href={l("/place")}>{t("nav.place")}</a></li>
-        <li><a class="whitespace-nowrap" href={l("/program")}>{t("nav.program")}</a></li>
-        <li><a class="whitespace-nowrap" href={l("/faq")}>{t("nav.faq")}</a></li>
+        <li><a class="whitespace-nowrap" href={l("/photos")}>{t("nav.photos")}</a></li>
+        <li><a class="whitespace-nowrap" href={l("/dance")}>{t("nav.firstDance")}</a></li>
+        <li><a class="whitespace-nowrap" href={l("/vows")}>{t("nav.vows")}</a></li>
 
         <li>
           <a>{t("nav.more")}</a>
           <ul class="p-2">
-            <li><a class="whitespace-nowrap" href={l("/slovakia")}>{t("nav.slovakia")}</a></li>
-            <li><a class="whitespace-nowrap" href={l("/vows")}>{t("nav.vows")}</a></li>
-            <li><a class="whitespace-nowrap" href={l("/dance")}>{t("nav.firstDance")}</a></li>
             <li><a class="whitespace-nowrap" href={l("/traditions")}>{t("nav.traditions")}</a></li>
             <li><a class="whitespace-nowrap" href={l("/phrases")}>{t("nav.phrases")}</a></li>
-            <li><a class="whitespace-nowrap" href={l("/photos")}>{t("nav.photos")}</a></li>
+            <li><a class="whitespace-nowrap" href={l("/place")}>{t("nav.place")}</a></li>
+            <li><a class="whitespace-nowrap" href={l("/program")}>{t("nav.program")}</a></li>
+            <li><a class="whitespace-nowrap" href={l("/slovakia")}>{t("nav.slovakia")}</a></li>
+            <li><a class="whitespace-nowrap" href={l("/faq")}>{t("nav.faq")}</a></li>
           </ul>
         </li>
       </ul>
@@ -70,9 +70,9 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
   </div>
 
   <div class="navbar-center hidden lg:flex">
-    <a class="btn btn-ghost" href={l("/place")}>{t("nav.place")}</a>
-    <a class="btn btn-ghost" href={l("/program")}>{t("nav.program")}</a>
-    <a class="btn btn-ghost" href={l("/faq")}>{t("nav.faq")}</a>
+    <a class="btn btn-ghost" href={l("/photos")}>{t("nav.photos")}</a>
+    <a class="btn btn-ghost" href={l("/dance")}>{t("nav.firstDance")}</a>
+    <a class="btn btn-ghost" href={l("/vows")}>{t("nav.vows")}</a>
 
     <div class="dropdown dropdown-bottom">
       <label tabindex="0" class="btn btn-ghost">
@@ -82,12 +82,12 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
         </svg>
       </label>
       <ul tabindex="0" class="menu dropdown-content z-[2] w-52 rounded-box bg-white p-2 shadow-xl">
-        <li><a href={l("/slovakia")}>{t("nav.slovakia")}</a></li>
-        <li><a href={l("/vows")}>{t("nav.vows")}</a></li>
-        <li><a href={l("/dance")}>{t("nav.firstDance")}</a></li>
         <li><a href={l("/traditions")}>{t("nav.traditions")}</a></li>
         <li><a href={l("/phrases")}>{t("nav.phrases")}</a></li>
-        <li><a href={l("/photos")}>{t("nav.photos")}</a></li>
+        <li><a href={l("/place")}>{t("nav.place")}</a></li>
+        <li><a href={l("/program")}>{t("nav.program")}</a></li>
+        <li><a href={l("/slovakia")}>{t("nav.slovakia")}</a></li>
+        <li><a href={l("/faq")}>{t("nav.faq")}</a></li>
       </ul>
     </div>
   </div>
@@ -105,6 +105,10 @@ import LanguagePicker from "./language-picker/LanguagePicker.astro";
     const myNavigation = document.getElementById("myNavigation");
 
     function scrollHandler() {
+      if (myNavigation == null) {
+        return;
+      }
+
       if (window.scrollY >= myNavigation.offsetHeight / 2) {
         // show
         myNavigation.classList.add("bg-white/80");
