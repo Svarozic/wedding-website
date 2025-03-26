@@ -57,7 +57,7 @@ import assetIzbaVyhlad from "@src/assets/hotel-eurobus/gallery/izba-vyhlad-logo.
       {t("place.slovakia")}
     </Headline>
 
-    <img class="mx-auto w-full max-w-240 py-4" src={assetDrawingHotelEurobus} alt="hotel eurobus" />
+    <img class="mx-auto w-full max-w-160 py-4" src={assetDrawingHotelEurobus} alt="hotel eurobus" />
 
     <Paragraph>
       <a
@@ -77,12 +77,30 @@ import assetIzbaVyhlad from "@src/assets/hotel-eurobus/gallery/izba-vyhlad-logo.
         {t("faq.aAddress")}</a
       >
     </Paragraph>
+  </Container>
 
+  <style>
+    .parallax-wedding-terrace-kiss {
+      background: url(/assets/parallax-wedding-invitation-square-800-800.jpg) no-repeat fixed center center;
+      background-size: cover;
+
+      @media only screen and (min-width: 768px) {
+        background: url(/assets/parallax-wedding-invitation.jpg) no-repeat fixed center center;
+        background-size: cover;
+      }
+    }
+  </style>
+  <div class="parallax-wedding-terrace-kiss h-96 w-full lg:h-140"></div>
+
+  <Container>
     <Headline top={t("place.when") + "?"}>{t("place.date")}</Headline>
 
     <FlowerDivider type="3" />
+  </Container>
 
+  <Container>
     <Headline>{t("place.hotelName")}</Headline>
+
     <Paragraph>
       {t("place.hotelParagraph1")}
     </Paragraph>
