@@ -58,7 +58,7 @@ import FlowerDivider from "@src/components/FlowerDivider.astro";
     <Paragraph>{t("photos.paragraph1")}</Paragraph>
 
     <Center>
-      <a class="btn" href={l("/photos")}>{t("photos.navButton")}</a>
+      <a class="btn-soft btn btn-primary" href={l("/photos")}>{t("photos.navButton")}</a>
     </Center>
 
     <FlowerDivider type="3" />
@@ -76,8 +76,4 @@ import FlowerDivider from "@src/components/FlowerDivider.astro";
     }
   </style>
   <div class="parallax-wedding-terrace-kiss h-96 w-full lg:h-140"></div>
-
-  <Container>
-    <FlowerDivider type="2" />
-  </Container>
 </BaseLayout>
