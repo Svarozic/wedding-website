@@ -178,7 +178,9 @@
     "videoHeadlineTop": "One more thing",
     "videoHeadline": "We have a Video !",
     "videoParagraph1": "Want to see our special moments come to life? Watch our wedding video and experience the magic in motion! From heartfelt vows to unforgettable dances, it's all captured beautifully.",
-    "videoParagraph2": "Ready to relive the day? Click play and enjoy the memories in movement!"
+    "videoParagraph2": "Ready to relive the day? Click play and enjoy the memories in movement!",
+    "videoClipBtn": "Short clip",
+    "videoMovieBtn": "Full movie"
   },
 
   "place": {

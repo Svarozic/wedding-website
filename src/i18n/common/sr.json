@@ -108,7 +108,7 @@
     "more": "Više",
     "participation": "Potvrdite učešće",
     "participation_short": "Učešće",
-    "photos": "Fotografije",
+    "photos": "Slike",
     "phrases": "Fraze",
     "place": "Mjesto",
     "program": "Program",
@@ -165,20 +165,22 @@
 
   "photos": {
     "headlineTop": "Čekanje je gotovo",
-    "headline": "Svadbene fotografije su tu!",
+    "headline": "Svadbene slike su stigle!",
     "navButton": "Pogledajte",
     "paragraph1": "Pogledajte prelepe uspomene koje ćemo zauvek čuvati. Nadamo se da će vam ove slike doneti isti osmeh na lice kao što ga donose nama!",
-    "paragraph2": "Veoma smo uzbuđeni što možemo podeliti prelepe trenutke sa našeg posebnog dana sa svima vama! Od smeha do ljubavi, svaka fotografija hvata magiju i radost koju smo osetili dok smo započeli ovo novo poglavlje zajedno.",
+    "paragraph2": "Veoma smo uzbuđeni što možemo podeliti prelepe trenutke sa našeg posebnog dana sa svima vama! Od smeha do ljubavi, svaka slika hvata magiju i radost koju smo osetili dok smo započeli ovo novo poglavlje zajedno.",
     "weddingHeadline": "Svadbeni dan",
     "weddingDesc": "Sadrži prelepu kolekciju od 1.247 trenutaka, koji hvataju svaku emociju, detalj i uspomenu sa našeg posebnog dana.",
     "photoboothHeadline": "Fotobudka",
     "photoboothDesc": "Album je ispunjen sa 81 zabavnim i živahnim trenutkom, prikazujući radost i smeh naših gostiju.",
     "portraitsHeadline": "Svadbeni portreti",
-    "portraitsDesc": "Album portreta sadrži 222 zadivljujuće fotografije nas dvoje, snimljene u prelepom Beču — mestu gde smo se zaljubili.",
+    "portraitsDesc": "Album portreta sadrži 222 zadivljujuće slike nas dvoje, snimljene u prelepom Beču — mestu gde smo se zaljubili.",
     "videoHeadlineTop": "Još jedna sitnica",
     "videoHeadline": "Imamo video!",
     "videoParagraph1": "Želite da vidite naše posebne trenutke oživeti? Pogledajte naš svadbeni video i doživite magiju u pokretu! Od iskrenih zakletvi do nezaboravnih plesova, sve je savršeno snimljeno.",
-    "videoParagraph2": "Spremni da ponovo doživite dan? Kliknite na play i uživajte u uspomenama u pokretu!"
+    "videoParagraph2": "Spremni da ponovo doživite dan? Kliknite na play i uživajte u uspomenama u pokretu!",
+    "videoClipBtn": "Kratki klip",
+    "videoMovieBtn": "Svadbeni film"
   },
 
   "place": {
@@ -209,7 +211,7 @@
     "congratulations": "Čestitanje",
     "dinner": "Večera",
     "firstDance": "Prvi ples",
-    "foto": "Fotografiranje",
+    "foto": "Slikanje",
     "headline": "Naš posebni dan",
     "kapurkova": "\"Kapurková\"",
     "kolo": "Kolo",
