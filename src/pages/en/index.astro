@@ -9,8 +9,6 @@ import Center from "@src/components/Center.astro";
 import Paragraph from "@src/components/Paragraph.astro";
 import Container from "@src/components/Container.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
-
-import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
 ---
 
 <BaseLayout>
@@ -55,40 +53,16 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   <div class="parallax-wedding-ceremony-end h-96 w-full lg:h-140"></div>
 
   <Container>
-    <Headline top={t("place.where") + "?"}>
-      {t("place.region")}
-      <br />
-      <svg
-        class="inline-block h-8 w-8 text-primary lg:h-12 lg:w-12"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        stroke-width="2"
-        stroke="currentColor"
-        fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z"></path>
-        <path d="M12 20l-7 -7a4 4 0 0 1 6.5 -6a.9 .9 0 0 0 1 0a4 4 0 0 1 6.5 6l-7 7"></path></svg
-      >
-      <br />
-      {t("place.slovakia")}
-    </Headline>
+    <Headline top={t("photos.headlineTop")}>{t("photos.headline")}</Headline>
+
+    <Paragraph>{t("photos.paragraph1")}</Paragraph>
 
     <Center>
-      <img class="w-full max-w-240" src={pngHotelEurobus} alt="hotel eurobus" />
+      <a class="btn" href={l("/photos")}>{t("photos.navButton")}</a>
     </Center>
 
-    <Paragraph>
-      {t("place.description_short")}
-    </Paragraph>
-
-    <Center>
-      <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
-    </Center>
+    <FlowerDivider type="3" />
   </Container>
-
-  <FlowerDivider type="2" />
 
   <style>
     .parallax-wedding-terrace-kiss {
@@ -102,4 +76,8 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
     }
   </style>
   <div class="parallax-wedding-terrace-kiss h-96 w-full lg:h-140"></div>
+
+  <Container>
+    <FlowerDivider type="2" />
+  </Container>
 </BaseLayout>

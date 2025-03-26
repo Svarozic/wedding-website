@@ -164,8 +164,11 @@
   },
 
   "photos": {
-    "headline": "Naši zabeleženi posebni trenuci",
-    "statement": "Nakon radostne proslave našeg vjenčanja, s nestrpljenjem očekujemo dolazak uhvaćenih trenutaka u obliku dragocenih fotografija. Nakon događaja, radujemo se deljenju ovih dragocenih sećanja sa našim voljenima. Ostanite u toku za čaroliju."
+    "headlineTop": "Čekanje je gotovo",
+    "headline": "Svadbene fotografije su tu!",
+    "navButton": "Pogledajte",
+    "paragraph1": "Pogledajte prelepe uspomene koje ćemo zauvek čuvati. Nadamo se da će vam ove slike doneti isti osmeh na lice kao što ga donose nama!",
+    "paragraph2": "Veoma smo uzbuđeni što možemo podeliti prelepe trenutke sa našeg posebnog dana sa svima vama! Od smeha do ljubavi, svaka fotografija hvata magiju i radost koju smo osetili dok smo započeli ovo novo poglavlje zajedno."
   },
 
   "place": {

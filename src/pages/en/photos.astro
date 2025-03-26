@@ -4,20 +4,52 @@ import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
 import Paragraph from "@src/components/Paragraph.astro";
-import ComingSoon from "@src/components/ComingSoon.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
 ---
 
 <BaseLayout>
-  <Container>
-    <Headline top={t("nav.photos")}>{t("photos.headline")}</Headline>
+  <style>
+    .hero-image-wedding-ceremony-end {
+      background-image: url(/assets/wedding-273-square-800-800.jpg);
 
-    <Paragraph>
-      {t("photos.statement")}
-    </Paragraph>
+      @media only screen and (min-width: 768px) {
+        background-image: url(/assets/wedding-273.jpg);
+      }
+    }
+  </style>
+  <div class="hero-image-wedding-ceremony-end hero min-h-screen">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-xl">
+        <!--div with style to apply glowing effect-->
+        <div style="text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 0px rgba(255, 255, 255, 0.6);">
+          <Headline top={t("photos.headlineTop")}>
+            {t("photos.headline")}
+          </Headline>
+        </div>
+
+        <Paragraph>{t("photos.paragraph2")}</Paragraph>
+      </div>
+    </div>
+  </div>
+
+  <Container>
+    <Headline top="Photos">{t("photos.headline")}</Headline>
+    <Paragraph>{t("photos.paragraph1")}</Paragraph>
   </Container>
 
-  <ComingSoon statement="" />
-
   <FlowerDivider type="2" />
+
+  <style>
+    .parallax-wedding-terrace-kiss {
+      background: url(/assets/portrait-1462-square-800-800.jpg) no-repeat fixed center center;
+      background-size: cover;
+
+      @media only screen and (min-width: 768px) {
+        background: url(/assets/portrait-1462.jpg) no-repeat fixed center center;
+        background-size: cover;
+      }
+    }
+  </style>
+  <div class="parallax-wedding-terrace-kiss h-96 w-full lg:h-140"></div>
 </BaseLayout>

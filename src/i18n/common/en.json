@@ -164,8 +164,11 @@
   },
 
   "photos": {
-    "headline": "Our captured special moments",
-    "statement": "After the joyous celebration of our wedding, we eagerly anticipate the arrival of the captured moments in the form of cherished photographs. Following the event, we look forward to sharing these precious memories with our loved ones. Stay tuned for the magic."
+    "headlineTop": "The wait is over",
+    "headline": "Wedding Photos Are Here!",
+    "navButton": "Take a look",
+    "paragraph1": "Take a look at the stunning memories we’ll cherish forever. We hope these images bring a smile to your face as much as they do to ours!",
+    "paragraph2": "We are beyond excited to share the beautiful moments from our special day with all of you! From laughter to love, every photo captures the magic and joy we felt as we started this new chapter together.",
   },
 
   "place": {

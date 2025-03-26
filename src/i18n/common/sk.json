@@ -164,8 +164,12 @@
   },
 
   "photos": {
-    "headline": "Naše zaznamenané výnimočné momenty",
-    "statement": "Po radostnej oslave našej svadby s nádejou očakávame príchod zachytených okamihov vo forme drahocenných fotografií. Po udalosti sa tešíme na zdieľanie týchto vzácnych spomienok s našimi blízkymi. Buďte naladení na túto kúzelnú chvíľu."
+    "headlineTop": "Čakanie je u konca",
+    "headline": "Svadobné fotografie sú tu!",
+    "navButton": "Pozrite si",
+    "paragraph1": "Pozrite si ohromujúce spomienky, ktoré budeme navždy strážiť. Dúfame, že tieto obrázky vám prinesú rovnaký úsmev na tvári, aký nám prinášajú!",
+    "paragraph2": "Sme nadšení, že môžeme zdieľať krásne okamihy z nášho špeciálneho dňa so všetkými vami! Od smiechu po lásku, každá fotografia zachytáva mágiu a radosť, ktorú sme cítili, keď sme začali túto novú kapitolu spolu."
+
   },
 
   "place": {
