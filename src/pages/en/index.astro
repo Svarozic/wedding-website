@@ -17,33 +17,6 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   <Hero />
 
   <style>
-    .parallax-wedding-terrace-kiss {
-      background: url(/assets/parallax-wedding-terrace-kiss-square-800-800.jpg) no-repeat fixed center center;
-      background-size: cover;
-
-      @media only screen and (min-width: 768px) {
-        background: url(/assets/parallax-wedding-terrace-kiss.jpg) no-repeat fixed center center;
-        background-size: cover;
-      }
-    }
-  </style>
-  <div class="parallax-wedding-terrace-kiss flex h-96 w-full flex-col items-center justify-center lg:h-140">
-    <div class="card mx-2 bg-white/80 p-4 shadow-xl backdrop-blur lg:p-8">
-      <CountdownHeadline />
-    </div>
-  </div>
-
-  <Container>
-    <Headline top={t("place.when") + "?"}>{t("place.date")}</Headline>
-
-    <Center>
-      <a class="btn" href={l("/place")}>{t("place.moreInfo")}</a>
-    </Center>
-
-    <FlowerDivider type="1" />
-  </Container>
-
-  <style>
     .parallax-wedding-ceremony-hura {
       background: url(/assets/parallax-wedding-ceremony-hura-square-800-800.jpg) no-repeat fixed center center;
       background-size: cover;
@@ -54,7 +27,32 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
       }
     }
   </style>
-  <div class="parallax-wedding-ceremony-hura h-96 w-full lg:h-140"></div>
+  <div class="parallax-wedding-ceremony-hura flex h-96 w-full flex-col items-center justify-center lg:h-140">
+    <div class="card mx-2 bg-white/30 p-2 shadow-xl backdrop-blur lg:p-4">
+      <CountdownHeadline />
+      <a class="btn btn-ghost" href={l("/place")}>{t("place.moreInfo")}</a>
+    </div>
+  </div>
+
+  <Container>
+    <Headline top={t("thanks.headlineTop")}>{t("thanks.headline")}</Headline>
+    <Paragraph>{t("thanks.paragraph1")}</Paragraph>
+    <Paragraph>{t("thanks.paragraph2")}</Paragraph>
+    <FlowerDivider type="1" />
+  </Container>
+
+  <style>
+    .parallax-wedding-ceremony-end {
+      background: url(/assets/parallax-wedding-ceremony-end-square-800-800.jpg) no-repeat fixed center center;
+      background-size: cover;
+
+      @media only screen and (min-width: 768px) {
+        background: url(/assets/parallax-wedding-ceremony-end.jpg) no-repeat fixed center center;
+        background-size: cover;
+      }
+    }
+  </style>
+  <div class="parallax-wedding-ceremony-end h-96 w-full lg:h-140"></div>
 
   <Container>
     <Headline top={t("place.where") + "?"}>
@@ -93,15 +91,15 @@ import pngHotelEurobus from "@src/assets/drawing-hotel-eurobus.png?url";
   <FlowerDivider type="2" />
 
   <style>
-    .parallax-wedding-ceremony-end {
-      background: url(/assets/parallax-wedding-ceremony-end-square-800-800.jpg) no-repeat fixed center center;
+    .parallax-wedding-terrace-kiss {
+      background: url(/assets/parallax-wedding-terrace-kiss-square-800-800.jpg) no-repeat fixed center center;
       background-size: cover;
 
       @media only screen and (min-width: 768px) {
-        background: url(/assets/parallax-wedding-ceremony-end.jpg) no-repeat fixed center center;
+        background: url(/assets/parallax-wedding-terrace-kiss.jpg) no-repeat fixed center center;
         background-size: cover;
       }
     }
   </style>
-  <div class="parallax-wedding-ceremony-end h-96 w-full lg:h-140"></div>
+  <div class="parallax-wedding-terrace-kiss h-96 w-full lg:h-140"></div>
 </BaseLayout>

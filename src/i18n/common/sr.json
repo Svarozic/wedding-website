@@ -119,9 +119,7 @@
 
   "hero": {
     "headline1": "Uzmili smo se!",
-    "headline2": "Sa velikim veseljem delimo ovu uzbudljivu vest—zvanično smo u braku!",
-    "headline3": "Hvala vam na ljubavi i podršci tokom celog našeg putovanja. Ne možemo biti srećniji što zajedno pravimo ovaj korak i radujemo se svemu što nam budućnost donosi.",
-    "headline4": "Za ljubav, smeh i ceo život pun uspomena!"
+    "headline2": "Sa velikim veseljem delimo ovu uzbudljivu vest—zvanično smo u braku!"
   },
 
   "participation": {
@@ -247,6 +245,13 @@
     "plateDesc": "Nakon ceremonije, mladoženja i mlada kreću na zajednički put životom. Prvi zajednički korak mladog bračnog para vodi ih u salu gde je pripremljena svadbena večera. Pred ulazom u salu dočekuje ih staro slovensko gostoprimstvo sa hlebom i soli na belom tanjiru. Nakon što probaju ovu hranu, razbija se tanjir. Mladoženja dobija metlu, a mlada lopaticu. Novi bračni par će imati prvi zajednički zadatak da što brže pokupe sve komade razbijenog tanjira i time pokažu svetu svoju spremnost da brzo i zajedno riješe sve probleme i očuvaju svoju sreću. Tek nakon ovog čina ulaze prvi u svadbenu salu, dok za njima prate svatovi uz prijatnu muziku.",
     "soup": "\"Supa je slabo zasoljena\"",
     "soupDesc": "Jedan od prvih jela je supa, a mladence očekuje još jedan zajednički zadatak. Dobiće jedan tanjir i dvje kašike. Svako od njih hrani drugo s kašikom. Ovo je test hranjenja da se provjeri da li mogu jedno drugo nahraniti."
+  },
+
+  "thanks": {
+    "headlineTop": "Dragi gosti",
+    "headline": "Hvala",
+    "paragraph1": "Hvala vam na ljubavi i podršci tokom našeg puta. Ne bismo mogli biti srećniji što možemo napraviti ovaj sledeći korak zajedno i jedva čekamo da vidimo šta budućnost nosi.",
+    "paragraph2": "Za ljubav, smeh i ceo život pun uspomena!"
   },
 
   "vows": {

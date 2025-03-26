@@ -119,9 +119,7 @@
 
   "hero": {
     "headline1": "We got married!",
-    "headline2": "We’re thrilled to share the exciting news with all of you—we’re officially married!",
-    "headline3": "Thank you for your love and support throughout our journey. We couldn’t be happier to take this next step together and can’t wait to see what the future holds.",
-    "headline4": "Here’s to love, laughter, and a lifetime of memories!"
+    "headline2": "We’re thrilled to share the exciting news with all of you—we’re officially married!"
   },
 
   "participation": {
@@ -247,6 +245,13 @@
     "plateDesc": "After the ceremony, the bride and groom embark on their journey through life together. The first joint journey of the newlyweds leads to the hall where the wedding dinner is prepared. Before entering the hall, they are greeted according to the old Slavic tradition of hospitality with bread and salt on a white plate. After tasting the food, the plate is broken. The groom is given a broom, the bride a dustpan. The newlyweds have their first task together, to sweep up all the shards of the broken plate as quickly as possible and thus show the world their readiness to quickly solve all the problems together and defend their Happiness. Only after this act do they enter the wedding hall first, with the wedding guests behind them, accompanied by pleasant music.",
     "soup": "\"The soup is not salty enough\"",
     "soupDesc": "One of the first courses is soup, and the newlyweds are waiting for the next task together. They get one plate and two spoons. Each of them feeds the other with their spoon. It is a test to see if they can feed each other."
+  },
+
+  "thanks": {
+    "headlineTop": "Dear guests",
+    "headline": "Thank you",
+    "paragraph1": "Thank you for your love and support throughout our journey. We couldn’t be happier to take this next step together and can’t wait to see what the future holds.",
+    "paragraph2": "Here’s to love, laughter, and a lifetime of memories!"
   },
 
   "vows": {

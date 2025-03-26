@@ -119,9 +119,7 @@
 
   "hero": {
     "headline1": "Zobrali sme sa!",
-    "headline2": "S radosťou vám oznamujeme túto vzrušujúcu novinu—oficiálne sme manželia!",
-    "headline3": "Ďakujeme vám za lásku a podporu počas celej našej cesty. Sme nadšení, že môžeme tento krok urobiť spolu a tešíme sa, čo nám budúcnosť prinesie.",
-    "headline4": "Na lásku, smiech a celý život plný spomienok!"
+    "headline2": "S radosťou vám oznamujeme túto vzrušujúcu novinu—oficiálne sme manželia!"
   },
 
   "participation": {
@@ -247,6 +245,13 @@
     "plateDesc": "Po slávnostnom obrade uzatvorenia manželstva ženích a nevesta vykročia na spoločnú cestu životom. Prvá spoločná cesta mladomaželov vedie do sály, kde je nachystané svadobné pohostenie. Pred vchodom do sály ich čaká uvítanie podľa starej slovanskej tradície pohostinnosti s chlebom a soľou na bielom tanieri . Po ochutnaní pokrmu, sa rozbije tanier. Ženích dostane do rúk metlu, nevesta zmeták. Novomanželov čaká prvá spoločná práca čo najrýchlejšie pozametať všetky črepiny rozbitého taniera a tým ukázať svetu svoju pripravenosť rýchlo vyriešiť všetky problémy a ubrániť si Svoje Šťastie. Až po tomto akte vchádzajú ako prvý do svadobnej sály a svadobní hostia (svadobčania) za nimi v sprievode príjemnej hudby.",
     "soup": "\"Polievka je málo slaná\"",
     "soupDesc": "Jedným z prvých chodov je polievka a mladomanželov čaká ďalšia spoločná práca. Dostanú jeden tanier a dve lyžice. Každý z nich svojou lyžicou kŕmi toho druhého. Je to skúška, či dokážu jeden druhého nasýtiť."
+  },
+
+  "thanks": {
+    "headlineTop": "Drahí hostia",
+    "headline": "Ďakujeme",
+    "paragraph1": "Ďakujeme za vašu lásku a podporu počas našej cesty. Nemohli by sme byť šťastnejší, že môžeme urobiť tento ďalší krok spolu, a nevieme sa dočkať, čo nám prinesie budúcnosť.",
+    "paragraph2": "Na lásku, smiech a celý život plný spomienok!"
   },
 
   "vows": {
