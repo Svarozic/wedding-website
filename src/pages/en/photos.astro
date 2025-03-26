@@ -3,8 +3,12 @@ import {t} from "astro-i18n";
 import BaseLayout from "@src/layouts/BaseLayout.astro";
 import Container from "@src/components/Container.astro";
 import Headline from "@src/components/Headline.astro";
+import SmallHeadline from "@src/components/SmallHeadline.astro";
 import Paragraph from "@src/components/Paragraph.astro";
 import FlowerDivider from "@src/components/FlowerDivider.astro";
+import assetWedding277Square from "@src/assets/wedding-0277-square-500-500.jpg?url";
+import assetPhotobooth13Square from "@src/assets/photobooth-13-square-500-500.jpg?url";
+import assetPortraits1375Square from "@src/assets/portraits-1375-square-500-500.jpg?url";
 ---
 
 <BaseLayout>
@@ -34,11 +38,152 @@ import FlowerDivider from "@src/components/FlowerDivider.astro";
   </div>
 
   <Container>
-    <Headline top="Photos">{t("photos.headline")}</Headline>
-    <Paragraph>{t("photos.paragraph1")}</Paragraph>
+    <Headline>{t("nav.photos")}</Headline>
+
+    <div class="card bg-base-100 shadow-sm lg:card-side">
+      <figure>
+        <img src={assetWedding277Square} alt="Wedding album cover" />
+      </figure>
+      <div class="card-body">
+        <div class="card-title">
+          <SmallHeadline>{t("photos.weddingHeadline")}</SmallHeadline>
+        </div>
+        <p>
+          {t("photos.weddingDesc")}
+        </p>
+        <div class="card-actions justify-end">
+          <a class="btn btn-outline btn-primary" href="https://photos.app.goo.gl/vPkNEaxQRDoteUkv8" target="_blank">
+            <svg
+              class="h-6 w-6"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z"></path>
+              <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+              <line x1="10" y1="14" x2="20" y2="4"></line>
+              <polyline points="15 4 20 4 20 9"></polyline></svg
+            >
+            photos.google.com</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <FlowerDivider type="1" />
+
+    <div class="card bg-base-100 shadow-sm lg:card-side">
+      <figure>
+        <img src={assetPhotobooth13Square} alt="Wedding Photobooth album cover" />
+      </figure>
+      <div class="card-body">
+        <div class="card-title">
+          <SmallHeadline>{t("photos.photoboothHeadline")}</SmallHeadline>
+        </div>
+        <p>{t("photos.photoboothDesc")}</p>
+        <div class="card-actions justify-end">
+          <a class="btn btn-outline btn-primary" href="https://photos.app.goo.gl/DxpKz1vUi6wSR2Pt9" target="_blank">
+            <svg
+              class="h-6 w-6"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z"></path>
+              <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+              <line x1="10" y1="14" x2="20" y2="4"></line>
+              <polyline points="15 4 20 4 20 9"></polyline></svg
+            >
+            photos.google.com</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <FlowerDivider type="2" />
+
+    <div class="card bg-base-100 shadow-sm lg:card-side">
+      <figure>
+        <img src={assetPortraits1375Square} alt="Wedding Portraits album cover" />
+      </figure>
+      <div class="card-body">
+        <div class="card-title">
+          <SmallHeadline>{t("photos.portraitsHeadline")}</SmallHeadline>
+        </div>
+        <p>{t("photos.portraitsDesc")}</p>
+        <div class="card-actions justify-end">
+          <a class="btn btn-outline btn-primary" href="https://photos.app.goo.gl/PVwppmsKUpeBfnDE8" target="_blank">
+            <svg
+              class="h-6 w-6"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z"></path>
+              <path d="M11 7h-5a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-5"></path>
+              <line x1="10" y1="14" x2="20" y2="4"></line>
+              <polyline points="15 4 20 4 20 9"></polyline></svg
+            >
+            photos.google.com</a
+          >
+        </div>
+      </div>
+    </div>
   </Container>
 
-  <FlowerDivider type="2" />
+  <style>
+    .hero-image-wedding-86 {
+      background-image: url(/assets/wedding-86-square-800-800.jpg);
+
+      @media only screen and (min-width: 768px) {
+        background-image: url(/assets/wedding-86.jpg);
+      }
+    }
+  </style>
+  <div class="hero-image-wedding-86 hero min-h-screen">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-xl">
+        <!--div with style to apply glowing effect-->
+        <div style="text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 0px rgba(255, 255, 255, 0.6);">
+          <Headline top={t("photos.videoHeadlineTop")}>
+            {t("photos.videoHeadline")}
+          </Headline>
+        </div>
+
+        <Paragraph>{t("photos.videoParagraph1")}</Paragraph>
+        <Paragraph>{t("photos.videoParagraph2")}</Paragraph>
+
+        <a class="btn-filled btn btn-primary btn-md lg:btn-lg" href="https://youtu.be/znA10wFsGj8" target="_blank">
+          <svg
+            class="h-6 w-6"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round">
+            <polygon points="5 3 19 12 5 21 5 3"></polygon></svg
+          >
+          youtube.com</a
+        >
+      </div>
+    </div>
+  </div>
 
   <style>
     .parallax-wedding-terrace-kiss {
