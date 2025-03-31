@@ -14,7 +14,7 @@
     "seconds": "sekunde",
 
     "before": "Već je prošlo",
-    "after": "ono što smo sebi rekli Da"
+    "after": "odkad smo rekli Da"
   },
 
   "faq": {
@@ -118,8 +118,8 @@
   },
 
   "hero": {
-    "headline1": "Uzmili smo se!",
-    "headline2": "Sa velikim veseljem delimo ovu uzbudljivu vest—zvanično smo u braku!"
+    "headline1": "Uzeli smo se!",
+    "headline2": "Sa velikim veseljem djelimo ovu uzbudljivu vjest—zvanično smo u braku!"
   },
 
   "participation": {
@@ -164,20 +164,20 @@
   },
 
   "photos": {
-    "headlineTop": "Čekanje je gotovo",
+    "headlineTop": "Čekanje je prošlo",
     "headline": "Svadbene slike su stigle!",
     "navButton": "Pogledajte",
-    "paragraph1": "Pogledajte prelepe uspomene koje ćemo zauvek čuvati. Nadamo se da će vam ove slike doneti isti osmeh na lice kao što ga donose nama!",
-    "paragraph2": "Veoma smo uzbuđeni što možemo podeliti prelepe trenutke sa našeg posebnog dana sa svima vama! Od smeha do ljubavi, svaka slika hvata magiju i radost koju smo osetili dok smo započeli ovo novo poglavlje zajedno.",
+    "paragraph1": "Pregledajte preljepe uspomene koje ćemo zauvjek čuvati. Nadamo se da će vam ove slike donjeti isti osmjeh na lice kao što nama donose!",
+    "paragraph2": "Drago nam je što možemo podjeliti prelepe trenutke sa našeg posebnog dana sa svima vama! Od smjeha do ljubavi, svaka slika hvata magiju i radost koju smo osječali dok smo započeli ovo novo poglavlje zajedno.",
     "weddingHeadline": "Svadbeni dan",
-    "weddingDesc": "Sadrži prelepu kolekciju od 1.247 trenutaka, koji hvataju svaku emociju, detalj i uspomenu sa našeg posebnog dana.",
+    "weddingDesc": "Sadrži kolekciju od 1.247 trenutaka, koji hvataju svaku emociju, detalj i uspomenu sa našeg posebnog dana.",
     "photoboothHeadline": "Fotobudka",
-    "photoboothDesc": "Album je ispunjen sa 81 zabavnim i živahnim trenutkom, prikazujući radost i smeh naših gostiju.",
+    "photoboothDesc": "Album se sadrži od 81 zabavnih trenutaka, prikazujući radost i smjeh naših gostiju.",
     "portraitsHeadline": "Svadbeni portreti",
-    "portraitsDesc": "Album portreta sadrži 222 zadivljujuće slike nas dvoje, snimljene u prelepom Beču — mestu gde smo se zaljubili.",
+    "portraitsDesc": "Album portreta se sadrži od 222 slika nas dvoje, snimljene u preljepom Beču — grada u kojom smo se zaljubili.",
     "videoHeadlineTop": "Još jedna sitnica",
     "videoHeadline": "Imamo video!",
-    "videoParagraph1": "Želite da vidite naše posebne trenutke oživeti? Pogledajte naš svadbeni video i doživite magiju u pokretu! Od iskrenih zakletvi do nezaboravnih plesova, sve je savršeno snimljeno.",
+    "videoParagraph1": "Bi li ste željeli da vidite i proživite naš poseban trenutak u životu!? Pogledajte video s našeg vjenčanja i doživite čaroliju u pokretu: od srdačnog zavjetovanja do nezaboravnih plesova. Sve je to ljepo kamera za vječnost zabilježila.",
     "videoParagraph2": "Spremni da ponovo doživite dan? Kliknite na play i uživajte u uspomenama u pokretu!",
     "videoClipBtn": "Kratki klip",
     "videoMovieBtn": "Svadbeni film"
@@ -265,8 +265,8 @@
   "thanks": {
     "headlineTop": "Dragi gosti",
     "headline": "Hvala",
-    "paragraph1": "Hvala vam na ljubavi i podršci tokom našeg puta. Ne bismo mogli biti srećniji što možemo napraviti ovaj sledeći korak zajedno i jedva čekamo da vidimo šta budućnost nosi.",
-    "paragraph2": "Za ljubav, smeh i ceo život pun uspomena!"
+    "paragraph1": "Hvala vam na ljubavi i podršci na našem putu. Puni smo zahvalnosti što ste dio našeg života. Ne bismo mogli biti srećniji što možemo napraviti ovaj sledeći korak zajedno i jedva čekamo da vidimo šta budućnost nosi.",
+    "paragraph2": "Za ljubav, smjeh i cjeli život pun uspomena!"
   },
 
   "vows": {
