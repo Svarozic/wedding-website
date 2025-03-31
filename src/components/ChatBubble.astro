@@ -3,6 +3,7 @@ import {t, astroI18n} from "astro-i18n";
 
 import srcPeter from "@src/assets/20221021_134911_cut_avatar.jpg?url";
 import srcIvana from "@src/assets/20221021_135754_cut_avatar.jpg?url";
+import pngInterSlavic from "@src/assets/flag_interslavic.png?url";
 import srcFlagSlovakia from "@src/assets/flag_slovakia.png?url";
 import srcFlagSerbia from "@src/assets/flag_serbia.png?url";
 import srcFlagUK from "@src/assets/flag_uk.png?url";
@@ -16,6 +17,11 @@ interface Props {
 const {who, direction, chatKey} = Astro.props;
 
 const LANGUAGES = {
+  isv: {
+    srcFlag: pngInterSlavic,
+    chatMsg: t(chatKey, undefined, {locale: "isv"}),
+    chatLanguage: t("phrases.interslavic"),
+  },
   sk: {
     srcFlag: srcFlagSlovakia,
     chatMsg: t(chatKey, undefined, {locale: "sk"}),

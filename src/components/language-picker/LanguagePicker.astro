@@ -1,22 +1,27 @@
 ---
 import {t, astroI18n} from "astro-i18n";
 
+import pngInterSlavic from "@src/assets/flag_interslavic.png?url";
 import pngSlovakia from "@src/assets/flag_slovakia.png?url";
 import pngSerbia from "@src/assets/flag_serbia.png?url";
 import pngUnitedKingdom from "@src/assets/flag_uk.png?url";
 
 const LANGUAGES = {
+  isv: {
+    pngSrc: pngInterSlavic,
+    label: t("phrases.interslavic"),
+  },
   sk: {
     pngSrc: pngSlovakia,
-    label: t("localeLabel", undefined, {locale: "sk"}),
+    label: t("phrases.slovak"),
   },
   sr: {
     pngSrc: pngSerbia,
-    label: t("localeLabel", undefined, {locale: "sr"}),
+    label: t("phrases.serbian"),
   },
   en: {
     pngSrc: pngUnitedKingdom,
-    label: t("localeLabel", undefined, {locale: "en"}),
+    label: t("phrases.english"),
   },
 } as const;
 ---

@@ -1,0 +1,286 @@
+{
+  "localeLabel": "Medžuslovjansky",
+  "localePickerTitle": "Vyberite jezyk",
+  "title": "Ivana & Peter",
+
+  "lastUpdate": "Posledna aktualizacija",
+  "comingSoon": "Skoro pridet...",
+  "comingSoonStatement": "Nasa svadobna web-stranica se redovno aktualizuje, sadržanje bu skoro dostupno.",
+
+  "countdown": {
+    "days": "dni",
+    "hours": "časov",
+    "minutes": "minut",
+    "seconds": "sekund",
+
+    "before": "Uže prohodilo",
+    "after": "kako jsme si skazali Da"
+  },
+
+  "faq": {
+    "headline": "Často stavljane pytanja",
+    "furtherInfo": "Ako imate daljne pytanja abo nuždu v informaciji, ne voprosite kontaktovati nas direktno.",
+    "lookHere": "Gledaj tuto ssyľku: ",
+
+    "qRsvp": "Do kotorogo datuma treba potvrditi prisutnosť?",
+    "aRsvp": "Prosim, potvrďte prisutnosť do 31. maja. :)",
+    "qAddress": "Kakovy je adresa města svadby?",
+    "aAddress": "Hotel Eurobus, Zemplínska šírava, 072 36 Kaluža, Slovensko",
+    "qTransport": "Kako dojdemo tam?",
+    "aTransport": "Najbliže letališče je Letališče Košice, približno 80 km od svadbeneho města. Možno do Košic dojti s vlakom iz Bratislavy, Vídně abo Budapešti. Z Košic ide vlak do Michalovce, što je 12 km daleko. Možno budemo imeti shuttle-bus, i možnosť organizovane soputovanja. Više informacij budemo publikovati skoro.",
+    "qParking": "Je parkovanje dostupno bliz svadbe?",
+    "aParking": "Da, svadbeno město ima mnogo svobodnych měst za parkovanje.",
+    "qAccommodation": "Je blizko možnoť za nocleg?",
+    "aAccommodation": "Da, hotel gdje bude svadba ima rezervovane komnaty za naše goste. Ale je ograničeno. Region ima mnogo drugih hotelov. ;) Više na našoj stranici.",
+    "qOutdoors": "Bude svadba vnuti abo vonku?",
+    "aOutdoors": "Planiramo ceremoniju na otkrytom, a večeřu i veselje vnuti.",
+    "qProgram": "Kakovy je program dňa?",
+    "aProgram": "Naša web-stranica pokazuje osnovny program dňa.",
+    "qPlusOne": "Mogu li priti s partnerom/partnerkoj?",
+    "aPlusOne": "Pozivka bude govoriti ako je partner vključeny. Kontaktujte nas pri voprosah.",
+    "qKids": "Děti su pozvane?",
+    "aKids": "Konečno! Děti su dobrodošle. Pri osobnych potrebah, kontaktujte nas.",
+    "qDressCode": "Je li tam dress code?",
+    "aDressCode": "Formalny ili polu-formalny dress code je poželjan. Izbegnite sportsku odeždu i visoke opätki (ako bude ceremonija vonku).",
+    "qTemperature": "Kaku temperaturu možemo očakovati?",
+    "aTemperature": "Tipično v etom času je toplo letne počasie.",
+    "qGift": "Mogu li dati dar?",
+    "aGift": "Vaša prisutnosť je najlepší dar! Ako hočete, možete pomoći našemu svadbenomu putovanju.",
+    "qFood": "Kaku hranu budete imati?",
+    "aFood": "Bude buffet pred i po ceremonii i večera s 3 choda, vegansky i bezalergenny opciji.",
+    "qLanguages": "Kakimi jezykami budete govoriti na svadbi?",
+    "aLanguages": "Ceremonia bude po slovjańsky i srbochorvatsky. Mnogo bude i po anglijsky, osobje na web-stranici i od personala.",
+    "qSpeech": "Mogu li imeti govor?",
+    "aSpeech": "Da, kontaktujte nas, ako hočete nešto dodati v večerni program. :)",
+    "qKosice": "Što gledati v Košicach?",
+    "aKosice": "Naša web-stranica ima kartu s tipami.",
+    "qTravelBreaks": "Gdě se otdyhnuti vo vrěme putovanja?",
+    "aTravelBreaks": "Rekomenduemo našu kartu rekomendovanych restoranov na web-stranici.",
+    "qUpdates": "Kako budete komunikovati izměny?",
+    "aUpdates": "Tuto web-stranica bude redovno aktualizovana."
+  },
+
+  "firstDance": {
+    "headlineTop": "Naš",
+    "statement": "Ako tě interesuje pjesňa našego pervogo tanca, tut možeš pročitať jeje slova",
+    "songTitle": "Peter Cmorík - Spolu Zostarnuť",
+    "songTitleTranslation": "Spolu postarěti",
+    "verse1": "Stih 1",
+    "verse2": "Stih 2",
+    "chorus": "Refren",
+    "bridge": "Most",
+
+    "songLyrics1_1": "Varju ti čaj, ty davaš mi raj,",
+    "songLyrics1_2": "s toboju žitje je dobro.",
+    "songLyrics1_3": "Govoriš že znaješ mene, daj mi ruku,",
+    "songLyrics1_4": "držime silno – ne kolebaj se.",
+    "songLyrics1_5": "Tvoje oči govorjat vse,",
+    "songLyrics1_6": "ne potrěbujeme slov.",
+    "songLyrics1_7": "Dvě duše za tysęč let,",
+    "songLyrics1_8": "stoj pri mně, TEBE DAJU ŽITJE SVOJE!",
+
+    "songLyricsChorus1": "Hťěl byh s toboju postarěti,",
+    "songLyricsChorus2": "věčno čuvstvovati tvojih ruk dotyk,",
+    "songLyricsChorus3": "na ustah vkus tvojih ust.",
+    "songLyricsChorus4": "Kto znaje kakoj pričin nas očeka,",
+    "songLyricsChorus5": "nadějemo se že žitje nas ne porazi,",
+    "songLyricsChorus6": "dajmo postarěti spolu.",
+
+    "songLyrics2_1": "Nehaj naši dni vsegda budut světlě,",
+    "songLyrics2_2": "nehaj ne zgasnut kak plamen svěčki.",
+    "songLyrics2_3": "Dokud imam silu, budu ju tobě davati,",
+    "songLyrics2_4": "nehaj vsegda najdu način smějati tebe.",
+    "songLyrics2_5": "I nehaj zvězdy světjat v noći,",
+    "songLyrics2_6": "ne potrěbujeme više.",
+    "songLyrics2_7": "Kogda pada dožd, ne hoču mnogo,",
+    "songLyrics2_8": "toliko hoču byti s toboju sčestlivy.",
+
+    "songLyricsBridge1": "Ne hoču se pytati každý den,",
+    "songLyricsBridge2": "što budet s nami.",
+    "songLyricsBridge3": "Hoču izměriti žitje samo NAŠIMI SNAMI,",
+    "songLyricsBridge4": "i seriozno vzimati ty slova vsegda..."
+  },
+
+  "nav": {
+    "faq": "FAQ",
+    "firstDance": "Prvy tanec",
+    "home": "Domov",
+    "more": "Věcej",
+    "participation": "Potvrditi účast",
+    "participation_short": "Účast",
+    "photos": "Fotografije",
+    "phrases": "Frazy",
+    "place": "Město",
+    "program": "Program",
+    "slovakia": "Odkryj Slovensko",
+    "traditions": "Svadobne tradicije",
+    "vows": "Svadobne oběčanja"
+  },
+
+  "hero": {
+    "headline1": "My se ženili!",
+    "headline2": "S radostju vam govorimo tuto vzněsenu novost — oficialno my jeste muž i žena!"
+  },
+
+  "participation": {
+    "confirm": "Potvrditi účast",
+    "headline": {
+      "top": "Pridete?",
+      "main": "Dajte nam znati"
+    },
+    "problem": {
+      "headline": "Ne vidite Google Formular?",
+      "text": "Žalostno, něšto se slomilo. Prosim, otkryjte tuto linku:",
+      "open": "Otvori"
+    }
+  },
+
+  "phrases": {
+    "interslavic": "Medžuslovjansky",
+    "serbian": "Srbohvatsky",
+    "slovak": "Slovačsky",
+    "english": "Anglijsky",
+    "statement": "Na tojto stranici vam predlagajemo několiko fraz, kotre mogut pomognuti pri komunikaciji s našimi gostami.",
+    "chat1_1": "Zdravo",
+    "chat1_2": "Čau",
+    "chat2_1": "Kak ti ide?",
+    "chat2_2": "Dobro.",
+    "chat3_1": "Tym nevěsta abo tym ženih?",
+    "chat3_2": "Tym nevěsta",
+    "chat3_3": "Ja jesm tym ženih",
+    "chat4_1": "Otkud si?",
+    "chat4_2": "Dansko.",
+    "chat4_3": "A ty?",
+    "chat4_4": "Slovensko",
+    "chat5_1": "Kako ti imenujeś?",
+    "chat5_2": "Ivana",
+    "chat5_3": "Ja jesm Peter",
+    "chat5_4": "Prijatno mi je",
+    "chat5_5": "Děkujem!",
+    "chat5_6": "Prosim",
+    "chat6_1": "Budemo li tancovati?",
+    "chat6_2": "Da! .. ili možno ne",
+    "chat7_1": "Idemo na piće?",
+    "chat7_2": "Na zdrave!"
+  },
+
+  "photos": {
+    "headlineTop": "Čekanje je skončeno",
+    "headline": "Svadobne fotografije sǫ tutok!",
+    "navButton": "Gledaj",
+    "paragraph1": "Gledajte izvanredne pamęti, ktore budemo chrăniti naveky. Nadějemo se, že tyto obrazy vam prinesut rovny usměh na lico, kaky prinosut nam!",
+    "paragraph2": "Smo veselí, že možemo děliti krasne momente iz našego posebnogo dňa so vsima vami! Od smeha do ljubvi, každaja fotografija hvata magiju i radost, ktora byla s nami kogda začinali tuto novu glavu v žitju.",
+    "weddingHeadline": "Děň svadby",
+    "weddingDesc": "Soderži izvanrednu zbirku 1 247 momentov, zachvačajuči každě emocije, detali i pamęti iz našego posebnogo dňa.",
+    "photoboothHeadline": "Fotokabina",
+    "photoboothDesc": "Album je pun 81 veselih i živih momentov, pokazujųči radost i smeh naših gostej.",
+    "portraitsHeadline": "Svadobne portrety",
+    "portraitsDesc": "Album portretov soderži 222 prekrasnyh fotografij nas dvoje, zachvačenyh v krasnem městu Viden — město, kde my vljubili se.",
+    "videoHeadlineTop": "Jeden maly detal",
+    "videoHeadline": "My imamo video!",
+    "videoParagraph1": "Hcete viděti i prežiti naš izključny moment v žitju!? Gledajte video iz našej svadby i dožijte čarovnosť v dviženju: od srdčnega oběčanja do nezabudlivyh tancov. Vsjo to prekrasno zachvati kamera za večnosť.",
+    "videoParagraph2": "Gotovi ste prežiti eto znovu? Kliknite 'play' i uživajte pamęti v dviženju!",
+    "videoClipBtn": "Kratky klip",
+    "videoMovieBtn": "Svadobny film"
+  },
+
+  "place": {
+    "venue": "Město svadby",
+    "when": "Kogda",
+    "date": "21. september 2024",
+    "where": "Kde",
+    "slovakia": "Slovensko",
+    "region": "Zemplinska šírava",
+    "moreInfo": "Věcej informacij",
+    "celebrate": "Praznujte s nami naš najvažnějši děň",
+    "description": "Zemplinska šírava, často zovena \"slovjansko more\", je prekrasno jezero na istoku Slovenska. Okrųžena horami, zelenju i pjescanymi plažami, dava gościma spokojno utočišče. Kristalno čistaja voda je idealna za kupanje, voženje lodij i rybolov, i trasy za turizm i cyklistiku davajut prekrasny pogled na jezero. V regionu se nahodit taky čarovne sela i města, kotre davajut gościma možnost poznati bogatu kulturu i historiju Slovenska. Zemplinska šírava je krasna destinacija za odpočinok i dělitelne aktyvnosti.",
+    "description_short": "Zemplinska šírava, často zovena \"slovjansko more\", je prekrasno jezero na istoku Slovenska. Okrųžena horami, zelenju i pjescanymi plažami, dava gościma spokojno utočišče.",
+
+    "hotelName": "Hotel Eurobus",
+    "hotelParagraph1": "Hotel Eurobus nahodi se 12 km od města Michalovce, v centru rekreacijnogo regiona Zemplinska šírava, v oblasti Medvedia hora. Hotel je položeny v prekrasnoj prirodi, blizko vody, na vrhu poluostrova, s pogledom na vodu so vseh stran. Hotel predlaga kakovne usluge v oblasti žitja, jědzenia i wellnessa.",
+    "roomsParagraph1": "Hotel ima 34 pokojov, i vsě sǫ zarezervovane na 2 noći, so prodlženym časom za registraciju (check-in) i otchod (check-out). To znači, že pokoje budut dostupne našim gostam od 10:00 v pjatok do 20:00 v nedělu. Paket vkľučuje zavtrak i dostup do wellness zon. Blagodarja velikodušnosti hotela, naši gośti mogut polzovati zľavu, ktora umenšajet cenu dvuposteljne pokoje na 240 € za dva dnja.",
+    "bookingParagraph": "Ako imate interes za rezervaciju pokoja, sdelajte to čerez nas i dajte nam znati."
+  },
+
+  "program": {
+    "breakingPlate": "Rozbivanje tаljera",
+    "buffet": "Večerny bufet",
+    "cake": "Razrězanje torty",
+    "cepcenie": "Čepčenje",
+    "ceremony": "Ceremonija",
+    "change": "Tento program možet se ješče izměniti",
+    "congratulations": "Blahopřanja",
+    "dinner": "Večera",
+    "firstDance": "Prvy tanec",
+    "foto": "Fotografovanje",
+    "headline": "Naš jedinstveny děn",
+    "kapurkova": "Kapurkova",
+    "kolo": "\"Kolo\"",
+    "party": "Veselje",
+    "welcome": "Privitanje gostej v zahradě"
+  },
+
+  "slovakia": {
+    "headlineTop": "Odkryjte",
+    "headline": "Slovensko",
+    "kosiceHeadlineTop": "Ideje za prekrasny děn",
+    "kosiceHeadline": "Košice",
+    "kosiceHeadlineBottom": "68 km daleko",
+    "kosiceDesc": "Imate v planu provesti děn ili bolěje v Košicah? Smo pripravili prostuju kartu s idejami: kam iti, što viděti, kde jěst ili kupovati itd.",
+    "kosiceBtn": "Karta Košic s tipami za prekrasny děn",
+    "foodHeadlineTop": "Pauza za jědlo v času putevanja",
+    "foodHeadline": "Rekomendovane restauracije",
+    "foodHeadlineBottom": "vse Slovensko",
+    "foodDesc": "Putujete čerez Slovensko i hotěli byste pauzovati i dobro pojěsti? Rekomendujemo spisok, kde najdete vse IZVANREDNE mestnosti, kotre je posětiv znany slovenský food-bloger \"Strýco Filip\" i kotre rekomenduje i vam.",
+    "foodBtn": "Karta restauracij od \"Strýc food\"",
+    "salasHeadlineTop": "Městno s tradicijno jědlo",
+    "salasHeadline": "Salaš Zemplinska Šírava",
+    "salasHeadlineBottom": "1300 m daleko",
+    "salasDesc": "Europenzion Salaš Zemplinska Šírava je penzion i tradicijna slovenska restauracija, koja nahodi se blizko našeho hotela Eurobus. Znajomy je za autentičnu slovensku kuhnju s regionalnymi specialitetami, kak ovčij gulaš i bryndzove halušky, kotre pritygajut domacih i inostrannyh gostej.",
+    "salasBtn": "salassirava.sk",
+    "statement": "Tutok najdete několiko rekomendacij na mestnosti, kotre stojit posětiti, ako planujete dolši pobyt v Slovensku."
+  },
+
+  "traditions": {
+    "headlineTop": "Naše",
+    "statement": "Ljubimo veselyje tradicije i hočemo pozvati vsěh, da v něh učestvuju! Tutok možete o nih pročitať.",
+    "cepcenie": "\"Čepčenje\" i \"Redovy tanec\"",
+    "cepcenieDesc1": "Vrhunok svadobne hostiny je čepčenje.",
+    "cepcenieDesc2": "To je ceremonija peredanja vjenka so zavesoju i prijetja čepca ženene ženy. Čepjec je simbol statusa ženene ženy, koja izbrala svojego praviho muža, s kojim osnovala svoju rodinu.",
+    "cepcenieDesc3": "Po slovenskih običajeh o polunoći končaje status nevěsty kako svobodne devočky, i s tem i pravo nositi vjenok. Od polunoći može nositi tolko čepjec ženene ženy = ženě, gazdině. Nevěsta je vyzvana od glavnego svobodnogo mladeneca, da odovzda svoj vjenok – simbol svobody. Trikrat je vprašana, či da sňeti vjenok, ili hlavu sťeti. Ale ona ima pravo po každom vprašanju želeti něčto. Tolko na tretje vyzvanje ona snime vjenok i daj jeho vyzyvatelju; potom ženene ženy simbolično položa na jeje glavu čepjec.",
+    "cepcenieDesc4": "Nevěsta potom idet s ženami obličeny v nove odežde – obično v tradicijny narodny kostjum. Ženene ženy ju dovědut nazad na tančny parket, gde goste okružujut ju v kruhu i začina se \"redovy tanec\".",
+    "cepcenieDesc5": "Redovy tanec je prvy tanec novoj ženene s gostami, i to je zároveň poslednji tanec oficialne časti svadby – potom svadobčane možut otiďi.",
+    "cepcenieDesc6": "Nevěsta tancuje v kruhu s každym gostem za maly simboličny dar na osnovanje domoćinstva. Dar se klade na tаnjer pod obrųsok, kotry derži starosta. Za tanec i dar nevěsta zahvaljuje se sladkosťju, ktora se daje tančniku v jeje imenu – od matky ili svekry. Poslednji tanecnik je jeje muž, kotry ju odvede ili odnese s parketa.",
+    "kapurkova": "\"Kapurkova\"",
+    "kapurkovaDesc": "Slovo \"kapurkova\" je slovenskij izraz za poslednji napoj ili toasť pered otchodom domu – obično po večerkah, srětanjah ili druženju s prijatelji. To je simboličny i neformalny konec večera. Može značiti i vsakoj akt ili dogodek na koncu dolgogo srětanja ili aktivnosti.",
+    "kiss": "Mladomaželsky poцелuj",
+    "kissDesc": "Kogda mladomažele i goste sędęt se, ide slavnostny govor i obščy toasť. Svadobčane dupaju nogami ili stukajut ložicoj o tаnjer ili čašu, želujući javny znak ljubvi – poцелuj. To možet se ponoviti više raz v času večera.",
+    "kolo": "\"Kolo\"",
+    "koloDesc": "Tanec \"kolo\" je tradicionalny narodny tanec, kotry tance se v kruhu (što i znači jego ime). Učestniki držat se za ruki ili pleća i dělajut razne kroki v ritmičnoj sinhronizaciji. \"Kolo\" imeje silny ritmus i kroki se dělajut na městu ili s pohybom vokolo. Je to časta čest svadob, veselij i folklornyh festivalov na Balkanu. Tanec imeje regionalne varianty, ale srž ostajet: ljudje v kruhu zajedno praznujut i tancujut.",
+    "plate": "Rozbivanje tаljera",
+    "plateDesc": "Po ceremoniji ženitby ženih i nevěsta ideju na svoju pervu obšču cestu. Pred založenjem hostiny ih čeka tradicija gostoljubja – s hljebom i solju na bělom tаnjeru. Po vkusjenju, tаnjer se razbiva. Ženih vzimajet metlu, nevěsta vzimajet metličku. Njihova prva rabota je brzo počistiti črepiny – kako znak, že budu gotovi rešiti vsaky problem i obraniti svoje sčestje. Posle togo vchodęt prvi v svadobnu salu, a goste idut za nimi so hudboju.",
+    "soup": "\"Juha je neslana\"",
+    "soupDesc": "Jedno iz pervych jidel je juha, i mladomažele čekajet nova obšča rabota. Dostanut jeden tаnjer i dvě ložice. Každy kormi drugogo. To je ispyt – či mogut nasyťi jeden drugogo."
+  },
+
+  "thanks": {
+    "headlineTop": "Drahe goste",
+    "headline": "Děkujemo vam",
+    "paragraph1": "Děkujemo za vašu ljubov i podpora tijekom naše cesty. Smo velmi vďečni, že jeste čast našego žitja. Ne mogli byśmy biti bolěje sčestlivy, že možemo sděliti sědny krok zajedno — i ne možem dočekati, što prineset budųćnosť.",
+    "paragraph2": "Na ljubov, smeh i žitje polne pamęti!"
+  },
+
+  "vows": {
+    "ivana": "Poznali jsme se v septembri před pěťi godami v tancovateljskoj škole. Už na pervoj lekciji zamětila jesm tvoj usměh. V času lekcij vsegda iskalа jesm tvoj pogled v prostoriji, i ne možem dočekati, da budemo tancovati zajedno. Po lekcijach idemo skupaj do stancije, i kogda prišli jsme tam, ostajemo stať još godinu ili dvi — ne hotěla jesm, da naši razgovory skončat. I do dnes ne skončili. S toboju možem govoriti o vsěm – o bolělikh i malělikh věčah – bez sųda, i nikogda nam ne končajut se temi. V tvojom humorě i igrovnosti ja se vljubila. Imaš neverojatnu sposobnosť vsěgda obveseliti i nasmějati mene, bez obzira na to, kakoje vyzvy my iskusujemo. Kogda jesmo umoreni, bolni, ili imajemo trudny děň, ti vsěgda najdeš sposob obveseliti mene. Tvoj směh delajet vsaky moment svetlejšim i veselějšim, i za to jesm tobě dělna. Stal jesi moj najvětši opor. Tvoja naděžnosť i organizovanosť prinesla v moju žitje stabilnost, ktora idealno balansuet moju spontannosť, avanturizm i trochu šašavu prirodu. S toboju našla jesm pravdivo čuvstvo doma, i cenim pokoj i bezopasnosť, kotru čujem kogda jesm s toboju. Věděla jesm, že hoču sděliti svoj žitje s toboju, kogda viděla jesm i čuvala tvoj ljubov, vnimanje i opěka k tvojej rodině i blizkym. Vsaky dně pokazuješ ljubov, terpenje i empatiju. Tvoje čestnost, odlučnost i trud da staneš bolějši v vsěh aspektah žitja mene vdyhnuvajut. Hoci imajemo različne osobnosti, naše rozděly nas idealno dopolňajut. Dělimy jednake cělnosti, cilje i pogled na žitje – zajedno tvorimo idealnu ravnovagu. Jesm vozděšena, že dnes začinam novu glavu s toboju. Oblěkaju se ti, že vsěgda budu pri toboju, budu tebe ljubiti i podpirati v vsěh vyzvach i radostach. Zajedno smo neverojatny tim, i radujem se na vse momente ktore budemo sděliti.",
+
+    "peter": "Ivana, vsěgda myslel jesm, že stajati pered oltarjem budet jedno iz najtrudnejših i najstresnějših momentov v mojem žitju. Ale dnes, kogda stojim tu s toboju, znajem, že to ne jest pravda. Vsaky stres izčeznul, bo stojim tu s toboju – ženoj, ktora jesm iskal ves svoj žitje. Ty jeste ta, o kotoroj jesm snil – i myslel, že ona jest tolko daleka fantazija. A dnes, kogda znajem tebe i možem sděliti svoj žitje s toboju, čutim to jak najvětši dar, najvětše sčestje ktoro moglo bi slučiti se. Jeste prekrasna – ne tolko svenku, no i vnutri. Tvoja krasa jest ne tolko v izgledu, no i v tvojem čistom i dobrim sercu. Jeste dobra, opěčna, velikodušna, i vsaky děn pokazuješ svoju ljubov. Isijavaš toľiko ljubvi i pozitive, že vsě vokolo tebe čut tvoj tepl. Jeste světlo mojego žitja i jesm bezkonečno sčestlivy, že možem tebe ljubiti. S toboju se čutim prirodno, ugodno, bez masky. Jesm sobom, možem govoriti s toboju o vsěm, bo znajem, že ty mene rozuměš i prěmaš takego, jako jesm. Jeste moja najbližša družka i duševna para. Děkujem tebi, že vdyhnuvaješ mene stati bolějši – za tebe, za nas, i za našu buduću rodinu. Vljubil jesm se v tvoju dobrotu, optimizm, ljubaznosť i čestnosť – i v tvoje vesěle šašky, ktore vsěgda mene nasmějavajut i radujut. Děkujem, že dala jesi mi šancu ljubiti tebe. Ne možem sobě predstaviti žitje bez tebe – i ne možem dočekati, da budemo sděliti vsě, što nas čakajet. Radujem se na našu obšču budućnosť, polnu ljubvi, smeha i sčestja – radujem se na vsaky děn s toboju. Ljubim tebe, ljubim tebe najvyše – i budu tebe ljubiti naveky.",
+
+    "our": "Naše",
+    "statement": "Naše oběčanja byli v slovačskom i srboslovjanskom jazykah, no tutok dostupen je jegov perevod."
+  },
+
+  "404": {
+    "headline": "Oj-oj!",
+    "statement": "No gledaj... vy udało se v nas udělati iznenadženje i zgubiti stranicu v procesu! Možet by bylo dobro vrátiť se spokojno na našu krasnu glavnju stranicu?"
+  }
+}
