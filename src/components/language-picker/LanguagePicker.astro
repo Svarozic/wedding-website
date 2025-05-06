@@ -9,19 +9,19 @@ import pngUnitedKingdom from "@src/assets/flag_uk.png?url";
 const LANGUAGES = {
   isv: {
     pngSrc: pngInterSlavic,
-    label: t("phrases.interslavic"),
+    label: t("phrases.interslavic", undefined, {locale: "isv"}),
   },
   sk: {
     pngSrc: pngSlovakia,
-    label: t("phrases.slovak"),
+    label: t("phrases.slovak", undefined, {locale: "sk"}),
   },
   sr: {
     pngSrc: pngSerbia,
-    label: t("phrases.serbian"),
+    label: t("phrases.serbian", undefined, {locale: "sr"}),
   },
   en: {
     pngSrc: pngUnitedKingdom,
-    label: t("phrases.english"),
+    label: t("phrases.english", undefined, {locale: "en"}),
   },
 } as const;
 ---
